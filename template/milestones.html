@@ -1,0 +1,9 @@
+{% if standalone %} {% extends "base.html" %} {% endif %}
+
+{% block content %}
+<h1>{{ common["ch_milestones"] }}</h1>
+{% for year, milestone in milestones %}
+<h2>{{ year }}</h2>
+<p>{{ milestone }}</p>
+{% endfor %}
+{% endblock %}

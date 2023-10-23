@@ -1,0 +1,9 @@
+{% if standalone %} {% extends "base.tex" %} {% endif %}
+
+{% block content %}
+\chapter{ {{- common["ch_milestones"] -}} }
+{% for year, milestone in milestones %}
+\section*{ {{- year -}} }
+{{ milestone|texescape }}
+{% endfor %}
+{% endblock %}

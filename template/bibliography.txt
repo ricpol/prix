@@ -1,0 +1,20 @@
+{% if standalone %}{% extends "base.txt" %}{% endif %}
+
+{% block content %}
+{{ "=" * common["ch_bibliography"]|length }}
+{{ common["ch_bibliography"] }}
+{{ "=" * common["ch_bibliography"]|length }}
+{% for edition, category, author, title, notes, publisher, year in bibliography %}
+{% if loop.first or loop.previtem[0] != edition %}
+
+
+*** {{ edition }} ***
+{%- endif +%}
+{% if author %}{{ author -}}, {% endif %}
+{{ title -}}
+{% if notes %} {{ notes }}{% endif %}
+ {{ publisher -}}, {{ year -}}.
+{% endfor %}
+{% endblock %}
+
+

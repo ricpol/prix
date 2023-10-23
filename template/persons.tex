@@ -1,0 +1,34 @@
+{% if standalone %} {% extends "base.tex" %} {% endif %}
+{% set ns = namespace(initial='', lastname='', lastdisamb=0, lastprogramme='', lastid='') %}
+
+{% macro get_name(name, surname) -%}
+\textbf{ {{- surname|texescape -}} {% if name %}, {{ name|texescape }}{% endif -%}  }
+{%- endmacro %}
+
+{% macro get_programme(result, year, acronym, broad_kind) -%}
+{% if "winner" in result %} \underline{ {{- year -}} } {% else %} {{ year }}{% endif %}
+{%- if broad_kind==1 %} sp. prize {%- else %} {{ acronym }} {%- endif %}
+{%- endmacro %}
+
+{% macro get_role(role) -%}
+{% if role=="By" %}Author{% else %}{{ role }}{% endif %}
+{%- endmacro %}
+
+{% macro get_lastprogramme() -%}
+{% if ns.lastprogramme %}: {{- ns.lastprogramme }}.{% endif %}
+{%- endmacro %}
+
+{% block content %}
+\chapter{ {{- common["ch_persons"] -}} }
+{% for name, surname, disamb, surname_ord, role, year, acronym, broad_kind, result, programme_id in persons %}
+{%- set curname=get_name(name, surname) %}{% set programme=get_programme(result, year, acronym, broad_kind) -%}
+{%- if curname!=ns.lastname or disamb!=ns.lastdisamb -%}{{ get_lastprogramme() }}
+{% if surname_ord[0] != ns.initial -%} \section*{ {{- surname_ord[0]|upper -}} }
+{% set ns.initial = surname_ord[0] %}{% endif %}
+{{ curname }} {{ get_role(role) -}}
+{%- else -%}{%- if programme_id!=ns.lastid -%}: {{ ns.lastprogramme }}; {{ get_role(role) -}}
+{%- else -%}, {{ get_role(role) -}}{%- endif -%}{%- endif -%}
+{%- set ns.lastname=curname %}{% set ns.lastdisamb=disamb %}{% set ns.lastprogramme=programme %}{% set ns.lastid=programme_id -%}
+{%- endfor -%}
+{{ get_lastprogramme() }}
+{% endblock %}

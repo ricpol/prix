@@ -1,0 +1,44 @@
+{% macro get_title(orig, en) %}
+{% if not orig %}<span class="english_title">{{ en }}</span><br />
+{%- elif orig == "_null" %}<span class="original_title"></span>
+{%- else %}<span class="original_title">{{ orig }}</span>
+    {%- if en != orig %} | <span class="english_title">{{ en }}</span>{% endif %}
+<br />
+{%- endif -%}    
+{%- endmacro -%}
+
+{%- macro get_broadcaster(acr, name, acr_name) -%}
+{%- if acr_name -%}
+<span class="broadcaster_name">{{ name }}</span>
+{%- else -%}
+<span class="broadcaster_acronym">{{ acr }}</span> <span class="broadcaster_name">{{ name }}</span>
+{%- endif -%}
+{%- endmacro -%}
+
+<html lang="en"><body>
+
+{% for w in winners %}
+{%- if loop.first -%}
+<h2 class="edition_year">{{ w.year }} | <span class="edition_city">{{ w.city }}</span></h2>
+{%- elif loop.previtem.year != w.year %}
+
+
+<!-- =================================================================================== -->
+<p>&nbsp;</p>
+<h2 class="edition_year">{{ w.year }} | <span class="edition_city">{{ w.city }}</span></h2>
+{%- endif -%}
+{%- if loop.first or loop.previtem.year != w.year or loop.previtem.prize_abbr != w.prize_abbr %}
+<h3 class="prize_name">{{ w.prize_abbr }}</h3>
+{%- endif %}
+<p class="winner_details">
+{%- if w.acronym=="NONE" -%}
+    <span class="not_awarded">Prize not awarded.</span>
+{%- else -%}
+{{ get_title(w.or_title, w.en_title) }}
+{{ get_broadcaster(w.acronym, w.name, w.acr_name) }}
+{% if w.name != w.country_abbr %} – {{ w.country_abbr }}{% endif %}
+{% endif %}</p>
+{% endfor %}
+
+
+</body></html>

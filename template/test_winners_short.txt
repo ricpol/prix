@@ -1,0 +1,41 @@
+{% if standalone %}{% extends "base.txt" %}{% endif %}
+
+{% macro get_title(original, english) -%}
+{{ original }}{% if original != english %} | {{ english }} {% endif %}
+{%- endmacro %}
+
+{% block content %}
+VINCITORI SINTETICI
+===================
+
+
+
+
+{% for w in winners %}
+{% if loop.first %}
+*** {{ w.year }} {{ w.city }} ***
+
+{% elif loop.previtem.year != w.year %}
+
+
+*** {{ w.year }} {{ w.city }} *** 
+
+{% endif %}
+{% if loop.first or loop.previtem.year != w.year or loop.previtem.prize_abbr != w.prize_abbr %}
+> {{ w.prize_abbr }}
+{% endif %}
+{% if w.acronym=="NONE" %}
+Not awarded.
+{% else %}
+{% if w.or_title=="_null" -%}
+{{ w.acronym }} {{ w.country }}
+{% else %}
+{{ get_title(w.or_title, w.en_title) }}
+Submitted by: {{ w.acronym }} {{ w.country }}
+{% endif %}
+{% if w.credits and w.credits!="_null" %}
+{{ w.credits }}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endblock %}

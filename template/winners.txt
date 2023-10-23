@@ -1,0 +1,64 @@
+{% if standalone %}{% extends "base.txt" %}{% endif %}
+
+{% macro get_title(original, english) -%}
+{{ original }}{% if original != english %} | {{ english }} {% endif %}
+{%- endmacro %}
+
+{% macro get_broad(acronym, name, acr_name, country, country_abbr, iso3166, display) -%}
+{%- if acr_name %}{{ name }}{% else %}
+{%- if display["acronym"] %}{{ acronym }}{% endif %}
+{%- if display["name"] %} {{ name }}{% endif %}{% endif %}
+{%- if display["full_country"] %} ({{ country }})
+{%- elif display["short_country"] %} ({{ country_abbr }})
+{%- elif display["iso_country"] %} ({{ iso3166 }}){% endif %}
+{%- endmacro %}
+
+{% block content %}
+{{ "=" * common["ch_winners"]|length }}
+{{ common["ch_winners"] }}
+{{ "=" * common["ch_winners"]|length }}
+
+
+{% for w in winners %}
+{% if loop.first %}
+*** {{ w.year }} {{ w.city }} ***
+
+{% elif loop.previtem.year != w.year %}
+
+
+*** {{ w.year }} {{ w.city }} *** 
+
+{% endif %}
+{% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
+{% if display["full_prize"] %} 
+> {{ w.prize }}
+{% else %} 
+> {{ w.prize_abbr }}
+{% endif %}
+{% endif %}
+{% if w.acronym=="NONE" %}
+Not awarded.
+{% else %}
+- {{ w.result|capitalize }}: 
+{% if w.or_title=="_null" -%}
+{{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }}
+{% else %}
+{{ get_title(w.or_title, w.en_title) }}
+Submitted by: {{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }}
+{% endif %}
+{% if display["credits"] and w.credits and w.credits!="_null" %}
+{{ w.credits }}
+{% endif %}
+{% if display["weblink"] and w.weblink!="_null" %}
+{{ w.weblink }}
+{% endif %}
+{% if display["reasoning"] and w.reasoning and w.reasoning!="_null" %}
+The Jury: {{ w.reasoning }}
+{% endif %}
+{% if display["note"] and w.note %}
+Note: {{ w.note }}
+{% endif %}
+{% endif %}
+
+{% endfor %}
+{% endblock %}

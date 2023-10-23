@@ -1,0 +1,22 @@
+{% if standalone %} {% extends "base.html" %} {% endif %}
+
+{% block content %}
+<h1>{{ common["ch_bibliography"] }}</h1>
+
+{% for edition, category, author, title, notes, publisher, year in bibliography %}
+{% if loop.first %}
+<h2>{{ edition }}</h2>
+<ul>
+{% elif loop.previtem[0] != edition %}
+</ul>
+<h2>{{ edition }}</h2>
+<ul>
+{% endif %}
+<li>{% if author %}{{ author -}}, {% endif %}
+<i>{{ title -}}</i>
+{% if notes %} {{ notes }}{% endif %}
+ {{ publisher -}}, {{ year -}}.</li>
+{% endfor %}
+{% endblock %}
+
+

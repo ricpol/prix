@@ -1,0 +1,27 @@
+{% if standalone %} {% extends "base.html" %} {% endif %}
+
+{% block content %}
+<h1>{{ common["ch_editions"] }}</h1>
+{% for year, city, startdate, enddate, president, secretary, radio, tv, web, special, radio_sp, tv_sp, web_sp in editions %}
+<h2>{{ year }}</h2>
+<h3>
+    {{ city -}}
+    {% if startdate %}, {{ startdate.strftime('%b %d') }} - {{ enddate.strftime('%b %d') }}{% endif %}
+</h3>
+<p>
+    President: {{ president }}, Secr. General: {{ secretary }}<br />
+    Radio entries: {{ radio }}{% if radio_sp %} (Sp. prizes: {{ radio_sp }}) {% endif %}<br />
+    {% if tv %}
+    Tv entries: {{ tv }}{% if tv_sp %} (Sp. prizes: {{ tv_sp }}) {% endif %}<br />
+    {% endif %}
+    {% if web %}
+    Web entries: {{ web }}{% if web_sp %} (Sp. prizes: {{ web_sp }}) {% endif %}<br />
+    {% endif %}
+    {% if special %}
+    Other special prizes: {{ special }}<br />
+    {% endif %}
+    Competing organisations: {{ participants[year] }}
+</p>
+{% if not loop.last %} <hr /> {% endif %}
+{% endfor %}
+{% endblock %}

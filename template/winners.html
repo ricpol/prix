@@ -1,0 +1,60 @@
+{% if standalone %} {% extends "base.html" %} {% endif %}
+
+{% block content %}
+<h1 class="chaptertitle">{{ common["ch_winners"] }}</h1>
+{% for w in winners %}
+{% if loop.first %}
+    <h2 class="edition_year">{{ w.year }}</h2>
+{% elif loop.previtem.year != w.year %}
+    <hr />
+    <h2 class="edition_year">{{ w.year }}</h2>
+{% endif %}
+{% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
+    <h3 class="prize_name">
+        {% if display["full_prize"] %} 
+            {{ w.prize }} 
+        {% else %} 
+            {{ w.prize_abbr }} 
+        {% endif %}
+    </h3>
+{% endif %}
+<p class="winner_details">
+    {% if w.result=="winner" %}
+        <span class="winner_result">Winner:</span>
+    {% else %}
+        <span class="other_result">{{ w.result -}}:</span>
+    {% endif %}
+    <span class="original_title">{{ w.or_title }}</span> (<span class="english_title">{{ w.en_title }}</span>)<br />
+    Submitted by:
+    {% if display["acronym"] %}
+        <span class="broadcaster_acronym">{{ w.acronym }} </span>
+    {% endif %}
+    {% if display["name"] %}
+        {% if not w.acr_name and display["acronym"] %}
+            <span class="broadcaster_name">{{ w.name }} </span>
+        {% endif %}
+    {% endif %}
+    {% if display["full_country"] %}
+        ({{ w.country }})<br />
+    {% elif display["short_country"] %}
+        ({{ w.country_abbr }})<br />
+    {% elif display["iso_country"] %}
+        ({{ w.iso3166 }})<br />
+    {% else %}
+        <br />
+    {% endif %}
+    {% if display["credits"] and w.credits and w.credits!="_null" %}
+        <span class="credit_list">{{ w.credits }}</span><br /> 
+    {% endif %}
+    {% if display["weblink"] and w.weblink!="_null" %}
+        <span class="weblink">{{ w.weblink }}</span><br /> 
+    {% endif %}
+    {% if display["reasoning"] and w.reasoning and w.reasoning!="_null" %}
+        <span class="reasoning">Reasoning: {{ w.reasoning }}</span><br /> 
+    {% endif %}
+    {% if display["note"] and w.note %}
+        <span class="note">Note: {{ w.note }}</span>
+    {% endif %}
+</p>
+{% endfor %}
+{% endblock %}

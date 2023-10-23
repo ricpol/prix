@@ -1,0 +1,20 @@
+{% if standalone %} {% extends "base.tex" %} {% endif %}
+
+{% block content %}
+\chapter{ {{- common["ch_bibliography"] -}} }
+{% for edition, category, author, title, notes, publisher, year in bibliography %}
+{% if loop.first %}
+\section*{ {{- edition -}} } \begin{itemize}
+{% elif loop.previtem[0] != edition %}
+\end{itemize}
+\section*{ {{- edition -}} } \begin{itemize}
+{% endif %}
+\item[--]{ {%- if author %}{{ author|texescape -}}, {% endif %}
+\textit{ {{- title|texescape -}} }
+{%- if notes %} {{ notes }}{% endif %}
+ {{ publisher|texescape -}}, {{ year -}}.}
+{% endfor %}
+\end{itemize}
+{% endblock %}
+
+

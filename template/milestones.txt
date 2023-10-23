@@ -1,0 +1,14 @@
+{% if standalone %}{% extends "base.txt" %}{% endif %}
+
+{% block content %}
+{{ "=" * common["ch_milestones"]|length }}
+{{ common["ch_milestones"] }}
+{{ "=" * common["ch_milestones"]|length }}
+{% for year, milestone in milestones %}
+
+*** {{ year }} ***
+{{ milestone }}
+{% endfor %}
+{% endblock %}
+
+

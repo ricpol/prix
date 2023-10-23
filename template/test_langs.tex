@@ -1,0 +1,21 @@
+{% if standalone %} {% extends "base.tex" %} {% endif %}
+
+{% macro get_title(lang, title) -%}
+{% if lang in ('', 'english', 'japanese', 'chinese') -%}
+{{ title|texescape }}
+{%- elif lang=='korean' -%}
+{\koreanfont {{ title|texescape -}} }
+{%- else -%}
+\text{{- lang -}}{ {{- title|texescape -}} }
+{% endif %}
+{% endmacro -%}
+
+{% block content %}
+\chapter{Testing original titles}
+
+{% for year, lang_title, or_title, en_title in titles %}
+{{- year }} -- {{ lang_title }} -- {{ en_title|texescape -}}
+\\ {{ get_title(lang_title, or_title) }}
+
+{% endfor %}
+{% endblock %}
