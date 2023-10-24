@@ -1,7 +1,17 @@
-\documentclass{book}
+% XXX geometry etc. here are good for the "silver booklet" only %
+% we'll need to rethink this "base.tex" template later %
+
+\documentclass[10pt, oneside]{book}
 \title{ {{- common["maintitile"] -}} }
 \author{ {{- common["mainauthor"] -}} }
 \date{}
+\usepackage[paperwidth=14cm, paperheight=26cm, 
+            lmargin=1.5cm, rmargin=1.5cm, tmargin=2cm, bmargin=1.5cm,
+            ]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lfoot{} \cfoot{} \rfoot{\thepage}
+\renewcommand\headrulewidth{0.4pt}
 \usepackage{polyglossia}
 \setdefaultlanguage{english} 
 \setotherlanguages{ {{- languages|reject("equalto", "serbian")|join(',') -}} }
