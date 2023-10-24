@@ -1,0 +1,23 @@
+\documentclass{book}
+\title{ {{- common["maintitle"] -}} }
+\author{ {{- common["mainauthor"] -}} }
+\date{}
+\usepackage{polyglossia}
+\setdefaultlanguage{english} 
+\setotherlanguages{ {{- languages|reject("equalto", "serbian")|join(',') -}} }
+\setotherlanguage[Script=Latin]{serbian}
+\newfontfamily\arabicfont{Times New Roman}
+\newfontfamily\greekfont{Noto Serif} % TNR seems better though %
+\newfontfamily\hebrewfont{Noto Serif Hebrew}
+\newfontfamily\russianfont{Noto Serif}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif JP} % japanese... what about chinese? %
+\newCJKfontfamily\koreanfont{Noto Serif KR}
+\begin{document}
+\maketitle
+{% include 'editions.tex' %}
+{% include 'milestones.tex' %}
+{% include 'winners.tex' %}
+{% include 'persons.tex' %}
+{% include 'bibliography.tex' %}
+\end{document}

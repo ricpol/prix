@@ -25,28 +25,40 @@ def _tex_escape(s):
 with open('template/common.json', 'r', encoding='utf8') as f:
     COMMON = json.load(f)
 
-OUTPUT = {'html': {'editions': ('output/editions.html', 'editions.html'),
-                   'winners': ('output/winners.html', 'winners.html'),
-                   'persons': ('output/persons.html', 'persons.html'),
-                   'milestones': ('output/milestones.html', 'milestones.html'),
-                   'bibliography': ('output/bibliography.html', 'bibliography.html'),
-                   'book': ('output/book.html', 'book.html'),
+OUTPUT = {'html': {'editions': ('output/editions.html', 'book/editions.html'),
+                   'winners': ('output/winners.html', 'book/winners.html'),
+                   'persons': ('output/persons.html', 'book/persons.html'),
+                   'milestones': ('output/milestones.html', 'book/milestones.html'),
+                   'bibliography': ('output/bibliography.html', 'book/bibliography.html'),
+                   'book': ('output/book.html', 'book/book.html'),
+                   # the silver booklet
+                   'winners': ('output/winners.html', 'silver/winners.html'),
+                   'book': ('output/book.html', 'silver/book.html'),
+                   # test, various
                    'special_prixsite': ('output/special_prixsite.html', 'special_prixsite.html'),
                    },
-          'txt': {'editions': ('output/editions.txt', 'editions.txt'),
-                  'winners': ('output/winners.txt', 'winners.txt'),
-                  'persons': ('output/persons.txt', 'persons.txt'),
-                  'milestones': ('output/milestones.txt', 'milestones.txt'),
-                  'bibliography': ('output/bibliography.txt', 'bibliography.txt'),
-                  'book': ('output/book.txt', 'book.txt'),
+          'txt': {'editions': ('output/editions.txt', 'book/editions.txt'),
+                  'winners': ('output/winners.txt', 'book/winners.txt'),
+                  'persons': ('output/persons.txt', 'book/persons.txt'),
+                  'milestones': ('output/milestones.txt', 'book/milestones.txt'),
+                  'bibliography': ('output/bibliography.txt', 'book/bibliography.txt'),
+                  'book': ('output/book.txt', 'book/book.txt'),
+                   # the silver booklet
+                  'winners': ('output/winners.txt', 'silver/winners.txt'),
+                  'book': ('output/book.txt', 'silver/book.txt'),
+                   # test, various
                   'test_winners_short': ('output/test_winners_short.txt', 'test_winners_short.txt'),
                   },
-          'tex': {'editions': ('output/editions.tex', 'editions.tex'),
-                  'winners': ('output/winners.tex', 'winners.tex'),
-                  'persons': ('output/persons.tex', 'persons.tex'),
-                  'milestones': ('output/milestones.tex', 'milestones.tex'),
-                  'bibliography': ('output/bibliography.tex', 'bibliography.tex'),
-                  'book': ('output/book.tex', 'book.tex'),
+          'tex': {'editions': ('output/editions.tex', 'book/editions.tex'),
+                  'winners': ('output/winners.tex', 'book/winners.tex'),
+                  'persons': ('output/persons.tex', 'book/persons.tex'),
+                  'milestones': ('output/milestones.tex', 'book/milestones.tex'),
+                  'bibliography': ('output/bibliography.tex', 'book/bibliography.tex'),
+                  'book': ('output/book.tex', 'book/book.tex'),
+                   # the silver booklet
+                  'winners': ('output/winners.tex', 'silver/winners.tex'),
+                  'book': ('output/book.tex', 'silver/book.tex'),
+                   # test, various
                   'test_langs': ('output/test_langs.tex', 'test_langs.tex'),
                   },  
           }
@@ -248,6 +260,14 @@ class PrixFormatter:
         c.row_factory = _sqlite_dict_row_factory
         winners = c.execute(sql).fetchall()
         self._publish('test_winners_short', winners=winners, standalone=True)
+
+
+
+def publish_silver_booklet():
+    # this is a first stab at the silver booklet
+    f = PrixFormatter(outputtype='tex')
+    f.publish_winners(credits=True, weblink=False, reasoning=False, note=True,
+                      winners_only=True, prixitalia_only=False)
 
 
 if __name__ == '__main__':
