@@ -31,9 +31,9 @@
 {% endif %}
 {% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
         {% if display["full_prize"] %} 
-           \subsection*{ {{- w.prize|quotescape }} }
+           \subsection*{ {{- w.prize|texescape }} }
         {% else %} 
-            \subsection*{ {{- w.prize_abbr|quotescape }} }
+            \subsection*{ {{- w.prize_abbr|texescape }} }
         {% endif %}
 {% endif %}
 {% if w.acronym=="NONE" %}
