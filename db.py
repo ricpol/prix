@@ -10,6 +10,11 @@ def prepare_db(db="prix_winners.grist"):
     """Prepare the original Grist sqlite dump for release."""
     con = sqlite3.connect(db)
     c = con.cursor()
+    try:
+        c.execute('SELECT 1 FROM vPrixWinners;')
+        return
+    except:
+        pass
 
     # fix prev/next in Broadcasters table
     c.execute('ALTER TABLE broadcasters ADD COLUMN prev_acro2 TEXT;')

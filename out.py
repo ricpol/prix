@@ -268,6 +268,9 @@ if __name__ == '__main__':
     parser.add_argument('--db', default='prix_winners.grist', help='path to prix sqlite db file')
     args = parser.parse_args()
     
+    from db import prepare_db
+    prepare_db()
+    
     f = PrixFormatter(db=args.db, outputtype=None)
     for outputtype in ('txt', 'html', 'tex'):
         if getattr(args, outputtype):
