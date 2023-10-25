@@ -1,4 +1,4 @@
-{% if standalone %} {% extends "base.tex" %} {% endif %}
+{% if standalone %} {% extends "book/base.tex" %} {% endif %}
 {% set ns = namespace(initial='', lastname='', lastdisamb=0, lastprogramme='', lastid='') %}
 
 {% macro get_name(name, surname) -%}

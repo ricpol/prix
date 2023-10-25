@@ -65,7 +65,7 @@ OUTPUT = {'html': {'editions': ('output/editions.html', 'book/editions.html'),
 
 
 class PrixFormatter:
-    def __init__(self, db='prix_winners.grist', outputtype='tex'):
+    def __init__(self, db='prix_winners.grist', outputtype='tex', template_folder='book'):
         self.con = sqlite3.connect(db, detect_types=sqlite3.PARSE_COLNAMES)
         if outputtype:
             self.set_outputtype(outputtype)
@@ -228,6 +228,12 @@ class PrixFormatter:
                       standalone=False)
 
 
+    # the silver booklet
+    # -----------------------------------------------------------------------
+    def publish_silver_booklet(self):
+        # this is a first stab at the silver booklet
+        self.publish_winners(credits=True, weblink=False, reasoning=False, 
+                             note=True, winners_only=True, prixitalia_only=False)
 
     # ad-hoc (special) and test outputs
     # -----------------------------------------------------------------------
@@ -263,11 +269,7 @@ class PrixFormatter:
 
 
 
-def publish_silver_booklet():
-    # this is a first stab at the silver booklet
-    f = PrixFormatter(outputtype='tex')
-    f.publish_winners(credits=True, weblink=False, reasoning=False, note=True,
-                      winners_only=True, prixitalia_only=False)
+
 
 
 if __name__ == '__main__':
@@ -278,6 +280,7 @@ if __name__ == '__main__':
                'milestones': 'publish_milestones', 
                'biblio': 'publish_bibliography', 
                'book': 'publish_book',
+               'silver': 'publish_silver_booklet',
                }
     parser = argparse.ArgumentParser(description='Prix Italia book processing.')
     parser.add_argument('sections', nargs='*', choices=choices.keys(), 

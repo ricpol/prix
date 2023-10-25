@@ -1,4 +1,4 @@
-{% if standalone %}{% extends "base.txt" %}{% endif %}
+{% if standalone %}{% extends "book/base.txt" %}{% endif %}
 
 {% macro get_title(original, english) -%}
 {{ original }}{% if original != english %} | {{ english }} {% endif %}

@@ -1,7 +1,7 @@
-{%- set l = common["mainauthor"]|length -%}
+{%- set l = common["silver_mainauthor"]|length -%}
 {{ "*" * l }}
-{{ common["maintitle"]|center(l) }}
-{{ common["mainauthor"] }}
+{{ common["silver_maintitle"]|center(l) }}
+{{ common["silver_mainauthor"] }}
 {{ "*" * l }}
 
 
