@@ -12,6 +12,10 @@
 \pagestyle{fancy}
 \lfoot{} \cfoot{} \rfoot{\thepage}
 \renewcommand\headrulewidth{0.4pt}
+\usepackage[compact]{titlesec}
+\titleformat{\section}{\titleline[r]{\titlerule[2pt]}\vspace{1pt}\titleline[r]{\titlerule[0.8pt]}\vspace{3pt}\LARGE\scshape}{\thesection}{0}{}
+\titlespacing{\section}{0pt}{*6}{*1.5}
+\titlespacing{\subsection}{0pt}{*1}{*0.5}
 \usepackage{polyglossia}
 \setdefaultlanguage{english} 
 \setotherlanguages{ {{- languages|reject("equalto", "serbian")|join(',') -}} }

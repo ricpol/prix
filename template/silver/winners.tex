@@ -22,18 +22,18 @@
 {%- endmacro %}
 
 {% block content %}
-\chapter{ {{- common["ch_winners"] -}} }
+\chapter*{ {{- common["silver_ch_winners"] -}} }
 {% for w in winners %}
 {% if loop.first %}
-    \section*{ {{- w.year }} {{ w.city }} }
+    \section*{ {{- w.year -}}, {{ w.city -}} }
 {% elif loop.previtem.year != w.year %}
-    \section*{ {{- w.year }} {{ w.city }} }
+    \section*{ {{- w.year -}}, {{ w.city -}} }
 {% endif %}
 {% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
         {% if display["full_prize"] %} 
-           \subsection*{ {{- w.prize|texescape }} }
+           \subsection*{ {{- w.prize|texescape -}} }
         {% else %} 
-            \subsection*{ {{- w.prize_abbr|texescape }} }
+            \subsection*{ {{- w.prize_abbr|texescape -}} }
         {% endif %}
 {% endif %}
 {% if w.acronym=="NONE" %}
@@ -43,17 +43,17 @@ Not awarded.
 {% if w.or_title=="_null" -%} {{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }} 
 {%- else -%}
 {{ get_title(w.lang_title, w.or_title, w.en_title) }}
-\\ Submitted by: 
+\\ Submitted by 
 {{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }} 
 {%- endif -%}
 {% if display["credits"] and w.credits and w.credits!="_null" -%} 
-\\ {{ w.credits|texescape }} {% endif %}
+\\ {\small {{ w.credits|texescape }}} {% endif %}
 {% if display["weblink"] and w.weblink!="_null" -%} 
 \\ {{ w.weblink|texescape }} {% endif %}
 {% if display["reasoning"] and w.reasoning and w.reasoning!="_null" -%} 
 \\ The Jury: {{ w.reasoning|texescape }} {% endif %}
 {% if display["note"] and w.note -%} 
-\\ Note: {{ w.note|texescape }} {% endif %}
+\\ {\small\textit {{ w.note|texescape }}} {% endif %}
 {% endif %}
 {% endfor %}
 {% endblock %}

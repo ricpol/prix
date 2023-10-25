@@ -232,7 +232,8 @@ class PrixFormatter:
     # -----------------------------------------------------------------------
     def publish_silver_booklet(self):
         # this is a first stab at the silver booklet
-        self.publish_winners(credits=True, weblink=False, reasoning=False, 
+        self.publish_winners(shortname='acro', shortprize='short', 
+                             credits=True, weblink=False, reasoning=False, 
                              note=True, winners_only=True, prixitalia_only=False)
 
     # ad-hoc (special) and test outputs
