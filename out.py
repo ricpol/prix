@@ -16,11 +16,17 @@ REPLACEMENTS = { "&": "\\&", "%": "\\%", "$": "\\$", "#": "\\#", "_": "\\_",
 ESCAPE_PATTERN = re.compile("[{}]".format("".join(map(re.escape, REPLACEMENTS.keys()))))
 
 def _tex_quote_escape(s):
+    '''Replace straight quotes with smart tex quotes.'''
     return re.sub(r'"([^"]*)"', r"``\1''", s)
 
 def _tex_escape(s):
+    '''Take care of special chars in tex.'''
     s = ESCAPE_PATTERN.sub(lambda mo: REPLACEMENTS.get(mo.group()), s)
     return _tex_quote_escape(s)
+
+def _tex_period_space_escape(s):
+    '''Avoid extra space after a period.'''
+    return s.replace('. ', '.~')
 
 with open('template/common.json', 'r', encoding='utf8') as f:
     COMMON = json.load(f)
@@ -78,6 +84,7 @@ class PrixFormatter:
                             trim_blocks=True, lstrip_blocks=True)
                 self.jinja.filters["texescape"] = _tex_escape
                 self.jinja.filters["quotescape"] = _tex_quote_escape
+                self.jinja.filters["periodspacescape"] = _tex_period_space_escape
         elif self.outputtype == 'txt':
                 self.jinja = Environment(loader=FileSystemLoader('template'),
                             autoescape=select_autoescape(['html', 'htm', 'xml']), 
@@ -135,7 +142,8 @@ class PrixFormatter:
                             reasoning=True,         # include reasoning?
                             note=True,              # include note?
                             winners_only=False,     # list winners only?
-                            prixitalia_only=False   # list prix italia only (not sp. prizes)?
+                            prixitalia_only=False,  # list prix italia only (not sp. prizes)?
+                            exclude_unknowns=False  # exclude unknowns
                         ):
         '''The winner list.'''
         display = {}
@@ -159,6 +167,8 @@ class PrixFormatter:
             sql += ' AND result="winner"'
         if prixitalia_only:
             sql += ' AND "Special Prize" not in kind'
+        if exclude_unknowns:
+            sql += ' AND broadcaster_id!="UNKNOWN"'
         sql += ';'
 
         c = self.con.cursor()
@@ -177,11 +187,12 @@ class PrixFormatter:
                         reasoning=True,         # include reasoning?
                         note=True,              # include note?
                         winners_only=False,     # list winners only?
-                        prixitalia_only=False   # list prix italia only (not sp. prizes)?
+                        prixitalia_only=False,  # list prix italia only (not sp. prizes)?
+                        exclude_unknowns=False  # exclude unknowns
                         ):
         display, winners = self.get_context_winners(
             start_year, end_year, shortname, shortcountry, shortprize, credits, weblink, 
-            reasoning, note, winners_only, prixitalia_only)
+            reasoning, note, winners_only, prixitalia_only, exclude_unknowns)
         self._publish('winners', winners=winners, display=display, standalone=True)
 
     def get_context_persons(self):
@@ -234,7 +245,8 @@ class PrixFormatter:
         # this is a first stab at the silver booklet
         self.publish_winners(shortname='acro', shortprize='short', 
                              credits=True, weblink=False, reasoning=False, 
-                             note=True, winners_only=True, prixitalia_only=False)
+                             note=True, winners_only=True, prixitalia_only=False, 
+                             exclude_unknowns=True)
 
     # ad-hoc (special) and test outputs
     # -----------------------------------------------------------------------
