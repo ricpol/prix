@@ -9,7 +9,7 @@
 {%- elif lang=='korean' -%}
 \begin{addmargin}[-0.05em]{0em}{\large{\koreanfont {{ original|texescape -}} } }\end{addmargin}{\itshape {{ english|texescape }} }
 {%- else -%}
-{\large{\text{{- lang }} {{ original|texescape -}} } } 
+{\large\text{{- lang -}}{ {{- original|texescape -}} } } 
 {%- if original != english -%} \\ {\itshape {{ english|texescape -}} }{%- endif -%}
 {% endif %}
 {% endmacro -%}
