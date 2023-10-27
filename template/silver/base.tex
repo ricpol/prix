@@ -5,6 +5,7 @@
 \title{ {{- common["silver_maintitle"] -}} }
 \author{ {{- common["silver_mainauthor"] -}} }
 \date{}
+\usepackage[svgnames]{xcolor}
 \usepackage[paperwidth=14cm, paperheight=26cm, 
             lmargin=1.5cm, rmargin=1.5cm, tmargin=2cm, bmargin=1.5cm,
             ]{geometry}
@@ -13,7 +14,7 @@
 \lfoot{} \cfoot{} \rfoot{\thepage}
 \renewcommand\headrulewidth{0.4pt}
 \usepackage[compact, noindentafter]{titlesec}
-\titleformat{\section}{\titleline[r]{\titlerule[2pt]}\vspace{1pt}\titleline[r]{\titlerule[0.5pt]}\vspace{3pt}\LARGE\scshape}{\thesection}{0}{}[{\titleline[r]{\titlerule[0.5pt]}\vspace{3pt}}]
+\titleformat{\section}{ {\color{DarkRed}\titleline[r]{\titlerule[2pt]}\vspace{1pt}\titleline[r]{\titlerule[0.5pt]} }\vspace{3pt}\LARGE\scshape}{\thesection}{0}{}[{\titleline[r]{\titlerule[0.5pt]}\vspace{3pt}}]
 \titlespacing{\section}{0pt}{*7}{*2}
 \titleformat{\subsection}{\scshape\large}{\thesubsection}{0}{}
 \titlespacing{\subsection}{0pt}{*3}{*0.5}

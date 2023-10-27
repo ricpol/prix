@@ -1,9 +1,9 @@
 {% if standalone %} {% extends "silver/base.tex" %} {% endif %}
 
 {% macro get_broad(acronym, name, acr_name) -%}
-{%- if acr_name -%} {{ name|texescape -}} 
+{%- if acr_name -%} {\color{DarkRed}{{- name|texescape -}} }
 {%- else -%}
-{{ acronym|texescape }} {\normalfont {{ name|texescape -}} }
+{\color{DarkRed}{{- acronym|texescape -}} } {\normalfont {{ name|texescape -}} }
 {% endif %}
 {%- endmacro %}
 
