@@ -1,7 +1,25 @@
-\documentclass{book}
-\title{ {{- common["maintitle"] -}} }
-\author{ {{- common["mainauthor"] -}} }
+% XXX geometry etc. here are good for the "silver booklet" only %
+% we'll need to rethink this "base.tex" template later %
+
+\documentclass[10pt, oneside]{book}
+\title{ {{- common["silver_maintitle"] -}} }
+\author{ {{- common["silver_mainauthor"] -}} }
 \date{}
+\usepackage[paperwidth=14cm, paperheight=26cm, 
+            lmargin=1.5cm, rmargin=1.5cm, tmargin=2cm, bmargin=1.5cm,
+            ]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lfoot{} \cfoot{} \rfoot{\thepage}
+\renewcommand\headrulewidth{0.4pt}
+\usepackage[compact, noindentafter]{titlesec}
+\titleformat{\section}{\titleline[r]{\titlerule[2pt]}\vspace{1pt}\titleline[r]{\titlerule[0.5pt]}\vspace{3pt}\LARGE\scshape}{\thesection}{0}{}[{\titleline[r]{\titlerule[0.5pt]}\vspace{3pt}}]
+\titlespacing{\section}{0pt}{*7}{*2}
+\titleformat{\subsection}{\scshape\large}{\thesubsection}{0}{}
+\titlespacing{\subsection}{0pt}{*3}{*0.5}
+% we use scrextend for the addmargin context, to remove left margin in CJK titles... %
+% there must be a better way! %
+\usepackage{scrextend} 
 \usepackage{polyglossia}
 \setdefaultlanguage{english} 
 \setotherlanguages{ {{- languages|reject("equalto", "serbian")|join(',') -}} }
@@ -15,9 +33,6 @@
 \newCJKfontfamily\koreanfont{Noto Serif KR}
 \begin{document}
 \maketitle
-{% include 'editions.tex' %}
-{% include 'milestones.tex' %}
-{% include 'winners.tex' %}
-{% include 'persons.tex' %}
-{% include 'bibliography.tex' %}
+{% include 'silver/winners.tex' %}
+{% include 'silver/win_broadcasters.tex' %}
 \end{document}

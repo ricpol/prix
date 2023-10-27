@@ -268,11 +268,13 @@ class PrixFormatter:
 
     def publish_silver_booklet(self):
         # this is a first stab at the silver booklet
-        self.publish_win_broadcasters()
-        self.publish_winners(shortname='acro', shortprize='short', 
-                             credits=True, weblink=False, reasoning=False, 
-                             note=True, winners_only=True, prixitalia_only=False, 
-                             exclude_unknowns=True)
+        display, winners = self.get_context_winners(shortname='acro', shortprize='short', 
+                               credits=True, weblink=False, reasoning=False, 
+                               note=True, winners_only=True, prixitalia_only=False, 
+                               exclude_unknowns=True)
+        broadcasters = self.get_context_win_broadcasters()
+        self._publish('book', winners=winners, broadcasters=broadcasters, 
+                       display=display, standalone=False)
 
     # ad-hoc (special) and test outputs
     # -----------------------------------------------------------------------
