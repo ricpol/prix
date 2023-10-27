@@ -26,8 +26,9 @@
 {%- endmacro %}
 
 {% block content %}
-\chapter*{ {{- common["silver_ch_winners"] -}} }
+\chapter*{\hfill{\slshape {{- common["silver_ch_winners"] -}} } }
 \thispagestyle{empty}
+\vspace{70pt}
 {% for w in winners %}
 {% if loop.first %}
     \section*{ {{- w.year -}}, {{ w.city -}} }
