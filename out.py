@@ -39,6 +39,7 @@ OUTPUT = {'html': {'editions': ('output/editions.html', 'book/editions.html'),
                    'book': ('output/book.html', 'book/book.html'),
                    # the silver booklet
                    'winners': ('output/winners.html', 'silver/winners.html'),
+                   'win_broadcasters': ('output/win_broadcasters.html', 'silver/win_broadcasters.html'),
                    'book': ('output/book.html', 'silver/book.html'),
                    # test, various
                    'special_prixsite': ('output/special_prixsite.html', 'special_prixsite.html'),
@@ -51,6 +52,7 @@ OUTPUT = {'html': {'editions': ('output/editions.html', 'book/editions.html'),
                   'book': ('output/book.txt', 'book/book.txt'),
                    # the silver booklet
                   'winners': ('output/winners.txt', 'silver/winners.txt'),
+                  'win_broadcasters': ('output/win_broadcasters.txt', 'silver/win_broadcasters.txt'),
                   'book': ('output/book.txt', 'silver/book.txt'),
                    # test, various
                   'test_winners_short': ('output/test_winners_short.txt', 'test_winners_short.txt'),
@@ -63,6 +65,7 @@ OUTPUT = {'html': {'editions': ('output/editions.html', 'book/editions.html'),
                   'book': ('output/book.tex', 'book/book.tex'),
                    # the silver booklet
                   'winners': ('output/winners.tex', 'silver/winners.tex'),
+                  'win_broadcasters': ('output/win_broadcasters.tex', 'silver/win_broadcasters.tex'),
                   'book': ('output/book.tex', 'silver/book.tex'),
                    # test, various
                   'test_langs': ('output/test_langs.tex', 'test_langs.tex'),
@@ -241,8 +244,31 @@ class PrixFormatter:
 
     # the silver booklet
     # -----------------------------------------------------------------------
+
+    def get_context_win_broadcasters(self):
+        sql = '''SELECT acronym, name, acr_name, country_abbr, 
+                 group_concat(year, ", ") AS year
+                 FROM 
+                    (SELECT DISTINCT vPrixWinners.acronym, vPrixWinners.name, 
+                    vPrixWinners.acr_name, vPrixWinners.country_abbr, year, 
+                    broadcasters.first, countries.sort 
+                    FROM vPrixWinners
+                    JOIN broadcasters ON vPrixWinners.broadcaster_id=broadcasters.id 
+                    JOIN countries ON vPrixWinners.country = countries.country
+                    WHERE result="winner" AND broadcasters.status>2)
+                 GROUP BY acronym, name, acr_name, country_abbr
+                 ORDER BY sort, first;'''
+        c = self.con.cursor()
+        c.row_factory = _sqlite_dict_row_factory
+        return c.execute(sql).fetchall()
+
+    def publish_win_broadcasters(self):
+        broadcasters = self.get_context_win_broadcasters()
+        self._publish('win_broadcasters', broadcasters=broadcasters, standalone=True)
+
     def publish_silver_booklet(self):
         # this is a first stab at the silver booklet
+        self.publish_win_broadcasters()
         self.publish_winners(shortname='acro', shortprize='short', 
                              credits=True, weblink=False, reasoning=False, 
                              note=True, winners_only=True, prixitalia_only=False, 

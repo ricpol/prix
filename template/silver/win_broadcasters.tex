@@ -1,0 +1,26 @@
+{% if standalone %} {% extends "silver/base.tex" %} {% endif %}
+
+{% macro get_broad(acronym, name, acr_name) -%}
+{%- if acr_name -%} {{ name|texescape -}} 
+{%- else -%}
+{{ acronym|texescape }} {\normalfont {{ name|texescape -}} }
+{% endif %}
+{%- endmacro %}
+
+{% block content %}
+\chapter*{\hfill{\slshape {{ common["silver_ch_win_broadcasters"] -}} } }
+\thispagestyle{empty}
+\vspace{70pt}
+{% for b in broadcasters %}
+{% if loop.first or loop.previtem.country_abbr != b.country_abbr %}
+    \section*{ {{- b.country_abbr -}} }
+    \subsection*{ {{- get_broad(b.acronym, b.name, b.acr_name) -}} }
+    {{- b.year }}
+{% elif loop.previtem.name != b.name %}
+    \subsection*{ {{- get_broad(b.acronym, b.name, b.acr_name) -}} }
+    {{- b.year }}
+{% else %}
+    {{- b.year }}
+{% endif %}
+{% endfor %}
+{% endblock %}
