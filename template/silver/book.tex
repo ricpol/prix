@@ -14,7 +14,8 @@
 \lfoot{} \cfoot{} \rfoot{\thepage}
 \renewcommand\headrulewidth{0.4pt}
 \usepackage[compact, noindentafter]{titlesec}
-\titleformat{\section}{ {\color{DarkRed}\titleline[r]{\titlerule[2pt]}\vspace{1pt}\titleline[r]{\titlerule[0.5pt]} }\vspace{3pt}\LARGE\scshape}{\thesection}{0}{}[{\titleline[r]{\titlerule[0.5pt]}\vspace{3pt}}]
+\titleformat{\section}
+{\titleline[r]{{- "{{" -}}\color{DarkRed}\titlerule[2pt]{{- "}}" -}}\vspace{1pt} \titleline[r]{{- "{{" -}}\color{DarkRed}\titlerule[0.5pt]{{- "}}" -}}\vspace{3pt}\LARGE\scshape}{\thesection}{0}{}[{\titleline[r]{\titlerule[0.5pt]}\vspace{3pt}}]
 \titlespacing{\section}{0pt}{*7}{*2}
 \titleformat{\subsection}{\scshape\large}{\thesubsection}{0}{}
 \titlespacing{\subsection}{0pt}{*3}{*0.5}

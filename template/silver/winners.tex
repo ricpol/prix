@@ -37,9 +37,9 @@
 {% endif %}
 {% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
     {% if display["full_prize"] %} 
-        {\color{DarkRed} \subsection*{ {{- w.prize|texescape|periodspacescape -}} } }
+        \subsection*{{- "{{" -}}\color{DarkRed}{{- w.prize|texescape|periodspacescape -}} } }
     {% else %} 
-        {\color{DarkRed} \subsection*{ {{- w.prize_abbr|texescape|periodspacescape -}} } }
+        \subsection*{{- "{{" -}}\color{DarkRed} {{- w.prize_abbr|texescape|periodspacescape -}} } }
     {% endif %}
 {% else %} \\ \\
 {% endif %}
