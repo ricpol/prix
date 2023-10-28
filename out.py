@@ -273,8 +273,9 @@ class PrixFormatter:
                                note=True, winners_only=True, prixitalia_only=False, 
                                exclude_unknowns=True)
         broadcasters = self.get_context_win_broadcasters()
+        milestones = self.get_context_milestones()
         self._publish('book', winners=winners, broadcasters=broadcasters, 
-                       display=display, standalone=False)
+                       milestones=milestones, display=display, standalone=False)
 
     # ad-hoc (special) and test outputs
     # -----------------------------------------------------------------------

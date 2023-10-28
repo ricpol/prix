@@ -1,0 +1,11 @@
+{% if standalone %} {% extends "silver/base.tex" %} {% endif %}
+
+{% block content %}
+\chapter*{\hfill{\slshape {{ common["ch_milestones"] -}} {{- "}}" -}}
+\thispagestyle{empty}
+\vspace{70pt}
+{% for year, milestone in milestones %}
+\subsection*{{- "{{" -}}\color{DarkRed} {{- year -}} {{- "}}" -}}
+{{ milestone|texescape }}
+{% endfor %}
+{% endblock %}
