@@ -5,11 +5,11 @@
 {\large {{ original|texescape -}} } 
 {%- if original != english -%} \\* {\itshape {{ english|texescape -}} }{%- endif -%}
 {%- elif lang in ('japanese', 'chinese') -%}
-\begin{addmargin}[-0.05em]{0em}{\large {{ original|texescape -}} }\end{addmargin}{\itshape {{ english|texescape }} }
+\begin{addmargin}[-0.05em]{0em}{\large {{ original|texescape -}} }\end{addmargin}{\itshape {{ english|texescape -}} }
 {%- elif lang=='korean' -%}
-\begin{addmargin}[-0.05em]{0em}{\large{\koreanfont {{ original|texescape -}} } }\end{addmargin}{\itshape {{ english|texescape }} }
+\begin{addmargin}[-0.05em]{0em}{\large{\koreanfont {{ original|texescape -}} {{- "}}" -}}\end{addmargin}{\itshape {{ english|texescape -}} }
 {%- else -%}
-{\large\text{{- lang -}}{ {{- original|texescape -}} } } 
+{\large\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
 {%- if original != english -%} \\* {\itshape {{ english|texescape -}} }{%- endif -%}
 {% endif %}
 {% endmacro -%}
@@ -26,7 +26,7 @@
 {%- endmacro %}
 
 {% block content %}
-\chapter*{\hfill{\slshape {{ common["silver_ch_winners"] -}} } }
+\chapter*{\hfill{\slshape {{ common["silver_ch_winners"] -}} {{- "}}" -}}
 \thispagestyle{empty}
 \vspace{70pt}
 {% for w in winners %}
@@ -37,9 +37,9 @@
 {% endif %}
 {% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
     {% if display["full_prize"] %} 
-        \subsection*{{- "{{" -}}\color{DarkRed}{{- w.prize|texescape|periodspacescape -}} } }
+        \subsection*{{- "{{" -}}\color{DarkRed}{{- w.prize|texescape|periodspacescape -}} {{- "}}" -}}
     {% else %} 
-        \subsection*{{- "{{" -}}\color{DarkRed} {{- w.prize_abbr|texescape|periodspacescape -}} } }
+        \subsection*{{- "{{" -}}\color{DarkRed} {{- w.prize_abbr|texescape|periodspacescape -}} {{- "}}" -}}
     {% endif %}
 {% else %} \\ \\
 {% endif %}
@@ -49,16 +49,16 @@ Not awarded.
 {%- if w.or_title=="_null" -%} {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} 
 {%- else -%}
 {{- get_title(w.lang_title, w.or_title, w.en_title) -}}
-\\* {{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }} 
+\\* {{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} 
 {%- endif -%}
 {% if display["credits"] and w.credits and w.credits!="_null" -%} 
-\\ {\footnotesize {{ w.credits|texescape }}} {% endif %}
+\\ {\footnotesize {{ w.credits|texescape -}} } {% endif %}
 {% if display["weblink"] and w.weblink!="_null" -%} 
 \\ {{ w.weblink|texescape }} {% endif %}
 {% if display["reasoning"] and w.reasoning and w.reasoning!="_null" -%} 
 \\ The Jury: {{ w.reasoning|texescape }} {% endif %}
 {% if display["note"] and w.note -%} 
-\\* {\footnotesize\textit{ {{ w.note|texescape -}} } } {% endif %}
+\\* {\footnotesize\textit{ {{ w.note|texescape -}} {{- "}}" -}} {% endif %}
 {% endif %}
 {% endfor %}
 {% endblock %}
