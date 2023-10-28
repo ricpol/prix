@@ -4,6 +4,7 @@
 \chapter*{\hfill{\slshape {{ common["ch_milestones"] -}} {{- "}}" -}}
 \thispagestyle{empty}
 \vspace{70pt}
+\fancyhead[L]{\scshape {{ common["ch_milestones"] -}} }
 {% for year, milestone in milestones %}
 \subsection*{{- "{{" -}}\color{DarkRed} {{- year -}} {{- "}}" -}}
 {{ milestone|texescape }}
