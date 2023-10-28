@@ -3,14 +3,14 @@
 {% macro get_title(lang, original, english) -%}
 {% if lang in ('', 'english') -%}
 {\large {{ original|texescape -}} } 
-{%- if original != english -%} \\ \nopagebreak[3] {\itshape {{ english|texescape -}} }{%- endif -%}
+{%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
 {%- elif lang in ('japanese', 'chinese') -%}
 \begin{addmargin}[-0.05em]{0em}{\large {{ original|texescape -}} }\end{addmargin}{\itshape {{ english|texescape -}} }
 {%- elif lang=='korean' -%}
 \begin{addmargin}[-0.05em]{0em}{\large{\koreanfont {{ original|texescape -}} {{- "}}" -}}\end{addmargin}{\itshape {{ english|texescape -}} }
 {%- else -%}
 {\large\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
-{%- if original != english -%} \\ \nopagebreak[3] {\itshape {{ english|texescape -}} }{%- endif -%}
+{%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
 {% endif %}
 {% endmacro -%}
 
@@ -49,7 +49,7 @@ Not awarded.
 {%- if w.or_title=="_null" -%} {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} 
 {%- else -%}
 {{- get_title(w.lang_title, w.or_title, w.en_title) -}}
-\\ \nopagebreak[2] {{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} 
+\nopagebreak[2]\\ {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} 
 {%- endif -%}
 {% if display["credits"] and w.credits and w.credits!="_null" -%} 
 \\* {\footnotesize {{ w.credits|texescape -}} } {% endif %}
