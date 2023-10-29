@@ -11,6 +11,7 @@
 \chapter*{\hfill{\slshape {{ common["silver_ch_win_broadcasters"] -}} {{- "}}" -}}
 \thispagestyle{empty}
 \vspace{70pt}
+\fancyhead[R]{\scshape {{ common["silver_ch_win_broadcasters"] -}} }
 {% for b in broadcasters %}
 {% if loop.first or loop.previtem.country_abbr != b.country_abbr %}
     \section*{ {{- b.country_abbr -}} }
