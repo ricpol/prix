@@ -1,0 +1,25 @@
+{% if standalone %} {% extends "silver/base.tex" %} {% endif %}
+
+{% block content %}
+\chapter*{\hfill{\slshape {{ common["ch_intro"] -}} {{- "}}" -}}
+\thispagestyle{empty}
+\vspace{70pt}
+\fancyhead[R]{\scshape {{ common["ch_intro"] -}} }
+\lipsum[1-5]
+\par\vspace{20pt}
+\par\noindent\rule{\textwidth}{0.2pt}
+\par\vspace{30pt}
+\textsl{This volume collects all the Prix Italia winners since its first edition in Venice, 1949. Historically, the winners were listed in the annual catalogues until 1991: this tradition has only recently been resumed, since 2020. For intermediate years, one has to rely on jury reports, press releases and lists published on the website. Even so, there are occasional gaps, and special prizes are only partially documented. Above all, the information so far was scattered and difficult to find.}
+
+\textsl{This is why we have made an effort to collate the information in the annual catalogues, official publications, press reviews and internal files still preserved, resulting in the most complete and definitive winner list that has ever been released.}
+
+\textsl{Each entry details the name of the prize, the original and English title of the winning product, the broadcaster that presented it, and a short credits list.}
+
+\textsl{\textbf{The prize name} is presented in an abbreviated and standardised, more quotable form than the sometimes very long official wording found in old catalogues. We have made an attempt to reconstruct the \textbf{original title} of the product as faithfully as possible: in fact, catalogues may carry different, simplified or translated versions. The English title, however, is usually the one given in the catalogue. Of the broadcaster we report the acronym and the country: the full names of the broadcasters are collected in a separate chapter. \textbf{The credits} are taken from the catalogues, necessarily abbreviated: the wording of the roles has been greatly standardised and reduced to a reduced vocabulary, to simplify the search. Note that a complete list of credits is beyond the scope of this publication.}
+
+\textsl{The format and cover of this book are inspired by the venerable ``silver booklets'', the official winners' lists published in 1983 and 1993. Now virtually impossible to find, they remain an invaluable source for reconstructing the history of the Prix Italia. This publication is intended as their natural continuation. An ideal thanks through the decades is due to all those who have worked for the Prix Italia, preserving its tradition and always pushing it towards the future.}
+
+\bigskip\textsl{Corrections and additions are always welcome: if you find an error, please report it to prixitalia(at)rai.it.}
+
+\bigskip\noindent [rp - November, 2023]
+{% endblock %}
