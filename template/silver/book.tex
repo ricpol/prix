@@ -35,9 +35,24 @@
 \newCJKfontfamily\koreanfont{Noto Serif KR}
 \usepackage{lipsum}
 \begin{document}
-\maketitle
+\thispagestyle{empty}
+\null\vspace{150pt}
+\hfill{\LARGE\slshape Prix Italia}
+
+\bigskip
+
+\hfill{\LARGE\slshape 1948 -- 2023}
+
+\bigskip
+
+\hfill{\large The Winners}
+\vfill
+\newpage\thispagestyle{empty}
+\null\vfill
+{\footnotesize\ttfamily\noindent Prix Italia 1948 2023 - The Winners\\Research and Editing by Riccardo Polignieri\\version 0.5, November 2023\\Corrections: prixitalia(at)rai.it}
 {% include 'silver/intro.tex' %}
 {% include 'silver/winners.tex' %}
 {% include 'silver/win_broadcasters.tex' %}
 {% include 'silver/milestones.tex' %}
+\newpage\thispagestyle{empty} % only if the previous (last) page is odd %
 \end{document}
