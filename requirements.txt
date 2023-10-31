@@ -1,0 +1,14 @@
+# python==3.11
+jinjia2==3.1
+#
+#
+# Latex:
+#   Miktex distribution 4.9
+# Fonts:
+#   Noto Serif -> russian, greek
+#   Noto Serif Hebrew
+#   Noto Serif JP
+#   Noto Serif KR
+#   Times New Roman -> arabic
+#   LMRoman (Latin Modern Roman) -> w/ Latex, \usepackage{lmodern}
+
