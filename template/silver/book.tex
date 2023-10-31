@@ -19,9 +19,9 @@
 \titlespacing{\section}{0pt}{*7}{*2}
 \titleformat{\subsection}{\scshape\large}{\thesubsection}{0}{}
 \titlespacing{\subsection}{0pt}{*3}{*0.5}
-% we use scrextend for the addmargin context, to remove left margin in CJK titles... %
-% there must be a better way! %
-\usepackage{scrextend} 
+% we use scrextend for the addmargin context, to remove (add negative) left margin %
+% in CJK titles... maybe there's a better way? %
+\usepackage{scrextend}
 \usepackage{polyglossia}
 \setdefaultlanguage{english} 
 \setotherlanguages{ {{- languages|reject("equalto", "serbian")|join(',') -}} }

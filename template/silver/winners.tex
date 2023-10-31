@@ -4,13 +4,16 @@
 {% if lang in ('', 'english', 'nolanguage', 'tsonga') -%}
 {\large {{ original|texescape -}} } 
 {%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
+{%- elif lang=='russian' -%}
+{\normalsize\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
+\nopagebreak[3]\\{\itshape {{ english|texescape -}} }
 {%- elif lang in ('japanese', 'chinese') -%}
-\begin{addmargin}[-0.05em]{0em}{\large {{ original|texescape -}} }\end{addmargin}{\itshape {{ english|texescape -}} }
+\begin{addmargin}[-0.05em]{0em}{\normalsize {{ original|texescape -}} }\end{addmargin}{\itshape {{ english|texescape -}} }
 {%- elif lang=='korean' -%}
-\begin{addmargin}[-0.05em]{0em}{\large{\koreanfont {{ original|texescape -}} {{- "}}" -}}\end{addmargin}{\itshape {{ english|texescape -}} }
+\begin{addmargin}[-0.05em]{0em}{\normalsize{\koreanfont {{ original|texescape -}} {{- "}}" -}}\end{addmargin}{\itshape {{ english|texescape -}} }
 {%- else -%}
 {\large\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
-{%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
+\nopagebreak[3]\\{\itshape {{ english|texescape -}} }
 {% endif %}
 {% endmacro -%}
 
