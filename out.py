@@ -100,7 +100,7 @@ class PrixFormatter:
         c = self.con.cursor()
         c.execute('SELECT DISTINCT lang_title FROM winners ORDER BY lang_title;')
         langs = [i[0] for i in c.fetchall()]
-        for i in ('', 'english', 'japanese', 'korean', 'chinese'):
+        for i in ('', 'english', 'japanese', 'korean', 'chinese', 'nolanguage', 'tsonga'):
             langs.remove(i)
         return langs
 

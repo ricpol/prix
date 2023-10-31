@@ -1,7 +1,7 @@
 {% if standalone %} {% extends "silver/base.tex" %} {% endif %}
 
 {% macro get_title(lang, original, english) -%}
-{% if lang in ('', 'english') -%}
+{% if lang in ('', 'english', 'nolanguage', 'tsonga') -%}
 {\large {{ original|texescape -}} } 
 {%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
 {%- elif lang in ('japanese', 'chinese') -%}
