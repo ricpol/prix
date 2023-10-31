@@ -12,16 +12,16 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \lfoot{} \cfoot{} \rfoot{\thepage}
-\renewcommand\headrulewidth{0.4pt}
+\renewcommand\headrulewidth{0pt}
 \usepackage[compact, noindentafter]{titlesec}
 \titleformat{\section}
 {\titleline[r]{{- "{{" -}}\color{DarkRed}\titlerule[2pt]{{- "}}" -}}\vspace{1pt} \titleline[r]{{- "{{" -}}\color{DarkRed}\titlerule[0.5pt]{{- "}}" -}}\vspace{3pt}\LARGE\scshape}{\thesection}{0}{}[{\titleline[r]{\titlerule[0.5pt]}\vspace{3pt}}]
 \titlespacing{\section}{0pt}{*7}{*2}
 \titleformat{\subsection}{\scshape\large}{\thesubsection}{0}{}
 \titlespacing{\subsection}{0pt}{*3}{*0.5}
-% we use scrextend for the addmargin context, to remove left margin in CJK titles... %
-% there must be a better way! %
-\usepackage{scrextend} 
+% we use scrextend for the addmargin context, to remove (add negative) left margin %
+% in CJK titles... maybe there's a better way? %
+\usepackage{scrextend}
 \usepackage{polyglossia}
 \setdefaultlanguage{english} 
 \setotherlanguages{ {{- languages|reject("equalto", "serbian")|join(',') -}} }
@@ -33,6 +33,10 @@
 \usepackage{xeCJK}
 \setCJKmainfont{Noto Serif JP} % japanese... what about chinese? %
 \newCJKfontfamily\koreanfont{Noto Serif KR}
+\usepackage{lmodern} % Latin Modern Roman, predefinite in book class %
+\usepackage[stretch=25]{microtype}
+\tolerance=500 % halves overfull boxes a little %
+\usepackage{lipsum}
 \begin{document}
 \maketitle
 {% block content %}{% endblock %}
