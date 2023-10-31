@@ -14,8 +14,8 @@
 {%- else -%}
 {\large\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
 \nopagebreak[3]\\{\itshape {{ english|texescape -}} }
-{% endif %}
-{% endmacro -%}
+{%- endif -%}
+{%- endmacro -%}
 
 {% macro get_broad(acronym, name, acr_name, country, country_abbr, iso3166, display) -%}
 {%- if acr_name %} {{ name|texescape -}} 
