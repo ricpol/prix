@@ -13,7 +13,7 @@
 \begin{addmargin}[-0.05em]{0em}{\normalsize{\koreanfont {{ original|texescape -}} {{- "}}" -}}\end{addmargin}{\itshape {{ english|texescape -}} }
 {%- else -%}
 {\large\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
-\nopagebreak[3]\\{\itshape {{ english|texescape -}} }
+{%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
 {%- endif -%}
 {%- endmacro -%}
 
