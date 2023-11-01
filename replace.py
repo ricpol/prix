@@ -23,7 +23,7 @@ REPLACEMENTS = {
               ),
 
     'book': (
-        ('xxx', 'yyy'),
+        ('xxx', 'yyy', 0),
 
              ),
 }
@@ -33,7 +33,7 @@ def do_replace(repl_set, in_file, verbose=True):
     """Custom replacements for tex post-production.
     repl_set: 'silver', 'book'... 
     in_file: path to origin file
-    verbose: prints when 0 or >1 replacements occurred
+    verbose: warns when repl. number is different than expected
     """
     tex = open(in_file, 'r', encoding='utf8').read()
     for n, (old, new, num) in enumerate(REPLACEMENTS[repl_set]):
