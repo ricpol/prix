@@ -54,6 +54,8 @@ def prepare_db(db="prix_winners.grist"):
     c.execute('ALTER TABLE Persons RENAME TO oPersons')
     c.execute('ALTER TABLE Bibliography RENAME TO oBibliography')
     c.execute('ALTER TABLE Milestones RENAME TO oMilestones')
+    c.execute('ALTER TABLE Genius RENAME TO oGenius')
+    c.execute('ALTER TABLE Globals RENAME TO oGlobals')
 
     # create new tables
     c.execute('''CREATE TABLE broadcasters AS
@@ -82,7 +84,9 @@ def prepare_db(db="prix_winners.grist"):
     c.execute('CREATE UNIQUE INDEX editions_year ON editions (year);')
     c.execute('''CREATE TABLE participants AS
                  SELECT id_part AS id, oeditions.year, 
-                 obroadcasters.id_acro AS broadcaster_id, competition
+                 obroadcasters.id_acro AS broadcaster_id, competition, 
+                 oparticipants.radio, oparticipants.tv, oparticipants.web, 
+                 oparticipants.sp_prize 
                  FROM oparticipants 
                  JOIN oeditions ON oparticipants.edition=oeditions.id 
                  JOIN obroadcasters ON oparticipants.broadcaster=obroadcasters.id
@@ -125,6 +129,12 @@ def prepare_db(db="prix_winners.grist"):
                  SELECT year, milestone FROM oMilestones 
                  ORDER BY year;''')
     c.execute('CREATE UNIQUE INDEX milestones_year ON milestones (year);')
+    c.execute('''CREATE TABLE genius AS
+                 SELECT name, surname, description FROM oGenius 
+                 ORDER BY surname, name;''')
+    c.execute('''CREATE TABLE globals AS
+                 SELECT globkey, globvalue, note FROM oGlobals 
+                 ORDER BY sort;''')
 
     # create some other useful views
     c.execute('''CREATE VIEW vPrixWinners AS
@@ -145,7 +155,9 @@ def prepare_db(db="prix_winners.grist"):
                  SELECT participants.id, participants.year, 
                  broadcasters.id AS broadcaster_id, 
                  broadcasters.acronym, broadcasters.name, broadcasters.acr_name, 
-                 countries.country, countries.country_abbr, competition
+                 countries.country, countries.country_abbr, competition, 
+                 participants.radio, participants.tv, participants.web, 
+                 participants.sp_prize 
                  FROM participants 
                  JOIN editions ON participants.year=editions.year 
                  JOIN broadcasters ON participants.broadcaster_id=broadcasters.id
@@ -182,7 +194,7 @@ import csv
 def export_csv(view, dbcursor):
     """Export a single db view as csv file.
        Pass the view name and the cursor object of an open connection."""
-    with open(f'prixitalia_{view[1:]}.csv', 'a', encoding='utf8', newline='') as output:
+    with open(f'prixitalia_{view}.csv', 'a', encoding='utf8', newline='') as output:
         writer = csv.writer(output, quoting=csv.QUOTE_MINIMAL)
         dbcursor.execute(f'SELECT * FROM {view};')
         row = [i[0] for i in dbcursor.description]
@@ -193,7 +205,7 @@ def export_csv(view, dbcursor):
 def export_json(view, dbcursor): 
     """Export a single db view as json file.
        Pass the view name and the cursor object of an open connection."""
-    with open(f'prixitalia_{view[1:]}.json', 'a', encoding='utf8', newline='') as output:
+    with open(f'prixitalia_{view}.json', 'a', encoding='utf8', newline='') as output:
         dbcursor.execute(f'SELECT * FROM {view};')
         json.dump(dbcursor.fetchall(), output, ensure_ascii=False, indent=2)
 
@@ -203,18 +215,20 @@ def _sqlite_dict_row_factory(cursor, row):
     return {key: value for key, value in zip(fields, row)}
 
 views = ('broadcasters', 'countries', 'editions', 'participants', 'prizes', 
-         'winners', 'persons', 'bibliography', 
+         'winners', 'persons', 'bibliography', 'genius', 'globals', 
          'vPrixWinners', 'vPrixParticipants', 'vPrixPersons')
 
-def export_all(db="prix_winners.grist", views=views):
+def export_all(db="prix_winners.grist", views=views, export_as='json'):
     """Export data in csv and json format."""
     con = sqlite3.connect(db)
     c = con.cursor()
-    for view in views:
-        export_csv(view, c)
-    c.row_factory = _sqlite_dict_row_factory
-    for view in views:
-        export_json(view, c)
+    if export_as == 'csv':
+        for view in views:
+            export_csv(view, c)
+    elif export_as == 'json':
+        c.row_factory = _sqlite_dict_row_factory
+        for view in views:
+            export_json(view, c)
     con.close()
 
 # ------------------------------------------------------------------------------
