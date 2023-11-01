@@ -65,7 +65,7 @@ assert len(ROLES_SINGULAR) == len(ROLES_PLURAL)
 
 COMMON_PUNCTUATION = ' .,:;…#%°"/()?!+-«»–&_@' + "'" 
 
-OR_TITLE_PUNCTUATION = COMMON_PUNCTUATION + '「」〜（）！〈〉、・' + '\u3000'
+OR_TITLE_PUNCTUATION = COMMON_PUNCTUATION + '「」〜（）！〈〉、・：' + '\u3000'
 
 CREDIT_PUNCTUATION = " :,.'-_&()"  # the ONLY allowed in credits! ("_" is for "_null")
 
