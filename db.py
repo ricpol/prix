@@ -5,6 +5,7 @@ import sqlite3
 import json
 from datetime import date, timedelta
 import unicodedata 
+import string
 
 def prepare_db(db="prix_winners.grist"):
     """Prepare the original Grist sqlite dump for release."""
@@ -256,7 +257,7 @@ TODO -> make exceptions for the following failing tests:
 import sys
 from collections import Counter
 import credit as cr
-from glossary import COMMON_PUNCTUATION, OR_TITLE_PUNCTUATION, CREDIT_PUNCTUATION
+from glossary import *
 
 unique_colums = (
     ('broadcasters', 'id'), 
