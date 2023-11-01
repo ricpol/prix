@@ -4,6 +4,7 @@ import sqlite3
 import json
 from datetime import date, timedelta
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from replace import do_replace
 
 def _sqlite_dict_row_factory(cursor, row):
     fields = [i[0] for i in cursor.description]
@@ -105,17 +106,19 @@ class PrixFormatter:
         return langs
 
     def _publish(self, output, **context):
+        outfile = OUTPUT[self.outputtype][output][0]
         try:
-            os.remove(OUTPUT[self.outputtype][output][0])
+            os.remove(outfile)
         except OSError:
             pass
         template = self.jinja.get_template(OUTPUT[self.outputtype][output][1])
-        with open(OUTPUT[self.outputtype][output][0], 'a', encoding='utf8') as out:
+        with open(outfile, 'a', encoding='utf8') as out:
             if self.outputtype == 'tex':
                 languages = self._get_lang_tags()
                 out.write(template.render(languages=languages, common=COMMON, **context))
             else:
                 out.write(template.render(common=COMMON, **context))
+        return outfile
 
     def get_context_editions(self):
         '''Data about editions.'''
@@ -274,8 +277,9 @@ class PrixFormatter:
                                exclude_unknowns=True)
         broadcasters = self.get_context_win_broadcasters()
         milestones = self.get_context_milestones()
-        self._publish('book', winners=winners, broadcasters=broadcasters, 
+        outfile = self._publish('book', winners=winners, broadcasters=broadcasters, 
                        milestones=milestones, display=display, standalone=False)
+        do_replace('silver', outfile)
 
     # ad-hoc (special) and test outputs
     # -----------------------------------------------------------------------
