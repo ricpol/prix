@@ -36,7 +36,6 @@
 \usepackage{lmodern} % Latin Modern Roman, predefinite in book class %
 \usepackage[stretch=25]{microtype}
 \tolerance=500 % halves overfull boxes a little %
-\usepackage{lipsum}
 \begin{document}
 % this should fix some overfull boxes %
 \hyphenation{Ze-brzy-dow-skiej Kry-sty-na Kró-lów-na Pi-e-niow-ski Pi-ser-chia Przy-by-łow-ska Ka-hi-luo-to Le-ca-va-lier}
@@ -60,6 +59,6 @@
 {% include 'silver/win_broadcasters.tex' %}
 {% include 'silver/milestones.tex' %}
 \vfill
-% \newpage\thispagestyle{empty} % only if the previous (last) page is odd %
+\newpage\thispagestyle{empty} % only if the previous (last) page is odd %
 \null\vfill  
 \end{document}
