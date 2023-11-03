@@ -1,0 +1,2612 @@
+[
+  {
+    "id": 1,
+    "prize": "Prix Italia - Second Prize",
+    "prize_abbr": "Prix Italia - Second Prize",
+    "target": "[\"radio art\",\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1949
+  },
+  {
+    "id": 2,
+    "prize": "Prix Italia - Third Prize",
+    "prize_abbr": "Prix Italia - Third Prize",
+    "target": "[\"radio art\",\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1949
+  },
+  {
+    "id": 3,
+    "prize": "Prix Italia",
+    "prize_abbr": "Prix Italia",
+    "target": "[\"radio art\",\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1949
+  },
+  {
+    "id": 4,
+    "prize": "Prix Italia for Musical Works with Text",
+    "prize_abbr": "Prix Italia Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1953
+  },
+  {
+    "id": 5,
+    "prize": "Prix Italia for Literary or Dramatic Works with or without Music",
+    "prize_abbr": "Prix Italia Dramatic Works",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1953
+  },
+  {
+    "id": 8,
+    "prize": "Italian Press Association Prize for Documentaries, Radioreportages, Magazines",
+    "prize_abbr": "Press Prize Documentary, Reportage, Magazine",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Press\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1953
+  },
+  {
+    "id": 6,
+    "prize": "Radio Italiana Prize for Musical Works with Text",
+    "prize_abbr": "RAI Prize Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1953
+  },
+  {
+    "id": 7,
+    "prize": "Radio Italiana Prize for Literary or Dramatic Works with or without Music",
+    "prize_abbr": "RAI Prize Dramatic Works",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1953
+  },
+  {
+    "id": 9,
+    "prize": "Radiotelevisione Italiana Prize for Musical Works with Text",
+    "prize_abbr": "RAI Prize Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1954
+  },
+  {
+    "id": 41,
+    "prize": "Radiotelevisione Italiana Prize for Literary or Dramatic Works with or without Music",
+    "prize_abbr": "RAI Prize Dramatic Works",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1954
+  },
+  {
+    "id": 13,
+    "prize": "Prix Taormina for Tv Documentary",
+    "prize_abbr": "Prix Taormina TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1957
+  },
+  {
+    "id": 11,
+    "prize": "Italian Press Association Prize for Radio Documentaries",
+    "prize_abbr": "Press Prize Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Press\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1957
+  },
+  {
+    "id": 12,
+    "prize": "Prix Italia for Television",
+    "prize_abbr": "Prix Italia Television",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1957
+  },
+  {
+    "id": 15,
+    "prize": "Prix Venezia for Tv Documentary",
+    "prize_abbr": "Prix Venezia TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1958
+  },
+  {
+    "id": 14,
+    "prize": "Human Rights Prize Offered by UNESCO",
+    "prize_abbr": "UNESCO Human Rights Prize",
+    "target": "[\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Unesco\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1958
+  },
+  {
+    "id": 18,
+    "prize": "Prix Sorrento for Tv Documentary",
+    "prize_abbr": "Prix Sorrento TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1959
+  },
+  {
+    "id": 16,
+    "prize": "Prix Italia for Television, Reserved to a Documentary Having the Form of a Telerecording of a Live Broadcast",
+    "prize_abbr": "Prix Italia TV Doc. Live Broadcast",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1959
+  },
+  {
+    "id": 17,
+    "prize": "Prix Italia for Television, Reserved to a Documentary Having the Form of a Film Production",
+    "prize_abbr": "Prix Italia TV Doc. Film Production",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1959
+  },
+  {
+    "id": 39,
+    "prize": "Prix Italia for Radiophonic Musical Works with Text",
+    "prize_abbr": "Prix Italia Radio Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1960
+  },
+  {
+    "id": 42,
+    "prize": "Prix Italia for Radiophonic Literary or Dramatic Works with or without Music",
+    "prize_abbr": "Prix Italia Radio Dramatic Works",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1960
+  },
+  {
+    "id": 21,
+    "prize": "Prix Trieste for Dramatic Works",
+    "prize_abbr": "Prix Trieste Dramatic Works",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1960
+  },
+  {
+    "id": 22,
+    "prize": "Prix Local Promotion Committee of Trieste for a Documentary",
+    "prize_abbr": "Prix Trieste Local Promotion TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1960
+  },
+  {
+    "id": 40,
+    "prize": "Radiotelevisione Italiana Prize for Radiophonic Musical Works with Text",
+    "prize_abbr": "RAI Prize Radio Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1960
+  },
+  {
+    "id": 10,
+    "prize": "Radiotelevisione Italiana Prize for Literary or Dramatic Radiophonic Works with or without Music",
+    "prize_abbr": "RAI Prize Dramatic Radio Works",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1960
+  },
+  {
+    "id": 19,
+    "prize": "Prix Italia for Television for Dramatic Works",
+    "prize_abbr": "Prix Italia TV Dramatic Works",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1960
+  },
+  {
+    "id": 20,
+    "prize": "Prix Italia for a Television Documentary",
+    "prize_abbr": "Prix Italia TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1960
+  },
+  {
+    "id": 26,
+    "prize": "Prix Pisa for Television for Musical Works",
+    "prize_abbr": "Prix Pisa TV Musical Works",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1961
+  },
+  {
+    "id": 27,
+    "prize": "Prix Pisa for Television for a Documentary",
+    "prize_abbr": "Prix Pisa TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1961
+  },
+  {
+    "id": 25,
+    "prize": "Prix Italia for Television for Musical Works",
+    "prize_abbr": "Prix Italia TV Musical Works",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1961
+  },
+  {
+    "id": 23,
+    "prize": "Prix Italia for Radiophonic Musical Works",
+    "prize_abbr": "Prix Italia Radio Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 29,
+    "prize": "Prix Italia for Stereophonic Musical Works with Text",
+    "prize_abbr": "Prix Italia Stereo Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 30,
+    "prize": "Prix Italia for Stereophonic Literary or Dramatic Works",
+    "prize_abbr": "Prix Italia Stereo Dramatic Works",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 31,
+    "prize": "Prix Italia for Radio Stereophonic Documentaries",
+    "prize_abbr": "Prix Italia Stereo Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 34,
+    "prize": "Prix Verona for Television for Original Dramatic Works",
+    "prize_abbr": "Prix Verona TV Dramatic Works",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 24,
+    "prize": "Radiotelevisione Italiana Prize for Radiophonic Musical Works",
+    "prize_abbr": "RAI Prize Radio Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 28,
+    "prize": "Prix \"East-West\" Offered by UNESCO for Literary or Dramatic or Documentary Radio Works with or without Music",
+    "prize_abbr": "UNESCO Prix \"East-West\"",
+    "target": "[\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Unesco\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 32,
+    "prize": "Prix Italia for Television for Original Musical Works",
+    "prize_abbr": "Prix Italia TV Musical Works",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 33,
+    "prize": "Prix Italia for Television for Original Dramatic Works with or without Music",
+    "prize_abbr": "Prix Italia TV Dramatic Works",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1962
+  },
+  {
+    "id": 35,
+    "prize": "Prix Italia for Radio Stereophonic Musical or Dramatic Works",
+    "prize_abbr": "Prix Italia Stereo Musical or Dramatic Works",
+    "target": "[\"radio art\",\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1963
+  },
+  {
+    "id": 36,
+    "prize": "Prix Naples for Television for Original Musical Works",
+    "prize_abbr": "Prix Naples TV Musical Works",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1963
+  },
+  {
+    "id": 38,
+    "prize": "Prix Genoa for Television for Original Dramatic Works",
+    "prize_abbr": "Prix Genoa TV Dramatic Works",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1964
+  },
+  {
+    "id": 37,
+    "prize": "Prix Italia for Television for Original Dramatic Work",
+    "prize_abbr": "Prix Italia TV Dramatic Work",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1964
+  },
+  {
+    "id": 43,
+    "prize": "Prix Florence for Television for a Documentary",
+    "prize_abbr": "Prix Florence TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1965
+  },
+  {
+    "id": 44,
+    "prize": "Prix Italia for Radiophonic Musical Works with Text or Novel Sound Elements",
+    "prize_abbr": "Prix Italia Radio Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1966
+  },
+  {
+    "id": 45,
+    "prize": "Prix Sicily Region for Television for Original Musical Works on the Occasion of the Twentieth Anniversary of Regional Autonomy",
+    "prize_abbr": "Prix Sicily TV Musical Works",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1966
+  },
+  {
+    "id": 46,
+    "prize": "Prix UNESCO for a Television Documentary on the occasion of the 20th Anniversary of the Foundation",
+    "prize_abbr": "Prix UNESCO TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Unesco\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1966
+  },
+  {
+    "id": 48,
+    "prize": "Prix Ravenna for Television for Original Dramatic Works",
+    "prize_abbr": "Prix Ravenna TV Dramatic Works",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1967
+  },
+  {
+    "id": 47,
+    "prize": "Radiotelevisione Italiana Prize for Radiophonic Musical Works with Text or Novel Sound Elements",
+    "prize_abbr": "RAI Prize Radio Musical Works",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1967
+  },
+  {
+    "id": 49,
+    "prize": "Prize for the 20th Anniversary for a Television Documentary",
+    "prize_abbr": "Prize 20th Anniversary TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Anniversary\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1968
+  },
+  {
+    "id": 257,
+    "prize": "Unda Special Prize",
+    "prize_abbr": "Unda Sp. Prize",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Signis\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1968
+  },
+  {
+    "id": 51,
+    "prize": "Prix Mantova for Television for Original Musical Works",
+    "prize_abbr": "Prix Mantova TV Musical Works",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1969
+  },
+  {
+    "id": 50,
+    "prize": "Prix Italia for Stereophonic Radio",
+    "prize_abbr": "Prix Italia Stereo Radio",
+    "target": "[\"radio art\",\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1970
+  },
+  {
+    "id": 52,
+    "prize": "Prix Florence for Television for Original Dramatic Works",
+    "prize_abbr": "Prix Florence TV Dramatic Works",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1970
+  },
+  {
+    "id": 53,
+    "prize": "Prix Italia for a Radio Work Where Music Plays a Decisive Role",
+    "prize_abbr": "Prix Italia Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1972
+  },
+  {
+    "id": 55,
+    "prize": "Prix Italia for a Radio Programme in Which the Text Plays the Dominant Part",
+    "prize_abbr": "Prix Italia Radio Programme with Text",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1972
+  },
+  {
+    "id": 54,
+    "prize": "Prix Torino for a Radio Work Where Music Plays a Decisive Role",
+    "prize_abbr": "Prix Torino Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1972
+  },
+  {
+    "id": 56,
+    "prize": "Radiotelevisione Italiana Prize for a Radio Work Where Text Plays a Decisive Role",
+    "prize_abbr": "RAI Prize Radio Programme with Text",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1972
+  },
+  {
+    "id": 58,
+    "prize": "Radiotelevisione Italiana Prize for a TV Work Where Music or Dance Plays a Decisive Role",
+    "prize_abbr": "RAI Prize TV Music or Dance",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1972
+  },
+  {
+    "id": 60,
+    "prize": "Radiotelevisione Italiana Prize for a TV Dramatic Work",
+    "prize_abbr": "RAI Prize TV Dramatic Work",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1972
+  },
+  {
+    "id": 57,
+    "prize": "Prix Italia Television for a TV Work Where Music or Dance Plays a Decisive Role",
+    "prize_abbr": "Prix Italia TV Music or Dance",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1972
+  },
+  {
+    "id": 59,
+    "prize": "Prix Italia for a Television Dramatic Programme",
+    "prize_abbr": "Prix Italia TV Dramatic Programme",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1972
+  },
+  {
+    "id": 63,
+    "prize": "Prix Italia for the 50th of the Radio, for a Work Where Radio Itself Is the Main Theme, Highlighting Its Specific Resources",
+    "prize_abbr": "Prix Italia 50th of the Radio",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Anniversary\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1973
+  },
+  {
+    "id": 64,
+    "prize": "Prix Venezia for a TV Work Where Music or Dance Plays a Decisive Role, That Stands Out for Specific Qualities Highlighted by the Jury",
+    "prize_abbr": "Prix Venezia TV Music or Dance",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1973
+  },
+  {
+    "id": 61,
+    "prize": "Radiotelevisione Italiana Prize for a Radio Programme in Which Music Plays the Dominant Part That Demonstrates Specific Qualities, These to Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1973
+  },
+  {
+    "id": 62,
+    "prize": "Radiotelevisione Italiana Prize for a Radio Programme in Which the Text Plays the Dominant Part That Demonstrates Specific Qualities, These to Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize Radio Programme with Text",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1973
+  },
+  {
+    "id": 65,
+    "prize": "Radiotelevisione Italiana Prize for a TV Dramatic Programme That Demonstrates Specific Qualities, These to Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize TV Dramatic Programme",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1973
+  },
+  {
+    "id": 66,
+    "prize": "Prix Italia for a Radio Documentary",
+    "prize_abbr": "Prix Italia Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1974
+  },
+  {
+    "id": 69,
+    "prize": "Prix Florence for a Television Documentary That Demonstrates Specific Qualities, These to Be Recorded by the Jury",
+    "prize_abbr": "Prix Florence TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1974
+  },
+  {
+    "id": 67,
+    "prize": "Italian Press Association Prize for a Radio Documentary That Demonstrates Specific Qualities, These to Be Recorded by the Jury",
+    "prize_abbr": "Press Prize Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Press\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1974
+  },
+  {
+    "id": 68,
+    "prize": "Radiotelevisione Italiana Prize for a TV Programme Where Music or Ballet Plays the Dominant Part That Demonstrates Specific Qualities, These to Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize TV Music or Ballet",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1974
+  },
+  {
+    "id": 70,
+    "prize": "Prix Italia for Radio Music Awarded to a Programme for Its Overall Excellence",
+    "prize_abbr": "Prix Italia Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 72,
+    "prize": "Prix Italia for Radio Drama Awarded to a Programme for Its Overall Excellence",
+    "prize_abbr": "Prix Italia Radio Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 75,
+    "prize": "Prix Italia for Radio Documentaries Awarded to a Programme for Its Overall Excellence",
+    "prize_abbr": "Prix Italia Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 81,
+    "prize": "Florence City Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Florence Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 74,
+    "prize": "Italian Press Association Prize for Radio Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Press Prize Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Press\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 71,
+    "prize": "RAI Prize for Radio Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 73,
+    "prize": "RAI Prize for Radio Drama Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize Radio Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 77,
+    "prize": "RAI Prize for TV Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 79,
+    "prize": "RAI Prize for TV Drama Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize TV Drama",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 76,
+    "prize": "Prix Italia for TV Music Awarded to a Programme for Its Overall Excellence",
+    "prize_abbr": "Prix Italia TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 78,
+    "prize": "Prix Italia for TV Drama Awarded to a Programme for Its Overall Excellence",
+    "prize_abbr": "Prix Italia TV Drama",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 80,
+    "prize": "Prix Italia for TV Documentaries Awarded to a Programme for Its Overall Excellence",
+    "prize_abbr": "Prix Italia TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1975
+  },
+  {
+    "id": 82,
+    "prize": "Bologna City Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Bologna Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1976
+  },
+  {
+    "id": 83,
+    "prize": "Regione Veneto Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Veneto Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1977
+  },
+  {
+    "id": 84,
+    "prize": "Regione Lombardia Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Lombardia Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1978
+  },
+  {
+    "id": 85,
+    "prize": "Regione Puglia Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Puglia Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1979
+  },
+  {
+    "id": 86,
+    "prize": "Provincia Autonoma di Trento Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Provincia di Trento Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1980
+  },
+  {
+    "id": 87,
+    "prize": "Regione Toscana Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Toscana Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1981
+  },
+  {
+    "id": 104,
+    "prize": "Prix Italia for Radio Music Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 112,
+    "prize": "Prix Italia for Radio Drama Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia Radio Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 106,
+    "prize": "Prix Italia for Radio Documentaries Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 88,
+    "prize": "Gian Franco Zaffrani Prize for Radio Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Gian Franco Zaffrani Prize Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\",\"Memorial\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 89,
+    "prize": "Special Prize for Radio Drama Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize Radio Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 90,
+    "prize": "Special Prize for TV Drama Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize TV Drama",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 108,
+    "prize": "Prix Italia for TV Music Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 113,
+    "prize": "Prix Italia for TV Drama Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia TV Drama",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 111,
+    "prize": "Prix Italia for TV Documentaries Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1982
+  },
+  {
+    "id": 91,
+    "prize": "Regione Campania Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Campania Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1983
+  },
+  {
+    "id": 92,
+    "prize": "International Critics Prize for a Radio Programme",
+    "prize_abbr": "International Critics Prize Radio",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1983
+  },
+  {
+    "id": 93,
+    "prize": "International Critics Prize for a TV Programme",
+    "prize_abbr": "International Critics Prize TV",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1983
+  },
+  {
+    "id": 94,
+    "prize": "Regione Friuli-Venezia Giulia Prize for TV Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Friuli-Venezia Giulia Prize TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1984
+  },
+  {
+    "id": 95,
+    "prize": "Villy De Luca Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Villy De Luca Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Memorial\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1984
+  },
+  {
+    "id": 96,
+    "prize": "Regione Sardegna Prize for TV Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Sardegna Prize TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1985
+  },
+  {
+    "id": 105,
+    "prize": "Prix Italia for Radio Fiction Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia Radio Fiction",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1986
+  },
+  {
+    "id": 102,
+    "prize": "Special Prize for a TV Programme on Ecology",
+    "prize_abbr": "Sp. Prize TV Programme on Ecology",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Ecology\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 1986
+  },
+  {
+    "id": 99,
+    "prize": "Regione Toscana Prize for TV Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Toscana Prize TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1986
+  },
+  {
+    "id": 101,
+    "prize": "RAI Prize for TV Fiction Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "RAI Prize TV Fiction",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"RAI\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 1986
+  },
+  {
+    "id": 98,
+    "prize": "Special Prize for Radio Fiction Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize Radio Fiction",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1986
+  },
+  {
+    "id": 103,
+    "prize": "Italian Prime Minister’s Office Special Prize for a TV Programme Drawn From a Published Book",
+    "prize_abbr": "Prime Minister Sp. Prize TV Programme from a Book",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1986
+  },
+  {
+    "id": 110,
+    "prize": "Prix Italia for TV Fiction Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia TV Fiction",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1986
+  },
+  {
+    "id": 107,
+    "prize": "Special Prize for a Radio Programme on Ecology",
+    "prize_abbr": "Sp. Prize Radio Programme on Ecology",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Ecology\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 1987
+  },
+  {
+    "id": 109,
+    "prize": "Regione Veneto Prize for TV Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Veneto Prize TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1987
+  },
+  {
+    "id": 114,
+    "prize": "Special Interdisciplinary Prize for the 40th Anniversary of Prix Italia for the Radio Programme Having the Most Innovative Qualities",
+    "prize_abbr": "Sp. Interdisciplinary Prize 40th Prix Italia, Radio",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Anniversary\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1988
+  },
+  {
+    "id": 117,
+    "prize": "Special Interdisciplinary Prize for the 40th Anniversary of Prix Italia for the TV Programme Having the Most Innovative Qualities",
+    "prize_abbr": "Sp. Interdisciplinary Prize 40th Prix Italia, TV",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Anniversary\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1988
+  },
+  {
+    "id": 116,
+    "prize": "Regione Campania Prize for TV Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Campania Prize TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1988
+  },
+  {
+    "id": 115,
+    "prize": "National Order of Journalists and Italian Press Association Prize for Radio Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Press Prize Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Press\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1988
+  },
+  {
+    "id": 118,
+    "prize": "Regione Umbria Prize for TV Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Regione Umbria Prize TV Music",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\",\"Host City\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1989
+  },
+  {
+    "id": 121,
+    "prize": "Regione Sicilia Prize for a Radio Ecology Programme",
+    "prize_abbr": "Regione Sicilia Prize Radio Ecology",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Ecology\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 126,
+    "prize": "Regione Sicilia Prize for a TV Ecology Programme",
+    "prize_abbr": "Regione Sicilia Prize TV Ecology",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Ecology\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 127,
+    "prize": "Presidents' Prize",
+    "prize_abbr": "Presidents' Prize",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 119,
+    "prize": "Special Prize for Radio Music Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 120,
+    "prize": "Special Prize for Radio Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 123,
+    "prize": "Special Prize for TV Arts: Music, Ballet, Poetry, Figurative Arts, Etc. Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize TV Arts",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 124,
+    "prize": "Special Prize for TV Fiction Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize TV Fiction",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 125,
+    "prize": "Special Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 122,
+    "prize": "Prix Italia for TV Arts: Music, Ballet, Poetry, Figurative Arts, Etc. Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia TV Arts",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1990
+  },
+  {
+    "id": 128,
+    "prize": "Prix Italia for Radio Credits and Title Sequences for the Author of the Best Credit and Title Sequence Submitted",
+    "prize_abbr": "Prix Italia Radio Credits",
+    "target": "[\"radio other\"]",
+    "kind": "[\"Radio\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1991
+  },
+  {
+    "id": 129,
+    "prize": "Special Prize for Radio Credits and Title Sequence for the Organization Having Submitted the Best Credits and Title Sequence as a Whole",
+    "prize_abbr": "Sp. Prize Radio Credits",
+    "target": "[\"radio other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1991
+  },
+  {
+    "id": 131,
+    "prize": "Special Prize for TV Credits and Title Sequences for the Organization Having Submitted the Best Credits and Title Sequences as a Whole",
+    "prize_abbr": "Sp. Prize TV Credits",
+    "target": "[\"tv other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1991
+  },
+  {
+    "id": 130,
+    "prize": "Prix Italia for TV Credits and Title Sequences for the Authors of the Best Credit and Title Sequence Submitted",
+    "prize_abbr": "Prix Italia TV Credits",
+    "target": "[\"tv other\"]",
+    "kind": "[\"Tv\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1991
+  },
+  {
+    "id": 132,
+    "prize": "Prix Italia for Radio Title Sequences for the Best Title Sequence of Presentation of a Programmes or of a Series of Programmes",
+    "prize_abbr": "Prix Italia Radio Title Sequences",
+    "target": "[\"radio other\"]",
+    "kind": "[\"Radio\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1992
+  },
+  {
+    "id": 137,
+    "prize": "Special Prize for Radio Title Sequences for the Best Title Sequence of Presentation of a Channel",
+    "prize_abbr": "Sp. Prize Radio Title Sequences",
+    "target": "[\"radio other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1992
+  },
+  {
+    "id": 134,
+    "prize": "Special Prize for TV Music and Arts Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
+    "prize_abbr": "Sp. Prize TV Music and Arts",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1992
+  },
+  {
+    "id": 136,
+    "prize": "Special Prize for TV Title Sequences for the Best Title Sequence of Presentation of a Channel",
+    "prize_abbr": "Sp. Prize TV Title Sequences",
+    "target": "[\"tv other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1992
+  },
+  {
+    "id": 133,
+    "prize": "Prix Italia for TV Music and Arts Awarded to a Programme Considered the Best for Its Overall Qualities",
+    "prize_abbr": "Prix Italia TV Music and Arts",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1992
+  },
+  {
+    "id": 135,
+    "prize": "Prix Italia for TV Title Sequences for the Best Title Sequence of Presentation of a Programme or of a Series of Programmes",
+    "prize_abbr": "Prix Italia TV Title Sequences",
+    "target": "[\"tv other\"]",
+    "kind": "[\"Tv\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1992
+  },
+  {
+    "id": 253,
+    "prize": "European Festival of Televised Theatre - Prize for the Best Realization",
+    "prize_abbr": "European Festival TV Theatre - Realization",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 1993
+  },
+  {
+    "id": 254,
+    "prize": "European Festival of Televised Theatre - Prize for the Best Contemporary Script",
+    "prize_abbr": "European Festival TV Theatre - Script",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 1993
+  },
+  {
+    "id": 255,
+    "prize": "European Festival of Televised Theatre - Prize for the Best Actor",
+    "prize_abbr": "European Festival TV Theatre - Actor",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 1993
+  },
+  {
+    "id": 256,
+    "prize": "European Festival of Televised Theatre - Prize for the Best Actress",
+    "prize_abbr": "European Festival TV Theatre - Actress",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 1993
+  },
+  {
+    "id": 138,
+    "prize": "Special Prize for Radio Music Awarded to a Programme for One or More Specific Qualities",
+    "prize_abbr": "Sp. Prize Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1995
+  },
+  {
+    "id": 139,
+    "prize": "Special Prize for Radio Fiction Awarded to a Programme for One or More Specific Qualities",
+    "prize_abbr": "Sp. Prize Radio Fiction",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1995
+  },
+  {
+    "id": 140,
+    "prize": "Special Prize for Radio Documentaries Awarded to a Programme for One or More Specific Qualities",
+    "prize_abbr": "Sp. Prize Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1995
+  },
+  {
+    "id": 141,
+    "prize": "Special Prize for TV Music and Arts Awarded to a Programme for One or More Specific Qualities",
+    "prize_abbr": "Sp. Prize TV Music and Arts",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1995
+  },
+  {
+    "id": 142,
+    "prize": "Special Prize for TV Fiction Awarded to a Programme for One or More Specific Qualities",
+    "prize_abbr": "Sp. Prize TV Fiction",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1995
+  },
+  {
+    "id": 143,
+    "prize": "Special Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities",
+    "prize_abbr": "Sp. Prize TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1995
+  },
+  {
+    "id": 144,
+    "prize": "Unda Dove Prize",
+    "prize_abbr": "Unda Dove Prize",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Signis\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 1997
+  },
+  {
+    "id": 145,
+    "prize": "Prix Italia for Radio Performing Arts",
+    "prize_abbr": "Prix Italia Radio Performing Arts",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 146,
+    "prize": "Prix Italia for Radio Fiction, Single Plays",
+    "prize_abbr": "Prix Italia Radio Fiction, Single Plays",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 147,
+    "prize": "Prix Italia for Radio Fiction, Serials",
+    "prize_abbr": "Prix Italia Radio Fiction, Serials",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 148,
+    "prize": "Prix Italia for Radio Documentary, Cultural",
+    "prize_abbr": "Prix Italia Radio Documentary, Cultural",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 149,
+    "prize": "Prix Italia for Radio Documentary, Factual",
+    "prize_abbr": "Prix Italia Radio Documentary, Factual",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 155,
+    "prize": "Special Web Prize for Radio",
+    "prize_abbr": "Web Sp. Prize Radio",
+    "target": "[\"web art\",\"web fiction\",\"web nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 156,
+    "prize": "Special Web Prize for TV",
+    "prize_abbr": "Web Sp. Prize TV",
+    "target": "[\"web art\",\"web fiction\",\"web nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 150,
+    "prize": "Prix Italia for TV Performing Arts",
+    "prize_abbr": "Prix Italia TV Performing Arts",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 151,
+    "prize": "Prix Italia for TV Fiction, Single Plays",
+    "prize_abbr": "Prix Italia TV Fiction, Single Plays",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 152,
+    "prize": "Prix Italia for TV Fiction, Serials",
+    "prize_abbr": "Prix Italia TV Fiction, Serials",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 153,
+    "prize": "Prix Italia for TV Documentary, Cultural",
+    "prize_abbr": "Prix Italia TV Documentary, Cultural",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 154,
+    "prize": "Prix Italia for TV Documentary, Factual",
+    "prize_abbr": "Prix Italia TV Documentary, Factual",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
+    "id": 158,
+    "prize": "Prix Italia for Radio Music",
+    "prize_abbr": "Prix Italia Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 1999
+  },
+  {
+    "id": 162,
+    "prize": "Special Web Prize for Usability",
+    "prize_abbr": "Web Sp. Prize Usability",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1999
+  },
+  {
+    "id": 163,
+    "prize": "Special Web Prize for Quality of Content",
+    "prize_abbr": "Web Sp. Prize Quality of Content",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1999
+  },
+  {
+    "id": 164,
+    "prize": "Special Web Prize for Technological Innovation",
+    "prize_abbr": "Web Sp. Prize Technological Innovation",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1999
+  },
+  {
+    "id": 165,
+    "prize": "Special Jury Award for Web",
+    "prize_abbr": "Web Sp. Jury Award",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1999
+  },
+  {
+    "id": 160,
+    "prize": "Euro Prize for the Best Radio Campaign",
+    "prize_abbr": "Euro Prize Best Radio Campaign",
+    "target": "[\"radio other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1999
+  },
+  {
+    "id": 159,
+    "prize": "Euro Prize for the Best Television Campaign",
+    "prize_abbr": "Euro Prize Best TV Campaign",
+    "target": "[\"tv other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1999
+  },
+  {
+    "id": 161,
+    "prize": "Euro Special Prize for the Best Television Campaign of a Country That Has Not Yet Adopted the Euro",
+    "prize_abbr": "Euro Sp. Prize Best TV Campaign, Non-Euro Country",
+    "target": "[\"tv other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 1999
+  },
+  {
+    "id": 169,
+    "prize": "Web Special Prize for Internet-TV and Webcasting",
+    "prize_abbr": "Web Sp. Prize Internet-TV",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2000
+  },
+  {
+    "id": 167,
+    "prize": "Prix Italia for Broadcasters Websites",
+    "prize_abbr": "Prix Italia Broadcasters Websites",
+    "target": "[\"web art\",\"web fiction\",\"web nonfiction\",\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2000
+  },
+  {
+    "id": 166,
+    "prize": "Prix Italia for Broadcasters Portals",
+    "prize_abbr": "Prix Italia Broadcasters Portals",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2000
+  },
+  {
+    "id": 168,
+    "prize": "Prix Italia for Enhanced TV",
+    "prize_abbr": "Prix Italia Enhanced TV",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2000
+  },
+  {
+    "id": 186,
+    "prize": "Prix Italia for Radio Single Drama",
+    "prize_abbr": "Prix Italia Radio Single Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 187,
+    "prize": "Prix Italia for Radio Drama Serials and Series",
+    "prize_abbr": "Prix Italia Radio Drama Serials and Series",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 170,
+    "prize": "Prix Italia for Radio Documentary, Current Affairs",
+    "prize_abbr": "Prix Italia Radio Doc. Current Affairs",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 177,
+    "prize": "Granarolo Special Prize \"Communication for Life\"",
+    "prize_abbr": "Granarolo Sp. Prize \"Communication for Life\"",
+    "target": "[\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Granarolo\"]",
+    "operation": "[\"mixed\",\"external\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 178,
+    "prize": "Cardine Special Prize \"Economy, Money, Savings\"",
+    "prize_abbr": "Cardine Sp. Prize \"Economy, Money, Savings\"",
+    "target": "[\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 179,
+    "prize": "RAI - FAO Special Prize",
+    "prize_abbr": "RAI - FAO Sp. Prize",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 171,
+    "prize": "Prix Italia for TV Single Drama",
+    "prize_abbr": "Prix Italia TV Single Drama",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 172,
+    "prize": "Prix Italia for TV Drama Serials and Series",
+    "prize_abbr": "Prix Italia TV Drama Serials and Series",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 173,
+    "prize": "Prix Italia for TV Documentary, Current Affairs",
+    "prize_abbr": "Prix Italia TV Doc. Current Affairs",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 174,
+    "prize": "Prix Italia for Web, Drama and Arts",
+    "prize_abbr": "Prix Italia Web, Drama and Arts",
+    "target": "[\"web art\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 175,
+    "prize": "Prix Italia for Web, Culture and Society",
+    "prize_abbr": "Prix Italia Web, Culture and Society",
+    "target": "[\"web fiction\",\"web nonfiction\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 176,
+    "prize": "Prix Italia for Web, News and Current Affairs",
+    "prize_abbr": "Prix Italia Web, News and Current Affairs",
+    "target": "[\"web nonfiction\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2001
+  },
+  {
+    "id": 183,
+    "prize": "Prix Italia for Radio Music, Composed Work",
+    "prize_abbr": "Prix Italia Radio Music, Composed Work",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 184,
+    "prize": "Prix Italia for Radio Music, Work about Music",
+    "prize_abbr": "Prix Italia Radio Music, Work about Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 188,
+    "prize": "Prix Italia for Original Radio Drama",
+    "prize_abbr": "Prix Italia Radio Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 189,
+    "prize": "Prix Italia for Adapted Radio Drama",
+    "prize_abbr": "Prix Italia Adapted Radio Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 190,
+    "prize": "Prix Italia for Radio Documentary, Cultural and General Interest",
+    "prize_abbr": "Prix Italia Radio Doc. Cultural and General Interest",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 185,
+    "prize": "Signis Award",
+    "prize_abbr": "Signis Award",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Signis\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 191,
+    "prize": "Prix Italia for TV Music and Arts Documentaries",
+    "prize_abbr": "Prix Italia TV Music and Arts Documentary",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 192,
+    "prize": "Prix Italia for TV Movies and Mini-Series",
+    "prize_abbr": "Prix Italia TV Movies and Mini-Series",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 193,
+    "prize": "Prix Italia for TV Documentary, Cultural and General Interest",
+    "prize_abbr": "Prix Italia TV Doc. Cultural and General Interest",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 180,
+    "prize": "Prix Italia for Web, Specific Content Area",
+    "prize_abbr": "Prix Italia Web, Specific Content Area",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 181,
+    "prize": "Prix Italia for Web, Digital Communication",
+    "prize_abbr": "Prix Italia Web, Digital Communication",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 182,
+    "prize": "Prix Italia for Web, Cross Media",
+    "prize_abbr": "Prix Italia Web, Cross Media",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2002
+  },
+  {
+    "id": 197,
+    "prize": "Quirinale Special Prize",
+    "prize_abbr": "Quirinale Sp. Prize",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2004
+  },
+  {
+    "id": 252,
+    "prize": "Bicocca Students' Jury Prize",
+    "prize_abbr": "Bicocca Students' Jury Prize",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"Students\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2005
+  },
+  {
+    "id": 194,
+    "prize": "Prix Italia for Web",
+    "prize_abbr": "Prix Italia Web",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2005
+  },
+  {
+    "id": 195,
+    "prize": "Prix Italia for Radio Documentary, for Its Overall Qualities",
+    "prize_abbr": "Prix Italia Radio Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2006
+  },
+  {
+    "id": 196,
+    "prize": "Special Prize for a Radio Documentary, for Extraordinary Originality",
+    "prize_abbr": "Sp. Prize Radio Doc. Extraordinary Originality",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2006
+  },
+  {
+    "id": 198,
+    "prize": "Special Prize \"Communication for Life\"",
+    "prize_abbr": "Sp. Prize \"Communication for Life\"",
+    "target": "[\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Granarolo\"]",
+    "operation": "[\"mixed\",\"external\"]",
+    "present": 0,
+    "first_year": 2007
+  },
+  {
+    "id": 199,
+    "prize": "Ministry of Rights and Equal Opportunities Special Prize",
+    "prize_abbr": "Ministry of Rights and Equal Opportunities Sp. Prize",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2007
+  },
+  {
+    "id": 200,
+    "prize": "Special Prize \"Creativity in High Definition\"",
+    "prize_abbr": "Sp. Prize \"Creativity in High Definition\"",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2008
+  },
+  {
+    "id": 201,
+    "prize": "Prix Italia for Web, Best Cross Media Public Service",
+    "prize_abbr": "Prix Italia Web, Cross Media Public Service",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2008
+  },
+  {
+    "id": 202,
+    "prize": "Prix Italia for Web, Empowering Audiences",
+    "prize_abbr": "Prix Italia Web, Empowering Audiences",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2008
+  },
+  {
+    "id": 206,
+    "prize": "Signis Special Prize",
+    "prize_abbr": "Signis Sp. Prize",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Signis\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2009
+  },
+  {
+    "id": 203,
+    "prize": "Special Prize \"Programmes That Effect Social Change\"",
+    "prize_abbr": "Sp. Prize \"Programmes That Effect Social Change\"",
+    "target": "[\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2009
+  },
+  {
+    "id": 204,
+    "prize": "Prix Italia for Web, Best Public Service Site",
+    "prize_abbr": "Prix Italia Web, Public Service",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2009
+  },
+  {
+    "id": 205,
+    "prize": "Prix Italia for Web, Best Cross Media Special Event Site",
+    "prize_abbr": "Prix Italia Web, Cross Media Special Event",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2009
+  },
+  {
+    "id": 209,
+    "prize": "Special Prize Italia 150 - Italy through the Eyes of the World",
+    "prize_abbr": "Sp. Prize Italia 150",
+    "target": "[\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Anniversary\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2010
+  },
+  {
+    "id": 210,
+    "prize": "Special Prize of the Students' Jury, TV Movies and Mini-Series",
+    "prize_abbr": "Students' Jury Sp. Prize TV Movies and Mini-Series",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"Students\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2010
+  },
+  {
+    "id": 211,
+    "prize": "Special Prize of the Students' Jury, TV Drama Serials and Series",
+    "prize_abbr": "Students' Jury Sp. Prize TV Drama Serials and Series",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Special Prize\",\"Students\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2010
+  },
+  {
+    "id": 207,
+    "prize": "Prix Italia for Web, User Generated Content",
+    "prize_abbr": "Prix Italia Web, User Generated Content",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2010
+  },
+  {
+    "id": 208,
+    "prize": "Prix Italia for Web, Interactive Website Linked to a Radio or TV Programme",
+    "prize_abbr": "Prix Italia Web, Interactive Website",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2010
+  },
+  {
+    "id": 215,
+    "prize": "Cup of the President of the Italian Republic (Awarded to a Radio Programme That Has Dealt with Highly Topical Interests)",
+    "prize_abbr": "Cup of the President of the Italian Republic",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2011
+  },
+  {
+    "id": 213,
+    "prize": "Special Prize of the Students' Jury, TV Documentary, Cultural and General Interest",
+    "prize_abbr": "Students' Jury Sp. Prize TV Doc. Cultural and General Interest",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Students\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2011
+  },
+  {
+    "id": 214,
+    "prize": "Special Prize of the Students' Jury, TV Documentary, Current Affairs",
+    "prize_abbr": "Students' Jury Sp. Prize TV Doc. Current Affairs",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Students\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2011
+  },
+  {
+    "id": 212,
+    "prize": "Special Prize \"Best Multimedia Section of Newspapers, Magazines and Press Agencies\"",
+    "prize_abbr": "Sp. Prize \"Best Multimedia Section\"",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Students\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 2011
+  },
+  {
+    "id": 217,
+    "prize": "Special Prize Expo 2015 \"Feeding the Planet, Energy for Life\"",
+    "prize_abbr": "Sp. Prize Expo 2015",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Expo2015\"]",
+    "operation": "[\"mixed\",\"external\"]",
+    "present": 0,
+    "first_year": 2012
+  },
+  {
+    "id": 225,
+    "prize": "Special Prize of the President of the Italian Republic (Awarded to a Radio Programme That Has Dealt with Highly Topical Interests)",
+    "prize_abbr": "Sp. Prize President of the Italian Republic",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2012
+  },
+  {
+    "id": 216,
+    "prize": "Prix Italia for Web, New Content and Technologies for the Multiscreen Television",
+    "prize_abbr": "Prix Italia Web, Multiscreen TV",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2012
+  },
+  {
+    "id": 218,
+    "prize": "Special Prize Expo 2015 \"Feeding the Planet, Energy for Life\" - Prix Italia Members",
+    "prize_abbr": "Sp. Prize Expo 2015 - Prix Italia Members",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Expo2015\"]",
+    "operation": "[\"mixed\",\"external\"]",
+    "present": 0,
+    "first_year": 2013
+  },
+  {
+    "id": 219,
+    "prize": "Special Prize Expo 2015 \"Feeding the Planet, Energy for Life\" - COPEAM Broadcasters",
+    "prize_abbr": "Sp. Prize Expo 2015 - COPEAM Broadcasters",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Expo2015\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 2013
+  },
+  {
+    "id": 220,
+    "prize": "Special Prize \"Best Multimedia Section Posted Online by Producers of Artistic and Cultural Subjects\"",
+    "prize_abbr": "Sp. Prize \"Best Multimedia Section\"",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Students\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 2013
+  },
+  {
+    "id": 226,
+    "prize": "Special Prixe Expo 2015 \"Feeding the Planet, Energy for Life\" - Young Independent Film-Makers",
+    "prize_abbr": "Sp. Prixe Expo 2015 - Young Independent Film-Makers",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Expo2015\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 2014
+  },
+  {
+    "id": 224,
+    "prize": "Special Prize of the President of the Italian Republic (Best TV Spot, Broadcast by Rai Dealing with a Social Issue)",
+    "prize_abbr": "Sp. Prize President of the Italian Republic",
+    "target": "[\"tv other\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2014
+  },
+  {
+    "id": 223,
+    "prize": "Special Prize for an Outstanding Innovative/Creative Web Project",
+    "prize_abbr": "Sp. Prize Outstanding Innovative/Creative Web Project",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": "[\"selection\",\"internal\"]",
+    "present": 0,
+    "first_year": 2014
+  },
+  {
+    "id": 221,
+    "prize": "Prix Italia for Web, Best Trans-Media Experience Targeting a Young Adult Public",
+    "prize_abbr": "Prix Italia Web, Best Trans-Media for Young Adult Public",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2014
+  },
+  {
+    "id": 222,
+    "prize": "Prix Italia for Web, Best Digital Storytelling",
+    "prize_abbr": "Prix Italia Web, Best Digital Storytelling",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2014
+  },
+  {
+    "id": 228,
+    "prize": "Prix Italia for Radio Music, Programme about Any Kind of Music Attracting a Broader Audience",
+    "prize_abbr": "Prix Italia Radio Music Attracting a Broader Audience",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2015
+  },
+  {
+    "id": 229,
+    "prize": "Prix Italia for Radio Documentary and Reportage - Documentary",
+    "prize_abbr": "Prix Italia Radio Doc. and Reportage - Documentary",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2015
+  },
+  {
+    "id": 230,
+    "prize": "Prix Italia for Radio Documentary and Reportage - Reportage",
+    "prize_abbr": "Prix Italia Radio Doc. and Reportage - Reportage",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2015
+  },
+  {
+    "id": 232,
+    "prize": "Special Prixe Expo 2015 \"Feeding the Planet, Energy for Life\" - Young Talents \"A Day at Expo\"",
+    "prize_abbr": "Sp. Prixe Expo 2015 - Young Talents",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Expo2015\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 2015
+  },
+  {
+    "id": 231,
+    "prize": "Special Prize of the President of the Italian Republic (Awarded to the Best Radio or TV Programme That Best Celebrates the Important Role of Women)",
+    "prize_abbr": "Sp. Prize President of the Italian Republic",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\",\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2015
+  },
+  {
+    "id": 233,
+    "prize": "Golden Award for New Radio Formats",
+    "prize_abbr": "Golden Award New Radio Formats",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": "[\"mixed\",\"external\"]",
+    "present": 0,
+    "first_year": 2015
+  },
+  {
+    "id": 234,
+    "prize": "Golden Award for International TV Coproductions",
+    "prize_abbr": "Golden Award TV Coproductions",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": "[\"mixed\",\"external\"]",
+    "present": 0,
+    "first_year": 2015
+  },
+  {
+    "id": 227,
+    "prize": "Prix Italia for Web, Best Trans-Media Experience",
+    "prize_abbr": "Prix Italia Web, Best Trans-Media",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2015
+  },
+  {
+    "id": 235,
+    "prize": "Prix Italia for Radio Music",
+    "prize_abbr": "Prix Italia Radio Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2016
+  },
+  {
+    "id": 236,
+    "prize": "Prix Italia for Radio Drama",
+    "prize_abbr": "Prix Italia Radio Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2016
+  },
+  {
+    "id": 237,
+    "prize": "Prix Italia for Radio Documentary and Reportage",
+    "prize_abbr": "Prix Italia Radio Doc. and Reportage",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2016
+  },
+  {
+    "id": 242,
+    "prize": "Special Prize of the President of the Italian Republic",
+    "prize_abbr": "Sp. Prize President of the Italian Republic",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\",\"tv art\",\"tv fiction\",\"tv nonfiction\",\"web other\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 1,
+    "first_year": 2016
+  },
+  {
+    "id": 244,
+    "prize": "Signis Special Prize",
+    "prize_abbr": "Signis Sp. Prize",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Signis\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 1,
+    "first_year": 2016
+  },
+  {
+    "id": 243,
+    "prize": "MIUR Prize",
+    "prize_abbr": "MIUR Prize",
+    "target": "[\"tv other\"]",
+    "kind": "[\"Special Prize\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2016
+  },
+  {
+    "id": 238,
+    "prize": "Prix Italia for TV Performing Arts",
+    "prize_abbr": "Prix Italia TV Performing Arts",
+    "target": "[\"tv art\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2016
+  },
+  {
+    "id": 239,
+    "prize": "Prix Italia for TV Drama",
+    "prize_abbr": "Prix Italia TV Drama",
+    "target": "[\"tv fiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2016
+  },
+  {
+    "id": 240,
+    "prize": "Prix Italia for TV Documentary",
+    "prize_abbr": "Prix Italia TV Documentary",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Tv\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2016
+  },
+  {
+    "id": 241,
+    "prize": "Prix Italia for Web",
+    "prize_abbr": "Prix Italia Web",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2016
+  },
+  {
+    "id": 247,
+    "prize": "Cross-Platform Special Prize",
+    "prize_abbr": "Cross-Platform Sp. Prize",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Web-related\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2018
+  },
+  {
+    "id": 245,
+    "prize": "Prix Italia for Web Factual",
+    "prize_abbr": "Prix Italia Web Factual",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2018
+  },
+  {
+    "id": 246,
+    "prize": "Prix Italia for Web Entertainment",
+    "prize_abbr": "Prix Italia Web Entertainment",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2018
+  },
+  {
+    "id": 248,
+    "prize": "Students' Jury Special Prize",
+    "prize_abbr": "Students' Jury Sp. Prize",
+    "target": "[\"web other\"]",
+    "kind": "[\"Special Prize\",\"Web-related\",\"Students\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2019
+  },
+  {
+    "id": 249,
+    "prize": "Prix Italia for Web Fiction",
+    "prize_abbr": "Prix Italia Web Fiction",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2020
+  },
+  {
+    "id": 250,
+    "prize": "Prix Italia for Web Interactive",
+    "prize_abbr": "Prix Italia Web Interactive",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 0,
+    "first_year": 2020
+  },
+  {
+    "id": 251,
+    "prize": "Prix Italia - Ifad - Copeam Special Prize",
+    "prize_abbr": "Prix Italia - Ifad - Copeam Sp. Prize",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\",\"tv art\",\"tv fiction\",\"tv nonfiction\",\"web other\"]",
+    "kind": "[\"Special Prize\",\"Ifad Copeam\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2022
+  },
+  {
+    "id": 258,
+    "prize": "Prix Italia for Radio & Podcast Music",
+    "prize_abbr": "Prix Italia Radio & Podcast Music",
+    "target": "[\"radio art\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2023
+  },
+  {
+    "id": 259,
+    "prize": "Prix Italia for Radio & Podcast Drama",
+    "prize_abbr": "Prix Italia Radio & Podcast Drama",
+    "target": "[\"radio fiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2023
+  },
+  {
+    "id": 260,
+    "prize": "Prix Italia for Radio & Podcast Documentary and Reportage",
+    "prize_abbr": "Prix Italia Radio & Podcast Doc. and Reportage",
+    "target": "[\"radio nonfiction\"]",
+    "kind": "[\"Radio\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2023
+  },
+  {
+    "id": 264,
+    "prize": "Prix Italia - Ifad - Copeam Special Prize",
+    "prize_abbr": "Prix Italia - Ifad - Copeam Sp. Prize",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\",\"tv art\",\"tv fiction\",\"tv nonfiction\",\"web other\"]",
+    "kind": "[\"Special Prize\",\"Ifad Copeam\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 1,
+    "first_year": 2023
+  },
+  {
+    "id": 261,
+    "prize": "Prix Italia for Digital Fiction",
+    "prize_abbr": "Prix Italia Digital Fiction",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2023
+  },
+  {
+    "id": 262,
+    "prize": "Prix Italia for Digital Interactive",
+    "prize_abbr": "Prix Italia Digital Interactive",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2023
+  },
+  {
+    "id": 263,
+    "prize": "Prix Italia for Digital Factual",
+    "prize_abbr": "Prix Italia Digital Factual",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2023
+  }
+]

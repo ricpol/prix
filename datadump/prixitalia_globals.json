@@ -1,0 +1,37 @@
+[
+  {
+    "globkey": "version",
+    "globvalue": "1",
+    "note": "Version number of the data set."
+  },
+  {
+    "globkey": "vdate",
+    "globvalue": "2023-10-31",
+    "note": "Version date of the data set."
+  },
+  {
+    "globkey": "author",
+    "globvalue": "Riccardo Polignieri",
+    "note": "Main author."
+  },
+  {
+    "globkey": "winbook_version",
+    "globvalue": "1",
+    "note": "Version release of the last published winners book (the silver book)."
+  },
+  {
+    "globkey": "winbook_date",
+    "globvalue": "2023-10-31",
+    "note": "Release date of the last published winners book (the silver book)."
+  },
+  {
+    "globkey": "book_version",
+    "globvalue": "0",
+    "note": "Version release of the last published companion book."
+  },
+  {
+    "globkey": "book_date",
+    "globvalue": "2023-10-31",
+    "note": "Release date of the last published companion book."
+  }
+]

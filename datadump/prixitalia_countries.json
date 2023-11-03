@@ -1,0 +1,872 @@
+[
+  {
+    "country": "Albania",
+    "country_abbr": "Albania",
+    "former": 0,
+    "iso3166": "ALB",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "alba_a",
+    "note": ""
+  },
+  {
+    "country": "Algeria",
+    "country_abbr": "Algeria",
+    "former": 0,
+    "iso3166": "DZA",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "sort": "alge_a",
+    "note": ""
+  },
+  {
+    "country": "Argentina",
+    "country_abbr": "Argentina",
+    "former": 0,
+    "iso3166": "ARG",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "arge_a",
+    "note": ""
+  },
+  {
+    "country": "Australia",
+    "country_abbr": "Australia",
+    "former": 0,
+    "iso3166": "AUS",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "sort": "aust_a",
+    "note": ""
+  },
+  {
+    "country": "Austria",
+    "country_abbr": "Austria",
+    "former": 0,
+    "iso3166": "AUT",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "aust_b",
+    "note": ""
+  },
+  {
+    "country": "Bangladesh",
+    "country_abbr": "Bangladesh",
+    "former": 0,
+    "iso3166": "BGD",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "sort": "bang_a",
+    "note": ""
+  },
+  {
+    "country": "Belgium",
+    "country_abbr": "Belgium",
+    "former": 0,
+    "iso3166": "BEL",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "belg_a",
+    "note": ""
+  },
+  {
+    "country": "Benin",
+    "country_abbr": "Benin",
+    "former": 0,
+    "iso3166": "BEN",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "sort": "beni_a",
+    "note": ""
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "country_abbr": "Bosnia Herzegovina",
+    "former": 0,
+    "iso3166": "BIH",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "bosn_a",
+    "note": ""
+  },
+  {
+    "country": "Brazil",
+    "country_abbr": "Brazil",
+    "former": 0,
+    "iso3166": "BRA",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "braz_a",
+    "note": ""
+  },
+  {
+    "country": "Bulgaria",
+    "country_abbr": "Bulgaria",
+    "former": 0,
+    "iso3166": "BGR",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "bulg_a",
+    "note": ""
+  },
+  {
+    "country": "Cameroon",
+    "country_abbr": "Cameroon",
+    "former": 0,
+    "iso3166": "CMR",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "sort": "came_a",
+    "note": ""
+  },
+  {
+    "country": "Canada",
+    "country_abbr": "Canada",
+    "former": 0,
+    "iso3166": "CAN",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "sort": "cana_a",
+    "note": ""
+  },
+  {
+    "country": "Chile",
+    "country_abbr": "Chile",
+    "former": 0,
+    "iso3166": "CHL",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "chil_a",
+    "note": ""
+  },
+  {
+    "country": "China",
+    "country_abbr": "China",
+    "former": 0,
+    "iso3166": "CHN",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "sort": "chin_a",
+    "note": ""
+  },
+  {
+    "country": "Colombia",
+    "country_abbr": "Colombia",
+    "former": 0,
+    "iso3166": "COL",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "colo_a",
+    "note": ""
+  },
+  {
+    "country": "Costa Rica",
+    "country_abbr": "Costa Rica",
+    "former": 0,
+    "iso3166": "CRI",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "cost_a",
+    "note": ""
+  },
+  {
+    "country": "Côte D'Ivoire",
+    "country_abbr": "Côte D'Ivoire",
+    "former": 0,
+    "iso3166": "CIV",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "sort": "cote_a",
+    "note": ""
+  },
+  {
+    "country": "Croatia",
+    "country_abbr": "Croatia",
+    "former": 0,
+    "iso3166": "HRV",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "croa_a",
+    "note": ""
+  },
+  {
+    "country": "Cuba",
+    "country_abbr": "Cuba",
+    "former": 0,
+    "iso3166": "CUB",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "cuba_a",
+    "note": ""
+  },
+  {
+    "country": "Czechoslovakia",
+    "country_abbr": "Czechoslovakia",
+    "former": 1,
+    "iso3166": "CSK",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "czec_a",
+    "note": ""
+  },
+  {
+    "country": "Czech Republic",
+    "country_abbr": "Czech Rep.",
+    "former": 0,
+    "iso3166": "CZE",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "czec_b",
+    "note": ""
+  },
+  {
+    "country": "Denmark",
+    "country_abbr": "Denmark",
+    "former": 0,
+    "iso3166": "DNK",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "sort": "denm_a",
+    "note": ""
+  },
+  {
+    "country": "Egypt",
+    "country_abbr": "Egypt",
+    "former": 0,
+    "iso3166": "EGY",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "sort": "egyp_a",
+    "note": ""
+  },
+  {
+    "country": "Finland",
+    "country_abbr": "Finland",
+    "former": 0,
+    "iso3166": "FIN",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "sort": "finl_a",
+    "note": ""
+  },
+  {
+    "country": "France",
+    "country_abbr": "France",
+    "former": 0,
+    "iso3166": "FRA",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "fran_a",
+    "note": ""
+  },
+  {
+    "country": "Georgia",
+    "country_abbr": "Georgia",
+    "former": 0,
+    "iso3166": "GEO",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "sort": "geor_a",
+    "note": ""
+  },
+  {
+    "country": "German Democratic Republic",
+    "country_abbr": "Germany - DDR",
+    "former": 1,
+    "iso3166": "DDR",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "germ_a",
+    "note": ""
+  },
+  {
+    "country": "Germany",
+    "country_abbr": "Germany",
+    "former": 0,
+    "iso3166": "DEU",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "germ_b",
+    "note": "Also \"West Germany\" before reunification"
+  },
+  {
+    "country": "Greece",
+    "country_abbr": "Greece",
+    "former": 0,
+    "iso3166": "GRC",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "gree_a",
+    "note": ""
+  },
+  {
+    "country": "Hungary",
+    "country_abbr": "Hungary",
+    "former": 0,
+    "iso3166": "HUN",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "hung_a",
+    "note": ""
+  },
+  {
+    "country": "India",
+    "country_abbr": "India",
+    "former": 0,
+    "iso3166": "IND",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "sort": "indi_a",
+    "note": ""
+  },
+  {
+    "country": "Indonesia",
+    "country_abbr": "Indonesia",
+    "former": 0,
+    "iso3166": "IDN",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "sort": "indo_a",
+    "note": ""
+  },
+  {
+    "country": "Ireland",
+    "country_abbr": "Ireland",
+    "former": 0,
+    "iso3166": "IRL",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "sort": "irel_a",
+    "note": ""
+  },
+  {
+    "country": "Israel",
+    "country_abbr": "Israel",
+    "former": 0,
+    "iso3166": "ISR",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "sort": "isra_a",
+    "note": ""
+  },
+  {
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "former": 0,
+    "iso3166": "ITA",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "ital_a",
+    "note": ""
+  },
+  {
+    "country": "Italy - Trieste, Free Territory of",
+    "country_abbr": "Italy - Trieste",
+    "former": 1,
+    "iso3166": "ITA",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "ital_b",
+    "note": ""
+  },
+  {
+    "country": "Japan",
+    "country_abbr": "Japan",
+    "former": 0,
+    "iso3166": "JPN",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "sort": "japa_a",
+    "note": ""
+  },
+  {
+    "country": "Jordan",
+    "country_abbr": "Jordan",
+    "former": 0,
+    "iso3166": "JOR",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "sort": "jord_a",
+    "note": ""
+  },
+  {
+    "country": "Korea, Republic of",
+    "country_abbr": "South Korea",
+    "former": 0,
+    "iso3166": "KOR",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "sort": "kore_a",
+    "note": ""
+  },
+  {
+    "country": "Kosovo",
+    "country_abbr": "Kosovo",
+    "former": 0,
+    "iso3166": "SRB",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "koso_a",
+    "note": ""
+  },
+  {
+    "country": "Lithuania",
+    "country_abbr": "Lithuania",
+    "former": 0,
+    "iso3166": "LTU",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "lith_a",
+    "note": ""
+  },
+  {
+    "country": "Luxembourg",
+    "country_abbr": "Luxembourg",
+    "former": 0,
+    "iso3166": "LUX",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "luxe_a",
+    "note": ""
+  },
+  {
+    "country": "Malta",
+    "country_abbr": "Malta",
+    "former": 0,
+    "iso3166": "MLT",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "malt_a",
+    "note": ""
+  },
+  {
+    "country": "Mexico",
+    "country_abbr": "Mexico",
+    "former": 0,
+    "iso3166": "MEX",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "mexi_a",
+    "note": ""
+  },
+  {
+    "country": "Monaco",
+    "country_abbr": "Monaco",
+    "former": 0,
+    "iso3166": "MCO",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "mona_a",
+    "note": ""
+  },
+  {
+    "country": "Montenegro",
+    "country_abbr": "Montenegro",
+    "former": 0,
+    "iso3166": "MNE",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "mont_a",
+    "note": ""
+  },
+  {
+    "country": "Morocco",
+    "country_abbr": "Morocco",
+    "former": 0,
+    "iso3166": "MAR",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "sort": "moro_a",
+    "note": ""
+  },
+  {
+    "country": "Mozambique",
+    "country_abbr": "Mozambique",
+    "former": 0,
+    "iso3166": "MOZ",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "sort": "moza_a",
+    "note": ""
+  },
+  {
+    "country": "Netherlands",
+    "country_abbr": "Netherlands",
+    "former": 0,
+    "iso3166": "NLD",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "neth_a",
+    "note": ""
+  },
+  {
+    "country": "New Zealand",
+    "country_abbr": "New Zealand",
+    "former": 0,
+    "iso3166": "NZL",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "sort": "newz_a",
+    "note": ""
+  },
+  {
+    "country": "North Macedonia",
+    "country_abbr": "North Macedonia",
+    "former": 1,
+    "iso3166": "MKD",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "nort_a",
+    "note": "\"Former Yugoslav Republic of Macedonia\" until 2019."
+  },
+  {
+    "country": "Norway",
+    "country_abbr": "Norway",
+    "former": 0,
+    "iso3166": "NOR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "sort": "norw_a",
+    "note": ""
+  },
+  {
+    "country": "Palestine",
+    "country_abbr": "Palestine",
+    "former": 0,
+    "iso3166": "PSE",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "sort": "pale_a",
+    "note": ""
+  },
+  {
+    "country": "Panama",
+    "country_abbr": "Panama",
+    "former": 0,
+    "iso3166": "PAN",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "pana_a",
+    "note": ""
+  },
+  {
+    "country": "Peru",
+    "country_abbr": "Peru",
+    "former": 0,
+    "iso3166": "PER",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "peru_a",
+    "note": ""
+  },
+  {
+    "country": "Poland",
+    "country_abbr": "Poland",
+    "former": 0,
+    "iso3166": "POL",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "pola_a",
+    "note": ""
+  },
+  {
+    "country": "Portugal",
+    "country_abbr": "Portugal",
+    "former": 0,
+    "iso3166": "PRT",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "port_a",
+    "note": ""
+  },
+  {
+    "country": "Romania",
+    "country_abbr": "Romania",
+    "former": 0,
+    "iso3166": "ROU",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "roma_a",
+    "note": ""
+  },
+  {
+    "country": "Russia (Commonwealth of Independent States)",
+    "country_abbr": "Russia (CIS)",
+    "former": 0,
+    "iso3166": "RUS",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "russ_a",
+    "note": ""
+  },
+  {
+    "country": "Russian Federation",
+    "country_abbr": "Russia",
+    "former": 0,
+    "iso3166": "RUS",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "russ_b",
+    "note": ""
+  },
+  {
+    "country": "San Marino",
+    "country_abbr": "San Marino",
+    "former": 0,
+    "iso3166": "SMR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "sanm_a",
+    "note": ""
+  },
+  {
+    "country": "Senegal",
+    "country_abbr": "Senegal",
+    "former": 0,
+    "iso3166": "SEN",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "sort": "sene_a",
+    "note": ""
+  },
+  {
+    "country": "Serbia and Montenegro, State Union of",
+    "country_abbr": "Serbia Montenegro",
+    "former": 1,
+    "iso3166": "SCG",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "serb_a",
+    "note": "2003-2006, then two separate countries"
+  },
+  {
+    "country": "Serbia",
+    "country_abbr": "Serbia",
+    "former": 0,
+    "iso3166": "SRB",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "serb_b",
+    "note": ""
+  },
+  {
+    "country": "Slovakia",
+    "country_abbr": "Slovakia",
+    "former": 0,
+    "iso3166": "SVK",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "slov_a",
+    "note": ""
+  },
+  {
+    "country": "Slovenia",
+    "country_abbr": "Slovenia",
+    "former": 0,
+    "iso3166": "SVN",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "slov_b",
+    "note": ""
+  },
+  {
+    "country": "South Africa",
+    "country_abbr": "South Africa",
+    "former": 0,
+    "iso3166": "ZAF",
+    "region": "Africa",
+    "subregion": "Sub-Saharan Africa",
+    "sort": "sout_a",
+    "note": ""
+  },
+  {
+    "country": "Soviet Union",
+    "country_abbr": "Soviet Union",
+    "former": 1,
+    "iso3166": "SUN",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "sovi_a",
+    "note": ""
+  },
+  {
+    "country": "Spain",
+    "country_abbr": "Spain",
+    "former": 0,
+    "iso3166": "ESP",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "spai_a",
+    "note": ""
+  },
+  {
+    "country": "Sweden",
+    "country_abbr": "Sweden",
+    "former": 0,
+    "iso3166": "SWE",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "sort": "swed_a",
+    "note": ""
+  },
+  {
+    "country": "Switzerland",
+    "country_abbr": "Switzerland",
+    "former": 0,
+    "iso3166": "CHE",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "swit_a",
+    "note": ""
+  },
+  {
+    "country": "Thailand",
+    "country_abbr": "Thailand",
+    "former": 0,
+    "iso3166": "THA",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "sort": "thai_a",
+    "note": ""
+  },
+  {
+    "country": "Tunisia",
+    "country_abbr": "Tunisia",
+    "former": 0,
+    "iso3166": "TUN",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "sort": "tuni_a",
+    "note": ""
+  },
+  {
+    "country": "Türkiye",
+    "country_abbr": "Türkiye",
+    "former": 0,
+    "iso3166": "TUR",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "sort": "turk_a",
+    "note": ""
+  },
+  {
+    "country": "Turkmenistan",
+    "country_abbr": "Turkmenistan",
+    "former": 0,
+    "iso3166": "TKM",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "sort": "turk_b",
+    "note": ""
+  },
+  {
+    "country": "Ukraine",
+    "country_abbr": "Ukraine",
+    "former": 0,
+    "iso3166": "UKR",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "sort": "ukra_a",
+    "note": ""
+  },
+  {
+    "country": "United Arab Emirates",
+    "country_abbr": "The Emirates",
+    "former": 0,
+    "iso3166": "UAE",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "sort": "unit_a",
+    "note": ""
+  },
+  {
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "former": 0,
+    "iso3166": "GBR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "sort": "unit_b",
+    "note": ""
+  },
+  {
+    "country": "United States of America",
+    "country_abbr": "United States",
+    "former": 0,
+    "iso3166": "USA",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "sort": "unit_c",
+    "note": ""
+  },
+  {
+    "country": "Uruguay",
+    "country_abbr": "Uruguay",
+    "former": 0,
+    "iso3166": "URY",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "urug_a",
+    "note": ""
+  },
+  {
+    "country": "Vatican State",
+    "country_abbr": "Vatican State",
+    "former": 0,
+    "iso3166": "VAT",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "vati_a",
+    "note": ""
+  },
+  {
+    "country": "Venezuela, Bolivarian Republic of",
+    "country_abbr": "Venezuela",
+    "former": 0,
+    "iso3166": "VEN",
+    "region": "Americas",
+    "subregion": "Latin America",
+    "sort": "vene_a",
+    "note": ""
+  },
+  {
+    "country": "Yugoslavia, Socialist Federal Republic of",
+    "country_abbr": "Yugoslavia",
+    "former": 1,
+    "iso3166": "YUG",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "yugo_a",
+    "note": "1943-1963: People's; 1963-1992: Socialist"
+  },
+  {
+    "country": "Yugoslavia, Federal Republic of",
+    "country_abbr": "Yugoslavia, Fed. Rep.",
+    "former": 1,
+    "iso3166": "YUG",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "sort": "yugo_b",
+    "note": "1992-2003, then Serbia and Montenegro"
+  },
+  {
+    "country": "Pan European Broadcasters",
+    "country_abbr": "Pan European",
+    "former": 0,
+    "iso3166": "EUE",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "sort": "zzzz_a",
+    "note": ""
+  },
+  {
+    "country": "_null",
+    "country_abbr": "_null",
+    "former": 0,
+    "iso3166": "ZZZ",
+    "region": "_null",
+    "subregion": "_null",
+    "sort": "zzzz_b",
+    "note": "This is for fictional/null broadcasters"
+  }
+]
