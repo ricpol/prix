@@ -5,6 +5,10 @@
 \title{ {{- common["silver_maintitle"] -}} }
 \author{ {{- common["silver_mainauthor"] -}} }
 \date{}
+\usepackage[pdfauthor={ {{- common["silver_mainauthor"] -}} },
+            pdftitle={ {{- common["silver_maintitle"] -}} },
+            pdfsubject={All the winning programmes at the Prix Italia competition.},
+            pdfkeywords={Prix Italia competition radio tv web winner}]{hyperref}
 \usepackage[svgnames]{xcolor}
 \usepackage[paperwidth=14cm, paperheight=26cm, 
             lmargin=1.5cm, rmargin=1.5cm, tmargin=2cm, bmargin=1.5cm,
@@ -53,7 +57,7 @@
 \vfill
 \newpage\thispagestyle{empty}
 \null\vfill
-{\footnotesize\ttfamily\noindent Prix Italia 1948 2023 - The Winners\\Research and Editing by Riccardo Polignieri\\version 0.5, November 2023\\Corrections: prixitalia(at)rai.it}
+{\footnotesize\ttfamily\noindent {{ common["silver_maintitle"] }}\\Research and Editing by Riccardo Polignieri\\Version {{ common["silver_version"] -}}, {{ common["silver_vdate"] }}\\Corrections: prixitalia(at)rai.it}
 {% include 'silver/intro.tex' %}
 {% include 'silver/winners.tex' %}
 {% include 'silver/win_broadcasters.tex' %}
