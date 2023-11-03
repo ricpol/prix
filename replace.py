@@ -49,9 +49,24 @@ REPLACEMENTS = {
         ("Piccolo Teatro Milano (Italy)", 
          "Italy", 1),
 
-    # 17- 101: ugly pagebreaks: spread and break sooner
+    # 17- 107: ugly pagebreaks: spread and break sooner
         ("A Man of No Importance}\\nopagebreak[2]\\\\ RTF",
          "A Man of No Importance}\\nopagebreak[0]\\\\ RTF", 1),
+        # the following 6 are a group -------------------------------------
+        # the only time I attempted to shrink the page adding negative space
+        ("Inoue Yasushi. Music: Hayashi Hikaru.}", 
+         "Inoue Yasushi. Music: Hayashi Hikaru.}\\vspace{-2pt}", 1), 
+        ("Ennio Mastrostefano. Sound: Goffredo Palazzesi.}", 
+         "Ennio Mastrostefano. Sound: Goffredo Palazzesi.}\\vspace{-2pt}", 1),
+        ("Jean-Marie Coldefy. Choreography: Georges Skibine.}", 
+         "Jean-Marie Coldefy. Choreography: Georges Skibine.}\\vspace{-2pt}", 1),
+        ("Karl Wittlinger. Director: Rainer Erler.}", 
+         "Karl Wittlinger. Director: Rainer Erler.}\\vspace{-2pt}", 1),
+        ("Michael Colomb. Narrator: Michael Flanders.}", 
+         "Michael Colomb. Narrator: Michael Flanders.}\\vspace{-2pt}", 1),
+        ("A RNE programme submitted by DGRT.}}", 
+         "A RNE programme submitted by DGRT.}}\\vspace{-2pt}", 1),
+        # -----------------------------------------------------------------
         # the following 6 are a group -------------------------------------
         ("Music: Luboš Fišer. Director: Petr Weigl.}", 
          "Music: Luboš Fišer. Director: Petr Weigl.}\\smallskip", 1),
@@ -246,7 +261,7 @@ REPLACEMENTS = {
          "Jesper Ankarfeldt. Editor: Sander Vos.}\\pagebreak", 1),
         # -----------------------------------------------------------------
         
-    # 102-113: ugly pagebreaks: "enlargement" (one line more than usually allowed)
+    # 108-119: ugly pagebreaks: "enlargement" (one line more than usually allowed)
         ("Glynn Turman, Ted Ross, Stanley Clay.}", 
          "Glynn Turman, Ted Ross, Stanley Clay.}\\enlargethispage{1\\baselineskip}", 1),
         ("Sten Andersson. Photography: Michael Kinmanson.}",
@@ -272,7 +287,7 @@ REPLACEMENTS = {
         ("Daria Hensemberger, Sara Polese.}", 
          "Daria Hensemberger, Sara Polese.}\\enlargethispage{1\\baselineskip}", 1),
 
-    # 114-118: ugly linebreaks: mbox to avoid
+    # 120-124: ugly linebreaks: mbox to avoid
         ("Producer: Bert van der Zouw. Script: J Bernlef", 
          "Producer: Bert van der Zouw. Script: \\mbox{J Bernlef}", 1),
         ("Actors: Evgenia Dobrovolskaya", 
@@ -285,7 +300,7 @@ REPLACEMENTS = {
         ("Sten Holmberg, Jonas Hallqvist.", 
          "Sten Holmberg, Jonas \\mbox{Hallqvist}.", 1),
 
-    # 119-138: forced linebreaks
+    # 125-144: forced linebreaks
         ("Prime Minister Sp.~Prize TV Programme from a Book",
          "Prime Minister Sp.~Prize\\\\TV Programme from a Book", 1),
         ("Best TV Campaign, Non-Euro Country",
@@ -327,7 +342,7 @@ REPLACEMENTS = {
         ("Broadcasting Authority/ Independent Television", 
          "Broadcasting Authority/\\\\Independent Television", 1), 
 
-    # 139-140: this is to spread the milestones a little, to avoid the last orphan
+    # 145-146: this is to spread the milestones a little, to avoid the last orphan
         ("\\subsection*{{\\color{DarkRed}19", 
          "\\medskip\\subsection*{{\\color{DarkRed}19", 29),
         ("\\subsection*{{\\color{DarkRed}20", 
