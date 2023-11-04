@@ -1,24 +1,14 @@
-{%- set l = common["mainauthor"]|length -%}
-{{ "*" * l }}
-{{ common["maintitle"]|center(l) }}
-{{ common["mainauthor"] }}
-{{ "*" * l }}
+{{- common["silver_maintitle"] }}
+{{ "*"*common["silver_maintitle"]|length }}
+
+Research and Editing by {{ common["silver_mainauthor"] }}
+Version {{ common["silver_version"] -}}, {{ common["silver_vdate"] }}
+Corrections: prixitalia(at)rai.it
 
 
-{% include 'editions.txt' %}
+{% include 'silver/intro.txt' %}
+{% include 'silver/winners.txt' %}
+{% include 'silver/win_broadcasters.txt' %}
+{% include 'silver/milestones.txt' %}
 
-------------------------------------------------------
-------------------------------------------------------
-{% include 'milestones.txt' %}
 
-------------------------------------------------------
-------------------------------------------------------
-{% include 'winners.txt' %}
-
-------------------------------------------------------
-------------------------------------------------------
-{% include 'persons.txt' %}
-
-------------------------------------------------------
-------------------------------------------------------
-{% include 'bibliography.txt' %}

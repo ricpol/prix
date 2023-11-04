@@ -1,22 +1,13 @@
-<html lang="en">
-<head>
-    <title>{{ common["maintitile"] }}</title>
-</head>
-<body>
+<h1>{{- common["silver_maintitle"] }}</h1>
 
-{% include 'editions.html' %}
+<p>Research and Editing by {{ common["silver_mainauthor"] }}<br />
+Version {{ common["silver_version"] -}}, {{ common["silver_vdate"] }}<br />
+Corrections: prixitalia(at)rai.it</p>
+<p>&nbsp;</p>
 
-<hr />
-{% include 'milestones.html' %}
+{% include 'silver/intro.html' %}
+{% include 'silver/winners.html' %}
+{% include 'silver/win_broadcasters.html' %}
+{% include 'silver/milestones.html' %}
 
-<hr />
-{% include 'winners.html' %}
 
-<hr />
-{% include 'persons.html' %}
-
-<hr />
-{% include 'bibliography.html' %}
-
-</body>
-</html>

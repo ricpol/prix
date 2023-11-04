@@ -1,0 +1,42 @@
+{{- common["ch_intro"] }}
+{{ "="*common["ch_intro"]|length }}
+
+Let me start the tour from where it all began, the Rai. In 1958, Sergio Zavoli, a then little-known Rai journalist, managed to collect voices from a cloistered monastery for the radio in an unprecedented, unrepeatable historical and human document. In the same year, an equally unknown Tōru Takemitsu made the Prix Italia the gateway to Europe for the extraordinary season of Japanese avant-garde music. Then came 1964 and Melville De Mellow, who had covered Gandhi's funeral and Queen Elizabeth's coronation on the Indian radio reaching the peak of his fame, wanted to produce a risky and innovative documentary for us, capturing the unprecedented sounds of the Indian jungle.
+
+The Prix Italia as a showcase for daring experimentation: in 1971, a legendary Birgit Cullberg with 'Red Wine in a Green Glass' demonstrated how the chroma key could be used with poetic effects in filming choreographies on TV... this, well before Star Wars made the technique popular. In 1982 Italo Calvino penned 'Duo', a radio theatre piece featuring music by Luciano Berio. Ten years later, Boro Kontić managed to interview the snipers at work in a bombed-out Sarajevo: the tapes smuggled out of the besieged city created an impressive reportage of an epic moment.
+
+It is now 2008 and we must mention one of the founding broadcasters of our competition: that year, the BBC presented its iPlayer, drawing everyone's attention to OTT distribution and digital convergence. Four years later, Wim Wenders' 'Pina' made it clear that 3D was not just a technical display but could become pure poetry. In 2017, Julian Rosefeldt and Cate Blanchett managed to unveil all the artistic avant-gardes of the 20th century, bringing them together in a bold, imaginative, surprisingly entertaining 'Manifesto'.
+
+The Covid did not stop the Prix Italia and its creativity: go find Corey Baker's 'Swan Lake Bath Ballet' (2021) and you will never dance alone indoors the way you used to! For all of us, despite the distances, that choral performance represented a promise kept that, even in the face of a global pandemic, creativity would keep us together.
+
+What do these names, these dates, these facts have in common? In our little global media world, these works of genius and their creations bear witness to epochs, cultures, peoples, stories, dreams: these are gambles born out of passion, audacity and imagination. Hence, of course, all these works happened to win the Prix Italia in their time.
+
+Throughout the editions, artists such as Bertolt Brecht, Federico Fellini, Riccardo Bacchelli, Umberto Eco, Eduardo De Filippo, Françoise Sagan, Ermanno Olmi, Francesco Rosi, Krzysztof Zanussi, Sidney Pollack, Roberto Rossellini, Flavio Emilio Scogna, Lorenzo Ferrero have presented their works. And... do you remember Samuel Beckett at the Prix Italia? Or Friedrich Dürrenmatt, Eugène Ionesco, Harold Pinter, Bruno Maderna, Krzysztof Penderecki, Ingmar Bergman, Werner Herzog, Peter Greenaway, Lindsay Kemp, Peter Brook, Brian Woods, Piers Plowright... at the Prix Italia?
+
+With a cornucopia of over 900 awards in 75 editions, the examples could go on for a while. And, speaking of Awards: in 1978, on its 30th anniversary, the Prix Italia itself won the Emmy Director Award, for its outstanding contribution to international television. Even earlier, in 1966 Gian Franco Zaffrani, the first Secretary General, was awarded the Bronze Medallion, New York City's highest civic honour "for his contribution to international broadcasting and the culture of the people of New York City". 
+
+But I would like to end on the highest note, addressing a thought to our great family, reunited every year since that distant 1948 in Capri. 
+
+Today, on our 75th anniversary, we are reaping the benefits of the 37 Presidents and 16 Secretaries General who preceded me and of the more than 250 broadcasters and hundreds of jurors, delegates, guests and speakers who have kept our Prix Italia alive and ever relevant over the years. We inherit the tradition of the 25 Italian cities of art that have welcomed us, revealing their unparalleled beauty. We carry on the work of all the people at Rai and the collaborators who have organised the Prix Italia with affection and dedication over the decades. 
+
+Here's to us, here's to our next 75 years with the wish that we may be ever more relevant, inclusive and a multiplying factor of the best of world production.
+
+
+Chiara Longo Bifano
+Secretary General of Prix Italia
+
+
+
+---------------------------
+This volume collects all the Prix Italia winners since its first edition in Venice, 1949. Historically, the winners were listed in the annual catalogues until 1997: this tradition has only recently been resumed, since 2019. For intermediate years, one has to rely on jury reports, press releases and lists published on the website. Even so, there are occasional gaps, and special prizes are only partially documented. Above all, the information so far was scattered and difficult to find.
+
+This is why we have made an effort to collate the information in the annual catalogues, official publications, press reviews and internal files still preserved, resulting in the most complete and definitive winner list that has ever been released.
+
+Each entry details the name of the prize, the original and English title of the winning product, the broadcaster that presented it, and a short credits list. The prize name is presented in an abbreviated and more quotable form than the sometimes very long official wording found in old catalogues. We have made an attempt to reconstruct the original title of the product as faithfully as possible: in fact, catalogues may carry different, simplified or translated versions. The English title, however, is usually the one given in the catalogue. Of the broadcaster we report the country and the acronym: the full names are collected in a separate chapter. The credits are extracted from the catalogues, necessarily abbreviated; the wording of the roles has been considerably standardised and reduced to a narrow vocabulary to simplify research. Note that the full credits are found in the catalogues and are beyond the scope of this publication.
+
+The format and cover of this book are inspired by the venerable "silver booklets", the official winners' lists published in 1983 and 1993. Now virtually impossible to find, they remain an invaluable source for reconstructing the history of the Prix Italia. This publication is intended as their natural continuation. An ideal thanks through the decades is due to all those who have worked for the Prix Italia, preserving its tradition and always pushing it towards the future.
+
+Corrections and additions are always welcome: if you find an error, please report it to prixitalia(at)rai.it.
+
+
+

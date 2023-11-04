@@ -1,1 +1,10 @@
-todo
+{{- common["ch_milestones"] }}
+{{ "-"*common["ch_milestones"]|length }}
+
+{% for year, milestone in milestones %}
+{{ year }}
+{{ milestone }}
+
+
+{% endfor %}
+
