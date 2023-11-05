@@ -367,28 +367,37 @@ class PrixCompanionFormatter(BaseFormatter):
 if __name__ == '__main__':
     # XXX rewrite the code here according to the new api
     import argparse
-    choices = {'editions': 'publish_editions', 
-               'winners': 'publish_winners', 
-               'persons': 'publish_persons',
-               'milestones': 'publish_milestones', 
-               'biblio': 'publish_bibliography', 
-               'book': 'publish_book',
-               'silver': 'publish_silver_booklet',
-               }
+    outputs = ('silver', 'book')
+    sections = {# for the silver booklet
+                'intro': 'publish_intro',
+                'winners': 'publish_winners', 
+                'win_broadcasters': 'publish_win_broadcasters', 
+                'milestones': 'publish_milestones', 
+                # for the book
+                'editions': 'publish_editions', 
+                'persons': 'publish_persons',
+                'biblio': 'publish_bibliography', 
+                # for both
+                'book': 'publish_book',
+                }
     parser = argparse.ArgumentParser(description='Prix Italia book processing.')
-    parser.add_argument('sections', nargs='*', choices=choices.keys(), 
-                        help='section(s) to output ("book" is the entire book)')
+    parser.add_argument('output', choices=outputs, 
+                        help='the output ("book" or "silver")')
+    parser.add_argument('section', choices=sections.keys(), 
+                        help='section to output ("book" is the entire book)')
     parser.add_argument('-t', '--txt', action='store_true', default=False, help='produce txt output')
     parser.add_argument('-l', '--html', action='store_true', default=False, help='produce html output')
     parser.add_argument('-x', '--tex', action='store_true', default=False, help='produce tex output')
     parser.add_argument('--db', default='prix_winners.grist', help='path to prix sqlite db file')
     args = parser.parse_args()
     
+    if args.output == 'silver':
+        klass = PrixSilverFormatter
+    elif args.output == 'book':
+        klass = PrixCompanionFormatter
 
-    
-    f = PrixFormatter(db=args.db, outputtype=None)
+    f = klass(db=args.db, outputtype=None)
     for outputtype in ('txt', 'html', 'tex'):
         if getattr(args, outputtype):
             f.set_outputtype(outputtype)
-            for section in args.sections:
-                getattr(f, choices[section])()
+            getattr(f, sections[args.section])()
