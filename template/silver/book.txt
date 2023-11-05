@@ -6,9 +6,9 @@ Version {{ common["silver_version"] -}}, {{ common["silver_vdate"] }}
 Corrections: prixitalia(at)rai.it
 
 
-{% include 'silver/intro.txt' %}
-{% include 'silver/winners.txt' %}
-{% include 'silver/win_broadcasters.txt' %}
-{% include 'silver/milestones.txt' %}
+{% include 'intro.txt' %}
+{% include 'winners.txt' %}
+{% include 'win_broadcasters.txt' %}
+{% include 'milestones.txt' %}
 
 

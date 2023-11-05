@@ -1,4 +1,4 @@
-{% if standalone %} {% extends "silver/base.txt" %} {% endif %}
+{% if standalone %} {% extends "base.txt" %} {% endif %}
 
 {% macro get_broad(acronym, name, acr_name) -%}
 {%- if acr_name -%} {{- name -}}

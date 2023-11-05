@@ -1,3 +1,6 @@
+{% if standalone %} {% extends "base.txt" %} {% endif %}
+
+{% block content %}
 {{- common["ch_intro"] }}
 {{ "="*common["ch_intro"]|length }}
 
@@ -40,3 +43,4 @@ Corrections and additions are always welcome: if you find an error, please repor
 
 
 
+{% endblock %}

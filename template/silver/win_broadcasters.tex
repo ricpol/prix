@@ -1,4 +1,4 @@
-{% if standalone %} {% extends "silver/base.tex" %} {% endif %}
+{% if standalone %} {% extends "base.tex" %} {% endif %}
 
 {% macro get_broad(acronym, name, acr_name) -%}
 {%- if acr_name -%} {\color{DarkRed}{{- name|texescape -}} }

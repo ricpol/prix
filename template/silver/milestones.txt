@@ -1,3 +1,6 @@
+{% if standalone %} {% extends "base.txt" %} {% endif %}
+
+{% block content %}
 {{- common["ch_milestones"] }}
 {{ "-"*common["ch_milestones"]|length }}
 
@@ -7,4 +10,4 @@
 
 
 {% endfor %}
-
+{% endblock %}

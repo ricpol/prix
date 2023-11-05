@@ -1,3 +1,6 @@
+{% if standalone %} {% extends "base.html" %} {% endif %}
+
+{% block content %}
 <h2>{{- common["ch_intro"] -}}</h2>
 
 
@@ -36,5 +39,6 @@
 <p>Corrections and additions are always welcome: if you find an error, please report it to prixitalia(at)rai.it.</p>
 <p>&nbsp;</p>
 
+{% endblock %}
 
 

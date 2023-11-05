@@ -412,5 +412,5 @@ def do_replace(txt, repl_set, out_type, verbose=True):
                 print(f'Replacement >{old}< {occurrences} found, {num} expected.')
     else:
         if verbose:
-            print(f'No replacements found for f{repl_set} / f{out_type}.')
+            print(f'No replacements found for {repl_set} / {out_type}.')
     return txt

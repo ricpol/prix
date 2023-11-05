@@ -131,9 +131,9 @@ class BaseFormatter:
                  template_folder=None):
         self.db = DataProvider(db)
         self.languages = self.db.get_languages() # useful for tex output
+        self.template_folder = template_folder or TEMPLATE_FOLDER
         if outputtype: # to allow setting the output later
             self.set_outputtype(outputtype)
-        self.template_folder = template_folder or TEMPLATE_FOLDER
 
     def set_outputtype(self, outputtype):
         '''Set rules for different output types ('tex', 'html' or 'txt').'''
@@ -160,7 +160,7 @@ class BaseFormatter:
         '''Return an output, give a template and context.
         'template_file' is a path relative to self.template_folder
         '''
-        template = self.jinja.get_template(os.path.join(self.template_folder, template_file))
+        template = self.jinja.get_template(template_file)
         if self.outputtype == 'tex':
             return template.render(languages=self.languages, common=COMMON, **context)
         else:
@@ -182,7 +182,7 @@ class BaseFormatter:
             os.remove(out_file)
         except OSError:
             pass
-        with open(os.path.join(OUTPUT_FOLDER, out_file), 'a', encoding='utf8') as out:
+        with open(out_file, 'a', encoding='utf8') as out:
             out.write(output)
         
     def publish(self, template_file, out_file, replacements, **context):
@@ -201,6 +201,7 @@ class PrixSilverFormatter(BaseFormatter):
     '''The formatter for the silver booklet.'''
     def __init__(self, db='prix_winners.grist', outputtype='tex'):
         template_folder = os.path.join(TEMPLATE_FOLDER, 'silver')
+        super().__init__(db, outputtype, template_folder)
         self.winner_display = {
                                'acronym': 'acro',
                                'name': True,
@@ -214,31 +215,30 @@ class PrixSilverFormatter(BaseFormatter):
                                'reasoning': False,
                                'note': True,
                               }
-        super().__init__(self, db, outputtype, template_folder)
 
     def publish_intro(self):
         # this is a flat file, no data from db
-        out_file = 'intro.' + self.outputtype
-        self.publish('intro', out_file, 'silver intro', 
+        the_file = 'intro.' + self.outputtype
+        self.publish(the_file, the_file, 'silver intro', 
                      standalone=True)
 
     def publish_winners(self):
         winners = self.db.get_winners(winners_only=True, 
                     prixitalia_only=False, exclude_unknowns=True)
-        out_file = 'winners.' + self.outputtype
-        self.publish('winners', out_file, 'silver winners',
+        the_file = 'winners.' + self.outputtype
+        self.publish(the_file, the_file, 'silver winners',
                      winners=winners, display=self.winner_display, standalone=True)
 
     def publish_win_broadcasters(self):
         broadcasters = self.db.get_win_broadcasters()
-        out_file = 'win_broadcasters.' + self.outputtype
-        self.publish('win_broadcasters', out_file, 'silver broadcasters',
+        the_file = 'win_broadcasters.' + self.outputtype
+        self.publish(the_file, the_file, 'silver broadcasters',
                      broadcasters=broadcasters, standalone=True)
 
     def publish_milestones(self):
         milestones = self.db.get_milestones()
-        out_file = 'milestones.' + self.outputtype
-        self.publish('milestones', out_file, 'silver milestones', 
+        the_file = 'milestones.' + self.outputtype
+        self.publish(the_file, the_file, 'silver milestones', 
                      milestones=milestones, standalone=True)
 
     def publish_book(self):
@@ -246,8 +246,8 @@ class PrixSilverFormatter(BaseFormatter):
                     prixitalia_only=False, exclude_unknowns=True)
         broadcasters = self.db.get_win_broadcasters()
         milestones = self.db.get_milestones()
-        out_file = 'book.' + self.outputtype
-        self.publish('book', out_file, 'silver book', 
+        the_file = 'book.' + self.outputtype
+        self.publish(the_file, the_file, 'silver book', 
                      winners=winners, display=self.winner_display,
                      broadcasters=broadcasters, milestones=milestones, 
                      standalone=True)
