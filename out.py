@@ -203,8 +203,8 @@ class PrixSilverFormatter(BaseFormatter):
         template_folder = os.path.join(TEMPLATE_FOLDER, 'silver')
         super().__init__(db, outputtype, template_folder)
         self.winner_display = {
-                               'acronym': 'acro',
-                               'name': True,
+                               'acronym': True,
+                               'name': False,
                                'full_country': False,
                                'short_country': True,
                                'iso_country': False,

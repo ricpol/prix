@@ -330,8 +330,6 @@ silver_winners_tex = (
      "Prix Italia Radio Music Attracting\\\\a Broader Audience", 1),
     ("Prix Italia Radio Doc.~and Reportage - Documentary", 
      "Prix Italia Radio Doc.~and Reportage -\\\\Documentary", 1),
-    ("voor de Radio-omroep/ Institut National de Radiodiffusion", 
-     "voor de Radio-omroep/\\\\Institut National de Radiodiffusion", 1),
     )
 silver_broadcasters_txt = tuple()
 silver_broadcasters_html = tuple()
@@ -358,6 +356,8 @@ silver_broadcasters_tex = (
      "Television Authority/\\\\Independent Television", 1), 
     ("Broadcasting Authority/ Independent Television", 
      "Broadcasting Authority/\\\\Independent Television", 1), 
+    ("voor de Radio-omroep/ Institut National de Radiodiffusion", 
+     "voor de Radio-omroep/\\\\Institut National de Radiodiffusion", 1),
                           )
 silver_milestones_txt = tuple()
 silver_milestones_html = tuple()
