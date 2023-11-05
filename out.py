@@ -250,7 +250,7 @@ class PrixSilverFormatter(BaseFormatter):
         self.publish(the_file, the_file, 'silver book', 
                      winners=winners, display=self.winner_display,
                      broadcasters=broadcasters, milestones=milestones, 
-                     standalone=True)
+                     standalone=False)
 
 
 
