@@ -290,6 +290,25 @@ silver_winners_tex = (
     ("Daria Hensemberger, Sara Polese.}", 
      "Daria Hensemberger, Sara Polese.}\\enlargethispage{1\\baselineskip}", 1),
 
+    # spread more this page, there is too much space left at the end
+    # ==============================================================
+    # the following 7 are a group -------------------------------------
+    ("Mária Prechovská, Vladimír Müller.}", 
+     "Mária Prechovská, Vladimír Müller.}\\medskip", 1),
+    ("Jeoffrey Whitehead, John Jacobs. Sound: John Jacobs.}", 
+     "Jeoffrey Whitehead, John Jacobs. Sound: John Jacobs.}\\medskip", 1),
+    ("Sp.~Prize Radio Title Sequences}}Not awarded.", 
+     "Sp.~Prize Radio Title Sequences}}Not awarded.\\medskip", 1),
+    ("Sp.~Prize TV Music and Arts}}Not awarded.", 
+     "Sp.~Prize TV Music and Arts}}Not awarded.\\medskip", 1),
+    ("Antero Takala. Sound: Antero Honkanen.}", 
+     "Antero Takala. Sound: Antero Honkanen.}\\medskip", 1),
+    ("Christine Pireaux. Sound: Yvan Geeraert.}", 
+     "Christine Pireaux. Sound: Yvan Geeraert.}\\medskip", 1),
+    ("\\section*{1993, Roma}", 
+     "\\medskip\\section*{1993, Roma}", 1),
+    # -----------------------------------------------------------------
+
     # ugly linebreaks: avoid with mbox
     # ================================
     ("Producer: Bert van der Zouw. Script: J Bernlef", 
