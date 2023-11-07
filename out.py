@@ -51,7 +51,7 @@ class DataProvider:
             langs.remove(i)
         return langs
 
-    def get_editions(self):
+    def get_editions(self): #XXX this has a pretty oddball api... rewrite?
         '''Data about editions.'''
         c = self.con.cursor()
         editions = c.execute(
@@ -253,111 +253,124 @@ class PrixSilverFormatter(BaseFormatter):
                      standalone=False)
 
 
-
-
-
-# XXX rewrite the code here according to the new api
 class PrixCompanionFormatter(BaseFormatter):
     '''The formatter for the companion book.'''
     def __init__(self, db='prix_winners.grist', outputtype='tex'):
         template_folder = os.path.join(TEMPLATE_FOLDER, 'book')
         super().__init__(self, db, outputtype, template_folder)
+        self.winner_display = {
+                               'acronym' = True,
+                               'name' = False,
+                               'full_country' = False,
+                               'short_country' = True,
+                               'iso_country' = False,
+                               'full_prize' = True,
+                               'short_prize' = False,
+                               'credits' = True,
+                               'weblink' = True,
+                               'reasoning' = True,
+                               'note' = True,
+                               }
 
     def publish_editions(self):
-        editions, participants = self.get_context_editions()
-        self._publish('editions', editions=editions, 
-                      participants=participants, standalone=True)
+        editions, participants = self.db.get_editions() # XXX see db function
+        the_file = 'editions.' + self.outputtype
+        self.publish(the_file, the_file, 'book editions',
+                     editions=editions, participants=participants, standalone=True)
 
-    def publish_winners(self, 
-                        start_year=1949,        # star year (first Prix Italia: 1949)
-                        end_year=9999,          # end year
-                        shortname='acro|name',  # broadcaster display: 'acro', 'name', 'acro|name'
-                        shortcountry='short',   # coutry display: 'name', 'short', 'iso'
-                        shortprize='name',      # prize name display: 'name', 'short'
-                        credits=True,           # include credit list?
-                        weblink=True,           # include web link?
-                        reasoning=True,         # include reasoning?
-                        note=True,              # include note?
-                        winners_only=False,     # list winners only?
-                        prixitalia_only=False,  # list prix italia only (not sp. prizes)?
-                        exclude_unknowns=False  # exclude unknowns
-                        ):
-        display = {}
-        display['acronym'] = 'acro' in shortname
-        display['name'] = 'name' in shortname
-        display['full_country'] = (shortcountry == 'name')
-        display['short_country'] = (shortcountry == 'short')
-        display['iso_country'] = (shortcountry == 'iso')
-        display['full_prize'] = (shortprize == 'name')
-        display['short_prize'] = (shortprize == 'short')
-        display['credits'] = credits
-        display['weblink'] = weblink
-        display['reasoning'] = reasoning
-        display['note'] = note
-        winners = self.get_context_winners(
-            start_year, end_year, shortname, shortcountry, shortprize, credits, weblink, 
-            reasoning, note, winners_only, prixitalia_only, exclude_unknowns)
-        self._publish('winners', winners=winners, display=display, standalone=True)
+    def publish_winners(self):
+        winners = self.db.get_winners(winners_only=False, 
+                    prixitalia_only=False, exclude_unknowns=True)
+        the_file = 'winners.' + self.outputtype
+        self.publish(the_file, the_file, 'book winners',
+                     winners=winners, display=self.winner_display, standalone=True)
 
     def publish_persons(self):
-        persons = self.get_context_persons()
-        self._publish('persons', persons=persons, standalone=True)
+        persons = self.db.get_persons()
+        the_file = 'persons.' + self.outputtype
+        self.publish(the_file, the_file, 'book persons',
+                     persons=persons, standalone=True)
 
     def publish_milestones(self):
-        milestones = self.get_context_milestones()
-        self._publish('milestones', milestones=milestones, standalone=True)
+        milestones = self.db.get_milestones()
+        the_file = 'milestones.' + self.outputtype
+        self.publish(the_file, the_file, 'book milestones', 
+                     milestones=milestones, standalone=True)
 
     def publish_bibliography(self):
-        bibliography = self.get_context_bibliography()
-        self._publish('bibliography', bibliography=bibliography, standalone=True)
+        bibliography = self.db.get_bibliography()
+        the_file = 'bibliography.' + self.outputtype
+        self.publish(the_file, the_file, 'book biblio', 
+                     bibliography=bibliography, standalone=True)
 
     def publish_book(self):
-        editions, participants = self.get_context_editions()
-        display, winners = self.get_context_winners()
-        persons = self.get_context_persons()
-        milestones = self.get_context_milestones()
-        bibliography = self.get_context_bibliography()
-        self._publish('book', editions=editions, participants=participants, 
-                      display=display, winners=winners, persons=persons, 
-                      milestones=milestones, bibliography=bibliography, 
-                      standalone=False)
+        editions, participants = self.db.get_editions() # XXX see db function
+        winners = self.db.get_winners(winners_only=False, 
+                    prixitalia_only=False, exclude_unknowns=True)
+        persons = self.db.get_persons()
+        milestones = self.db.get_milestones()
+        bibliography = self.db.get_bibliography()
+        the_file = 'book.' + self.outputtype
+        self.publish(the_file, the_file, 'book book',
+                     editions=editions, participants=participants, 
+                     display=self.winner_display, winners=winners, persons=persons, 
+                     milestones=milestones, bibliography=bibliography, 
+                     standalone=False)
 
 
 
 
-
+class SpecialFormatter(BaseFormatter):
+    '''A formatter for test and ad-hoc outputs.'''
+    # NOTE: these are not mapped in the argparse module api
+    # this class should be instantiated at runtime instead
+    # also, we do our sql directly to avoid cluttering the db class
+    # also, not all output types are available for each method
+    # so make sure to call set_outputtype every time first
+    def __init__(self, db='prix_winners.grist', outputtype='tex'):
+        template_folder = os.path.join(TEMPLATE_FOLDER, 'special')
+        super().__init__(self, db, outputtype, template_folder)
 
     # ad-hoc (special) and test outputs
     # -----------------------------------------------------------------------
-    def publish_special_prixsite(self): # what is needed for the prix website
+    def publish_special_prixsite(self): # HTML template only
+    # what is needed for the prix website
         sql = '''SELECT year, city, acronym, name, acr_name, country_abbr, 
                  or_title, en_title, prize_abbr 
                  FROM vPrixWinners 
                  WHERE result="winner" AND acronym!="UNKNOWN";'''
-        c = self.con.cursor()
+        c = self.db.con.cursor()
         c.row_factory = _sqlite_dict_row_factory
         winners = c.execute(sql).fetchall()
-        self._publish('special_prixsite', winners=winners, standalone=True)
+        the_file = 'special_prixsite.' + self.outputtype
+        self.publish(the_file, the_file, '',
+                     winners=winners, standalone=True)
 
-    def publish_test_langs(self): # a list of titles in various languages
+    def publish_test_langs(self): # TEX template only
+    # a list of titles in various languages
         sql = '''SELECT year, lang_title, or_title, en_title 
                  FROM winners 
                  WHERE or_title != "" AND or_title != "_null" 
                  AND lang_title != "english" AND lang_title != "italian" 
                  ORDER BY lang_title, year;'''
-        c = self.con.cursor()
+        c = self.db.con.cursor()
         titles = c.execute(sql).fetchall()
-        self._publish('test_langs', titles=titles, standalone=True)
+        the_file = 'test_langs.' + self.outputtype
+        self.publish(the_file, the_file, '', 
+                     titles=titles, standalone=True)
 
-    def publish_test_winners_short(self): # a winner-only shorter list
+    def publish_test_winners_short(self): # TXT output only
+    # a winner-only shorter list
         sql = '''SELECT year, city, acronym, country, or_title, en_title, 
                  credits, prize_abbr, program_type 
                  FROM vPrixWinners
                  WHERE result="winner";'''
-        c = self.con.cursor()
+        c = self.db.con.cursor()
         c.row_factory = _sqlite_dict_row_factory
         winners = c.execute(sql).fetchall()
-        self._publish('test_winners_short', winners=winners, standalone=True)
+        the_file = 'test_winners_short.' + self.outputtype
+        self.publish(the_file, the_file, '', 
+                     winners=winners, standalone=True)
 
 
 
@@ -365,19 +378,18 @@ class PrixCompanionFormatter(BaseFormatter):
 
 
 if __name__ == '__main__':
-    # XXX rewrite the code here according to the new api
     import argparse
     outputs = ('silver', 'book')
     sections = {# for the silver booklet
                 'intro': 'publish_intro',
                 'winners': 'publish_winners', 
                 'win_broadcasters': 'publish_win_broadcasters', 
-                'milestones': 'publish_milestones', 
                 # for the book
                 'editions': 'publish_editions', 
                 'persons': 'publish_persons',
                 'biblio': 'publish_bibliography', 
                 # for both
+                'milestones': 'publish_milestones',
                 'book': 'publish_book',
                 }
     parser = argparse.ArgumentParser(description='Prix Italia book processing.')
