@@ -263,19 +263,19 @@ class PrixCompanionFormatter(BaseFormatter):
     '''The formatter for the companion book.'''
     def __init__(self, db='prix_winners.grist', outputtype='tex'):
         template_folder = os.path.join(TEMPLATE_FOLDER, 'book')
-        super().__init__(self, db, outputtype, template_folder)
+        super().__init__(db, outputtype, template_folder)
         self.winner_display = {
-                               'acronym' = True,
-                               'name' = False,
-                               'full_country' = False,
-                               'short_country' = True,
-                               'iso_country' = False,
-                               'full_prize' = True,
-                               'short_prize' = False,
-                               'credits' = True,
-                               'weblink' = True,
-                               'reasoning' = True,
-                               'note' = True,
+                               'acronym': True,
+                               'name': False,
+                               'full_country': False,
+                               'short_country': True,
+                               'iso_country': False,
+                               'full_prize': True,
+                               'short_prize': False,
+                               'credits': True,
+                               'weblink': True,
+                               'reasoning': True,
+                               'note': True,
                                }
 
     def publish_editions(self):
@@ -310,7 +310,7 @@ class PrixCompanionFormatter(BaseFormatter):
                      bibliography=bibliography, standalone=True)
 
     def publish_genius(self):
-        genius = self.db.publish_genius()
+        genius = self.db.get_genius()
         the_file = 'genius.' + self.outputtype
         self.publish(the_file, the_file, 'book genius', 
                      genius=genius, standalone=True)

@@ -388,6 +388,27 @@ silver_milestones_tex = (
      "\\medskip\\subsection*{{\\color{DarkRed}20", 16),
     )
 
+# THE BIG BOOK
+book_editions_tex = tuple()
+book_editions_html = tuple()
+book_editions_txt = tuple()
+book_winners_tex = tuple()
+book_winners_html = tuple()
+book_winners_txt = tuple()
+book_persons_tex = tuple()
+book_persons_html = tuple()
+book_persons_txt = tuple()
+book_milestones_tex = tuple()
+book_milestones_html = tuple()
+book_milestones_txt = tuple()
+book_bibliography_tex = tuple()
+book_bibliography_html = tuple()
+book_bibliography_txt = tuple()
+book_genius_tex = tuple()
+book_genius_html = tuple()
+book_genius_txt = tuple()
+
+
 REPLACEMENTS = { 
     ('silver intro', 'txt'): silver_intro_txt,
     ('silver intro', 'html'): silver_intro_html,
@@ -412,7 +433,42 @@ REPLACEMENTS = {
     ('silver book', 'tex'): (silver_intro_tex + silver_winners_tex 
                              + silver_broadcasters_tex + silver_milestones_tex),
 
+
+    ('book editions', 'tex'): book_editions_tex,
+    ('book editions', 'html'): book_editions_html,
+    ('book editions', 'txt'): book_editions_txt,
+
+    ('book winners', 'tex'): book_winners_tex,
+    ('book winners', 'html'): book_winners_html,
+    ('book winners', 'txt'): book_winners_txt,
+
+    ('book persons', 'tex'): book_persons_tex,
+    ('book persons', 'html'): book_persons_html,
+    ('book persons', 'txt'): book_persons_txt,
+
+    ('book milestones', 'tex'): book_milestones_tex,
+    ('book milestones', 'html'): book_milestones_html,
+    ('book milestones', 'txt'): book_milestones_txt,
+
+    ('book biblio', 'tex'): book_bibliography_tex,
+    ('book biblio', 'html'): book_bibliography_html,
+    ('book biblio', 'txt'): book_bibliography_txt,
+
+    ('book genius', 'tex'): book_genius_tex,
+    ('book genius', 'html'): book_genius_html,
+    ('book genius', 'txt'): book_genius_txt,
+
+    ('book book', 'tex'): (book_editions_tex + book_winners_tex 
+                           + book_persons_tex + book_milestones_tex 
+                           + book_bibliography_tex + book_genius_tex),
+    ('book book', 'html'): (book_editions_html + book_winners_html 
+                            + book_persons_html + book_milestones_html 
+                            + book_bibliography_html + book_genius_html),
+    ('book book', 'txt'): (book_editions_txt + book_winners_txt 
+                           + book_persons_txt + book_milestones_txt 
+                           + book_bibliography_txt + book_genius_txt),
 }
+
 
 
 def do_replace(txt, repl_set, out_type, verbose=True):
