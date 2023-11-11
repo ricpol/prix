@@ -91,6 +91,12 @@ class DataProvider:
         c = self.con.cursor()
         return c.execute(sql).fetchall()
 
+    def get_genius(self):
+        '''Data about notable people ("the prix italia geniuses").'''
+        sql = '''SELECT year, description FROM genius;'''
+        c = self.con.cursor()
+        return c.execute(sql).fetchall()
+
     def get_milestones(self):
         '''Data about milestones.'''
         sql = 'SELECT year, milestone FROM milestones ORDER BY year;'
@@ -303,6 +309,12 @@ class PrixCompanionFormatter(BaseFormatter):
         self.publish(the_file, the_file, 'book biblio', 
                      bibliography=bibliography, standalone=True)
 
+    def publish_genius(self):
+        genius = self.db.publish_genius()
+        the_file = 'genius.' + self.outputtype
+        self.publish(the_file, the_file, 'book genius', 
+                     genius=genius, standalone=True)
+
     def publish_book(self):
         editions, participants = self.db.get_editions() # XXX see db function
         winners = self.db.get_winners(winners_only=False, 
@@ -310,12 +322,13 @@ class PrixCompanionFormatter(BaseFormatter):
         persons = self.db.get_persons()
         milestones = self.db.get_milestones()
         bibliography = self.db.get_bibliography()
+        genius = self.db.get_genius()
         the_file = 'book.' + self.outputtype
         self.publish(the_file, the_file, 'book book',
                      editions=editions, participants=participants, 
                      display=self.winner_display, winners=winners, persons=persons, 
                      milestones=milestones, bibliography=bibliography, 
-                     standalone=False)
+                     genius=genius, standalone=False)
 
 
 
@@ -390,6 +403,7 @@ if __name__ == '__main__':
                 'biblio': 'publish_bibliography', 
                 # for both
                 'milestones': 'publish_milestones',
+                'genius': 'publish_genius',
                 'book': 'publish_book',
                 }
     parser = argparse.ArgumentParser(description='Prix Italia book processing.')

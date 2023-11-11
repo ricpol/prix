@@ -1,0 +1,9 @@
+{% if standalone %} {% extends "book/base.tex" %} {% endif %}
+
+{% block content %}
+\chapter{ {{- common["ch_genius"] -}} }
+{% for year, g in genius %}
+\section*{ {{- year -}} }
+{{ g|replace("<b>", "\\textsc{")|replace("</b>", "}")|texescape }}
+{% endfor %}
+{% endblock %}

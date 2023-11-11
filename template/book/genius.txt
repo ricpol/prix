@@ -1,0 +1,14 @@
+{% if standalone %}{% extends "book/base.txt" %}{% endif %}
+
+{% block content %}
+{{ "=" * common["ch_genius"]|length }}
+{{ common["ch_genius"] }}
+{{ "=" * common["ch_genius"]|length }}
+{% for year, g in genius %}
+
+*** {{ year }} ***
+{{ g|replace("<b>", "")|replace("</b>", "") }}
+{% endfor %}
+{% endblock %}
+
+
