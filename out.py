@@ -93,7 +93,7 @@ class DataProvider:
 
     def get_genius(self):
         '''Data about notable people ("the prix italia geniuses").'''
-        sql = '''SELECT year, description FROM genius;'''
+        sql = '''SELECT year, full_name, description FROM genius;'''
         c = self.con.cursor()
         return c.execute(sql).fetchall()
 

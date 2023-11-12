@@ -4,9 +4,9 @@
 {{ "=" * common["ch_genius"]|length }}
 {{ common["ch_genius"] }}
 {{ "=" * common["ch_genius"]|length }}
-{% for year, g in genius %}
+{% for year, name, g in genius %}
 
-*** {{ year }} ***
+*** {{ year }} - {{ name }} ***
 {{ g|replace("<b>", "")|replace("</b>", "") }}
 {% endfor %}
 {% endblock %}

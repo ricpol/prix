@@ -2,8 +2,8 @@
 
 {% block content %}
 \chapter{ {{- common["ch_genius"] -}} }
-{% for year, g in genius %}
-\section*{ {{- year -}} }
+{% for year, name, g in genius %}
+\section*{ {{- year }} -- {{ name -}} }
 {{ g|texescape|replace("<b>", "\\textsc{")|replace("</b>", "}")|replace("<i>", "\\textit{")|replace("</i>", "}") }}
 {% endfor %}
 {% endblock %}
