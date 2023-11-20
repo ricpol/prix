@@ -252,7 +252,7 @@ class PrixSilverFormatter(BaseFormatter):
                     prixitalia_only=False, exclude_unknowns=True)
         broadcasters = self.db.get_win_broadcasters()
         milestones = self.db.get_milestones()
-        the_file = 'book.' + self.outputtype
+        the_file = 'silver_book.' + self.outputtype
         self.publish(the_file, the_file, 'silver book', 
                      winners=winners, display=self.winner_display,
                      broadcasters=broadcasters, milestones=milestones, 
