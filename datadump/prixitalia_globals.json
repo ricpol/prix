@@ -27,11 +27,11 @@
   {
     "globkey": "book_version",
     "globvalue": "0",
-    "note": "Version release of the last published companion book."
+    "note": "Version release of the last published factbook."
   },
   {
     "globkey": "book_date",
     "globvalue": "2023-10-31",
-    "note": "Release date of the last published companion book."
+    "note": "Release date of the last published factbook."
   }
 ]

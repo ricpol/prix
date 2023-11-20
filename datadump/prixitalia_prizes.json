@@ -1520,6 +1520,16 @@
     "first_year": 1998
   },
   {
+    "id": 266,
+    "prize": "Honorary Prix Italia",
+    "prize_abbr": "Honorary Prix Italia",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Honorary\"]",
+    "operation": "[\"honorary\",\"external\"]",
+    "present": 0,
+    "first_year": 1998
+  },
+  {
     "id": 155,
     "prize": "Special Web Prize for Radio",
     "prize_abbr": "Web Sp. Prize Radio",
@@ -1668,6 +1678,16 @@
     "operation": null,
     "present": 0,
     "first_year": 1999
+  },
+  {
+    "id": 265,
+    "prize": "Euro Prize",
+    "prize_abbr": "Euro Prize",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Honorary\"]",
+    "operation": "[\"honorary\",\"external\"]",
+    "present": 0,
+    "first_year": 2000
   },
   {
     "id": 169,
@@ -2540,6 +2560,26 @@
     "first_year": 2022
   },
   {
+    "id": 267,
+    "prize": "YLAB Prize - Best Media Communication Project",
+    "prize_abbr": "YLAB Prize - Communication",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Ylab\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2022
+  },
+  {
+    "id": 269,
+    "prize": "YLAB Prize - Best Sustainable Engineering, Social or Research Project",
+    "prize_abbr": "YLAB Prize - Engineering",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Ylab\"]",
+    "operation": null,
+    "present": 0,
+    "first_year": 2022
+  },
+  {
     "id": 258,
     "prize": "Prix Italia for Radio & Podcast Music",
     "prize_abbr": "Prix Italia Radio & Podcast Music",
@@ -2577,6 +2617,16 @@
     "kind": "[\"Special Prize\",\"Ifad Copeam\"]",
     "operation": "[\"registration\",\"external\"]",
     "present": 1,
+    "first_year": 2023
+  },
+  {
+    "id": 268,
+    "prize": "YLAB Prize - Best Engineering Project",
+    "prize_abbr": "YLAB Prize - Engineering",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Ylab\"]",
+    "operation": null,
+    "present": 0,
     "first_year": 2023
   },
   {

@@ -7425,6 +7425,21 @@
     "result": "winner"
   },
   {
+    "id": 6165,
+    "disamb": 1,
+    "name": "Claudio",
+    "surname": "Bisio",
+    "surname_ord": "bisio claudio",
+    "sfirst": 0,
+    "role": "Actor",
+    "programme_id": 667,
+    "year": 2008,
+    "id_acronym": "RAI",
+    "acronym": "RAI",
+    "country": "Italy",
+    "result": "winner"
+  },
+  {
     "id": 2914,
     "disamb": 1,
     "name": "Katarina",
@@ -11529,6 +11544,21 @@
     "role": "Producer",
     "programme_id": 5050,
     "year": 1985,
+    "id_acronym": "BBC",
+    "acronym": "BBC",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "result": "winner"
+  },
+  {
+    "id": 6164,
+    "disamb": 1,
+    "name": "Richard",
+    "surname": "Burton",
+    "surname_ord": "burton_richard",
+    "sfirst": 0,
+    "role": "Actor",
+    "programme_id": 16342,
+    "year": 1954,
     "id_acronym": "BBC",
     "acronym": "BBC",
     "country": "United Kingdom of Great Britain and Northern Ireland",

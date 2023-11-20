@@ -670,7 +670,7 @@
     "rom_title": "",
     "en_title": "Under Milk Wood",
     "cat_title": "",
-    "credits": "By: Dylan Thomas. Producer, Music: Daniel Jones.",
+    "credits": "By: Dylan Thomas. Producer, Music: Daniel Jones. Actor: Richard Burton.",
     "weblink": "_null",
     "program_type": "[\"Radio\",\"Fiction\"]",
     "prize_id": 5,
@@ -13696,7 +13696,7 @@
     "prize_id": 144,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "Individuals can and should make a difference. Every one has a responsibility to contribute to the common good. The Unda jury recognizes this human value in this documentary. By bringing in a responsible way to the public attention a serious social evil of child molestation by foreign tourists, this excellent piece of investigative journalism combats exploitation of children and affirms human dignity.",
     "note": ""
   },
   {
@@ -14300,10 +14300,150 @@
     "note": ""
   },
   {
+    "id": 2157,
+    "prog_id": 5335,
+    "year": 1998,
+    "sort": 31,
+    "broadcaster_id": "PIERGIORGIOBRANZI",
+    "or_title": "_null",
+    "lang_title": "",
+    "rom_title": "",
+    "en_title": "_null",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 266,
+    "result": "winner",
+    "exaequo": 1,
+    "reasoning": "_null",
+    "note": ""
+  },
+  {
+    "id": 2156,
+    "prog_id": 5334,
+    "year": 1998,
+    "sort": 32,
+    "broadcaster_id": "CHRISDUNKLEY",
+    "or_title": "_null",
+    "lang_title": "",
+    "rom_title": "",
+    "en_title": "_null",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 266,
+    "result": "winner",
+    "exaequo": 1,
+    "reasoning": "_null",
+    "note": ""
+  },
+  {
+    "id": 2160,
+    "prog_id": 5338,
+    "year": 1998,
+    "sort": 33,
+    "broadcaster_id": "LENNARTEHRENBORG",
+    "or_title": "_null",
+    "lang_title": "",
+    "rom_title": "",
+    "en_title": "_null",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 266,
+    "result": "winner",
+    "exaequo": 1,
+    "reasoning": "_null",
+    "note": ""
+  },
+  {
+    "id": 2159,
+    "prog_id": 5337,
+    "year": 1998,
+    "sort": 34,
+    "broadcaster_id": "MARIATERESAMISCOVICH",
+    "or_title": "_null",
+    "lang_title": "",
+    "rom_title": "",
+    "en_title": "_null",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 266,
+    "result": "winner",
+    "exaequo": 1,
+    "reasoning": "_null",
+    "note": ""
+  },
+  {
+    "id": 2158,
+    "prog_id": 5336,
+    "year": 1998,
+    "sort": 35,
+    "broadcaster_id": "DIANAPALMA",
+    "or_title": "_null",
+    "lang_title": "",
+    "rom_title": "",
+    "en_title": "_null",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 266,
+    "result": "winner",
+    "exaequo": 1,
+    "reasoning": "_null",
+    "note": ""
+  },
+  {
+    "id": 2155,
+    "prog_id": 5333,
+    "year": 1998,
+    "sort": 36,
+    "broadcaster_id": "GEORGETHOMSON",
+    "or_title": "_null",
+    "lang_title": "",
+    "rom_title": "",
+    "en_title": "_null",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 266,
+    "result": "winner",
+    "exaequo": 1,
+    "reasoning": "_null",
+    "note": ""
+  },
+  {
+    "id": 2161,
+    "prog_id": 5339,
+    "year": 1998,
+    "sort": 37,
+    "broadcaster_id": "URSULAVONZALLINGER",
+    "or_title": "_null",
+    "lang_title": "",
+    "rom_title": "",
+    "en_title": "_null",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 266,
+    "result": "winner",
+    "exaequo": 1,
+    "reasoning": "_null",
+    "note": ""
+  },
+  {
     "id": 580,
     "prog_id": 288,
     "year": 1998,
-    "sort": 31,
+    "sort": 38,
     "broadcaster_id": "HRT",
     "or_title": "Moj brat Ante",
     "lang_title": "croatian",
@@ -15800,10 +15940,30 @@
     "note": ""
   },
   {
+    "id": 2154,
+    "prog_id": 5332,
+    "year": 2000,
+    "sort": 39,
+    "broadcaster_id": "ROMANOPRODI",
+    "or_title": "_null",
+    "lang_title": "",
+    "rom_title": "",
+    "en_title": "_null",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 265,
+    "result": "winner",
+    "exaequo": 0,
+    "reasoning": "",
+    "note": ""
+  },
+  {
     "id": 649,
     "prog_id": 345,
     "year": 2000,
-    "sort": 39,
+    "sort": 40,
     "broadcaster_id": "VRT",
     "or_title": "Exodus of de wereld van Vina",
     "lang_title": "dutch",
@@ -15823,7 +15983,7 @@
     "id": 650,
     "prog_id": 334,
     "year": 2000,
-    "sort": 40,
+    "sort": 41,
     "broadcaster_id": "FRANCE2",
     "or_title": "La Vérité vraie",
     "lang_title": "french",
@@ -16725,7 +16885,7 @@
     "year": 2001,
     "sort": 45,
     "broadcaster_id": "RAI",
-    "or_title": "Global Economic Review",
+    "or_title": "Pianeta Economia",
     "lang_title": "english",
     "rom_title": "",
     "en_title": "Global Economic Review",
@@ -23230,7 +23390,7 @@
     "rom_title": "",
     "en_title": "The Hidden Music",
     "cat_title": "",
-    "credits": "Producer: Michele Dall'Ongaro. Script: Tiziano Scarpa. Music, Sound: Michele Tadini.",
+    "credits": "Producer: Michele Dall'Ongaro. Script: Tiziano Scarpa. Actor: Claudio Bisio. Music, Sound: Michele Tadini.",
     "weblink": "_null",
     "program_type": "[\"Radio\",\"Art\"]",
     "prize_id": 183,
@@ -41480,6 +41640,66 @@
     "note": ""
   },
   {
+    "id": 2165,
+    "prog_id": 5343,
+    "year": 2022,
+    "sort": 74,
+    "broadcaster_id": "POLITECNICOALDOMOROBARI",
+    "or_title": "Microclima ospedaliero sostenibile",
+    "lang_title": "italian",
+    "rom_title": "",
+    "en_title": "Sustainable Hospital Microclimate",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 269,
+    "result": "winner",
+    "exaequo": 0,
+    "reasoning": "1. Perfect mix of cost and benefit analysis crucial for the transparency that emerged which gives added value to the entire project. 2. Highly current topic. It responds to a need that is highly relevant to the historical moment. 3. It brings out a regulatory void and questions the institutions. 4. The project was at the same time 360° sustainable.",
+    "note": ""
+  },
+  {
+    "id": 2166,
+    "prog_id": 5344,
+    "year": 2022,
+    "sort": 75,
+    "broadcaster_id": "UNIVERSITAFOGGIA",
+    "or_title": "Quello che le mamme non dicono",
+    "lang_title": "italian",
+    "rom_title": "",
+    "en_title": "What Mothers Don’t Say",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 269,
+    "result": "mention",
+    "exaequo": 0,
+    "reasoning": "1. Highly topical theme linked to the story told by Liliana, which the jury considered in line with the phenomenon of depression considered a \"state\" that people experience without distinction of sex, today more than yesterday. In particular, the latest historical events require media attention and technical-specialist support to make their lives less lonely. 2. This story brings us back to considering the value of social sustainability over economic and environmental sustainability as the priority. It is an emergency that forces us to intervene immediately.",
+    "note": ""
+  },
+  {
+    "id": 2167,
+    "prog_id": 5345,
+    "year": 2022,
+    "sort": 76,
+    "broadcaster_id": "UNIVERSITASALENTO",
+    "or_title": "Il granchio blu",
+    "lang_title": "italian",
+    "rom_title": "",
+    "en_title": "The Blue Crab",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 267,
+    "result": "winner",
+    "exaequo": 0,
+    "reasoning": "1. Clarity of presentation, due to the strength of the story telling that emerged from the video in full harmony for the images and sound used. 2. For the highly empathetic message and project, highly topical, closely linked to the theme of sustainability, especially in reference to environmental sustainability. 3. Innovative and smart narrative style that is easy to use for digital communication.",
+    "note": ""
+  },
+  {
     "id": 2076,
     "prog_id": 1384,
     "year": 2023,
@@ -41496,7 +41716,7 @@
     "prize_id": 258,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "A surprising, compelling and cleverly crafted story about an Australian invention that changed the course of global music history. Producer and presenter James Vyver has achieved one of the most difficult things on radio, taking a niche historical subject – the rise and fall of two tech entrepreneurs – and making it relevant to modern life, and accessible for the broadest possible listenership. He achieves this through a crystal clear narrative and easy tone of voice, making this modern tech adventure engaging from the start. The programme demonstrates a high quality of production, with an admirable attention to detail in the editing and sound design, and the use of innovative techniques such as AI voice generation. The duration is perfect in today’s busy world of never-ending podcasts. The fact that this programme is the result of a small operation – James himself undertaking the majority of the production work, alongside sound engineer John Jacobs – deserves credit and is a good example of how the best stories in audio can be told with limited resources.",
     "note": ""
   },
   {
@@ -41516,7 +41736,7 @@
     "prize_id": 258,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -41536,7 +41756,7 @@
     "prize_id": 258,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -41636,7 +41856,7 @@
     "prize_id": 259,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "Author Laura Uribe deepens our understanding for a traumatic loss, individual and collective, using the radio medium in an artistic and personal way that exceeds the pure facts and makes Campo a real work of art. This is a story about unheard voices of mothers, sisters and wives looking for a truth about their beloved ones kidnapped and murdered by Mexican cartels. However, the artistic and poetic form of this docu-fiction piece deepens our understanding beyond the pure presentation of facts. The author herself is deeply involved with the story and faces an existential question during her work: shall she join the side of action or just continue to be a witness? Shall she dig or shall she write? With Campo she gives the answer: the act of writing that unburies the bodies of loved ones is also an act of fighting against the destructive, annihilating power of a criminal system. And in this intense audio production for German radio, the successful transferal and reenactment of a Mexican reality in a different language, by actors unfamiliar with this painful reality, unveils the universal core of this drama. The stories of the missing sons and daughters, fathers and brothers do matter - to Mexico and to the world. And even more matters the strength and love of the women telling their stories.",
     "note": ""
   },
   {
@@ -41656,7 +41876,7 @@
     "prize_id": 259,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "The Norwegian piece The Friend provides us with intimacy created by outstanding acting. and draws the listener into the inner struggle and perspectives of the protagonist, the young divorced mother, whose little son changes her behaviour due to an uncanny presence of an imaginary friend.",
     "note": ""
   },
   {
@@ -41676,7 +41896,7 @@
     "prize_id": 259,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "Switzerland's production Imaginary Mask deals with the Covid-pandemic in a satyrical way through the perspective of a mother and an adolescent daughter in a polarized society. The piece is musically enthralling and with its hommage to Moliere's characters and humour wins over the listeners.",
     "note": ""
   },
   {
@@ -41776,7 +41996,7 @@
     "prize_id": 260,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "The skill of the producer to connect in real time at such distance and create a transformative experience for the protagonists and the listeners results in a unique perspective on the plight of women trying to escape a repressive regime. What emerges for the listener is a compelling narrative of two women at a time of great danger to them and their families. The jury felt the skill of the producer and the bravery of Raha and Marwa to tell and record their journeys made them deserving winners of the Prix Italia prize for Documentary and Reportage for 2023.",
     "note": ""
   },
   {
@@ -41796,7 +42016,7 @@
     "prize_id": 260,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -41816,7 +42036,7 @@
     "prize_id": 260,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -41916,7 +42136,7 @@
     "prize_id": 238,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "At the core of the programme is a portrait of dance, a perfect combination of 2D and 3D, archives, dance, interviews, music and graphics. The storytelling is full of small treasures showing other layers of the film; music and the absence of music, the sounds of dance in perfect combination with the music of John Cage and Eric Satie; a poetic fusion of old and new choreography, old and new archival material; the innovative use of graphics, never repeating the same pattern on the one hand and not overdoing with the novelty one the other; the storytelling giving the viewer only hints about certain phases and relationships in Merce Cunningham's life. The film is a true reminder of Cunningham work and his influence in contemporary dance, for us and for future generations alike - a dancing poetry, a poetry of dance.",
     "note": ""
   },
   {
@@ -41936,7 +42156,7 @@
     "prize_id": 238,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -41956,7 +42176,7 @@
     "prize_id": 238,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42056,7 +42276,7 @@
     "prize_id": 239,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "A visceral and compelling portrait of the reality of life in prison, with a strong ensemble cast, dynamic shooting and editing style, and a story offering a broader metaphor for the injustices widespread in modern society.",
     "note": ""
   },
   {
@@ -42076,7 +42296,7 @@
     "prize_id": 239,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42096,7 +42316,7 @@
     "prize_id": 239,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42196,7 +42416,7 @@
     "prize_id": 240,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "This black-and-white film sheds a new light into our lives in the polarised world of today.",
     "note": ""
   },
   {
@@ -42216,7 +42436,7 @@
     "prize_id": 240,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42236,7 +42456,7 @@
     "prize_id": 240,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42336,7 +42556,7 @@
     "prize_id": 263,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "The Jury has unanimously been convinced by the efficiency of this production which presents multiple layers and had a huge impact on society. With this prize we want to support the authors' work and the way they are tackling the difficult subject of suicidal thoughts.",
     "note": ""
   },
   {
@@ -42356,7 +42576,7 @@
     "prize_id": 263,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42376,7 +42596,7 @@
     "prize_id": 263,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42476,7 +42696,7 @@
     "prize_id": 261,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "For its capability to shorten the distance between young audiences and public service media, through its extreme quality corresponding to the scale of its impact.",
     "note": ""
   },
   {
@@ -42496,7 +42716,7 @@
     "prize_id": 261,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42516,7 +42736,7 @@
     "prize_id": 261,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42616,7 +42836,7 @@
     "prize_id": 262,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "Cómo el machismo marcó nuestra adolescencia (How Sexism Shaped Our Teenage Years), crowned as the victor of the Digital Interactive Category at the 75th Prix Italia in Bari, stands out as a testament to the profound capabilities of interactive media in the modern age. A brainchild of the RTVE Lab, it both illuminates and critiques the multifaceted dimensions of interactive digital creations. Indeed, the jurors had prolonged discussions on the nuanced understanding of interactivity, highlighting the intricate relationship between the user, content, editors and archives. This work isn't just merely a dialogue between the user and content but it is a multilayered interaction where users engage with historical media, editors weave through a vast archive to curate a unique experience, and the past is juxtaposed against contemporary issues in a powerful confrontation. Beyond its primary focus, the project also demonstrates a sustainable and reflective approach to using archives, prompting us, as media practitioners, to consider the vast and rapidly evolving nature of media production and to reflect on our role and the long-term impact of the stories that we tell as well as the images that we create and broadcast. By allowing participants of different generations to navigate the media environment of adolescent life over past decades, the project holds up a mirror to society and unravels longstanding gender biases embedded within the Spanish media landscape. Its potent spotlight on sexism, serves as a call to action, emphasising the profound social impact such projects can have. As we acknowledge its significance in challenging gender biases, we are optimistic about its blueprint being used to address a plethora of other social issues in the future. The decision to present media in its untouched form not only accentuates authenticity but also amplifies the conversation about the significant role and responsibility broadcasters have in shaping societal narratives and perceptions. How Sexism Shaped Our Teenage Years is an excellent example of public service media. It is a beacon of hope, underscoring the transformative power of media and its potential for social change.",
     "note": ""
   },
   {
@@ -42636,7 +42856,7 @@
     "prize_id": 262,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42656,7 +42876,7 @@
     "prize_id": 262,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42816,7 +43036,7 @@
     "prize_id": 264,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "This is a journalistic investigation into a topic of great international impact: the recycling of plastics produced by European countries and exported elsewhere. The Jury particularly appreciated the thoroughness and systemic approach to such a relevant and complex issue, analyzed with great accuracy in its different aspects: environmental, social and political. The outcome is an insightful documentary, capable of sparking positive evolutions, both in terms of awareness raising and the research of new solutions.",
     "note": ""
   },
   {
@@ -42836,7 +43056,7 @@
     "prize_id": 264,
     "result": "mention",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": "Also a finalist."
   },
   {
@@ -42856,7 +43076,7 @@
     "prize_id": 264,
     "result": "mention",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42876,7 +43096,7 @@
     "prize_id": 264,
     "result": "finalist",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "_null",
     "note": ""
   },
   {
@@ -42996,7 +43216,7 @@
     "prize_id": 242,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "The jury unanimously voted for Esterno Notte, Marco Bellocchio's extraordinary series about the tragic destiny of Aldo Moro. The jury felt that the programme represents the peak of excellence in audiovisual storytelling today - featuring impeccable writing and acting under the sublime direction of one of the great Masters of Italian cinema. It was also widely praised as a story about the past that speaks to the present times with a clear and authoritative voice and without ever taking obvious sides. Last but not least, the programme created a set of deeply moving, memorable characters whose lives were told through arresting details and moments of everyday life.",
     "note": ""
   },
   {
@@ -43016,7 +43236,7 @@
     "prize_id": 244,
     "result": "winner",
     "exaequo": 0,
-    "reasoning": "",
+    "reasoning": "A deeply touching documentary, an incredible journey exploring children in Afghanistan forced to support their families when they are supposed to be in school. The film demands emotional involvement and deep reflection about the future of these children, not only in Afghanistan but throughout the world. Despite the hard scenario, the final dialogue of the two young protagonist girls is a hymn of joy and hope.",
     "note": ""
   },
   {
@@ -43036,7 +43256,67 @@
     "prize_id": 244,
     "result": "mention",
     "exaequo": 0,
-    "reasoning": "_null",
+    "reasoning": "The nice gesture shown to the children of Ukraine by the Hungarian National Centre for Circus Arts was remarkable. This is a solace amidst fear, loss of lives, and stress created by war. This documentary leads the viewers on a soul-searching journey, emphasizing peace, love, coexistence, and collaboration as the world belongs to all people.",
+    "note": ""
+  },
+  {
+    "id": 2164,
+    "prog_id": 5342,
+    "year": 2023,
+    "sort": 79,
+    "broadcaster_id": "DAMSUNIVERSITASALENTO",
+    "or_title": "La rosa dei venti – Roseto Doc",
+    "lang_title": "italian",
+    "rom_title": "",
+    "en_title": "The Rose of the Winds – Roseto Doc",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 267,
+    "result": "winner",
+    "exaequo": 0,
+    "reasoning": "Storytelling with a strong emotional impact that has managed to integrate topical sustainability concepts such as fostering community among local people and businesses as well as creating a link between tradition and international experiences.",
+    "note": ""
+  },
+  {
+    "id": 2162,
+    "prog_id": 5340,
+    "year": 2023,
+    "sort": 80,
+    "broadcaster_id": "POLITECNICOBARI",
+    "or_title": "Energia sostenibile a portata di Parco",
+    "lang_title": "italian",
+    "rom_title": "",
+    "en_title": "Sustainable Energy Within the Reach of the Park",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 268,
+    "result": "winner",
+    "exaequo": 0,
+    "reasoning": "The project was able to emphasize the full utilization of energy that is produced from renewable sources by focusing on the sustainable impacts related to storage and redistribution systems.",
+    "note": ""
+  },
+  {
+    "id": 2163,
+    "prog_id": 5341,
+    "year": 2023,
+    "sort": 81,
+    "broadcaster_id": "POLITECNICOBARI",
+    "or_title": "Un vento nuovo per la sostenibilità e la salvaguardia dell'agricoltura",
+    "lang_title": "italian",
+    "rom_title": "",
+    "en_title": "A New Wind for Sustainability and Safeguarding Agriculture",
+    "cat_title": "",
+    "credits": "_null",
+    "weblink": "_null",
+    "program_type": "[\"Other\",\"Other\"]",
+    "prize_id": 268,
+    "result": "mention",
+    "exaequo": 0,
+    "reasoning": "It is a project that in both the concept and development unites the new generation of young engineers with that of traditional farmers by assisting them with their needs in a modern way.",
     "note": ""
   }
 ]

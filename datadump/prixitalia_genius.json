@@ -1,232 +1,182 @@
 [
   {
-    "name": "David",
-    "surname": "Attenborough",
-    "description": ""
-  },
-  {
-    "name": "Giorgio",
-    "surname": "Bandini",
-    "description": "<b>Giorgio Bandini</b> was \"the inventor of radio drama\" at RAI - documentarist, director, eclectic author, renovator of genres, one of the most original figures of Italian radio in the 1960s and 1970s. He obtained his first major recognition at the Prix Italia, winning in 1968 with \"Nostra casa disumana\"."
-  },
-  {
-    "name": "Samuel",
-    "surname": "Beckett",
-    "description": "<b>Samuel Beckett</b>'s very presence at the 1959 Prix Italia award ceremony was a sensational and unusual event and, in its own way, a very Beckettian affair. Famously reluctant to mundane occasions, Beckett appeared in his full mask of austerity, seemingly impervious to emotion, only briefly shaking hands with the Rai managing director who was awarding him the prize for his play \"Embers\". 'Closed in on himself like a porcupine', in the words of one of the many journalists who tried with little luck to wrest a few words from him. But his very presence there, as hermetic and oracular as his masterpieces, resonated with prestige and dignity: the Prix Italia, \"the Oscar of radio\", and the supreme poet were meeting on the same level."
-  },
-  {
-    "name": "Luciano",
-    "surname": "Berio",
-    "description": ""
-  },
-  {
-    "name": "Heinrich",
-    "surname": "Boll",
-    "description": ""
-  },
-  {
-    "name": "Benjamin",
-    "surname": "Britten",
-    "description": ""
-  },
-  {
-    "name": "Peter",
-    "surname": "Brook",
-    "description": "Tragédie de Carmen is one of <b>Peter Brook</b>'s most radical plays, and a landmark in the history of 20th-century theater. Stripped of all operatic artificiality, the play discharges its power on stage in 90 minutes of passion, betrayal, freedom and desire. After the 1981 stage play, Brook himself directed a television version in 1983, which took by storm the Prix Italia the following year."
-  },
-  {
-    "name": "Andrzej",
-    "surname": "Brzoska",
-    "description": "A highly respected and acclaimed sound director, <b>Andrzej Brzoska</b> has been crafting the sound of countless quality productions at Polskie Radio since the 1980s, especially in the field of radio drama. His list of awards both in Poland and abroad is impressive, and continues to this day. But his first international recognition came at the Prix Italia, where his name is linked to no less than three PR victories in 1989, 1992 and 1996."
-  },
-  {
-    "name": "Maurice",
-    "surname": "Béjart",
-    "description": ""
-  },
-  {
-    "name": "John",
-    "surname": "Cage",
-    "description": ""
-  },
-  {
-    "name": "Felice",
+    "year": 1949,
+    "full_name": "Felice Casorati",
     "surname": "Casorati",
     "description": "One of the most important painters, engravers and scenographers of the first half of the twentieth century, <b>Felice Casorati</b> collaborated with RAI in Turin on several occasions in the last years of his life. For the Prix Italia he produced some engravings for the Capri convention volume in 1948, a series of four lithographs for the first edition in 1949, and an engraving for the cover of the book of the Prix's first 10-year anniversary in 1958."
   },
   {
-    "name": "René",
+    "year": 1951,
+    "full_name": "René Clair",
     "surname": "Clair",
-    "description": "<b>René Clair</b>'s celebrated victory in 1951 with his first radio work \"The Devil's Teardrop\" is... perhaps best understood in context. Clair, a sacred monster of 1920s-40s cinema, was mostly considered unfashionable at the time, and actively contested by the nascent New Wave of French cinema. On the other hand, the Prix Italia, still young in its third edition, had a boost in reputation from this choice, which helped consolidate its international prestige. All that being said, \"The Devil's Teardrop\" remains a work of great charm, elevated furthermore by an extraordinary voice work by Gérard Philipe (speaking of sacred monsters...)."
+    "description": "<b>René Clair</b>'s celebrated victory in 1951 with his first radio work <i>The Devil's Teardrop</i> is… perhaps best understood in context. Clair, a sacred monster of 1920s-40s cinema, was mostly considered unfashionable at the time, and actively contested by the nascent New Wave of French cinema. On the other hand, the Prix Italia, still young in its third edition, had a boost in reputation from this choice, which helped consolidate its international prestige. All that being said, <i>The Devil's Teardrop</i> remains a work of great charm, elevated furthermore by an extraordinary voice work by Gérard Philipe (speaking of sacred monsters…)."
   },
   {
-    "name": "Gary",
-    "surname": "Cooper",
-    "description": "In a career spanning nearly 40 years, <b>Gary Cooper</b> starred in more than 100 films and won two Oscars for best actor. His last performance, however, was not for the big screen but for television, as narrator of the documentary \"The Real West\". Already very ill, Cooper wanted to participate anyway, narrating the true story of the legendary West of which he had been one of the most celebrated movie icons. The documentary won the Prix Italia in 1961, a few months after the star's death."
-  },
-  {
-    "name": "Birgit",
-    "surname": "Cullberg",
-    "description": "While the TV competition was born in 1957, the Prix Italia hesitated several years before creating a 'noble' musical art category for television as well. Could TV ever be an equally suitable medium for music and art, as the radio proved to be? Legendary Swedish choreographer <b>Birgit Cullberg</b> dispelled any doubts by claiming the first Prix Italia for TV Musical Works in 1961 with \"The Evil Queen\". Cullberg's gradual experiments in TV choreography would leave a deep mark in the following years: \"Red Wine in a Green Glass\", her second win in 1971, already made sophisticated use of the chroma key, among other things. Her son Mats Ek, who will pick up her legacy, will in turn win the Prix Italia in 1997, 1999 and 2010. When genius, and the Prix, runs in the family..."
-  },
-  {
-    "name": "Jacques",
-    "surname": "Custeau",
-    "description": ""
-  },
-  {
-    "name": "Bertil",
+    "year": 1957,
+    "full_name": "Bertil Danielsson",
     "surname": "Danielsson",
-    "description": "<b>Bertil Danielsson</b>'s innovative and poetic \"Viggen Viggo\" earned Sweden's television its first international award: the Prix Italia for documentaries in 1957. A showcase for Konrad Lorenz's theories, not yet so widespread at the time, and a manifesto of a possible coexistence between man and nature, Viggen Viggo is still a cornerstone of nature documentary filmmaking. As for Danielsson, he went on to win the Prix Italia again in 1964."
+    "description": "<b>Bertil Danielsson</b>'s innovative and poetic <i>Viggen Viggo</i> earned Sweden's television its first international award: the Prix Italia for documentaries in 1957. A showcase for Konrad Lorenz's theories, not yet so widespread at the time, and a manifesto of a possible coexistence between man and nature, <i>Viggen Viggo</i> is still a cornerstone of nature documentary filmmaking. As for Danielsson, he went on to win the Prix Italia again in 1964."
   },
   {
-    "name": "Melville",
-    "surname": "De Mellow",
-    "description": "<b>Melville De Mellow</b> is the grandfather of Indian radio broadcasters, elevated to immense national popularity after his historic 7-hour coverage of Gandhi's funeral. Mainly a sports and current news commentator, at the peak of his fame he set out to produce a nature documentary: he plunged into the jungle with a small crew, exposing himself to great risks, to capture the sounds of the elusive Asiatic lions. It was a special project, designed to be presented at the most prestigious radio competition in the world. \"Lali and the Gir Lions\" marked All India Radio's first participation in the Prix Italia and won a Special Prize in 1964."
-  },
-  {
-    "name": "Neda",
-    "surname": "Depolo",
-    "description": "Legendary author and producer <b>Neda Depolo</b>, a pioneer of stereophonic techniques since the 1960s, is among the leading names of Radio Beograd's extraordinary creative season in the 1980s Yugoslavia. In those years, the programs she curated earned 2 wins and 3 mentions at the Prix Italia. Today Radio Beograd runs an annual competition for young talent named after her."
-  },
-  {
-    "name": "David",
-    "surname": "Dufresne",
-    "description": "Launched as an experiment in 1998 and then officially confirmed in 2000, the Prix Italia Web Competition quickly demonstrated the new potential of the \"third medium\" available to broadcasters. The Web could inform, be up to date, summarise and present data, collect endless amounts of user-generated content in a short time. But <b>David Dufresne</b>'s \"Prison Valley\", which earned Arte a victory in 2010, showed perhaps for the first time that the Web could also be beautiful. This ground-breaking, genre-defining feature is part documentary, part interactive road-movie in which you play a journalist investigating the prison industry in recession-era America. By creatively leveraging cutting-edge technology, Dufresne's work opened up new perspectives and helped establish the Web as a first-class medium for sharing quality content."
-  },
-  {
-    "name": "Friedrich",
+    "year": 1958,
+    "full_name": "Friedrich Dürrenmatt",
     "surname": "Dürrenmatt",
-    "description": "When he won the Prix Italia in 1958, <b>Friedrich Dürrenmatt</b> was certainly no longer an unknown. 'The heir of Brecht' had been causing a stir on the stage for more than ten years, with his uncompromising plays and his baroque, sanguine, anti-naturalistic language. However, Dürrenmatt, already a successful novelist, was still somewhat new to the radio drama genre. His first experiment \"The breakdown\" had been a great success only the year before, but his instinct was almost immediately to rewrite it as a novel. This \"One Evening in Late Autumn\", produced by the Austrian ORF, on the other hand, proved conclusively that one of the most original voices of the post-war period also had quite a knack for the radio, a medium he would go on to cultivate assiduously in the years to come."
+    "description": "When he won the Prix Italia in 1958, <b>Friedrich Dürrenmatt</b> was certainly no longer an unknown. \"The heir of Brecht\" had been causing a stir on the stage for more than ten years, with his uncompromising plays and his baroque, sanguine, anti-naturalistic language. However, Dürrenmatt, already a successful novelist, was still somewhat new to the radio drama genre. His first experiment <i>The breakdown</i> had been a great success only the year before, but his instinct was almost immediately to rewrite it as a novel. This <i>One Evening in Late Autumn</i>, produced by the Austrian ORF, on the other hand, proved conclusively that one of the most original voices of the post-war period also had quite a knack for the radio, a medium he would go on to cultivate assiduously in the years to come."
   },
   {
-    "name": "Umberto",
-    "surname": "Eco",
-    "description": "When the Prix Italia decided to complement the \"practical part\" of its competitions with a more \"theoretical part\", thus starting the tradition of a major annual study conference on the topics of audiovisual, it only made sense to entrust the curatorship to one of the world's leading semiologists and mass-media specialists. <b>Umberto Eco</b> oversaw the scientific organization of the first two Prix Italia conferences, in 1972 and 1973."
-  },
-  {
-    "name": "Federico",
-    "surname": "Fellini",
-    "description": "A young <b>Federico Fellini</b> wrote several radio scripts for the then EIAR between 1939 and 1943, which were recovered from the RAI archives and aired only several years after the great director's death, in an effort of great archival and cultural significance. In particular, for the comedy \"Fuori programma n. 7,\" director Idalberto Fei chose an all-star cast that included such Fellini actors as Sandra Milo and Milena Vukotic, alongside Paolo Poli, Maurizio Micheli, Toni Garrani and others. This revival earned Fellini a posthumous Prix Italia in 1999."
-  },
-  {
-    "name": "Peter",
-    "surname": "Greenaway",
-    "description": "After a flow of cinematic masterpieces in the 1980s, visionary filmmaker <b>Peter Greenaway</b> turned to TV - and used it like no one before. The imaginative extravaganza of \"A TV Dante\" cannot really be put into words. One could say that Greenaway uses the medium like a painter's canvas, but even this would be reductive: it is rather as if television as a whole were a continent yet to be explored, a language yet to be invented. The Prix Italia won in 1991 consecrated what is still considered the most extraordinary achievement of Greenaway at his experimental best."
-  },
-  {
-    "name": "Ugo",
-    "surname": "Gregoretti",
-    "description": "<b>Ugo Gregoretti</b>, a man of sophisticated yet not ostentatious culture, of acute if good-natured irony, always subversive and never provocative, enjoyed an extraordinary career first as a TV director and then in the cinema, but also in theatre and as a writer. He first made himself known at the Prix Italia in 1960, with a short film on \"The Sicily of The Leopard\", a lucid and affectionate documentary on the tracks of Tomasi di Lampedusa's masterpiece, which earned Rai the Prix Italia."
-  },
-  {
-    "name": "Werner",
-    "surname": "Herzog",
-    "description": "In a way, all of <b>Werner Herzog</b>'s films come from his own obsessions, and few obsessions have stayed with him like his lifelong fascination with Gesualdo da Venosa and his music. \"Gesualdo: Death for Five Voices\" is a documentary, up to a point: then, the labyrinthine nature of the music and the mysterious events of Gesualdo's life become a mirror for the director's own imagery and restlessness, and the film turns into one of the most puzzling and personal works in Herzog's production. Filmed for ZDF, \"Gesualdo\" won the Prix Italia in 1996."
-  },
-  {
-    "name": "Anthony",
-    "surname": "Hopkins",
-    "description": "<b>Anthony Hopkins</b> is... well, Anthony Hopkins! One of the most acclaimed actors in film history, he has earned a dizzying number of awards throughout a decades-long career. His intense performance in \"The Good Father\" contributed in no small part to Channel 4 winning the Prix Italia in 1988."
-  },
-  {
-    "name": "Eugène",
-    "surname": "Ionesco",
-    "description": ""
-  },
-  {
-    "name": "Klaus",
-    "surname": "Lindemann",
-    "description": "Every so often, when we see a classical concert or ballet filmed on television, we get the feeling that the images flow 'just the right way', always in time, never intrusive, supporting the music with discretion - this is a sign that we are watching a truly talented director at work. Such was <b>Klaus Lindemann</b>, who in the 1970s and 1980s helped set a golden standard for how music should be filmed on TV. The two Prix Italia won in 1972 (ZDF) and 1973 (ARD) are a tribute to the geniuses behind the scenes who create the aesthetics of what we watch on TV."
-  },
-  {
-    "name": "Bruno",
-    "surname": "Maderna",
-    "description": "The partnership between musician and conductor <b>Bruno Maderna</b> and Rai was both extensive and fruitful: together with Luciano Berio he founded in 1956 the legendary Studio di Fonologia at Rai in Milan, a hotbed for musical experimentation and innovation for decades to come. Inevitably, his participations in the Prix Italia was also frequent: already in 1959 he contributed to the victory of \"La notte di un nevrastenico\" by conducting Nino Rota's score. His win as a musician came only in 1972, a year before his untimely death, with \"Ages\", a radio invention composed in collaboration with Giorgio Pressburger, adapted from Shakespeare's \"As You Like It\"."
-  },
-  {
-    "name": "Anthony",
-    "surname": "Minghella",
-    "description": "<b>Anthony Minghella</b> achieved international star status after his Oscar win for “The English Patient” (1996). But his earlier career as a radio writer and producer is no less rich and original. His first radio drama “Hang Up” did not escape the attention of the jury, and earned BBC a Prix Italia in 1988."
-  },
-  {
-    "name": "Krszysztof",
-    "surname": "Penderecki",
-    "description": ""
-  },
-  {
-    "name": "Harold",
-    "surname": "Pinter",
-    "description": "Perhaps the first world-class playwright to truly embrace the new medium, by 1963 <b>Harold Pinter</b> was writing for theatre, TV or both at the same time. \"The Lover\" is a typical example of his 'comedies of menace', where futile, everyday details gradually pile up and assume a disturbing and mysterious significance. The Prix Italia he won that year (for a then-Rediffusion/ITV production) had a twofold importance: it confirmed Pinter as one of the great talents of his generation, and settled once and for all the question of whether TV could, just like radio, be a vehicle for cutting edge dramatic literature."
-  },
-  {
-    "name": "Piers",
-    "surname": "Plowright",
-    "description": "BBC radio 3 and 4 have been \"the true home\" for <b>Piers Plowright</b>, producer of fiction and documentaries, a veritable \"luminary of radio\" but also a man of the theater, gifted with rare sensitivity and culture. In his BBC career he won no less than three Prix Italias in 1983, 1986 and 1988 and many other awards."
-  },
-  {
-    "name": "Giorgio",
-    "surname": "Pressburger",
-    "description": "So multifaceted and prolific was the genius of <b>Giorgio Pressburger</b> that being considered one of the most original radio writers in the 1970s almost comes as a by-product. A novelist, essayist, author and director for theatre, radio, TV and the cinema, teacher, conceiver and artistic director of festivals and cultural events, a polyglot but above all a true Mitteleuropean intellectual gifted with a refined sensibility and a vast and curious culture, Pressburger's collaboration with RAI spanned more than 3 decades, both in radio and television. Between 1970 and 1975, he won the Prix Italia no less than three times: for 'Giochi di fanciulli', 'Ages' (a collaboration with Bruno Maderna) and 'Diario Immaginario' (with Luciano Berio). He won a special prize again in 1988 for the original 'Gocce' radio format."
-  },
-  {
-    "name": "Francesco",
-    "surname": "Rosi",
-    "description": ""
-  },
-  {
-    "name": "Nino",
-    "surname": "Rota",
-    "description": ""
-  },
-  {
-    "name": "Karlheinz",
-    "surname": "Stockhausen",
-    "description": ""
-  },
-  {
-    "name": "Tōru",
+    "year": 1958,
+    "full_name": "Takemitsu Tōru",
     "surname": "Takemitsu",
-    "description": "One of the most influential Japanese composers of the 20th century, <b>Tōru Takemitsu</b> first came to international notoriety when, as the story goes, Igor Stravinsky accidentally heard and praised his \"Requiem for strings\" during a visit to Japan in 1959. Actually, a highly perceptive Prix Italia jury had already figured it out the year before. \"Three Images in Worlds and Music\" (NHK) was a trilogy that included works by Hayashi Hikaru and Irino Yoshirō, as well as Tōru Takemitsu. The prize received confirmed the extraordinary moment of Japanese avant-garde music, and at the same time the value of the Prix as a bridge between cultures."
+    "description": "One of the most influential Japanese composers of the 20th century, <b>Takemitsu Tōru</b> first came to international notoriety when, as the story goes, Igor Stravinsky accidentally heard and praised his <i>Requiem for strings</i> during a visit to Japan in 1959. Actually, a highly perceptive Prix Italia jury had already figured it out the year before. <i>Three Images in Worlds and Music</i> (NHK) was a trilogy that included works by Hayashi Hikaru and Irino Yoshirō, as well as Takemitsu Tōru. The prize received confirmed the extraordinary moment of Japanese avant-garde music, and at the same time the value of the Prix as a bridge between cultures."
   },
   {
-    "name": "Dylan",
-    "surname": "Thomas",
-    "description": ""
+    "year": 1958,
+    "full_name": "Sergio Zavoli",
+    "surname": "Zavoli",
+    "description": "<b>Sergio Zavoli</b> kicked off a 50-year career with RAI, which would see him become its President as well as Italy's best-known TV journalist, by winning the Prix Italia twice with as many radio documentaries in 1953 and 1958. The latter, in particular was a unique and unrepeatable testimony, documenting life in a cloistered monastery in the pre-conciliar era: <i>Seclusion</i> was a huge success, was translated and circulated abroad, becoming a first international breakthrough for Rai, and Zavoli set a standard for the very spirit of the Prix Italia in its early years."
   },
   {
-    "name": "Andrzej",
-    "surname": "Wajda",
-    "description": ""
+    "year": 1959,
+    "full_name": "Samuel Beckett",
+    "surname": "Beckett",
+    "description": "<b>Samuel Beckett</b>'s very presence at the 1959 Prix Italia award ceremony was a sensational and unusual event and, in its own way, a very Beckettian affair. Famously reluctant to mundane occasions, Beckett appeared in his full mask of austerity, seemingly impervious to emotion, only briefly shaking hands with the Rai managing director who was awarding him the prize for his play <i>Embers</i>. \"Closed in on himself like a porcupine\", in the words of one of the many journalists who tried with little luck to wrest a few words from him. But his very presence there, as hermetic and oracular as his masterpieces, resonated with prestige and dignity: the Prix Italia, \"the Oscar of radio\", and the supreme poet were meeting on the same level."
   },
   {
-    "name": "Peter",
-    "surname": "Weigl",
-    "description": ""
+    "year": 1960,
+    "full_name": "Ugo Gregoretti",
+    "surname": "Gregoretti",
+    "description": "<b>Ugo Gregoretti</b>, a man of sophisticated yet not ostentatious culture, of acute if good-natured irony, always subversive and never provocative, enjoyed an extraordinary career first as a TV director and then in the cinema, but also in theatre and as a writer. He first made himself known at the Prix Italia in 1960, with a short film on <i>The Sicily of The Leopard</i>, a lucid and affectionate documentary on the tracks of Tomasi di Lampedusa's masterpiece, which earned Rai the Prix Italia."
   },
   {
-    "name": "Brian",
-    "surname": "Woods",
-    "description": "A multiple Emmy and Bafta award winner, <b>Brian Woods</b> has earned a well-deserved reputation as a director of human rights-themed documentaries. He achieved his first major success with the harrowing \"The dying rooms\" and its sequel \"Return to the dying rooms,\" which won the 1996 Prix Italia, as well as an Emmy and a Peabody Award, among others."
+    "year": 1961,
+    "full_name": "Gary Cooper",
+    "surname": "Cooper",
+    "description": "In a career spanning nearly 40 years, <b>Gary Cooper</b> starred in more than 100 films and won two Oscars for best actor. His last performance, however, was not for the big screen but for television, as narrator of the documentary <i>The Real West</i>. Already very ill, Cooper wanted to participate anyway, narrating the true story of the legendary West of which he had been one of the most celebrated movie icons. The documentary won the Prix Italia in 1961, a few months after the star's death."
   },
   {
-    "name": "Gian Franco",
+    "year": 1961,
+    "full_name": "Birgit Cullberg",
+    "surname": "Cullberg",
+    "description": "While the TV competition was born in 1957, the Prix Italia hesitated several years before creating a \"noble\" musical art category for television as well. Could TV ever be an equally suitable medium for music and art, as the radio proved to be? Legendary Swedish choreographer <b>Birgit Cullberg</b> dispelled any doubts by claiming the first Prix Italia for TV Musical Works in 1961 with <i>The Evil Queen</i>. Cullberg's gradual experiments in TV choreography would leave a deep mark in the following years: <i>Red Wine in a Green Glass</i>, her second win in 1971, already made sophisticated use of the chroma key, among other things. Her son <b>Mats Ek</b>, who will pick up her legacy, will in turn win the Prix Italia in 1997, 1999 and 2010. When genius, and the Prix, runs in the family…"
+  },
+  {
+    "year": 1963,
+    "full_name": "Harold Pinter",
+    "surname": "Pinter",
+    "description": "Perhaps the first world-class playwright to truly embrace the new medium, by 1963 <b>Harold Pinter</b> was writing for theatre, TV or both at the same time. <i>The Lover</i> is a typical example of his 'comedies of menace', where futile, everyday details gradually pile up and assume a disturbing and mysterious significance. The Prix Italia he won that year (for a then-Rediffusion/ITV production) had a twofold importance: it confirmed Pinter as one of the great talents of his generation, and settled once and for all the question of whether TV could, just like radio, be a vehicle for cutting edge dramatic literature."
+  },
+  {
+    "year": 1964,
+    "full_name": "Melville De Mellow",
+    "surname": "De Mellow",
+    "description": "<b>Melville De Mellow</b> is the grandfather of Indian radio broadcasters, elevated to immense national popularity after his historic 7-hour coverage of Gandhi's funeral. Mainly a sports and current news commentator, at the peak of his fame he set out to produce a nature documentary: he plunged into the jungle with a small crew, exposing himself to great risks, to capture the sounds of the elusive Asiatic lions. It was a special project, designed to be presented at the most prestigious radio competition in the world. <i>Lali and the Gir Lions</i> marked All India Radio's first participation in the Prix Italia and won a Special Prize in 1964."
+  },
+  {
+    "year": 1966,
+    "full_name": "Gian Franco Zaffrani",
     "surname": "Zaffrani",
     "description": "In its 75 years of existence, the Prix Italia has awarded over 900 prizes - and received at least two! In 1978, on the occasion of its 30th anniversary, it was given the prestigious Emmy Directorate Award, honouring individuals or organisations for their outstanding contribution to international television. To date, it is the only case of an organisation having won this award. Even earlier, in 1966 <b>Gian Franco Zaffrani</b>, the first Secretary General of the Prix, was awarded the Bronze Medallion, the highest civic honour of New York City \"for his contribution to International Broadcasting and to the Culture of the People of the City of New York\"."
   },
   {
-    "name": "Krzysztof",
-    "surname": "Zanussi",
-    "description": ""
+    "year": 1968,
+    "full_name": "Giorgio Bandini",
+    "surname": "Bandini",
+    "description": "<b>Giorgio Bandini</b> was \"the inventor of radio drama\" at RAI - documentarist, director, eclectic author, renovator of genres, one of the most original figures of Italian radio in the 1960s and 1970s. He obtained his first major recognition at the Prix Italia, winning in 1968 with <i>Nostra casa disumana</i>."
   },
   {
-    "name": "Sergio",
-    "surname": "Zavoli",
-    "description": "<b>Sergio Zavoli</b> kicked off a 50-year career with RAI, which would see him become its President as well as Italy's best-known TV journalist, by winning the Prix Italia twice with as many radio documentaries in 1953 and 1958. The latter, in particular was a unique and unrepeatable testimony, documenting life in a cloistered monastery in the pre-conciliar era: \"Seclusion\" was a huge success, was translated and circulated abroad, becoming a first international breakthrough for Rai, and Zavoli set a standard for the very spirit of the Prix Italia in its early years."
+    "year": 1970,
+    "full_name": "Giorgio Pressburger",
+    "surname": "Pressburger",
+    "description": "So multifaceted and prolific was the genius of <b>Giorgio Pressburger</b> that being considered one of the most original radio writers in the 1970s almost comes as a by-product. A novelist, essayist, author and director for theatre, radio, TV and the cinema, teacher, conceiver and artistic director of festivals and cultural events, a polyglot but above all a true Mitteleuropean intellectual gifted with a refined sensibility and a vast and curious culture, Pressburger's collaboration with RAI spanned more than 3 decades, both in radio and television. Between 1970 and 1975, he won the Prix Italia no less than three times: for <i>Giochi di fanciulli</i>, <i>Ages</i> (a collaboration with Bruno Maderna) and <i>Diario Immaginario</i> (with Luciano Berio). He won a special prize again in 1988 for the original <i>Gocce</i> radio format."
   },
   {
-    "name": "Inger",
+    "year": 1972,
+    "full_name": "Umberto Eco",
+    "surname": "Eco",
+    "description": "When the Prix Italia decided to complement the \"practical part\" of its competitions with a more \"theoretical part\", thus starting the tradition of a major annual study conference on the topics of audiovisual, it only made sense to entrust the curatorship to one of the world's leading semiologists and mass-media specialists. <b>Umberto Eco</b> oversaw the scientific organization of the first two Prix Italia conferences, in 1972 and 1973."
+  },
+  {
+    "year": 1972,
+    "full_name": "Klaus Lindemann",
+    "surname": "Lindemann",
+    "description": "Every so often, when we see a classical concert or ballet filmed on television, we get the feeling that the images flow \"just the right way\", always in time, never intrusive, supporting the music with discretion – this is a sign that we are watching a truly talented director at work. Such was <b>Klaus Lindemann</b>, who in the 1970s and 1980s helped set a golden standard for how music should be filmed on TV. The two Prix Italia won in 1972 (ZDF) and 1973 (ARD) are a tribute to the geniuses behind the scenes who create the aesthetics of what we watch on TV."
+  },
+  {
+    "year": 1972,
+    "full_name": "Bruno Maderna",
+    "surname": "Maderna",
+    "description": "The partnership between musician and conductor <b>Bruno Maderna</b> and Rai was both extensive and fruitful: together with Luciano Berio he founded in 1956 the legendary Studio di Fonologia at Rai in Milan, a hotbed for musical experimentation and innovation for decades to come. Inevitably, his participations in the Prix Italia was also frequent: already in 1959 he contributed to the victory of <i>La notte di un nevrastenico</i> by conducting Nino Rota's score. His win as a musician came only in 1972, a year before his untimely death, with <i>Ages</i>, a radio invention composed in collaboration with Giorgio Pressburger, adapted from Shakespeare's <i>As You Like It</i>."
+  },
+  {
+    "year": 1979,
+    "full_name": "Inger Åby",
     "surname": "Åby",
-    "description": "<b>Inger Åby</b> may well be the single most awarded person in the history of Prix Italia. At the forefront of the extraordinary season of the Swedish television in the 1980s (when SVT won nine times in ten years) Åby, a producer and director of great figurative talent, counts four wins for herself between 1979 and 1995. In 1983, her \"Gustav III\" was particularly acclaimed, a tale of a king's last day to the music of \"Orpheus and Eurydice\"."
+    "description": "<b>Inger Åby</b> may well be the single most awarded person in the history of Prix Italia. At the forefront of the extraordinary season of the Swedish television in the 1980s (when SVT won nine times in ten years) Åby, a producer and director of great figurative talent, counts four wins for herself between 1979 and 1995. In 1983, her <i>Gustav III</i> was particularly acclaimed, a tale of a king's last day to the music of <i>Orpheus and Eurydice</i>."
+  },
+  {
+    "year": 1983,
+    "full_name": "Piers Plowright",
+    "surname": "Plowright",
+    "description": "BBC radio 3 and 4 have been \"the true home\" for <b>Piers Plowright</b>, producer of fiction and documentaries, a veritable \"luminary of radio\" but also a man of the theater, gifted with rare sensitivity and culture. In his BBC career he won no less than three Prix Italias in 1983, 1986 and 1988 and many other awards."
+  },
+  {
+    "year": 1984,
+    "full_name": "Peter Brook",
+    "surname": "Brook",
+    "description": "<i>Tragédie de Carmen</i> is one of <b>Peter Brook</b>'s most radical plays, and a landmark in the history of 20th-century theater. Stripped of all operatic artificiality, the play discharges its power on stage in 90 minutes of passion, betrayal, freedom and desire. After the 1981 stage play, Brook himself directed a television version in 1983, which took by storm the Prix Italia the following year."
+  },
+  {
+    "year": 1984,
+    "full_name": "Neda Depolo",
+    "surname": "Depolo",
+    "description": "Legendary author and producer <b>Neda Depolo</b>, a pioneer of stereophonic techniques since the 1960s, is among the leading names of Radio Beograd's extraordinary creative season in the 1980s Yugoslavia. In those years, the programs she curated earned 2 wins and 3 mentions at the Prix Italia. Today Radio Beograd runs an annual competition for young talent named after her."
+  },
+  {
+    "year": 1988,
+    "full_name": "Anthony Hopkins",
+    "surname": "Hopkins",
+    "description": "<b>Anthony Hopkins</b> is… well, Anthony Hopkins! One of the most acclaimed actors in film history, he has earned a dizzying number of awards throughout a decades-long career. His intense performance in <i>The Good Father</i> contributed in no small part to Channel 4 winning the Prix Italia in 1988."
+  },
+  {
+    "year": 1988,
+    "full_name": "Anthony Minghella",
+    "surname": "Minghella",
+    "description": "<b>Anthony Minghella</b> achieved international star status after his Oscar win for <i>The English Patient</i> (1996). But his earlier career as a radio writer and producer is no less rich and original. His first radio drama <i>Hang Up</i> did not escape the attention of the jury, and earned BBC a Prix Italia in 1988."
+  },
+  {
+    "year": 1989,
+    "full_name": "Andrzej Brzoska",
+    "surname": "Brzoska",
+    "description": "A highly respected and acclaimed sound director, <b>Andrzej Brzoska</b> has been crafting the sound of countless quality productions at Polskie Radio since the 1980s, especially in the field of radio drama. His list of awards both in Poland and abroad is impressive, and continues to this day. But his first international recognition came at the Prix Italia, where his name is linked to no less than three PR victories in 1989, 1992 and 1996."
+  },
+  {
+    "year": 1991,
+    "full_name": "Peter Greenaway",
+    "surname": "Greenaway",
+    "description": "After a flow of cinematic masterpieces in the 1980s, visionary filmmaker <b>Peter Greenaway</b> turned to TV – and used it like no one before. The imaginative extravaganza of <i>A TV Dante</i> cannot really be put into words. One could say that Greenaway uses the medium like a painter's canvas, but even this would be reductive: it is rather as if television as a whole were a continent yet to be explored, a language yet to be invented. The Prix Italia won in 1991 consecrated what is still considered the most extraordinary achievement of Greenaway at his experimental best."
+  },
+  {
+    "year": 1996,
+    "full_name": "Werner Herzog",
+    "surname": "Herzog",
+    "description": "In a way, all of <b>Werner Herzog</b>'s films come from his own obsessions, and few obsessions have stayed with him like his lifelong fascination with Gesualdo da Venosa and his music. <i>Gesualdo: Death for Five Voices</i> is a documentary, up to a point: then, the labyrinthine nature of the music and the mysterious events of Gesualdo's life become a mirror for the director's own imagery and restlessness, and the film turns into one of the most puzzling and personal works in Herzog's production. Filmed for ZDF, <i>Gesualdo</i> won the Prix Italia in 1996."
+  },
+  {
+    "year": 1996,
+    "full_name": "Brian Woods",
+    "surname": "Woods",
+    "description": "A multiple Emmy and Bafta award winner, <b>Brian Woods</b> has earned a well-deserved reputation as a director of human rights-themed documentaries. He achieved his first major success with the harrowing <i>The dying rooms</i> and its sequel <i>Return to the dying rooms</i>, which won the 1996 Prix Italia, as well as an Emmy and a Peabody Award, among others."
+  },
+  {
+    "year": 1999,
+    "full_name": "Federico Fellini",
+    "surname": "Fellini",
+    "description": "A young <b>Federico Fellini</b> wrote several radio scripts for the then EIAR between 1939 and 1943, which were recovered from the RAI archives and aired only several years after the great director's death, in an effort of great archival and cultural significance. In particular, for the comedy <i>Fuori programma n. 7,</i> director Idalberto Fei chose an all-star cast that included such Fellini actors as Sandra Milo and Milena Vukotic, alongside Paolo Poli, Maurizio Micheli, Toni Garrani and others. This revival earned Fellini a posthumous Prix Italia in 1999."
+  },
+  {
+    "year": 2010,
+    "full_name": "David Dufresne",
+    "surname": "Dufresne",
+    "description": "Launched as an experiment in 1998 and then officially confirmed in 2000, the Prix Italia Web Competition quickly demonstrated the new potential of the \"third medium\" available to broadcasters. The Web could inform, be up to date, summarise and present data, collect endless amounts of user-generated content in a short time. But <b>David Dufresne</b>'s <i>Prison Valley</i>, which earned Arte a victory in 2010, showed perhaps for the first time that the Web could also be beautiful. This ground-breaking, genre-defining feature is part documentary, part interactive road-movie in which you play a journalist investigating the prison industry in recession-era America. By creatively leveraging cutting-edge technology, Dufresne's work opened up new perspectives and helped establish the Web as a first-class medium for sharing quality content."
   }
 ]

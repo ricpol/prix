@@ -4950,6 +4950,16 @@
     "programme_id": 5047
   },
   {
+    "id": 6165,
+    "disamb": 1,
+    "name": "Claudio",
+    "surname": "Bisio",
+    "surname_ord": "bisio claudio",
+    "sfirst": 0,
+    "role": "Actor",
+    "programme_id": 667
+  },
+  {
     "id": 2914,
     "disamb": 1,
     "name": "Katarina",
@@ -7688,6 +7698,16 @@
     "sfirst": 0,
     "role": "Producer",
     "programme_id": 5050
+  },
+  {
+    "id": 6164,
+    "disamb": 1,
+    "name": "Richard",
+    "surname": "Burton",
+    "surname_ord": "burton_richard",
+    "sfirst": 0,
+    "role": "Actor",
+    "programme_id": 16342
   },
   {
     "id": 1468,

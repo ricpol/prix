@@ -126,6 +126,20 @@
     "note": ""
   },
   {
+    "id": "MARIATERESAMISCOVICH",
+    "acronym": "MARIA TERESA MISCOVICH",
+    "name": "Maria Teresa Miscovich",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Argentina",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "MISCOVICH",
+    "note": ""
+  },
+  {
     "id": "ABCo",
     "acronym": "ABC",
     "name": "Australian Broadcasting Commission",
@@ -207,6 +221,20 @@
     "prev": null,
     "next": null,
     "group_acronym": "AUSTRIA",
+    "note": ""
+  },
+  {
+    "id": "URSULAVONZALLINGER",
+    "acronym": "URSULA VON ZALLINGER",
+    "name": "Ursula von Zallinger",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Austria",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "VONZALLINGER",
     "note": ""
   },
   {
@@ -1820,6 +1848,76 @@
     "note": ""
   },
   {
+    "id": "DAMSUNIVERSITASALENTO",
+    "acronym": "DAMS UNIVERSITÀ DEL SALENTO",
+    "name": "DAMS Università del Salento",
+    "acr_name": 1,
+    "status": 2,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "UNISALENTO",
+    "note": ""
+  },
+  {
+    "id": "POLITECNICOBARI",
+    "acronym": "POLITECNICO DI BARI",
+    "name": "Politecnico di Bari",
+    "acr_name": 1,
+    "status": 2,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "POLIBARI",
+    "note": ""
+  },
+  {
+    "id": "UNIVERSITAFOGGIA",
+    "acronym": "UNIVERSITÀ DEGLI STUDI DI FOGGIA",
+    "name": "Università degli Studi di Foggia",
+    "acr_name": 1,
+    "status": 2,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "UNIFOGGIA",
+    "note": ""
+  },
+  {
+    "id": "UNIVERSITASALENTO",
+    "acronym": "UNIVERSITÀ DEL SALENTO",
+    "name": "Università del Salento",
+    "acr_name": 1,
+    "status": 2,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "UNISALENTO",
+    "note": ""
+  },
+  {
+    "id": "POLITECNICOALDOMOROBARI",
+    "acronym": "POLITECNICO DI BARI/ UNIVERSITÀ ALDO MORO DI BARI",
+    "name": "Politecnico di Bari/ Università Aldo Moro di Bari",
+    "acr_name": 1,
+    "status": 2,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "POLIBARI",
+    "note": ""
+  },
+  {
     "id": "VALENTINALANDENNA",
     "acronym": "VALENTINA LANDENNA",
     "name": "Valentina Landenna",
@@ -1873,6 +1971,48 @@
     "prev": null,
     "next": null,
     "group_acronym": "GASSMAN",
+    "note": ""
+  },
+  {
+    "id": "ROMANOPRODI",
+    "acronym": "ROMANO PRODI",
+    "name": "Romano Prodi",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "PRODI",
+    "note": ""
+  },
+  {
+    "id": "PIERGIORGIOBRANZI",
+    "acronym": "PIERGIORGIO BRANZI",
+    "name": "Piergiorgio Branzi",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "BRANZI",
+    "note": ""
+  },
+  {
+    "id": "DIANAPALMA",
+    "acronym": "DIANA PALMA",
+    "name": "Diana Palma",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "PALMA",
     "note": ""
   },
   {
@@ -3164,6 +3304,20 @@
     "note": ""
   },
   {
+    "id": "LENNARTEHRENBORG",
+    "acronym": "LENNART EHRENBORG",
+    "name": "Lennart Ehrenborg",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Sweden",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "EHRENBORG",
+    "note": ""
+  },
+  {
     "id": "SRGSSRo",
     "acronym": "SRG SSR",
     "name": "Société Suisse de Radiodiffusion",
@@ -3511,6 +3665,34 @@
     "prev": null,
     "next": null,
     "group_acronym": "THEGUARDIAN",
+    "note": ""
+  },
+  {
+    "id": "GEORGETHOMSON",
+    "acronym": "LORD GEORGE THOMSON OF MONIFIETH",
+    "name": "Lord George Thomson of Monifieth",
+    "acr_name": 1,
+    "status": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "THOMSON",
+    "note": ""
+  },
+  {
+    "id": "CHRISDUNKLEY",
+    "acronym": "CHRIS DUNKLEY",
+    "name": "Chris Dunkley",
+    "acr_name": 1,
+    "status": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "DUNKLEY",
     "note": ""
   },
   {
