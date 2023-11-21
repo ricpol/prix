@@ -100,12 +100,12 @@ silver_winners_tex = (
      "Students' Jury Sp.~Prize\\\\TV Doc.~Cultural and General Interest", 1),
     ("Sp.~Prize Outstanding Innovative/Creative Web Project", 
      "Sp.~Prize Outstanding Innovative/Creative\\\\Web Project", 2),
-    ("Sp.~Prixe Expo 2015 - Young Independent Film-Makers", 
-     "Sp.~Prixe Expo 2015 - Young Independent\\\\Film-Makers", 1),
+    ("Sp.~Prixe Expo 2015 -- Young Independent Film-Makers", 
+     "Sp.~Prixe Expo 2015 -- Young Independent\\\\Film-Makers", 1),
     ("Prix Italia Radio Music Attracting a Broader Audience", 
      "Prix Italia Radio Music Attracting\\\\a Broader Audience", 1),
-    ("Prix Italia Radio Doc.~and Reportage - Documentary", 
-     "Prix Italia Radio Doc.~and Reportage -\\\\Documentary", 1),
+    ("Prix Italia Radio Doc.~and Reportage -- Documentary", 
+     "Prix Italia Radio Doc.~and Reportage --\\\\Documentary", 1),
 
     # PART 2 -- page-level fixes
     # ==========================
