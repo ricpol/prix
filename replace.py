@@ -33,8 +33,7 @@ silver_winners_tex = (
      "itshape VIII\\textsuperscript{th} Station", 1),
     # this is to avoid the correct but ugly blank line
     # in the 1991 Presidents' Prize
-    ("United Kingdom)\n \\\\ \\\\\n CNN",
-     "United Kingdom)\n\\\\\nCNN", 1),
+    ("\n\n%460>%\n \\\\ \\\\\n", "\\\\\n", 1),
     # these are because the Euro Prize was awarded to a Country, 
     # not a programme
     ("Italy (Italy)", 
@@ -44,27 +43,24 @@ silver_winners_tex = (
     ("United Kingdom (United Kingdom)", 
      "{\\large United Kingdom}", 1),
     # these are for the Honorary Prix Italia 1998
-    # technically, should be {\large NAME}\\COUNTRY\\
-    # but we want a smaller and more compact layout here
-    ("Piergiorgio Branzi (Italy)\n \\\\ \\\\",
-     "Piergiorgio Branzi (Italy)\\\\", 1),
-    ("Chris Dunkley (United Kingdom)\n \\\\ \\\\",
-     "Chris Dunkley (United Kingdom)\\\\", 1),
-    ("Lennart Ehrenborg (Sweden)\n \\\\ \\\\",
-     "Lennart Ehrenborg (Sweden)\\\\", 1),
-    ("Maria Teresa Miscovich (Argentina)\n \\\\ \\\\",
-     "Maria Teresa Miscovich (Argentina)\\\\", 1),
-    ("Diana Palma (Italy)\n \\\\ \\\\",
-     "Diana Palma (Italy)\\\\", 1),
-    ("Lord George Thomson of Monifieth (United Kingdom)\n \\\\ \\\\",
-     "Lord George Thomson of Monifieth (United Kingdom)\\\\", 1),
+    # maybe should be {\large NAME}\\COUNTRY\\
+    # but we are consistent with the 1991 Presidents' Prize format
+    ("\n\n%2157>%\n \\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2156>%\n \\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2160>%\n \\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2159>%\n \\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2158>%\n \\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2155>%\n \\\\ \\\\\n", "\\\\\n", 1),
     # This is for the Euro Prize (honorary) 2000
-    # since there is only one name, we keep the usual layout
+    # should be smaller (see 1991 and 1998 above) 
+    # but it would be odd-looking in the page context
     ("Romano Prodi (Italy)", 
      "{\\large Romano Prodi}\\\\ Italy", 1),
     # This is for the sp. prize web 2000
     ("Kataweb (Italy)", 
      "{\\large Kataweb}\\\\ Italy", 1),
+    # This is a fix for the latex parser in Cardine 2001
+    ("\n\n%691>%\n \\\\ \\\\\n", "\n\\\\ \\\\\n", 1),
     # This is for the multimedia section prize 2012
     ("Il Post (Italy)", 
      "Italy", 1),
@@ -116,207 +112,128 @@ silver_winners_tex = (
     # these will force different pagebreaks
     # and are sorted by year
     # 1957 [spread more, just for good looking - no forced pagebreak]
-    ("Louis De Meester. Script: Michel de Ghelderode.}", 
-     "Louis De Meester. Script: Michel de Ghelderode.}\\medskip", 1),
-    ("footnotesize By: Herbert Eisenreich.}", 
-     "footnotesize By: Herbert Eisenreich.}\\medskip", 1),
-    ("Barrère. Commentator: Etienne Lalou.}", 
-     "Barrère. Commentator: Etienne Lalou.}\\medskip", 1),
-    ("Shinji. Music: Hasegawa Yoshino.}", 
-     "Shinji. Music: Hasegawa Yoshino.}\\medskip", 1),
-    ("Hopkins. Director: Nesta Pain.}", 
-     "Hopkins. Director: Nesta Pain.}\\medskip", 1),
-    ("Francis Watson, Maurice Brown.}", 
-     "Francis Watson, Maurice Brown.}\\medskip", 1),
+    ("%48>%", "\\medskip\n%48>%", 1),
+    ("%49>%", "\\medskip\n%49>%", 1),
+    ("%50>%", "\\medskip\n%50>%", 1),
+    ("%51>%", "\\medskip\n%51>%", 1),
+    ("%52>%", "\\medskip\n%52>%", 1),
+    ("%53>%", "\\medskip\n%53>%", 1),
     # -----------------------------------------------------------------
     # 1962 [shrink the page adding negative space]
-    ("Inoue Yasushi. Music: Hayashi Hikaru.}", 
-     "Inoue Yasushi. Music: Hayashi Hikaru.}\\vspace{-2pt}", 1), 
-    ("Ennio Mastrostefano. Sound: Goffredo Palazzesi.}", 
-     "Ennio Mastrostefano. Sound: Goffredo Palazzesi.}\\vspace{-2pt}", 1),
-    ("Jean-Marie Coldefy. Choreography: Georges Skibine.}", 
-     "Jean-Marie Coldefy. Choreography: Georges Skibine.}\\vspace{-2pt}", 1),
-    ("Karl Wittlinger. Director: Rainer Erler.}", 
-     "Karl Wittlinger. Director: Rainer Erler.}\\vspace{-2pt}", 1),
-    ("Michael Colomb. Narrator: Michael Flanders.}", 
-     "Michael Colomb. Narrator: Michael Flanders.}\\vspace{-2pt}", 1),
-    ("A RNE programme submitted by DGRT.}}", 
-     "A RNE programme submitted by DGRT.}}\\vspace{-2pt}", 1),
+    ("%94>%", "\\vspace{-2pt}\n%94>%", 1), 
+    ("%95>%", "\\vspace{-2pt}\n%95>%", 1), 
+    ("%96>%", "\\vspace{-2pt}\n%96>%", 1), 
+    ("%97>%", "\\vspace{-2pt}\n%97>%", 1), 
+    ("%98>%", "\\vspace{-2pt}\n%98>%", 1), 
     # ...and a gentle hint for the last line
     ("A Man of No Importance}\\nopagebreak[2]\\\\ RTF",
      "A Man of No Importance}\\nopagebreak[0]\\\\ RTF", 1),
     # -----------------------------------------------------------------
     # 1969 [spread more and force pagebreak]
-    ("Music: Luboš Fišer. Director: Petr Weigl.}", 
-     "Music: Luboš Fišer. Director: Petr Weigl.}\\medskip", 1),
-    ("Director, Script: Maurice Cazeneuve.}",
-     "Director, Script: Maurice Cazeneuve.}\\medskip", 1),
-    ("Photography: Niko Timbergen. Presenter: Christopher Parsons.}",
-     "Photography: Niko Timbergen. Presenter: Christopher Parsons.}\\medskip", 1),
-    ("Script: Claude Ollier. Director: Georges Peyrou.}", 
-     "Script: Claude Ollier. Director: Georges Peyrou.}\\medskip", 1),
-    ("footnotesize By: Bob Uschi.}",
-     "footnotesize By: Bob Uschi.}\\medskip", 1),
-    ("\\section*{1970, Firenze}",
-     "\\pagebreak \\section*{1970, Firenze}", 1),
+    ("%166>%", "\\medskip\n%166>%", 1),
+    ("%167>%", "\\medskip\n%167>%", 1),
+    ("%168>%", "\\medskip\n%168>%", 1),
+    ("%169>%", "\\medskip\n%169>%", 1),
+    ("%170>%", "\\medskip\n%170>%", 1),
+    ("%171>%", "\\medskip\n%171>%", 1),
+    ("%172>%", "%172>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 1972 [spread more and force pagebreak]
-    ("Script: Hoshikawa Seiji. Director: Segi Hiroyasu.}",
-     "Script: Hoshikawa Seiji. Director: Segi Hiroyasu.}\\medskip", 1),
-    ("Photography: Mike Dodds. Editor: Mike Taylor.}",
-     "Photography: Mike Dodds. Editor: Mike Taylor.}\\medskip", 1),
-    ("Producer: Maeda Naozumi. Script: Kimura Yoshinaga.}",
-     "Producer: Maeda Naozumi. Script: Kimura Yoshinaga.}\\medskip", 1),
-    ("By: Severo Sarduy. Director: René Jentet.}",
-     "By: Severo Sarduy. Director: René Jentet.}\\medskip", 1),
-    ("footnotesize By: Jacek Stwora.}",
-     "footnotesize By: Jacek Stwora.}\\medskip", 1),
-    ("Bernhard Kulbach. Sound: H J Müller.}",
-     "Bernhard Kulbach. Sound: H J Müller.}\\medskip", 1),
-    ("\\section*{1973, Venezia}",
-     "\\pagebreak \\section*{1973, Venezia}", 1),
+    ("%196>%", "\\medskip\n%196>%", 1),
+    ("%197>%", "\\medskip\n%197>%", 1),
+    ("%198>%", "\\medskip\n%198>%", 1),
+    ("%199>%", "\\medskip\n%199>%", 1),
+    ("%200>%", "\\medskip\n%200>%", 1),
+    ("%201>%", "\\medskip\n%201>%", 1),
+    ("%202>%", "%202>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 1978 [add a line to bottom]
-    ("Glynn Turman, Ted Ross, Stanley Clay.}", 
-     "Glynn Turman, Ted Ross, Stanley Clay.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%272>%", "%272>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1984 [add a line to bottom]
-    ("Sten Andersson. Photography: Michael Kinmanson.}",
-     "Sten Andersson. Photography: Michael Kinmanson.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%356>%", "%356>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1989 [add a line to bottom]
-    ("Joanna Przybyłowska. Sound: Andrzej Brzoska.}",
-     "Joanna Przybyłowska. Sound: Andrzej Brzoska.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%417>%", "%417>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1990 [spread more and force pagebreak]
-    ("Stuart Weiss. Choreography: Pat Birch.}", 
-     "Stuart Weiss. Choreography: Pat Birch.}\\medskip", 1),
-    ("Sylvain Copans, Nicolas Parodi.}",
-     "Sylvain Copans, Nicolas Parodi.}\\medskip", 1),
-    ("Anrijs Krenbergs. Coproducer: Veronyca Bodnarec.}",
-     "Anrijs Krenbergs. Coproducer: Veronyca Bodnarec.}\\medskip", 1),
-    ("Ernstalbrecht Stiebler. Music: Walter Zimmermann.}",
-     "Ernstalbrecht Stiebler. Music: Walter Zimmermann.}\\medskip", 1),
-    ("Actors: Jane Friedmann, Aino Taube.}",
-     "Actors: Jane Friedmann, Aino Taube.}\\medskip", 1),
-    ("Mads Baastrup. Sound: Jesper Tholl.}",
-     "Mads Baastrup. Sound: Jesper Tholl.}\\medskip", 1),
-    ("William Sargent. Choreography: Andrea Francalanci.}",
-     "William Sargent. Choreography: Andrea Francalanci.}\\pagebreak", 1),
+    ("%436>%", "\\medskip\n%436>%", 1),
+    ("%438>%", "\\medskip\n%438>%", 1),
+    ("%440>%", "\\medskip\n%440>%", 1),
+    ("%430>%", "\\medskip\n%430>%", 1),
+    ("%432>%", "\\medskip\n%432>%", 1),
+    ("%434>%", "\\medskip\n%434>%", 1),
+    ("%437>%", "%437>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 1991 [add a line to bottom]
-    ("Luc Ferrari. Producer: José Iges.}",
-     "Luc Ferrari. Producer: José Iges.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%445>%", "%445>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1992 [spread for good looking, no pagebreak at the end]
-    ("Mária Prechovská, Vladimír Müller.}", 
-     "Mária Prechovská, Vladimír Müller.}\\medskip", 1),
-    ("Jeoffrey Whitehead, John Jacobs. Sound: John Jacobs.}", 
-     "Jeoffrey Whitehead, John Jacobs. Sound: John Jacobs.}\\medskip", 1),
-    ("Sp.~Prize Radio Title Sequences}}Not awarded.", 
-     "Sp.~Prize Radio Title Sequences}}Not awarded.\\medskip", 1),
-    ("Sp.~Prize TV Music and Arts}}Not awarded.", 
-     "Sp.~Prize TV Music and Arts}}Not awarded.\\medskip", 1),
-    ("Antero Takala. Sound: Antero Honkanen.}", 
-     "Antero Takala. Sound: Antero Honkanen.}\\medskip", 1),
-    ("Christine Pireaux. Sound: Yvan Geeraert.}", 
-     "Christine Pireaux. Sound: Yvan Geeraert.}\\medskip", 1),
-    ("\\section*{1993, Roma}", 
-     "\\medskip\\section*{1993, Roma}", 1),
+    ("%465>%", "\\medskip\n%465>%", 1),
+    ("%467>%", "\\medskip\n%467>%", 1),
+    ("%477>%", "\\medskip\n%477>%", 1),
+    ("%471>%", "\\medskip\n%471>%", 1),
+    ("%472>%", "\\medskip\n%472>%", 1),
+    ("%474>%", "\\medskip\n%474>%", 1),
+    ("%476>%", "\\medskip\n%476>%", 1),
     # -----------------------------------------------------------------
     # 1994 / 1 [add a line to bottom]
-    ("Actors: Tina Kellegher, Colm Meaney.}",
-     "Actors: Tina Kellegher, Colm Meaney.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%492>%", "%492>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1994 / 2 [add a line to bottom]
-    ("Ida Rapaičová, Anna Javorková.}",
-     "Ida Rapaičová, Anna Javorková.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%1863>%", "%1863>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1995 [add a line to bottom]
-    ("Marek Leščák, Odrej Šulaj.}",
-     "Marek Leščák, Odrej Šulaj.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%546>%", "%546>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1996 [add a line to bottom]
-    ("Actors: Gail Gilmore, Eric Gould.}",
-     "Actors: Gail Gilmore, Eric Gould.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%553>%", "%553>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1999 [spread more for good looking, no forced pagebreak]
-    ("Jacek Petrycki. Editor: Stefan Ronowicz.}", 
-     "Jacek Petrycki. Editor: Stefan Ronowicz.}\\medskip", 1),
-    ("CNN}\\nopagebreak[2]\\\\ CNN  \n (United States)", 
-     "CNN}\\nopagebreak[2]\\\\ CNN  \n (United States)\\medskip", 1),
-    ("BBC News}\\nopagebreak[2]\\\\ BBC  \n (United Kingdom)", 
-     "BBC News}\\nopagebreak[2]\\\\ BBC  \n (United Kingdom)\\medskip", 1),
-    ("Mosquito}}\\nopagebreak[2]\\\\ SVT  \n (Sweden)", 
-     "Mosquito}}\\nopagebreak[2]\\\\ SVT  \n (Sweden)\\medskip", 1),
-    ("CBC for Kids}\\nopagebreak[2]\\\\ CBC/SRC  \n (Canada)", 
-     "CBC for Kids}\\nopagebreak[2]\\\\ CBC/SRC  \n (Canada)\\medskip", 1),
-    ("{\\large Italy}",                        # 
-     "{\\large Italy}\\medskip", 1),           # note: these 3 are the
-    ("{\\large Austria}",                      # already-replaced
-     "{\\large Austria}\\medskip", 1),         # 1999 Euro Prizes
-    ("{\\large United Kingdom}",               #
-     "{\\large United Kingdom}\\medskip", 1),  #
+    ("%606>%", "\\medskip\n%606>%", 1),
+    ("%612>%", "\\medskip\n%612>%", 1),
+    ("%500>%", "\\medskip\n%500>%", 1),
+    ("%613>%", "\\medskip\n%613>%", 1),
+    ("%614>%", "\\medskip\n%614>%", 1),
+    ("%609>%", "\\medskip\n%609>%", 1),   # note: these 3 are the
+    ("%610>%", "\\medskip\n%610>%", 1),   # already-replaced
+    ("%611>%", "\\medskip\n%611>%", 1),   # 1999 Euro Prizes
     # -----------------------------------------------------------------
     # 2000 [shrink the page adding negative space, add a line to bottom]
-    ("Actors: Roland Magdane, Jo Stevens.}", 
-     "Actors: Roland Magdane, Jo Stevens.}\\vspace{-2pt}", 1),
-    ("Hellem. Conductor: Christian Eggen.}", 
-     "Hellem. Conductor: Christian Eggen.}\\vspace{-2pt}", 1),
-    ("Holmen. Actor: Henrik Lykkegaard.}", 
-     "Holmen. Actor: Henrik Lykkegaard.}\\vspace{-2pt}", 1),
-    ("Pietro Bontempo, Gigi Angelillo.}", 
-     "Pietro Bontempo, Gigi Angelillo.}\\vspace{-2pt}", 1),
-    ("Eli Kyrkjebø, Gyrid Listuen.}", 
-     "Eli Kyrkjebø, Gyrid Listuen.}\\vspace{-2pt}", 1),
-    ("Radio Documentary, Factual}}Not awarded.", 
-     "Radio Documentary, Factual}}Not awarded.\\vspace{-2pt}\\enlargethispage{1\\baselineskip}", 1),
+    ("%<615%", "\\vspace{-2pt}\n%<615%", 1),
+    ("%<616%", "\\vspace{-2pt}\n%<616%", 1),
+    ("%<619%", "\\vspace{-2pt}\n%<619%", 1),
+    ("%<622%", "\\vspace{-2pt}\n%<622%", 1),
+    ("%<623%", "\\vspace{-2pt}\n%<623%", 1),
+    ("%<626%", "\\vspace{-2pt}\n%<626%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2002 [add a line to bottom]
-    ("Kanno Yoshihiro. Sound: Itobayashi Kaoru.}", 
-     "Kanno Yoshihiro. Sound: Itobayashi Kaoru.}\\enlargethispage{1\\baselineskip}", 1),
+    ("%708>%", "%708>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2005 [spread more, the pagebreak will happen "naturally"]
-    ("Xander Straat, Leo Knikman.}", 
-     "Xander Straat, Leo Knikman.}\\bigskip", 1),
-    ("Crouch, Owen Crouch.}", 
-     "Crouch, Owen Crouch.}\\bigskip", 1),
-    ("Grussenmeyer, Bernard Freyd.}", 
-     "Grussenmeyer, Bernard Freyd.}\\bigskip", 1),
-    ("Laumann. Sound: Ulla Kristensen.}", 
-     "Laumann. Sound: Ulla Kristensen.}\\bigskip", 1),
-    ("Newson. Producer: Nikki Weston.}", 
-     "Newson. Producer: Nikki Weston.}\\bigskip", 1),
-    ("Lladó. Photography: Javier García.}", 
-     "Lladó. Photography: Javier García.}\\bigskip", 1),
+    ("%839>%", "\\bigskip\n%839>%", 1),
+    ("%510>%", "\\bigskip\n%510>%", 1),
+    ("%844>%", "\\bigskip\n%844>%", 1),
+    ("%842>%", "\\bigskip\n%842>%", 1),
+    ("%848>%", "\\bigskip\n%848>%", 1),
+    ("%851>%", "\\bigskip\n%851>%", 1),
     # -----------------------------------------------------------------
     # 2006 / 1 [shrink the page adding negative space, add a line to bottom]
-    ("Mata. Sound: Jesualdo García-Box.}", 
-     "Mata. Sound: Jesualdo García-Box.}\\vspace{-2pt}", 1),
-    ("Martling. Conductor: Mats Rondin.}", 
-     "Martling. Conductor: Mats Rondin.}\\vspace{-2pt}", 1),
-    ("Dubois. Producer: Andrea Ratuski.}", 
-     "Dubois. Producer: Andrea Ratuski.}\\vspace{-2pt}", 1),
-    ("Derwig, Bram van der Vlugt.}", 
-     "Derwig, Bram van der Vlugt.}\\vspace{-2pt}", 1),
-    ("Actors: Yokobori Etsuo, Mizuno Yufu.}", 
-     "Actors: Yokobori Etsuo, Mizuno Yufu.}\\vspace{-2pt}\\enlargethispage{1\\baselineskip}", 1),
+    ("%873>%", "\\vspace{-2pt}\n%873>%", 1),
+    ("%877>%", "\\vspace{-2pt}\n%877>%", 1),
+    ("%880>%", "\\vspace{-2pt}\n%880>%", 1),
+    ("%883>%", "\\vspace{-2pt}\n%883>%", 1),
+    ("%887>%", "\\vspace{-2pt}\n%887>%\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2006 / 2 [spread more, pagebreak will happen "naturally"]
-    ("Arvidson. Producer: Håkan Enström.}", 
-     "Arvidson. Producer: Håkan Enström.}\\bigskip", 1),
-    ("Marks, Titus Tiel Groenestege.}", 
-     "Marks, Titus Tiel Groenestege.}\\bigskip", 1),
-    ("TV Music and Arts Documentary}}Not awarded.", 
-     "TV Music and Arts Documentary}}Not awarded.\\bigskip", 1),
-    ("Jung Chan, Jin Koo.}", 
-     "Jung Chan, Jin Koo.}\\bigskip", 1),
-    ("Ferydoni, Emil Reinke.}", 
-     "Ferydoni, Emil Reinke.}\\bigskip", 1),
-    ("Director: Thomas Jonhson.}", 
-     "Director: Thomas Jonhson.}\\bigskip", 1),
-    ("Ranken. Sound: Andrei Budylin.}", 
-     "Ranken. Sound: Andrei Budylin.}\\bigskip", 1),
+    ("%893>%", "\\bigskip\n%893>%", 1),
+    ("%896>%", "\\bigskip\n%896>%", 1),
+    ("%899>%", "\\bigskip\n%899>%", 1),
+    ("%901>%", "\\bigskip\n%901>%", 1),
+    ("%904>%", "\\bigskip\n%904>%", 1),
+    ("%907>%", "\\bigskip\n%907>%", 1),
+    ("%910>%", "\\bigskip\n%910>%", 1),
+
 
 
     # 2007 [spread more and force pagebreak]
@@ -348,86 +265,86 @@ silver_winners_tex = (
 #     "Sverrir Gudnason, Simon Berger, Ruth Vega Fernandez.}\\medskip", 1), 
 #    ("footnotesize By: Alison Millar.}", 
 #     "footnotesize By: Alison Millar.}\\pagebreak", 1),
-    # -----------------------------------------------------------------
-    # 2011 [add a line to bottom]
-    ("Audrey Ripoull, Raphaëlle Mantoux.}", 
-     "Audrey Ripoull, Raphaëlle Mantoux.}\\enlargethispage{1\\baselineskip}", 1), 
-    # -----------------------------------------------------------------
-    # 2012 / 1 [spread more and force pagebreak]
-    ("Paul Malinowski. Music: Sebastian Rivas.}", 
-     "Paul Malinowski. Music: Sebastian Rivas.}\\medskip", 1), 
-    ("Florence Loiret Caille, Christophe Brault.}", 
-     "Florence Loiret Caille, Christophe Brault.}\\medskip", 1), 
-    ("Hanneke Hendrix. Sound: Frans de Rond.}", 
-     "Hanneke Hendrix. Sound: Frans de Rond.}\\medskip", 1), 
-    ("Lasse Nederhoed. Editor: Kåre Johan Lund.}", 
-     "Lasse Nederhoed. Editor: Kåre Johan Lund.}\\medskip", 1), 
-    ("Jarvis Cocker. Sound: Vic Kent.}", 
-     "Jarvis Cocker. Sound: Vic Kent.}\\medskip", 1), 
-    ("André Rigaut. Editor: Toni Froschhammer.}", 
-     "André Rigaut. Editor: Toni Froschhammer.}\\pagebreak", 1), 
-    # -----------------------------------------------------------------
-    # 2012 / 2 [spread more and force pagebreak]
-    ("Boris Gerrets. Producer: Thomas Den Drijver.}", 
-     "Boris Gerrets. Producer: Thomas Den Drijver.}\\medskip", 1), 
-    ("Heide Simon, Natascha Paulick.}", 
-     "Heide Simon, Natascha Paulick.}\\medskip", 1), 
-    ("Katarzyna Maciąg, Teresa Budzisz-Krzyżanowska.}", 
-     "Katarzyna Maciąg, Teresa Budzisz-Krzyżanowska.}\\medskip", 1), 
-    ("footnotesize By: Maria Kuhlbergs.}", 
-     "footnotesize By: Maria Kuhlbergs.}\\medskip", 1), 
-    ("footnotesize By: Fernand Melgar.}", 
-     "footnotesize By: Fernand Melgar.}\\medskip", 1), 
-    ("Hugues Sweeney. Director: Pascal Brouard.}", 
-     "Hugues Sweeney. Director: Pascal Brouard.}\\pagebreak", 1), 
-    # -----------------------------------------------------------------
-    # 2014 [spread more, just for good looking - no pagebreak at the end]
-    ("Kunuk Nykjær, Christian Planck.}",
-     "Kunuk Nykjær, Christian Planck.}\\medskip", 1), 
-    ("Arno Lafontaine, Julia Revault.}",
-     "Arno Lafontaine, Julia Revault.}\\medskip", 1),
-    ("Programmers: Maxime Quintard, Yves Diffre.}",
-     "Programmers: Maxime Quintard, Yves Diffre.}\\medskip", 1),
-    ("Jehane Noujaim. Producer: Mette Heide.}",
-     "Jehane Noujaim. Producer: Mette Heide.}\\medskip", 1),
-    ("footnotesize By: Juan Francisco Scassa.}",
-     "footnotesize By: Juan Francisco Scassa.}\\medskip", 1),
-    # -----------------------------------------------------------------
-    # 2015 [spread more and force pagebreak]
-    ("Yves Diffre, Maxime Gravouil.}", 
-     "Yves Diffre, Maxime Gravouil.}\\medskip", 1), 
-    ("Denis Delestrac, Sandrine Feydel.}", 
-     "Denis Delestrac, Sandrine Feydel.}\\medskip", 1), 
-    ("By: Leonardo Ferrari Carissimi.}", 
-     "By: Leonardo Ferrari Carissimi.}\\medskip", 1), 
-    ("Mitra Kaboli, Shira Bannerman, Shani Aviram.}", 
-     "Mitra Kaboli, Shira Bannerman, Shani Aviram.}\\medskip", 1), 
-    ("Fabrice Estève, Christian Popp.}", 
-     "Fabrice Estève, Christian Popp.}\\medskip", 1), 
-    ("Elisabeth Stratka. Technician: Martin Todt.}", 
-     "Elisabeth Stratka. Technician: Martin Todt.}\\pagebreak", 1), 
-    # -----------------------------------------------------------------
-    # 2017 [add a line to bottom]
-    ("Saša Dobrohotov, Nataša Vujnović.}", 
-     "Saša Dobrohotov, Nataša Vujnović.}\\enlargethispage{1\\baselineskip}", 1),
-    # -----------------------------------------------------------------
-    # 2018 [spread more and force pagebreak]
-    ("Riikka Talvitie. Sound: Heidi Soidinsalo.}", 
-     "Riikka Talvitie. Sound: Heidi Soidinsalo.}\\medskip", 1), 
-    ("Silvain Gire. Music, Editor: Arnaud Forest.}", 
-     "Silvain Gire. Music, Editor: Arnaud Forest.}\\medskip", 1),
-    ("Daria Corrias, Fabiana Carobolante.}", 
-     "Daria Corrias, Fabiana Carobolante.}\\medskip", 1),
-    ("Rutger Lemm. Actor: Etgar Keret.}", 
-     "Rutger Lemm. Actor: Etgar Keret.}\\medskip", 1),
-    ("Lesley Sharp, Paul Kaye.}", 
-     "Lesley Sharp, Paul Kaye.}\\medskip", 1),
-    ("Jesper Ankarfeldt. Editor: Sander Vos.}", 
-      "Jesper Ankarfeldt. Editor: Sander Vos.}\\pagebreak", 1),
-    # -----------------------------------------------------------------
-    # 2023 [add a line to bottom]
-    ("Daria Hensemberger, Sara Polese.}", 
-     "Daria Hensemberger, Sara Polese.}\\enlargethispage{1\\baselineskip}", 1), 
+#    # -----------------------------------------------------------------
+#    # 2011 [add a line to bottom]
+#    ("Audrey Ripoull, Raphaëlle Mantoux.}", 
+#     "Audrey Ripoull, Raphaëlle Mantoux.}\\enlargethispage{1\\baselineskip}", 1), 
+#    # -----------------------------------------------------------------
+#    # 2012 / 1 [spread more and force pagebreak]
+#    ("Paul Malinowski. Music: Sebastian Rivas.}", 
+#     "Paul Malinowski. Music: Sebastian Rivas.}\\medskip", 1), 
+#    ("Florence Loiret Caille, Christophe Brault.}", 
+#     "Florence Loiret Caille, Christophe Brault.}\\medskip", 1), 
+#    ("Hanneke Hendrix. Sound: Frans de Rond.}", 
+#     "Hanneke Hendrix. Sound: Frans de Rond.}\\medskip", 1), 
+#    ("Lasse Nederhoed. Editor: Kåre Johan Lund.}", 
+#     "Lasse Nederhoed. Editor: Kåre Johan Lund.}\\medskip", 1), 
+#    ("Jarvis Cocker. Sound: Vic Kent.}", 
+#     "Jarvis Cocker. Sound: Vic Kent.}\\medskip", 1), 
+#    ("André Rigaut. Editor: Toni Froschhammer.}", 
+#     "André Rigaut. Editor: Toni Froschhammer.}\\pagebreak", 1), 
+#    # -----------------------------------------------------------------
+#    # 2012 / 2 [spread more and force pagebreak]
+#    ("Boris Gerrets. Producer: Thomas Den Drijver.}", 
+#     "Boris Gerrets. Producer: Thomas Den Drijver.}\\medskip", 1), 
+#    ("Heide Simon, Natascha Paulick.}", 
+#     "Heide Simon, Natascha Paulick.}\\medskip", 1), 
+#    ("Katarzyna Maciąg, Teresa Budzisz-Krzyżanowska.}", 
+#     "Katarzyna Maciąg, Teresa Budzisz-Krzyżanowska.}\\medskip", 1), 
+#    ("footnotesize By: Maria Kuhlbergs.}", 
+#     "footnotesize By: Maria Kuhlbergs.}\\medskip", 1), 
+#    ("footnotesize By: Fernand Melgar.}", 
+#     "footnotesize By: Fernand Melgar.}\\medskip", 1), 
+#    ("Hugues Sweeney. Director: Pascal Brouard.}", 
+#     "Hugues Sweeney. Director: Pascal Brouard.}\\pagebreak", 1), 
+#    # -----------------------------------------------------------------
+#    # 2014 [spread more, just for good looking - no pagebreak at the end]
+#    ("Kunuk Nykjær, Christian Planck.}",
+#     "Kunuk Nykjær, Christian Planck.}\\medskip", 1), 
+#    ("Arno Lafontaine, Julia Revault.}",
+#     "Arno Lafontaine, Julia Revault.}\\medskip", 1),
+#    ("Programmers: Maxime Quintard, Yves Diffre.}",
+#     "Programmers: Maxime Quintard, Yves Diffre.}\\medskip", 1),
+#    ("Jehane Noujaim. Producer: Mette Heide.}",
+#     "Jehane Noujaim. Producer: Mette Heide.}\\medskip", 1),
+#    ("footnotesize By: Juan Francisco Scassa.}",
+#     "footnotesize By: Juan Francisco Scassa.}\\medskip", 1),
+#    # -----------------------------------------------------------------
+#    # 2015 [spread more and force pagebreak]
+#    ("Yves Diffre, Maxime Gravouil.}", 
+#     "Yves Diffre, Maxime Gravouil.}\\medskip", 1), 
+#    ("Denis Delestrac, Sandrine Feydel.}", 
+#     "Denis Delestrac, Sandrine Feydel.}\\medskip", 1), 
+#    ("By: Leonardo Ferrari Carissimi.}", 
+#     "By: Leonardo Ferrari Carissimi.}\\medskip", 1), 
+#    ("Mitra Kaboli, Shira Bannerman, Shani Aviram.}", 
+#     "Mitra Kaboli, Shira Bannerman, Shani Aviram.}\\medskip", 1), 
+#    ("Fabrice Estève, Christian Popp.}", 
+#     "Fabrice Estève, Christian Popp.}\\medskip", 1), 
+#    ("Elisabeth Stratka. Technician: Martin Todt.}", 
+#     "Elisabeth Stratka. Technician: Martin Todt.}\\pagebreak", 1), 
+#    # -----------------------------------------------------------------
+#    # 2017 [add a line to bottom]
+#    ("Saša Dobrohotov, Nataša Vujnović.}", 
+#     "Saša Dobrohotov, Nataša Vujnović.}\\enlargethispage{1\\baselineskip}", 1),
+#    # -----------------------------------------------------------------
+#    # 2018 [spread more and force pagebreak]
+#    ("Riikka Talvitie. Sound: Heidi Soidinsalo.}", 
+#     "Riikka Talvitie. Sound: Heidi Soidinsalo.}\\medskip", 1), 
+#    ("Silvain Gire. Music, Editor: Arnaud Forest.}", 
+#     "Silvain Gire. Music, Editor: Arnaud Forest.}\\medskip", 1),
+#    ("Daria Corrias, Fabiana Carobolante.}", 
+#     "Daria Corrias, Fabiana Carobolante.}\\medskip", 1),
+#    ("Rutger Lemm. Actor: Etgar Keret.}", 
+#     "Rutger Lemm. Actor: Etgar Keret.}\\medskip", 1),
+#    ("Lesley Sharp, Paul Kaye.}", 
+#     "Lesley Sharp, Paul Kaye.}\\medskip", 1),
+#    ("Jesper Ankarfeldt. Editor: Sander Vos.}", 
+#      "Jesper Ankarfeldt. Editor: Sander Vos.}\\pagebreak", 1),
+#    # -----------------------------------------------------------------
+#    # 2023 [add a line to bottom]
+#    ("Daria Hensemberger, Sara Polese.}", 
+#     "Daria Hensemberger, Sara Polese.}\\enlargethispage{1\\baselineskip}", 1), 
     )
 silver_broadcasters_txt = tuple()
 silver_broadcasters_html = tuple()

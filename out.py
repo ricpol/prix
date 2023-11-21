@@ -66,7 +66,7 @@ class DataProvider:
     def get_winners(self, winners_only, prixitalia_only, exclude_unknowns, 
                     start_year=1948, end_year=9999):
         '''Data about winning/mentioned programmes.'''
-        sql = '''SELECT year, city, acronym, name, acr_name, country, country_abbr, 
+        sql = '''SELECT id, year, city, acronym, name, acr_name, country, country_abbr, 
                  iso3166, or_title, en_title, lang_title, credits, weblink, 
                  prize, prize_abbr, result, reasoning, note 
                  FROM vPrixWinners WHERE year>=? AND year<=?'''
