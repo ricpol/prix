@@ -33,7 +33,7 @@ silver_winners_tex = (
      "itshape VIII\\textsuperscript{th} Station", 1),
     # this is to avoid the correct but ugly blank line
     # in the 1991 Presidents' Prize
-    ("\n\n%460>%\n \\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%460>%\n\\\\ \\\\\n", "\\\\\n", 1),
     # these are because the Euro Prize was awarded to a Country, 
     # not a programme
     ("Italy (Italy)", 
@@ -45,12 +45,12 @@ silver_winners_tex = (
     # these are for the Honorary Prix Italia 1998
     # maybe should be {\large NAME}\\COUNTRY\\
     # but we are consistent with the 1991 Presidents' Prize format
-    ("\n\n%2157>%\n \\\\ \\\\\n", "\\\\\n", 1),
-    ("\n\n%2156>%\n \\\\ \\\\\n", "\\\\\n", 1),
-    ("\n\n%2160>%\n \\\\ \\\\\n", "\\\\\n", 1),
-    ("\n\n%2159>%\n \\\\ \\\\\n", "\\\\\n", 1),
-    ("\n\n%2158>%\n \\\\ \\\\\n", "\\\\\n", 1),
-    ("\n\n%2155>%\n \\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2157>%\n\\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2156>%\n\\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2160>%\n\\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2159>%\n\\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2158>%\n\\\\ \\\\\n", "\\\\\n", 1),
+    ("\n\n%2155>%\n\\\\ \\\\\n", "\\\\\n", 1),
     # This is for the Euro Prize (honorary) 2000
     # should be smaller (see 1991 and 1998 above) 
     # but it would be odd-looking in the page context
@@ -60,7 +60,7 @@ silver_winners_tex = (
     ("Kataweb (Italy)", 
      "{\\large Kataweb}\\\\ Italy", 1),
     # This is a fix for the latex parser in Cardine 2001
-    ("\n\n%691>%\n \\\\ \\\\\n", "\n\\\\ \\\\\n", 1),
+    ("\n\n%691>%\n\\\\ \\\\\n", "\n\\\\ \\\\\n", 1),
     # This is for the multimedia section prize 2012
     ("Il Post (Italy)", 
      "Italy", 1),
@@ -112,39 +112,39 @@ silver_winners_tex = (
     # these will force different pagebreaks
     # and are sorted by year
     # 1957 [spread more, just for good looking - no forced pagebreak]
-    ("%48>%", "\\medskip\n%48>%", 1),
-    ("%49>%", "\\medskip\n%49>%", 1),
-    ("%50>%", "\\medskip\n%50>%", 1),
-    ("%51>%", "\\medskip\n%51>%", 1),
-    ("%52>%", "\\medskip\n%52>%", 1),
-    ("%53>%", "\\medskip\n%53>%", 1),
+    ("\n%48>%", "\\medskip\n%48>%", 1),
+    ("\n%49>%", "\\medskip\n%49>%", 1),
+    ("\n%50>%", "\\medskip\n%50>%", 1),
+    ("\n%51>%", "\\medskip\n%51>%", 1),
+    ("\n%52>%", "\\medskip\n%52>%", 1),
+    ("\n%53>%", "\\medskip\n%53>%", 1),
     # -----------------------------------------------------------------
     # 1962 [shrink the page adding negative space]
-    ("%94>%", "\\vspace{-2pt}\n%94>%", 1), 
-    ("%95>%", "\\vspace{-2pt}\n%95>%", 1), 
-    ("%96>%", "\\vspace{-2pt}\n%96>%", 1), 
-    ("%97>%", "\\vspace{-2pt}\n%97>%", 1), 
-    ("%98>%", "\\vspace{-2pt}\n%98>%", 1), 
+    ("\n%94>%", "\\vspace{-2pt}\n%94>%", 1), 
+    ("\n%95>%", "\\vspace{-2pt}\n%95>%", 1), 
+    ("\n%96>%", "\\vspace{-2pt}\n%96>%", 1), 
+    ("\n%97>%", "\\vspace{-2pt}\n%97>%", 1), 
+    ("\n%98>%", "\\vspace{-2pt}\n%98>%", 1), 
     # ...and a gentle hint for the last line
     ("A Man of No Importance}\\nopagebreak[2]\\\\ RTF",
      "A Man of No Importance}\\nopagebreak[0]\\\\ RTF", 1),
     # -----------------------------------------------------------------
     # 1969 [spread more and force pagebreak]
-    ("%166>%", "\\medskip\n%166>%", 1),
-    ("%167>%", "\\medskip\n%167>%", 1),
-    ("%168>%", "\\medskip\n%168>%", 1),
-    ("%169>%", "\\medskip\n%169>%", 1),
-    ("%170>%", "\\medskip\n%170>%", 1),
-    ("%171>%", "\\medskip\n%171>%", 1),
+    ("\n%166>%", "\\medskip\n%166>%", 1),
+    ("\n%167>%", "\\medskip\n%167>%", 1),
+    ("\n%168>%", "\\medskip\n%168>%", 1),
+    ("\n%169>%", "\\medskip\n%169>%", 1),
+    ("\n%170>%", "\\medskip\n%170>%", 1),
+    ("\n%171>%", "\\medskip\n%171>%", 1),
     ("%172>%", "%172>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 1972 [spread more and force pagebreak]
-    ("%196>%", "\\medskip\n%196>%", 1),
-    ("%197>%", "\\medskip\n%197>%", 1),
-    ("%198>%", "\\medskip\n%198>%", 1),
-    ("%199>%", "\\medskip\n%199>%", 1),
-    ("%200>%", "\\medskip\n%200>%", 1),
-    ("%201>%", "\\medskip\n%201>%", 1),
+    ("\n%196>%", "\\medskip\n%196>%", 1),
+    ("\n%197>%", "\\medskip\n%197>%", 1),
+    ("\n%198>%", "\\medskip\n%198>%", 1),
+    ("\n%199>%", "\\medskip\n%199>%", 1),
+    ("\n%200>%", "\\medskip\n%200>%", 1),
+    ("\n%201>%", "\\medskip\n%201>%", 1),
     ("%202>%", "%202>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 1978 [add a line to bottom]
@@ -157,31 +157,39 @@ silver_winners_tex = (
     ("%417>%", "%417>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1990 [spread more and force pagebreak]
-    ("%436>%", "\\medskip\n%436>%", 1),
-    ("%438>%", "\\medskip\n%438>%", 1),
-    ("%440>%", "\\medskip\n%440>%", 1),
-    ("%430>%", "\\medskip\n%430>%", 1),
-    ("%432>%", "\\medskip\n%432>%", 1),
-    ("%434>%", "\\medskip\n%434>%", 1),
+    ("\n%436>%", "\\medskip\n%436>%", 1),
+    ("\n%438>%", "\\medskip\n%438>%", 1),
+    ("\n%440>%", "\\medskip\n%440>%", 1),
+    ("\n%430>%", "\\medskip\n%430>%", 1),
+    ("\n%432>%", "\\medskip\n%432>%", 1),
+    ("\n%434>%", "\\medskip\n%434>%", 1),
     ("%437>%", "%437>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 1991 [add a line to bottom]
     ("%445>%", "%445>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1992 [spread for good looking, no pagebreak at the end]
-    ("%465>%", "\\medskip\n%465>%", 1),
-    ("%467>%", "\\medskip\n%467>%", 1),
-    ("%477>%", "\\medskip\n%477>%", 1),
-    ("%471>%", "\\medskip\n%471>%", 1),
-    ("%472>%", "\\medskip\n%472>%", 1),
-    ("%474>%", "\\medskip\n%474>%", 1),
-    ("%476>%", "\\medskip\n%476>%", 1),
+    ("\n%465>%", "\\medskip\n%465>%", 1),
+    ("\n%467>%", "\\medskip\n%467>%", 1),
+    ("\n%477>%", "\\medskip\n%477>%", 1),
+    ("\n%471>%", "\\medskip\n%471>%", 1),
+    ("\n%472>%", "\\medskip\n%472>%", 1),
+    ("\n%474>%", "\\medskip\n%474>%", 1),
+    ("\n%476>%", "\\medskip\n%476>%", 1),
     # -----------------------------------------------------------------
     # 1994 / 1 [add a line to bottom]
     ("%492>%", "%492>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1994 / 2 [add a line to bottom]
-    ("%1863>%", "%1863>%\n\\enlargethispage{1\\baselineskip}", 1),
+        # NOTE: this is the "right" place to add the command
+        # on the same line of \subsection. Strangely enough, if we 
+        # add the command on a single line, *and* there is a box full 
+        # to the limit, latex will add extra space here.
+        # Perhaps we should change the others "\enlarge" substitutions 
+        # too, even if they seem to work because there's no full box 
+        # around. This is the "wrong" way:
+        #("%1863>%", "%1863>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%<1861%\n", "%<1861%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1995 [add a line to bottom]
     ("%546>%", "%546>%\n\\enlargethispage{1\\baselineskip}", 1),
@@ -190,49 +198,49 @@ silver_winners_tex = (
     ("%553>%", "%553>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1999 [spread more for good looking, no forced pagebreak]
-    ("%606>%", "\\medskip\n%606>%", 1),
-    ("%612>%", "\\medskip\n%612>%", 1),
-    ("%500>%", "\\medskip\n%500>%", 1),
-    ("%613>%", "\\medskip\n%613>%", 1),
-    ("%614>%", "\\medskip\n%614>%", 1),
-    ("%609>%", "\\medskip\n%609>%", 1),   # note: these 3 are the
-    ("%610>%", "\\medskip\n%610>%", 1),   # already-replaced
-    ("%611>%", "\\medskip\n%611>%", 1),   # 1999 Euro Prizes
+    ("\n%606>%", "\\medskip\n%606>%", 1),
+    ("\n%612>%", "\\medskip\n%612>%", 1),
+    ("\n%500>%", "\\medskip\n%500>%", 1),
+    ("\n%613>%", "\\medskip\n%613>%", 1),
+    ("\n%614>%", "\\medskip\n%614>%", 1),
+    ("\n%609>%", "\\medskip\n%609>%", 1),   # note: these 3 are the
+    ("\n%610>%", "\\medskip\n%610>%", 1),   # already-replaced
+    ("\n%611>%", "\\medskip\n%611>%", 1),   # 1999 Euro Prizes
     # -----------------------------------------------------------------
     # 2000 [shrink the page adding negative space, add a line to bottom]
-    ("%<615%", "\\vspace{-2pt}\n%<615%", 1),
-    ("%<616%", "\\vspace{-2pt}\n%<616%", 1),
-    ("%<619%", "\\vspace{-2pt}\n%<619%", 1),
-    ("%<622%", "\\vspace{-2pt}\n%<622%", 1),
-    ("%<623%", "\\vspace{-2pt}\n%<623%", 1),
-    ("%<626%", "\\vspace{-2pt}\n%<626%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("\n%<615%", "\\vspace{-2pt}\n%<615%", 1),
+    ("\n%<616%", "\\vspace{-2pt}\n%<616%", 1),
+    ("\n%<619%", "\\vspace{-2pt}\n%<619%", 1),
+    ("\n%<622%", "\\vspace{-2pt}\n%<622%", 1),
+    ("\n%<623%", "\\vspace{-2pt}\n%<623%", 1),
+    ("\n%<626%", "\\vspace{-2pt}\n%<626%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2002 [add a line to bottom]
     ("%708>%", "%708>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2005 [spread more, the pagebreak will happen "naturally"]
-    ("%839>%", "\\bigskip\n%839>%", 1),
-    ("%510>%", "\\bigskip\n%510>%", 1),
-    ("%844>%", "\\bigskip\n%844>%", 1),
-    ("%842>%", "\\bigskip\n%842>%", 1),
-    ("%848>%", "\\bigskip\n%848>%", 1),
-    ("%851>%", "\\bigskip\n%851>%", 1),
+    ("\n%839>%", "\\bigskip\n%839>%", 1),
+    ("\n%510>%", "\\bigskip\n%510>%", 1),
+    ("\n%844>%", "\\bigskip\n%844>%", 1),
+    ("\n%842>%", "\\bigskip\n%842>%", 1),
+    ("\n%848>%", "\\bigskip\n%848>%", 1),
+    ("\n%851>%", "\\bigskip\n%851>%", 1),
     # -----------------------------------------------------------------
     # 2006 / 1 [shrink the page adding negative space, add a line to bottom]
-    ("%873>%", "\\vspace{-2pt}\n%873>%", 1),
-    ("%877>%", "\\vspace{-2pt}\n%877>%", 1),
-    ("%880>%", "\\vspace{-2pt}\n%880>%", 1),
-    ("%883>%", "\\vspace{-2pt}\n%883>%", 1),
-    ("%887>%", "\\vspace{-2pt}\n%887>%\\enlargethispage{1\\baselineskip}", 1),
+    ("\n%873>%", "\\vspace{-2pt}\n%873>%", 1),
+    ("\n%877>%", "\\vspace{-2pt}\n%877>%", 1),
+    ("\n%880>%", "\\vspace{-2pt}\n%880>%", 1),
+    ("\n%883>%", "\\vspace{-2pt}\n%883>%", 1),
+    ("\n%887>%", "\\vspace{-2pt}\n%887>%\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2006 / 2 [spread more, pagebreak will happen "naturally"]
-    ("%893>%", "\\bigskip\n%893>%", 1),
-    ("%896>%", "\\bigskip\n%896>%", 1),
-    ("%899>%", "\\bigskip\n%899>%", 1),
-    ("%901>%", "\\bigskip\n%901>%", 1),
-    ("%904>%", "\\bigskip\n%904>%", 1),
-    ("%907>%", "\\bigskip\n%907>%", 1),
-    ("%910>%", "\\bigskip\n%910>%", 1),
+    ("\n%893>%", "\\bigskip\n%893>%", 1),
+    ("\n%896>%", "\\bigskip\n%896>%", 1),
+    ("\n%899>%", "\\bigskip\n%899>%", 1),
+    ("\n%901>%", "\\bigskip\n%901>%", 1),
+    ("\n%904>%", "\\bigskip\n%904>%", 1),
+    ("\n%907>%", "\\bigskip\n%907>%", 1),
+    ("\n%910>%", "\\bigskip\n%910>%", 1),
 
 
 

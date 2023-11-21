@@ -165,11 +165,18 @@ class BaseFormatter:
     def get_output(self, template_file, **context):
         '''Return an output, give a template and context.
         'template_file' is a path relative to self.template_folder
+        Note: I find that extra-space in latex can be tricky. 
+        Since it's pretty difficult to hunt down every single extra-space 
+        at template level, we run a manual strip here.
         '''
         template = self.jinja.get_template(template_file)
         if self.outputtype == 'tex':
-            return template.render(languages=self.languages, common=COMMON, **context)
-        else:
+            res = template.render(languages=self.languages, common=COMMON, **context)
+            return '\n'.join([l.strip() for l in res.splitlines()])
+        elif self.outputtype == 'txt':  # extra space on the right may be formatting
+            res = template.render(common=COMMON, **context)
+            return '\n'.join([l.rstrip() for l in res.splitlines()])
+        else:  # html doesn't really care about extra space 
             return template.render(common=COMMON, **context)
 
     def finalize_output(self, output, replacements):
