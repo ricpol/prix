@@ -186,7 +186,7 @@ silver_winners_tex = (
         # add the command on a single line, *and* there is a box full 
         # to the limit, latex will add extra space here.
         # Perhaps we should change the others "\enlarge" substitutions 
-        # too, even if they seem to work because there's no full box 
+        # above, even if they seem to work because there's no full box 
         # around. This is the "wrong" way:
         #("%1863>%", "%1863>%\n\\enlargethispage{1\\baselineskip}", 1),
     ("%<1861%\n", "%<1861%\n\\enlargethispage{1\\baselineskip}", 1),
@@ -227,7 +227,8 @@ silver_winners_tex = (
     ("\n%851>%", "\\bigskip\n%851>%", 1),
     # -----------------------------------------------------------------
     # 2006 / 1 [shrink the page adding negative space, add a line to bottom]
-    ("\n%873>%", "\\vspace{-2pt}\n%873>%", 1),
+    ("\n%1852>%", "\\vspace{-2pt}\n%1852>%", 1),
+    ("\n%873>%", "\\vspace{-10pt}\n%873>%", 1),
     ("\n%877>%", "\\vspace{-2pt}\n%877>%", 1),
     ("\n%880>%", "\\vspace{-2pt}\n%880>%", 1),
     ("\n%883>%", "\\vspace{-2pt}\n%883>%", 1),
@@ -241,42 +242,25 @@ silver_winners_tex = (
     ("\n%904>%", "\\bigskip\n%904>%", 1),
     ("\n%907>%", "\\bigskip\n%907>%", 1),
     ("\n%910>%", "\\bigskip\n%910>%", 1),
-
-
-
     # 2007 [spread more and force pagebreak]
-#    ("Anthony Glennon, Jasmine Callan.}", 
-#     "Anthony Glennon, Jasmine Callan.}\\medskip", 1), 
-#    ("Jaqueline Cloake, Thomas Wheatley.}", 
-#     "Jaqueline Cloake, Thomas Wheatley.}\\medskip", 1), 
-#    ("Torben Paaske. Producer: Ulla Kristensen.}", 
-#     "Torben Paaske. Producer: Ulla Kristensen.}\\medskip", 1), 
-#    ("Mark Burman. Presenter: Alan Dein.}", 
-#     "Mark Burman. Presenter: Alan Dein.}\\medskip", 1), 
-#    ("David Krügel, Karel Hruska.}", 
-#     "David Krügel, Karel Hruska.}\\medskip", 1), 
-#    ("Jacek Piotr Bławut, Andrzej Mańkowski.}", 
-#     "Jacek Piotr Bławut, Andrzej Mańkowski.}\\medskip", 1), 
-#    ("Charles Mnene, Nikki Amuka-Bird.}", 
-#     "Charles Mnene, Nikki Amuka-Bird.}\\pagebreak", 1), 
+    ("\n%511>%", "\\medskip\n%511>%", 1),
+    ("\n%512>%", "\\medskip\n%512>%", 1),
+    ("\n%941>%", "\\medskip\n%941>%", 1),
+    ("\n%513>%", "\\medskip\n%513>%", 1),
+    ("\n%945>%", "\\medskip\n%945>%", 1),
+    ("\n%947>%", "\\medskip\n%947>%", 1),
+    ("\n%514>%", "%514>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 2008 [spread more and force pagebreak]
-#    ("Magnus Arvidson. Sound: Fredrik Nilsson.}", 
-#     "Magnus Arvidson. Sound: Fredrik Nilsson.}\\medskip", 1), 
-#    ("René Dupéré. Commentator: Claus Kleber.}", 
-#     "René Dupéré. Commentator: Claus Kleber.}\\medskip", 1), 
-#    ("Sound: Jan Palmers, Bjørn Molstad.}", 
-#     "Sound: Jan Palmers, Bjørn Molstad.}\\medskip", 1), 
-#    ("Jo Øigarden, Bjørn Sundquist.}", 
-#     "Jo Øigarden, Bjørn Sundquist.}\\medskip", 1), 
-#    ("Sverrir Gudnason, Simon Berger, Ruth Vega Fernandez.}", 
-#     "Sverrir Gudnason, Simon Berger, Ruth Vega Fernandez.}\\medskip", 1), 
-#    ("footnotesize By: Alison Millar.}", 
-#     "footnotesize By: Alison Millar.}\\pagebreak", 1),
-#    # -----------------------------------------------------------------
-#    # 2011 [add a line to bottom]
-#    ("Audrey Ripoull, Raphaëlle Mantoux.}", 
-#     "Audrey Ripoull, Raphaëlle Mantoux.}\\enlargethispage{1\\baselineskip}", 1), 
+    ("\n%986>%", "\\medskip\n%986>%", 1),
+    ("\n%988>%", "\\medskip\n%988>%", 1),
+    ("\n%991>%", "\\medskip\n%991>%", 1),
+    ("\n%994>%", "\\medskip\n%994>%", 1),
+    ("\n%997>%", "\\medskip\n%997>%", 1),
+    ("\n%999>%", "%999>%\n\\pagebreak", 1),
+    # -----------------------------------------------------------------
+    # 2011 [add a line to bottom]
+    ("%<1223%\n", "%<1223%\n\\enlargethispage{1\\baselineskip}", 1),
 #    # -----------------------------------------------------------------
 #    # 2012 / 1 [spread more and force pagebreak]
 #    ("Paul Malinowski. Music: Sebastian Rivas.}", 
