@@ -40,6 +40,25 @@ silver_winners_tex = (
      "{\\large Austria}", 1),
     ("United Kingdom (United Kingdom)", 
      "{\\large United Kingdom}", 1),
+    # these are for the Honorary Prix Italia 1998
+    # technically, should be {\large NAME}\\COUNTRY\\
+    # but we want a smaller and more compact layout here
+    ("Piergiorgio Branzi (Italy)\n \\\\ \\\\",
+     "Piergiorgio Branzi (Italy)\\\\", 1),
+    ("Chris Dunkley (United Kingdom)\n \\\\ \\\\",
+     "Chris Dunkley (United Kingdom)\\\\", 1),
+    ("Lennart Ehrenborg (Sweden)\n \\\\ \\\\",
+     "Lennart Ehrenborg (Sweden)\\\\", 1),
+    ("Maria Teresa Miscovich (Argentina)\n \\\\ \\\\",
+     "Maria Teresa Miscovich (Argentina)\\\\", 1),
+    ("Diana Palma (Italy)\n \\\\ \\\\",
+     "Diana Palma (Italy)\\\\", 1),
+    ("Lord George Thomson of Monifieth (United Kingdom)\n \\\\ \\\\",
+     "Lord George Thomson of Monifieth (United Kingdom)\\\\", 1),
+    # This is for the Euro Prize (honorary) 2000
+    # since there is only one name, we keep the usual layout
+    ("Romano Prodi (Italy)", 
+     "{\\large Romano Prodi}\\\\ Italy", 1),
     # This is for the sp. prize web 2000
     ("Kataweb (Italy)", 
      "{\\large Kataweb}\\\\ Italy", 1),
