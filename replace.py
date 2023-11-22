@@ -109,8 +109,7 @@ silver_winners_tex = (
 
     # PART 2 -- page-level fixes
     # ==========================
-    # these will force different pagebreaks
-    # and are sorted by year
+    # these will force different pagebreaks and are sorted by year
     # 1957 [spread more, just for good looking - no forced pagebreak]
     ("\n%48>%", "\\medskip\n%48>%", 1),
     ("\n%49>%", "\\medskip\n%49>%", 1),
@@ -232,7 +231,7 @@ silver_winners_tex = (
     ("\n%877>%", "\\vspace{-2pt}\n%877>%", 1),
     ("\n%880>%", "\\vspace{-2pt}\n%880>%", 1),
     ("\n%883>%", "\\vspace{-2pt}\n%883>%", 1),
-    ("\n%887>%", "\\vspace{-2pt}\n%887>%\\enlargethispage{1\\baselineskip}", 1),
+    ("\n%887>%", "\\vspace{-2pt}\n%887>%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2006 / 2 [spread more, pagebreak will happen "naturally"]
     ("\n%893>%", "\\bigskip\n%893>%", 1),
@@ -261,82 +260,66 @@ silver_winners_tex = (
     # -----------------------------------------------------------------
     # 2011 [add a line to bottom]
     ("%<1223%\n", "%<1223%\n\\enlargethispage{1\\baselineskip}", 1),
-#    # -----------------------------------------------------------------
-#    # 2012 / 1 [spread more and force pagebreak]
-#    ("Paul Malinowski. Music: Sebastian Rivas.}", 
-#     "Paul Malinowski. Music: Sebastian Rivas.}\\medskip", 1), 
-#    ("Florence Loiret Caille, Christophe Brault.}", 
-#     "Florence Loiret Caille, Christophe Brault.}\\medskip", 1), 
-#    ("Hanneke Hendrix. Sound: Frans de Rond.}", 
-#     "Hanneke Hendrix. Sound: Frans de Rond.}\\medskip", 1), 
-#    ("Lasse Nederhoed. Editor: Kåre Johan Lund.}", 
-#     "Lasse Nederhoed. Editor: Kåre Johan Lund.}\\medskip", 1), 
-#    ("Jarvis Cocker. Sound: Vic Kent.}", 
-#     "Jarvis Cocker. Sound: Vic Kent.}\\medskip", 1), 
-#    ("André Rigaut. Editor: Toni Froschhammer.}", 
-#     "André Rigaut. Editor: Toni Froschhammer.}\\pagebreak", 1), 
-#    # -----------------------------------------------------------------
-#    # 2012 / 2 [spread more and force pagebreak]
-#    ("Boris Gerrets. Producer: Thomas Den Drijver.}", 
-#     "Boris Gerrets. Producer: Thomas Den Drijver.}\\medskip", 1), 
-#    ("Heide Simon, Natascha Paulick.}", 
-#     "Heide Simon, Natascha Paulick.}\\medskip", 1), 
-#    ("Katarzyna Maciąg, Teresa Budzisz-Krzyżanowska.}", 
-#     "Katarzyna Maciąg, Teresa Budzisz-Krzyżanowska.}\\medskip", 1), 
-#    ("footnotesize By: Maria Kuhlbergs.}", 
-#     "footnotesize By: Maria Kuhlbergs.}\\medskip", 1), 
-#    ("footnotesize By: Fernand Melgar.}", 
-#     "footnotesize By: Fernand Melgar.}\\medskip", 1), 
-#    ("Hugues Sweeney. Director: Pascal Brouard.}", 
-#     "Hugues Sweeney. Director: Pascal Brouard.}\\pagebreak", 1), 
-#    # -----------------------------------------------------------------
-#    # 2014 [spread more, just for good looking - no pagebreak at the end]
-#    ("Kunuk Nykjær, Christian Planck.}",
-#     "Kunuk Nykjær, Christian Planck.}\\medskip", 1), 
-#    ("Arno Lafontaine, Julia Revault.}",
-#     "Arno Lafontaine, Julia Revault.}\\medskip", 1),
-#    ("Programmers: Maxime Quintard, Yves Diffre.}",
-#     "Programmers: Maxime Quintard, Yves Diffre.}\\medskip", 1),
-#    ("Jehane Noujaim. Producer: Mette Heide.}",
-#     "Jehane Noujaim. Producer: Mette Heide.}\\medskip", 1),
-#    ("footnotesize By: Juan Francisco Scassa.}",
-#     "footnotesize By: Juan Francisco Scassa.}\\medskip", 1),
-#    # -----------------------------------------------------------------
-#    # 2015 [spread more and force pagebreak]
-#    ("Yves Diffre, Maxime Gravouil.}", 
-#     "Yves Diffre, Maxime Gravouil.}\\medskip", 1), 
-#    ("Denis Delestrac, Sandrine Feydel.}", 
-#     "Denis Delestrac, Sandrine Feydel.}\\medskip", 1), 
-#    ("By: Leonardo Ferrari Carissimi.}", 
-#     "By: Leonardo Ferrari Carissimi.}\\medskip", 1), 
-#    ("Mitra Kaboli, Shira Bannerman, Shani Aviram.}", 
-#     "Mitra Kaboli, Shira Bannerman, Shani Aviram.}\\medskip", 1), 
-#    ("Fabrice Estève, Christian Popp.}", 
-#     "Fabrice Estève, Christian Popp.}\\medskip", 1), 
-#    ("Elisabeth Stratka. Technician: Martin Todt.}", 
-#     "Elisabeth Stratka. Technician: Martin Todt.}\\pagebreak", 1), 
-#    # -----------------------------------------------------------------
-#    # 2017 [add a line to bottom]
-#    ("Saša Dobrohotov, Nataša Vujnović.}", 
-#     "Saša Dobrohotov, Nataša Vujnović.}\\enlargethispage{1\\baselineskip}", 1),
-#    # -----------------------------------------------------------------
-#    # 2018 [spread more and force pagebreak]
-#    ("Riikka Talvitie. Sound: Heidi Soidinsalo.}", 
-#     "Riikka Talvitie. Sound: Heidi Soidinsalo.}\\medskip", 1), 
-#    ("Silvain Gire. Music, Editor: Arnaud Forest.}", 
-#     "Silvain Gire. Music, Editor: Arnaud Forest.}\\medskip", 1),
-#    ("Daria Corrias, Fabiana Carobolante.}", 
-#     "Daria Corrias, Fabiana Carobolante.}\\medskip", 1),
-#    ("Rutger Lemm. Actor: Etgar Keret.}", 
-#     "Rutger Lemm. Actor: Etgar Keret.}\\medskip", 1),
-#    ("Lesley Sharp, Paul Kaye.}", 
-#     "Lesley Sharp, Paul Kaye.}\\medskip", 1),
-#    ("Jesper Ankarfeldt. Editor: Sander Vos.}", 
-#      "Jesper Ankarfeldt. Editor: Sander Vos.}\\pagebreak", 1),
-#    # -----------------------------------------------------------------
-#    # 2023 [add a line to bottom]
-#    ("Daria Hensemberger, Sara Polese.}", 
-#     "Daria Hensemberger, Sara Polese.}\\enlargethispage{1\\baselineskip}", 1), 
+    # -----------------------------------------------------------------
+    # 2012 / 1 [shrink the page adding negative space, add a line to bottom]
+    ("\n%1229>%", "\\vspace{-2pt}\n%1229>%", 1),
+    ("\n%1232>%", "\\vspace{-2pt}\n%1232>%", 1),
+    ("\n%1235>%", "\\vspace{-2pt}\n%1235>%", 1),
+    ("\n%1238>%", "\\vspace{-2pt}\n%1238>%", 1),
+    ("\n%1241>%", "\\vspace{-2pt}\n%1241>%", 1),
+    ("\n%518>%", "\\vspace{-2pt}\n%518>%", 1),
+    ("\n%1246>%", "\\vspace{-2pt}\n%1246>%\n\\enlargethispage{1\\baselineskip}", 1),
+    # -----------------------------------------------------------------
+    # 2012 / 2 [spread more, pagebreak will happen "naturally"]
+    ("\n%1249>%", "\\bigskip\n%1249>%", 1),
+    ("\n%1253>%", "\\bigskip\n%1253>%", 1),
+    ("\n%1256>%", "\\bigskip\n%1256>%", 1),
+    ("\n%1259>%", "\\bigskip\n%1259>%", 1),
+    ("\n%1262>%", "\\bigskip\n%1262>%", 1),
+    ("\n%1269>%", "\\bigskip\n%1269>%", 1),
+    # -----------------------------------------------------------------
+    # 2014 [spread more, just for good looking - no pagebreak at the end]
+    ("\n%1362>%", "\\medskip\n%1362>%", 1),
+    ("\n%1366>%", "\\medskip\n%1366>%", 1),
+    ("\n%1363>%", "\\medskip\n%1363>%", 1),
+    ("\n%1369>%", "\\medskip\n%1369>%", 1),
+    ("\n%1370>%", "\\medskip\n%1370>%", 1),
+    # -----------------------------------------------------------------
+    # 2015 [spread more and force pagebreak]
+    ("\n%1391>%", "\\medskip\n%1391>%", 1),
+    ("\n%1399>%", "\\medskip\n%1399>%", 1),
+    ("\n%1402>%", "\\medskip\n%1402>%", 1),
+    ("\n%1403>%", "\\medskip\n%1403>%", 1),
+    ("\n%1404>%", "\\medskip\n%1404>%", 1),
+    ("\n%1405>%", "\\medskip\n%1405>%", 1),
+    ("\n%1407>%", "%1407>%\n\\pagebreak", 1),
+    # -----------------------------------------------------------------
+    # 2017 [add a line to bottom]
+    ("%<1422%\n", "%<1422%\n\\enlargethispage{1\\baselineskip}", 1),
+    # -----------------------------------------------------------------
+    # 2018 [spread more, pagebreak will happen "naturally"]
+    ("\n%1437>%", "\\medskip\n%1437>%", 1), 
+    ("\n%1438>%", "\\medskip\n%1438>%", 1), 
+    ("\n%1440>%", "\\medskip\n%1440>%", 1), 
+    ("\n%1442>%", "\\medskip\n%1442>%", 1), 
+    ("\n%526>%", "\\medskip\n%526>%", 1), 
+    ("\n%1444>%", "\\medskip\n%1444>%", 1), 
+    # -----------------------------------------------------------------
+    # 2023 / 1 [shrink the page adding negative space, add a line to bottom]
+    ("\n%1544>%", "\\vspace{-2pt}\n%1544>%", 1),
+    ("\n\n%2165>%", "\\vspace{-2pt}\n%2165>%", 1), # a little different...
+    ("\n\n%2167>%", "\\vspace{-8pt}\n%2167>%", 1), # a little different...
+    ("\n%2076>%", "\\vspace{-2pt}\n%2076>%", 1),
+    ("\n%2083>%", "\\vspace{-2pt}\n%2083>%", 1),
+    ("\n%2090>%", "\\vspace{-2pt}\n%2090>%\n\\enlargethispage{1\\baselineskip}", 1),
+    # -----------------------------------------------------------------
+    # 2023 / 2 [spread more, pagebreak will happen "naturally"]
+    ("\n%2104>%", "\\bigskip\n%2104>%", 1),
+    ("\n%2111>%", "\\bigskip\n%2111>%", 1),
+    ("\n%2118>%", "\\bigskip\n%2118>%", 1),
+    ("\n%2125>%", "\\bigskip\n%2125>%", 1),
+    ("\n%2132>%", "\\bigskip\n%2132>%", 1),
+    ("\n%2142>%", "\\bigskip\n%2142>%", 1),
     )
 silver_broadcasters_txt = tuple()
 silver_broadcasters_html = tuple()
