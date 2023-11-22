@@ -147,13 +147,21 @@ silver_winners_tex = (
     ("%202>%", "%202>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 1978 [add a line to bottom]
-    ("%272>%", "%272>%\n\\enlargethispage{1\\baselineskip}", 1),
+        # NOTE: this is the "right" place to add the command
+        # on the same line of \subsection. Strangely enough, if we 
+        # add the command on a single line, *and* there is a box full 
+        # to the limit, latex will add extra space here.
+        # So, the *wrong* way is
+        # "%previous#>%", "%previous#>%\n\\enlarge..."
+        # and the "*right* way is
+        # "%<next#%\n", "%<next#%\n\\enlarge..."
+    ("%<273%\n", "%<273%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1984 [add a line to bottom]
-    ("%356>%", "%356>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%<357%\n", "%<357%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1989 [add a line to bottom]
-    ("%417>%", "%417>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%<419%\n", "%<419%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1990 [spread more and force pagebreak]
     ("\n%436>%", "\\medskip\n%436>%", 1),
@@ -165,7 +173,7 @@ silver_winners_tex = (
     ("%437>%", "%437>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 1991 [add a line to bottom]
-    ("%445>%", "%445>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%<447%\n", "%<447%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1992 [spread for good looking, no pagebreak at the end]
     ("\n%465>%", "\\medskip\n%465>%", 1),
@@ -177,24 +185,16 @@ silver_winners_tex = (
     ("\n%476>%", "\\medskip\n%476>%", 1),
     # -----------------------------------------------------------------
     # 1994 / 1 [add a line to bottom]
-    ("%492>%", "%492>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%<537%\n", "%<537%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1994 / 2 [add a line to bottom]
-        # NOTE: this is the "right" place to add the command
-        # on the same line of \subsection. Strangely enough, if we 
-        # add the command on a single line, *and* there is a box full 
-        # to the limit, latex will add extra space here.
-        # Perhaps we should change the others "\enlarge" substitutions 
-        # above, even if they seem to work because there's no full box 
-        # around. This is the "wrong" way:
-        #("%1863>%", "%1863>%\n\\enlargethispage{1\\baselineskip}", 1),
     ("%<1861%\n", "%<1861%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1995 [add a line to bottom]
-    ("%546>%", "%546>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%<548%\n", "%<548%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1996 [add a line to bottom]
-    ("%553>%", "%553>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%<555%\n", "%<555%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 1999 [spread more for good looking, no forced pagebreak]
     ("\n%606>%", "\\medskip\n%606>%", 1),
@@ -207,15 +207,16 @@ silver_winners_tex = (
     ("\n%611>%", "\\medskip\n%611>%", 1),   # 1999 Euro Prizes
     # -----------------------------------------------------------------
     # 2000 [shrink the page adding negative space, add a line to bottom]
-    ("\n%<615%", "\\vspace{-2pt}\n%<615%", 1),
-    ("\n%<616%", "\\vspace{-2pt}\n%<616%", 1),
-    ("\n%<619%", "\\vspace{-2pt}\n%<619%", 1),
-    ("\n%<622%", "\\vspace{-2pt}\n%<622%", 1),
-    ("\n%<623%", "\\vspace{-2pt}\n%<623%", 1),
-    ("\n%<626%", "\\vspace{-2pt}\n%<626%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("\n%615>%", "\\vspace{-2pt}\n%615>%", 1),
+    ("\n%616>%", "\\vspace{-2pt}\n%615>%", 1),
+    ("\n%619>%", "\\vspace{-2pt}\n%615>%", 1),
+    ("\n%622>%", "\\vspace{-2pt}\n%615>%", 1),
+    ("\n%623>%", "\\vspace{-2pt}\n%615>%", 1),
+    ("\n\n%626>%", "\\vspace{-2pt}\n%615>%", 1), # a little different...
+    ("%<627%\n", "%<627%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2002 [add a line to bottom]
-    ("%708>%", "%708>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%<711%\n", "%<711%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2005 [spread more, the pagebreak will happen "naturally"]
     ("\n%839>%", "\\bigskip\n%839>%", 1),
@@ -231,7 +232,8 @@ silver_winners_tex = (
     ("\n%877>%", "\\vspace{-2pt}\n%877>%", 1),
     ("\n%880>%", "\\vspace{-2pt}\n%880>%", 1),
     ("\n%883>%", "\\vspace{-2pt}\n%883>%", 1),
-    ("\n%887>%", "\\vspace{-2pt}\n%887>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("\n%887>%", "\\vspace{-2pt}\n%887>%", 1),
+    ("%<890%\n", "%<890%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2006 / 2 [spread more, pagebreak will happen "naturally"]
     ("\n%893>%", "\\bigskip\n%893>%", 1),
@@ -248,7 +250,7 @@ silver_winners_tex = (
     ("\n%513>%", "\\medskip\n%513>%", 1),
     ("\n%945>%", "\\medskip\n%945>%", 1),
     ("\n%947>%", "\\medskip\n%947>%", 1),
-    ("\n%514>%", "%514>%\n\\pagebreak", 1),
+    ("%514>%", "%514>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 2008 [spread more and force pagebreak]
     ("\n%986>%", "\\medskip\n%986>%", 1),
@@ -256,7 +258,7 @@ silver_winners_tex = (
     ("\n%991>%", "\\medskip\n%991>%", 1),
     ("\n%994>%", "\\medskip\n%994>%", 1),
     ("\n%997>%", "\\medskip\n%997>%", 1),
-    ("\n%999>%", "%999>%\n\\pagebreak", 1),
+    ("%999>%", "%999>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 2011 [add a line to bottom]
     ("%<1223%\n", "%<1223%\n\\enlargethispage{1\\baselineskip}", 1),
@@ -268,7 +270,8 @@ silver_winners_tex = (
     ("\n%1238>%", "\\vspace{-2pt}\n%1238>%", 1),
     ("\n%1241>%", "\\vspace{-2pt}\n%1241>%", 1),
     ("\n%518>%", "\\vspace{-2pt}\n%518>%", 1),
-    ("\n%1246>%", "\\vspace{-2pt}\n%1246>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("\n%1246>%", "\\vspace{-2pt}\n%1246>%", 1),
+    ("%<1249%\n", "%<1249%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2012 / 2 [spread more, pagebreak will happen "naturally"]
     ("\n%1249>%", "\\bigskip\n%1249>%", 1),
@@ -292,7 +295,7 @@ silver_winners_tex = (
     ("\n%1403>%", "\\medskip\n%1403>%", 1),
     ("\n%1404>%", "\\medskip\n%1404>%", 1),
     ("\n%1405>%", "\\medskip\n%1405>%", 1),
-    ("\n%1407>%", "%1407>%\n\\pagebreak", 1),
+    ("%1407>%", "%1407>%\n\\pagebreak", 1),
     # -----------------------------------------------------------------
     # 2017 [add a line to bottom]
     ("%<1422%\n", "%<1422%\n\\enlargethispage{1\\baselineskip}", 1),
@@ -311,7 +314,8 @@ silver_winners_tex = (
     ("\n\n%2167>%", "\\vspace{-8pt}\n%2167>%", 1), # a little different...
     ("\n%2076>%", "\\vspace{-2pt}\n%2076>%", 1),
     ("\n%2083>%", "\\vspace{-2pt}\n%2083>%", 1),
-    ("\n%2090>%", "\\vspace{-2pt}\n%2090>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("\n%2090>%", "\\vspace{-2pt}\n%2090>%", 1),
+    ("%<2097%\n", "%<2097%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2023 / 2 [spread more, pagebreak will happen "naturally"]
     ("\n%2104>%", "\\bigskip\n%2104>%", 1),
