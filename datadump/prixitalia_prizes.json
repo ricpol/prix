@@ -1971,8 +1971,8 @@
   },
   {
     "id": 197,
-    "prize": "Quirinale Special Prize",
-    "prize_abbr": "Quirinale Sp. Prize",
+    "prize": "Cup of the President of the Italian Republic",
+    "prize_abbr": "Cup of the President of the Italian Republic",
     "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
     "kind": "[\"Special Prize\",\"President\"]",
     "operation": "[\"selection\",\"external\"]",
@@ -2010,6 +2010,16 @@
     "first_year": 2006
   },
   {
+    "id": 273,
+    "prize": "Cup of the President of the Italian Republic (For a TV Programme That Pays Attention to Safeguarding and Promoting the Rights of Society’s Most Disadvantaged and Vulnerable)",
+    "prize_abbr": "Cup of the President of the Italian Republic",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2006
+  },
+  {
     "id": 196,
     "prize": "Special Prize for a Radio Documentary, for Extraordinary Originality",
     "prize_abbr": "Sp. Prize Radio Doc. Extraordinary Originality",
@@ -2030,6 +2040,16 @@
     "first_year": 2007
   },
   {
+    "id": 272,
+    "prize": "Cup of the President of the Italian Republic (For a TV Programme That Pays Attention to the Protection and Promotion of the Weak and Underprivileged)",
+    "prize_abbr": "Cup of the President of the Italian Republic",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2007
+  },
+  {
     "id": 199,
     "prize": "Ministry of Rights and Equal Opportunities Special Prize",
     "prize_abbr": "Ministry of Rights and Equal Opportunities Sp. Prize",
@@ -2038,6 +2058,16 @@
     "operation": null,
     "present": 0,
     "first_year": 2007
+  },
+  {
+    "id": 271,
+    "prize": "Cup of the President of the Italian Republic (For a TV Programme Attentive to the Lives and the Cultural Realities of Women Worldwide)",
+    "prize_abbr": "Cup of the President of the Italian Republic",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2008
   },
   {
     "id": 200,
@@ -2068,6 +2098,16 @@
     "operation": "[\"registration\",\"internal\"]",
     "present": 0,
     "first_year": 2008
+  },
+  {
+    "id": 270,
+    "prize": "Cup of the President of the Italian Republic (For a TV Programme Dedicated to the Consequences of the Economic Recession and Globalisation on Societies)",
+    "prize_abbr": "Cup of the President of the Italian Republic",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2009
   },
   {
     "id": 206,
@@ -2120,6 +2160,16 @@
     "first_year": 2010
   },
   {
+    "id": 215,
+    "prize": "Cup of the President of the Italian Republic (Awarded to a Radio Programme That Has Dealt with Highly Topical Interests)",
+    "prize_abbr": "Cup of the President of the Italian Republic",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
+    "kind": "[\"Special Prize\",\"President\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 2010
+  },
+  {
     "id": 210,
     "prize": "Special Prize of the Students' Jury, TV Movies and Mini-Series",
     "prize_abbr": "Students' Jury Sp. Prize TV Movies and Mini-Series",
@@ -2158,16 +2208,6 @@
     "operation": "[\"registration\",\"internal\"]",
     "present": 0,
     "first_year": 2010
-  },
-  {
-    "id": 215,
-    "prize": "Cup of the President of the Italian Republic (Awarded to a Radio Programme That Has Dealt with Highly Topical Interests)",
-    "prize_abbr": "Cup of the President of the Italian Republic",
-    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\"]",
-    "kind": "[\"Special Prize\",\"President\"]",
-    "operation": "[\"selection\",\"external\"]",
-    "present": 0,
-    "first_year": 2011
   },
   {
     "id": 213,

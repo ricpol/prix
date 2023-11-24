@@ -20643,14 +20643,29 @@
     "id": 4,
     "disamb": 1,
     "name": "",
-    "surname": "DV 8 Physical Theatre",
-    "surname_ord": "dv 8 physical theatre",
+    "surname": "DV8 Physical Theatre",
+    "surname_ord": "dv8 physical theatre",
     "sfirst": 0,
     "role": "Dancer",
     "programme_id": 262,
     "year": 1996,
     "id_acronym": "BBC",
     "acronym": "BBC",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "result": "winner"
+  },
+  {
+    "id": 6169,
+    "disamb": 1,
+    "name": "",
+    "surname": "DV8 Physical Theatre",
+    "surname_ord": "dv8 physical theatre",
+    "sfirst": 0,
+    "role": "Dancer",
+    "programme_id": 540,
+    "year": 2005,
+    "id_acronym": "C4",
+    "acronym": "C4",
     "country": "United Kingdom of Great Britain and Northern Ireland",
     "result": "winner"
   },
@@ -34393,6 +34408,21 @@
     "acronym": "NPO",
     "country": "Netherlands",
     "result": "mention,winner"
+  },
+  {
+    "id": 6166,
+    "disamb": 1,
+    "name": "Rob",
+    "surname": "Hof",
+    "surname_ord": "hof rob",
+    "sfirst": 0,
+    "role": "Director",
+    "programme_id": 378,
+    "year": 2001,
+    "id_acronym": "ZDF",
+    "acronym": "ZDF",
+    "country": "Germany",
+    "result": "winner"
   },
   {
     "id": 2894,
@@ -61689,9 +61719,9 @@
     "role": "Director",
     "programme_id": 5017,
     "year": 1965,
-    "id_acronym": "CBC/SRC",
-    "acronym": "CBC/SRC",
-    "country": "Canada",
+    "id_acronym": "CBS",
+    "acronym": "CBS",
+    "country": "United States of America",
     "result": "winner"
   },
   {
@@ -70380,6 +70410,21 @@
     "result": "also mentioned"
   },
   {
+    "id": 6168,
+    "disamb": 1,
+    "name": "Doke",
+    "surname": "Romain",
+    "surname_ord": "romain doke",
+    "sfirst": 0,
+    "role": "Director",
+    "programme_id": 381,
+    "year": 2001,
+    "id_acronym": "NOS",
+    "acronym": "NOS",
+    "country": "Netherlands",
+    "result": "winner"
+  },
+  {
     "id": 4861,
     "disamb": 1,
     "name": "Agnes",
@@ -75987,6 +76032,21 @@
     "id_acronym": "RTVE",
     "acronym": "RTVE",
     "country": "Spain",
+    "result": "winner"
+  },
+  {
+    "id": 6167,
+    "disamb": 1,
+    "name": "Gianna",
+    "surname": "Silvestri",
+    "surname_ord": "silvestri gianna",
+    "sfirst": 0,
+    "role": "Director",
+    "programme_id": 382,
+    "year": 2001,
+    "id_acronym": "RAI",
+    "acronym": "RAI",
+    "country": "Italy",
     "result": "winner"
   },
   {

@@ -72,7 +72,7 @@
   {
     "id": "ABRA",
     "acronym": "ABRA TV",
-    "name": "ABRA - Area de Medios de la Universidad Nacional del Centro de la Provincia de Buenos Aires",
+    "name": "ABRA – Area de Medios de la Universidad Nacional del Centro de la Provincia de Buenos Aires",
     "acr_name": 1,
     "status": 4,
     "country": "Argentina",
@@ -100,7 +100,7 @@
   {
     "id": "CONSTRUIRTV",
     "acronym": "CONSTRUIR TV",
-    "name": "Construir TV - Fundación Uocra para la Educación de los Trabajadores Constructores",
+    "name": "Construir TV – Fundación Uocra para la Educación de los Trabajadores Constructores",
     "acr_name": 1,
     "status": 4,
     "country": "Argentina",
@@ -464,7 +464,7 @@
   {
     "id": "FRM",
     "acronym": "FRM",
-    "name": "Canal Futura - Fundação Roberto Marinho",
+    "name": "Canal Futura – Fundação Roberto Marinho",
     "acr_name": 0,
     "status": 4,
     "country": "Brazil",
@@ -1066,7 +1066,7 @@
   {
     "id": "LASEPT",
     "acronym": "LA SEPT",
-    "name": "La Sept - Société européenne de programmes de télévision",
+    "name": "La Sept – Société européenne de programmes de télévision",
     "acr_name": 1,
     "status": 4,
     "country": "France",
@@ -1080,7 +1080,7 @@
   {
     "id": "FRANCE2",
     "acronym": "FRANCE 2",
-    "name": "France Télévisions - France 2",
+    "name": "France Télévisions – France 2",
     "acr_name": 1,
     "status": 4,
     "country": "France",
@@ -1094,7 +1094,7 @@
   {
     "id": "FRANCE3",
     "acronym": "FRANCE 3",
-    "name": "France Télévisions - France 3",
+    "name": "France Télévisions – France 3",
     "acr_name": 1,
     "status": 4,
     "country": "France",
@@ -1122,7 +1122,7 @@
   {
     "id": "FRANCE5",
     "acronym": "FRANCE 5",
-    "name": "France Télévisions - France 5",
+    "name": "France Télévisions – France 5",
     "acr_name": 1,
     "status": 4,
     "country": "France",
@@ -1724,7 +1724,7 @@
   {
     "id": "A+E",
     "acronym": "A+E",
-    "name": "A&E Television Networks Italy",
+    "name": "A+E Television Networks Italy",
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
@@ -1836,7 +1836,7 @@
   {
     "id": "GALILEO",
     "acronym": "GALILEO GALILEI",
-    "name": "Liceo Scientifico Galileo Galilei - Trieste",
+    "name": "Liceo Scientifico Galileo Galilei – Trieste",
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
@@ -1915,6 +1915,20 @@
     "prev": null,
     "next": null,
     "group_acronym": "POLIBARI",
+    "note": ""
+  },
+  {
+    "id": "GREENPEACEITALIA",
+    "acronym": "GREENPEACEITALIA",
+    "name": "Greenpeace Italia",
+    "acr_name": 1,
+    "status": 2,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "GREENPEACE",
     "note": ""
   },
   {
@@ -2228,7 +2242,7 @@
   {
     "id": "CANAL13",
     "acronym": "CANAL 13",
-    "name": "Corporación Mexicana de Radio y Televisión - Canal 13",
+    "name": "Corporación Mexicana de Radio y Televisión – Canal 13",
     "acr_name": 0,
     "status": 4,
     "country": "Mexico",
@@ -2256,7 +2270,7 @@
   {
     "id": "SPR14",
     "acronym": "SPR - 14",
-    "name": "Sistema Público de Radiodifusión del Estado Mexicano - Canal Catorce",
+    "name": "Sistema Público de Radiodifusión del Estado Mexicano – Canal Catorce",
     "acr_name": 0,
     "status": 4,
     "country": "Mexico",
@@ -2270,7 +2284,7 @@
   {
     "id": "CANAL22",
     "acronym": "CANAL 22",
-    "name": "Canal 22 - Televisión Metropolitana",
+    "name": "Canal 22 – Televisión Metropolitana",
     "acr_name": 1,
     "status": 4,
     "country": "Mexico",
@@ -2578,7 +2592,7 @@
   {
     "id": "RTPperu",
     "acronym": "RTP",
-    "name": "Radio y Televisión Peruana - Canal 7/ TV Perú",
+    "name": "Radio y Televisión Peruana – Canal 7/ TV Perú",
     "acr_name": 0,
     "status": 4,
     "country": "Peru",
@@ -2858,7 +2872,7 @@
   {
     "id": "VOR",
     "acronym": "VOR",
-    "name": "Golos Rossii/ Voice of Russia - National Radio Channel \"Community\"",
+    "name": "Golos Rossii/ Voice of Russia – National Radio Channel \"Community\"",
     "acr_name": 0,
     "status": 4,
     "country": "Russian Federation",
@@ -2872,7 +2886,7 @@
   {
     "id": "VGTRK/RADIOROSSII",
     "acronym": "RADIO ROSSII",
-    "name": "VGTRK - Radio Rossii",
+    "name": "VGTRK – Radio Rossii",
     "acr_name": 1,
     "status": 4,
     "country": "Russian Federation",
@@ -2886,7 +2900,7 @@
   {
     "id": "VGTRK/RUSSIAK",
     "acronym": "RUSSIA K",
-    "name": "VGTRK - Rossiya Kul'tura",
+    "name": "VGTRK – Rossiya Kul'tura",
     "acr_name": 1,
     "status": 4,
     "country": "Russian Federation",
@@ -3558,7 +3572,7 @@
   {
     "id": "ITV",
     "acronym": "ITV",
-    "name": "ITV Network - Channel 3",
+    "name": "ITV Network – Channel 3",
     "acr_name": 1,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",

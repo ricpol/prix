@@ -13763,11 +13763,21 @@
     "id": 4,
     "disamb": 1,
     "name": "",
-    "surname": "DV 8 Physical Theatre",
-    "surname_ord": "dv 8 physical theatre",
+    "surname": "DV8 Physical Theatre",
+    "surname_ord": "dv8 physical theatre",
     "sfirst": 0,
     "role": "Dancer",
     "programme_id": 262
+  },
+  {
+    "id": 6169,
+    "disamb": 1,
+    "name": "",
+    "surname": "DV8 Physical Theatre",
+    "surname_ord": "dv8 physical theatre",
+    "sfirst": 0,
+    "role": "Dancer",
+    "programme_id": 540
   },
   {
     "id": 3578,
@@ -22928,6 +22938,16 @@
     "sfirst": 0,
     "role": "Producer",
     "programme_id": 1165
+  },
+  {
+    "id": 6166,
+    "disamb": 1,
+    "name": "Rob",
+    "surname": "Hof",
+    "surname_ord": "hof rob",
+    "sfirst": 0,
+    "role": "Director",
+    "programme_id": 378
   },
   {
     "id": 2894,
@@ -46920,6 +46940,16 @@
     "programme_id": 15544
   },
   {
+    "id": 6168,
+    "disamb": 1,
+    "name": "Doke",
+    "surname": "Romain",
+    "surname_ord": "romain doke",
+    "sfirst": 0,
+    "role": "Director",
+    "programme_id": 381
+  },
+  {
     "id": 4861,
     "disamb": 1,
     "name": "Agnes",
@@ -50658,6 +50688,16 @@
     "sfirst": 0,
     "role": "Music",
     "programme_id": 280
+  },
+  {
+    "id": 6167,
+    "disamb": 1,
+    "name": "Gianna",
+    "surname": "Silvestri",
+    "surname_ord": "silvestri gianna",
+    "sfirst": 0,
+    "role": "Director",
+    "programme_id": 382
   },
   {
     "id": 6112,
