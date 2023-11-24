@@ -60,13 +60,18 @@ silver_winners_tex = (
     ("Kataweb (Italy)", 
      "{\\large Kataweb}\\\\ Italy", 1),
     # This is a fix for the latex parser in Cardine 2001
-    ("\n\n%691>%\n\\\\ \\\\\n", "\n\\\\ \\\\\n", 1),
+    ("\n%691>%\n\\\\ \\\\\n", "\n\\\\ \\\\\n", 1),
     # This is for the multimedia section prize 2012
     ("Il Post (Italy)", 
      "Italy", 1),
     # This is for the multimedia section prize 2013
     ("Piccolo Teatro Milano (Italy)", 
      "Italy", 1),
+    # the short names here are just too long...
+    ("La Sept -- Société européenne de programmes de télévision (France)",
+     "La Sept (France)", 3),
+    ("ARTE Groupement Européen d'Intérêt Économique (France)",
+     "ARTE GEIE (France", 1),
     # ugly linebreaks: avoid with mbox
     # --------------------------------
     ("Producer: Bert van der Zouw. Script: J Bernlef", 
@@ -215,8 +220,24 @@ silver_winners_tex = (
     ("\n\n%626>%", "\\vspace{-2pt}\n%615>%", 1), # a little different...
     ("%<627%\n", "%<627%\n\\enlargethispage{1\\baselineskip}", 1),
     # -----------------------------------------------------------------
-    # 2002 [add a line to bottom]
-    ("%<711%\n", "%<711%\n\\enlargethispage{1\\baselineskip}", 1),
+    # 2002 / [spread more, the pagebreak will happen "naturally"]
+    ("\n%692>%", "\\medskip\n%692>%", 1),
+    ("\n%697>%", "\\medskip\n%697>%", 1),
+    ("\n%698>%", "\\medskip\n%698>%", 1),
+    ("\n%702>%", "\\medskip\n%702>%", 1),
+    ("\n%699>%", "\\medskip\n%699>%", 1),
+    ("\n%705>%", "\\medskip\n%705>%", 1),
+    # -----------------------------------------------------------------
+    # 2002 / 2 [shrink the page adding negative space, add a line to bottom]
+    # this is a little too dense maybe?
+    ("\n%708>%", "\\vspace{-4pt}\n%708>%", 1),
+    ("\n%711>%", "\\vspace{-4pt}\n%708>%", 1),
+    ("\n%714>%", "\\vspace{-4pt}\n%708>%", 1),
+    ("\n\n%717>%", "\\vspace{-4pt}\n%708>%", 1), # a little different...
+    ("\n%720>%", "\\vspace{-4pt}\n%708>%", 1),
+    ("\n%723>%", "\\vspace{-4pt}\n%708>%", 1),
+    ("\n%726>%", "\\vspace{-4pt}\n%708>%", 1),
+    ("%<729%\n", "%<729%\n\\enlargethispage{2\\baselineskip}", 1),
     # -----------------------------------------------------------------
     # 2005 [spread more, the pagebreak will happen "naturally"]
     ("\n%839>%", "\\bigskip\n%839>%", 1),
@@ -282,11 +303,11 @@ silver_winners_tex = (
     ("\n%1269>%", "\\bigskip\n%1269>%", 1),
     # -----------------------------------------------------------------
     # 2014 [spread more, just for good looking - no pagebreak at the end]
-    ("\n%1362>%", "\\medskip\n%1362>%", 1),
-    ("\n%1366>%", "\\medskip\n%1366>%", 1),
-    ("\n%1363>%", "\\medskip\n%1363>%", 1),
-    ("\n%1369>%", "\\medskip\n%1369>%", 1),
-    ("\n%1370>%", "\\medskip\n%1370>%", 1),
+    ("\n%1362>%", "\\smallskip\n%1362>%", 1),
+    ("\n%1366>%", "\\smallskip\n%1366>%", 1),
+    ("\n%1363>%", "\\smallskip\n%1363>%", 1),
+    ("\n%1369>%", "\\smallskip\n%1369>%", 1),
+    ("\n%1370>%", "\\smallskip\n%1370>%", 1),
     # -----------------------------------------------------------------
     # 2015 [spread more and force pagebreak]
     ("\n%1391>%", "\\medskip\n%1391>%", 1),
