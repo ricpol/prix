@@ -5,7 +5,11 @@
 \hyphenation{Ze-brzy-dow-skiej Kry-sty-na Kró-lów-na Pi-e-niow-ski Pi-ser-chia Przy-by-łow-ska Ka-hi-luo-to Le-ca-va-lier}
 \thispagestyle{empty}
 \incgraph[documentpaper][width=\paperwidth, height=\paperheight]{../imgs/silvercover_a.jpg}
+\newpage\thispagestyle{empty} % the back of the cover... put a logo somewhere maybe? %
+\null\vfill 
 \newpage\thispagestyle{empty}
+% not entirely sure about this page numbering... it's ok for printing, looks odd on screen %
+\setcounter{page}{1} % start counting here %
 \null\vspace{150pt}
 \hfill{\LARGE\slshape Prix Italia}
 
@@ -19,13 +23,15 @@
 \vfill
 \newpage\thispagestyle{empty}
 \null\vfill
-{\footnotesize\ttfamily\noindent {{ common["silver_maintitle"] }}\\Research and Editing by Riccardo Polignieri\\Version {{ common["silver_version"] -}}, {{ common["silver_vdate"] }}\\Corrections: prixitalia(at)rai.it}
+{\footnotesize\ttfamily\noindent {{ common["silver_maintitle"] }}\\Research and Editing by Riccardo Polignieri\\Release {{ common["silver_version"] -}}, {{ common["silver_vdate"] }}\\Corrections: prixitalia(at)rai.it}
 {% include 'intro.tex' %}
 {% include 'winners.tex' %}
 {% include 'win_broadcasters.tex' %}
 {% include 'milestones.tex' %}
 \vfill
-\newpage\thispagestyle{empty} % only if the previous (last) page is odd %
+% \newpage\thispagestyle{empty} % only if the previous (last) page is odd %
+% \null\vfill %
+\newpage\thispagestyle{empty} % the front of the back-cover %
 \null\vfill
 \newpage\thispagestyle{empty}
 \incgraph[documentpaper][width=\paperwidth, height=\paperheight]{../imgs/silvercover_b.jpg}
