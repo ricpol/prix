@@ -1610,6 +1610,16 @@
     "first_year": 1999
   },
   {
+    "id": 274,
+    "prize": "Special Tribute",
+    "prize_abbr": "Special Tribute",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Honorary\"]",
+    "operation": "[\"honorary\",\"external\"]",
+    "present": 0,
+    "first_year": 1999
+  },
+  {
     "id": 162,
     "prize": "Special Web Prize for Usability",
     "prize_abbr": "Web Sp. Prize Usability",
