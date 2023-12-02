@@ -51,6 +51,9 @@ silver_winners_tex = (
     ("\n\n%2159>%\n\\\\ \\\\\n", "\\\\\n", 1),
     ("\n\n%2158>%\n\\\\ \\\\\n", "\\\\\n", 1),
     ("\n\n%2155>%\n\\\\ \\\\\n", "\\\\\n", 1),
+    # special tribute 1999: we use the "Prodi" layout below
+    ("Jeremy Isaacs (United Kingdom)",
+     "{\\large Jeremy Isaacs}\\\\ United Kingdom", 1),
     # This is for the Euro Prize (honorary) 2000
     # should be smaller (see 1991 and 1998 above) 
     # but it would be odd-looking in the page context
