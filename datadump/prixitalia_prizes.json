@@ -970,6 +970,16 @@
     "first_year": 1982
   },
   {
+    "id": 275,
+    "prize": "Golden Medal on the Occasion of the 35th Anniversary",
+    "prize_abbr": "Golden Medal 35th Anniversary",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Honorary\"]",
+    "operation": "[\"honorary\",\"external\"]",
+    "present": 0,
+    "first_year": 1983
+  },
+  {
     "id": 91,
     "prize": "Regione Campania Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
     "prize_abbr": "Regione Campania Prize TV Documentary",
@@ -1136,6 +1146,16 @@
     "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
     "kind": "[\"Special Prize\",\"Anniversary\"]",
     "operation": null,
+    "present": 0,
+    "first_year": 1988
+  },
+  {
+    "id": 276,
+    "prize": "Prix Galileo – European Year of Cinema and Television",
+    "prize_abbr": "Prix Galileo",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Honorary\"]",
+    "operation": "[\"honorary\",\"external\"]",
     "present": 0,
     "first_year": 1988
   },

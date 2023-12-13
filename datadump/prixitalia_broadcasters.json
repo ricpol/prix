@@ -1288,6 +1288,20 @@
     "note": ""
   },
   {
+    "id": "ECKHARTSTEIN",
+    "acronym": "ECKHART STEIN",
+    "name": "Eckhart Stein",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Germany",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "ECKHARTSTEIN",
+    "note": ""
+  },
+  {
     "id": "EIR",
     "acronym": "EIR",
     "name": "Ethniko Idryma Radiofonias",
@@ -2027,6 +2041,20 @@
     "prev": null,
     "next": null,
     "group_acronym": "PALMA",
+    "note": ""
+  },
+  {
+    "id": "ANGELOGUGLIELMI",
+    "acronym": "ANGELO GUGLIELMI",
+    "name": "Angelo Guglielmi",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Italy",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "ANGELOGUGLIELMI",
     "note": ""
   },
   {
@@ -3332,6 +3360,20 @@
     "note": ""
   },
   {
+    "id": "HENRIKHAHR",
+    "acronym": "HENRIK HAHR",
+    "name": "Henrik Hahr",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Sweden",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "HENRIKHAHR",
+    "note": ""
+  },
+  {
     "id": "SRGSSRo",
     "acronym": "SRG SSR",
     "name": "Société Suisse de Radiodiffusion",
@@ -3721,6 +3763,20 @@
     "prev": null,
     "next": null,
     "group_acronym": "JEREMYISAACS",
+    "note": ""
+  },
+  {
+    "id": "LIZFORGAN",
+    "acronym": "LIZ FORGAN",
+    "name": "Liz Forgan",
+    "acr_name": 1,
+    "status": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "LIZFORGAN",
     "note": ""
   },
   {
