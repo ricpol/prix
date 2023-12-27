@@ -57,6 +57,8 @@ def prepare_db(db="prix_winners.grist"):
     c.execute('ALTER TABLE Milestones RENAME TO oMilestones')
     c.execute('ALTER TABLE Genius RENAME TO oGenius')
     c.execute('ALTER TABLE Globals RENAME TO oGlobals')
+    c.execute('ALTER TABLE Issues RENAME TO oIssues')
+    c.execute('ALTER TABLE Events RENAME TO oEvents')
 
     # create new tables
     c.execute('''CREATE TABLE broadcasters AS
