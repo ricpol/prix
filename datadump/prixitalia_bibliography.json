@@ -3146,20 +3146,9 @@
     "year": 1997
   },
   {
-    "id": 88,
-    "edition": 1997,
-    "sort": 400,
-    "category": "prixbook",
-    "author": "Preta, Augusto and De Angelis, Mara and Mazzotti, Marcella",
-    "title": "Alla ricerca della qualità: la televisione nel mondo. Indagine sulla programmazione televisiva.",
-    "notes": "Text in Italian.",
-    "publisher": "Torino, Italy: Rai",
-    "year": 1997
-  },
-  {
     "id": 31,
     "edition": 1997,
-    "sort": 405,
+    "sort": 400,
     "category": "prixbook",
     "author": "Battistuzzi, Paolo et al.",
     "title": "On liberty, today.",
@@ -3199,6 +3188,17 @@
     "notes": "Text in Italian, English, French.",
     "publisher": "Rai/Prix Italia",
     "year": 1998
+  },
+  {
+    "id": 88,
+    "edition": 1998,
+    "sort": 205,
+    "category": "meeting",
+    "author": "Preta, Augusto and De Angelis, Mara and Mazzotti, Marcella",
+    "title": "Alla ricerca della qualità: la televisione nel mondo. Indagine sulla programmazione televisiva.",
+    "notes": "Text in Italian.",
+    "publisher": "Torino, Italy: Rai",
+    "year": 1997
   },
   {
     "id": 33,
@@ -3432,6 +3432,28 @@
     "year": 2004
   },
   {
+    "id": 365,
+    "edition": 2004,
+    "sort": 500,
+    "category": "arts",
+    "author": "Morciano, Maria Milvia",
+    "title": "Catania: città della luce e del fuoco.",
+    "notes": "A guide to Catania. Text in Italian.",
+    "publisher": "Roma, Italy: Rai",
+    "year": 2004
+  },
+  {
+    "id": 366,
+    "edition": 2004,
+    "sort": 505,
+    "category": "arts",
+    "author": "Morciano, Maria Milvia",
+    "title": "Notes on travels: through western Sicily.",
+    "notes": "The booklet was published in both Italian and English versions.",
+    "publisher": "Roma, Italy: Rai",
+    "year": 2004
+  },
+  {
     "id": 51,
     "edition": 2005,
     "sort": 100,
@@ -3602,7 +3624,7 @@
     "sort": 400,
     "category": "prixbook",
     "author": "",
-    "title": "Prix Italia in the Articles of Videoage From 1981 to 2014.",
+    "title": "Prix Italia in the Articles of VideoAge From 1981 to 2014.",
     "notes": "Foreword by Graham, James and Serafini, Dom.",
     "publisher": "Roma, Italia: Rai Ufficio Stampa",
     "year": 2015
