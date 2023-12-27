@@ -85,7 +85,7 @@ def prepare_db(db="prix_winners.grist"):
     c.execute('CREATE UNIQUE INDEX editions_year ON editions (year);')
     c.execute('''CREATE TABLE participants AS
                  SELECT id_part AS id, oeditions.year, 
-                 obroadcasters.id_acro AS broadcaster_id, competition, 
+                 obroadcasters.id_acro AS broadcaster_id, 
                  oparticipants.radio, oparticipants.tv, oparticipants.web, 
                  oparticipants.sp_prize 
                  FROM oparticipants 
@@ -157,7 +157,7 @@ def prepare_db(db="prix_winners.grist"):
                  SELECT participants.id, participants.year, 
                  broadcasters.id AS broadcaster_id, 
                  broadcasters.acronym, broadcasters.name, broadcasters.acr_name, 
-                 countries.country, countries.country_abbr, competition, 
+                 countries.country, countries.country_abbr,  
                  participants.radio, participants.tv, participants.web, 
                  participants.sp_prize 
                  FROM participants 
@@ -361,7 +361,6 @@ def test_participant_year(cursor, output):
 def test_participant_competition(cursor, output):
     # write a test to find anomalies in participation
     # (eg, a radio broadcaster competing in tv)
-    # however, this whole "participant" thing will be revamped sooner or later...
     pass
 
 def test_winner_is_participant(cursor, output):
