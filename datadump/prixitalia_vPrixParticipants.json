@@ -7420,6 +7420,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1971 NONE",
+    "year": 1971,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1972 ABCo",
     "year": 1972,
     "broadcaster_id": "ABCo",
@@ -8956,6 +8970,20 @@
     "country_abbr": "Yugoslavia",
     "radio": 1,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1974 NONE",
+    "year": 1974,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -11294,6 +11322,20 @@
     "country_abbr": "Yugoslavia",
     "radio": 4,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1978 UNKNOWN",
+    "year": 1978,
+    "broadcaster_id": "UNKNOWN",
+    "acronym": "UNKNOWN",
+    "name": "Unknown",
+    "acr_name": 1,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -14238,6 +14280,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1983 HENRIKHAHR",
+    "year": 1983,
+    "broadcaster_id": "HENRIKHAHR",
+    "acronym": "HENRIK HAHR",
+    "name": "Henrik Hahr",
+    "acr_name": 1,
+    "country": "Sweden",
+    "country_abbr": "Sweden",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1983 SRGSSR",
     "year": 1983,
     "broadcaster_id": "SRGSSR",
@@ -14346,6 +14402,20 @@
     "country_abbr": "Yugoslavia",
     "radio": 4,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1983 NONE",
+    "year": 1983,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -16058,6 +16128,20 @@
     "sp_prize": 1
   },
   {
+    "id": "1986 NONE",
+    "year": 1986,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1987 ABCo",
     "year": 1987,
     "broadcaster_id": "ABCo",
@@ -16562,20 +16646,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1987 C4",
-    "year": 1987,
-    "broadcaster_id": "C4",
-    "acronym": "C4",
-    "name": "Channel 4",
-    "acr_name": 0,
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "country_abbr": "United Kingdom",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1987 ITCA",
     "year": 1987,
     "broadcaster_id": "ITCA",
@@ -16588,6 +16658,20 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1987 C4",
+    "year": 1987,
+    "broadcaster_id": "C4",
+    "acronym": "C4",
+    "name": "Channel 4",
+    "acr_name": 0,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1987 NBC",
@@ -16868,6 +16952,20 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1988 ECKHARTSTEIN",
+    "year": 1988,
+    "broadcaster_id": "ECKHARTSTEIN",
+    "acronym": "ECKHART STEIN",
+    "name": "Eckhart Stein",
+    "acr_name": 1,
+    "country": "Germany",
+    "country_abbr": "Germany",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1988 ERT",
@@ -17232,6 +17330,20 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 2
+  },
+  {
+    "id": "1988 NONE",
+    "year": 1988,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1989 ABC",
@@ -17794,6 +17906,20 @@
     "sp_prize": 1
   },
   {
+    "id": "1989 LIZFORGAN",
+    "year": 1989,
+    "broadcaster_id": "LIZFORGAN",
+    "acronym": "LIZ FORGAN",
+    "name": "Liz Forgan",
+    "acr_name": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1989 ABCusa",
     "year": 1989,
     "broadcaster_id": "ABCusa",
@@ -18270,6 +18396,20 @@
     "sp_prize": 2
   },
   {
+    "id": "1990 ANGELOGUGLIELMI",
+    "year": 1990,
+    "broadcaster_id": "ANGELOGUGLIELMI",
+    "acronym": "ANGELO GUGLIELMI",
+    "name": "Angelo Guglielmi",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1990 NHK",
     "year": 1990,
     "broadcaster_id": "NHK",
@@ -18452,20 +18592,6 @@
     "sp_prize": 1
   },
   {
-    "id": "1990 C4",
-    "year": 1990,
-    "broadcaster_id": "C4",
-    "acronym": "C4",
-    "name": "Channel 4",
-    "acr_name": 0,
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "country_abbr": "United Kingdom",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "1990 AIRC",
     "year": 1990,
     "broadcaster_id": "AIRC",
@@ -18478,6 +18604,20 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "1990 C4",
+    "year": 1990,
+    "broadcaster_id": "C4",
+    "acronym": "C4",
+    "name": "Channel 4",
+    "acr_name": 0,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
   },
   {
     "id": "1990 ITV",
@@ -19222,6 +19362,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1991 CNN",
+    "year": 1991,
+    "broadcaster_id": "CNN",
+    "acronym": "CNN",
+    "name": "Cable News Network",
+    "acr_name": 0,
+    "country": "United States of America",
+    "country_abbr": "United States",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1991 JRT",
     "year": 1991,
     "broadcaster_id": "JRT",
@@ -19810,20 +19964,6 @@
     "sp_prize": 12
   },
   {
-    "id": "1992 C4",
-    "year": 1992,
-    "broadcaster_id": "C4",
-    "acronym": "C4",
-    "name": "Channel 4",
-    "acr_name": 0,
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "country_abbr": "United Kingdom",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 6
-  },
-  {
     "id": "1992 AIRC",
     "year": 1992,
     "broadcaster_id": "AIRC",
@@ -19834,6 +19974,20 @@
     "country_abbr": "United Kingdom",
     "radio": 4,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 6
+  },
+  {
+    "id": "1992 C4",
+    "year": 1992,
+    "broadcaster_id": "C4",
+    "acronym": "C4",
+    "name": "Channel 4",
+    "acr_name": 0,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 6
   },
@@ -19875,6 +20029,20 @@
     "country": "United States of America",
     "country_abbr": "United States",
     "radio": 4,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1992 NONE",
+    "year": 1992,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -20132,6 +20300,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1993 ARDANT",
+    "year": 1993,
+    "broadcaster_id": "ARDANT",
+    "acronym": "FANNY ARDANT",
+    "name": "Fanny Ardant",
+    "acr_name": 1,
+    "country": "France",
+    "country_abbr": "France",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1993 ARD",
     "year": 1993,
     "broadcaster_id": "ARD",
@@ -20228,6 +20410,20 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 2
+  },
+  {
+    "id": "1993 GASSMAN",
+    "year": 1993,
+    "broadcaster_id": "GASSMAN",
+    "acronym": "VITTORIO GASSMAN",
+    "name": "Vittorio Gassman",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1993 NHK",
@@ -20412,6 +20608,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1993 VONSYDOW",
+    "year": 1993,
+    "broadcaster_id": "VONSYDOW",
+    "acronym": "MAX VON SYDOW",
+    "name": "Max von Sydow",
+    "acr_name": 1,
+    "country": "Sweden",
+    "country_abbr": "Sweden",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1993 SRGSSR",
     "year": 1993,
     "broadcaster_id": "SRGSSR",
@@ -20440,20 +20650,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1993 C4",
-    "year": 1993,
-    "broadcaster_id": "C4",
-    "acronym": "C4",
-    "name": "Channel 4",
-    "acr_name": 0,
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "country_abbr": "United Kingdom",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1993 AIRC",
     "year": 1993,
     "broadcaster_id": "AIRC",
@@ -20464,6 +20660,20 @@
     "country_abbr": "United Kingdom",
     "radio": 3,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1993 C4",
+    "year": 1993,
+    "broadcaster_id": "C4",
+    "acronym": "C4",
+    "name": "Channel 4",
+    "acr_name": 0,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -20505,6 +20715,20 @@
     "country": "United States of America",
     "country_abbr": "United States",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1993 NONE",
+    "year": 1993,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -20958,6 +21182,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1994 HOLOUBEK",
+    "year": 1994,
+    "broadcaster_id": "HOLOUBEK",
+    "acronym": "GUSTAV HOLOUBEK",
+    "name": "Gustav Holoubek",
+    "acr_name": 1,
+    "country": "Poland",
+    "country_abbr": "Poland",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1994 RTP",
     "year": 1994,
     "broadcaster_id": "RTP",
@@ -20984,6 +21222,20 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1994 NEYOLOVA",
+    "year": 1994,
+    "broadcaster_id": "NEYOLOVA",
+    "acronym": "MARINA NEYOLOVA",
+    "name": "Marina Neyolova",
+    "acr_name": 1,
+    "country": "Russian Federation",
+    "country_abbr": "Russia",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1994 STVslovakia",
@@ -21098,20 +21350,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1994 C4",
-    "year": 1994,
-    "broadcaster_id": "C4",
-    "acronym": "C4",
-    "name": "Channel 4",
-    "acr_name": 0,
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "country_abbr": "United Kingdom",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "1994 AIRC",
     "year": 1994,
     "broadcaster_id": "AIRC",
@@ -21124,6 +21362,20 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "1994 C4",
+    "year": 1994,
+    "broadcaster_id": "C4",
+    "acronym": "C4",
+    "name": "Channel 4",
+    "acr_name": 0,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
   },
   {
     "id": "1994 ITV",
@@ -21826,20 +22078,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1995 C4",
-    "year": 1995,
-    "broadcaster_id": "C4",
-    "acronym": "C4",
-    "name": "Channel 4",
-    "acr_name": 0,
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "country_abbr": "United Kingdom",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1995 AIRC",
     "year": 1995,
     "broadcaster_id": "AIRC",
@@ -21850,6 +22088,20 @@
     "country_abbr": "United Kingdom",
     "radio": 2,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1995 C4",
+    "year": 1995,
+    "broadcaster_id": "C4",
+    "acronym": "C4",
+    "name": "Channel 4",
+    "acr_name": 0,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -22512,20 +22764,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1996 C4",
-    "year": 1996,
-    "broadcaster_id": "C4",
-    "acronym": "C4",
-    "name": "Channel 4",
-    "acr_name": 0,
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "country_abbr": "United Kingdom",
-    "radio": 0,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1996 AIRC",
     "year": 1996,
     "broadcaster_id": "AIRC",
@@ -22536,6 +22774,20 @@
     "country_abbr": "United Kingdom",
     "radio": 1,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1996 C4",
+    "year": 1996,
+    "broadcaster_id": "C4",
+    "acronym": "C4",
+    "name": "Channel 4",
+    "acr_name": 0,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 3,
     "web": 0,
     "sp_prize": 0
   },
@@ -23338,6 +23590,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1998 MARIATERESAMISCOVICH",
+    "year": 1998,
+    "broadcaster_id": "MARIATERESAMISCOVICH",
+    "acronym": "MARIA TERESA MISCOVICH",
+    "name": "Maria Teresa Miscovich",
+    "acr_name": 1,
+    "country": "Argentina",
+    "country_abbr": "Argentina",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1998 ABC",
     "year": 1998,
     "broadcaster_id": "ABC",
@@ -23362,6 +23628,20 @@
     "country_abbr": "Austria",
     "radio": 0,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 URSULAVONZALLINGER",
+    "year": 1998,
+    "broadcaster_id": "URSULAVONZALLINGER",
+    "acronym": "URSULA VON ZALLINGER",
+    "name": "Ursula von Zallinger",
+    "acr_name": 1,
+    "country": "Austria",
+    "country_abbr": "Austria",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -23744,6 +24024,34 @@
     "sp_prize": 0
   },
   {
+    "id": "1998 PIERGIORGIOBRANZI",
+    "year": 1998,
+    "broadcaster_id": "PIERGIORGIOBRANZI",
+    "acronym": "PIERGIORGIO BRANZI",
+    "name": "Piergiorgio Branzi",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 DIANAPALMA",
+    "year": 1998,
+    "broadcaster_id": "DIANAPALMA",
+    "acronym": "DIANA PALMA",
+    "name": "Diana Palma",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1998 NHK",
     "year": 1998,
     "broadcaster_id": "NHK",
@@ -23968,6 +24276,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1998 LENNARTEHRENBORG",
+    "year": 1998,
+    "broadcaster_id": "LENNARTEHRENBORG",
+    "acronym": "LENNART EHRENBORG",
+    "name": "Lennart Ehrenborg",
+    "acr_name": 1,
+    "country": "Sweden",
+    "country_abbr": "Sweden",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1998 SRGSSR",
     "year": 1998,
     "broadcaster_id": "SRGSSR",
@@ -24038,6 +24360,34 @@
     "sp_prize": 0
   },
   {
+    "id": "1998 CHRISDUNKLEY",
+    "year": 1998,
+    "broadcaster_id": "CHRISDUNKLEY",
+    "acronym": "CHRIS DUNKLEY",
+    "name": "Chris Dunkley",
+    "acr_name": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 GEORGETHOMSON",
+    "year": 1998,
+    "broadcaster_id": "GEORGETHOMSON",
+    "acronym": "LORD GEORGE THOMSON OF MONIFIETH",
+    "name": "Lord George Thomson of Monifieth",
+    "acr_name": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1998 CBS",
     "year": 1998,
     "broadcaster_id": "CBS",
@@ -24062,6 +24412,34 @@
     "country_abbr": "United States",
     "radio": 3,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 CPB/NPR",
+    "year": 1998,
+    "broadcaster_id": "CPB/NPR",
+    "acronym": "NPR",
+    "name": "National Public Radio",
+    "acr_name": 0,
+    "country": "United States of America",
+    "country_abbr": "United States",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 CNN",
+    "year": 1998,
+    "broadcaster_id": "CNN",
+    "acronym": "CNN",
+    "name": "Cable News Network",
+    "acr_name": 0,
+    "country": "United States of America",
+    "country_abbr": "United States",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -24104,6 +24482,20 @@
     "country_abbr": "Austria",
     "radio": 1,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 AUSTRIA",
+    "year": 1999,
+    "broadcaster_id": "AUSTRIA",
+    "acronym": "AUSTRIA",
+    "name": "Austria",
+    "acr_name": 1,
+    "country": "Austria",
+    "country_abbr": "Austria",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -24426,6 +24818,20 @@
     "country_abbr": "Italy",
     "radio": 0,
     "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 ITALY",
+    "year": 1999,
+    "broadcaster_id": "ITALY",
+    "acronym": "ITALY",
+    "name": "Italy",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -24808,6 +25214,34 @@
     "sp_prize": 0
   },
   {
+    "id": "1999 UNITEDKINGDOM",
+    "year": 1999,
+    "broadcaster_id": "UNITEDKINGDOM",
+    "acronym": "UNITED KINGDOM",
+    "name": "United Kingdom",
+    "acr_name": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 JEREMYISAACS",
+    "year": 1999,
+    "broadcaster_id": "JEREMYISAACS",
+    "acronym": "JEREMY ISAACS",
+    "name": "Jeremy Isaacs",
+    "acr_name": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1999 CBS",
     "year": 1999,
     "broadcaster_id": "CBS",
@@ -24850,6 +25284,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1999 CNN",
+    "year": 1999,
+    "broadcaster_id": "CNN",
+    "acronym": "CNN",
+    "name": "Cable News Network",
+    "acr_name": 0,
+    "country": "United States of America",
+    "country_abbr": "United States",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1999 RV",
     "year": 1999,
     "broadcaster_id": "RV",
@@ -24874,6 +25322,20 @@
     "country_abbr": "Yugoslavia, Fed. Rep.",
     "radio": 2,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 NONE",
+    "year": 1999,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -25046,6 +25508,20 @@
     "sp_prize": 0
   },
   {
+    "id": "2000 TVROPA",
+    "year": 2000,
+    "broadcaster_id": "TVROPA",
+    "acronym": "TVROPA",
+    "name": "TVRopa",
+    "acr_name": 1,
+    "country": "Denmark",
+    "country_abbr": "Denmark",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2000 YLE",
     "year": 2000,
     "broadcaster_id": "YLE",
@@ -25144,6 +25620,20 @@
     "sp_prize": 0
   },
   {
+    "id": "2000 CANALWEB",
+    "year": 2000,
+    "broadcaster_id": "CANALWEB",
+    "acronym": "CANALWEB",
+    "name": "Canalweb",
+    "acr_name": 1,
+    "country": "France",
+    "country_abbr": "France",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2000 ARD",
     "year": 2000,
     "broadcaster_id": "ARD",
@@ -25238,6 +25728,34 @@
     "country_abbr": "Italy",
     "radio": 4,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2000 KATAWEB",
+    "year": 2000,
+    "broadcaster_id": "KATAWEB",
+    "acronym": "KATAWEB",
+    "name": "Kataweb",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2000 ROMANOPRODI",
+    "year": 2000,
+    "broadcaster_id": "ROMANOPRODI",
+    "acronym": "ROMANO PRODI",
+    "name": "Romano Prodi",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -25672,6 +26190,34 @@
     "country_abbr": "Yugoslavia, Fed. Rep.",
     "radio": 3,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2000 UNKNOWN",
+    "year": 2000,
+    "broadcaster_id": "UNKNOWN",
+    "acronym": "UNKNOWN",
+    "name": "Unknown",
+    "acr_name": 1,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 76,
+    "sp_prize": 24
+  },
+  {
+    "id": "2000 NONE",
+    "year": 2000,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -26442,6 +26988,20 @@
     "country_abbr": "Yugoslavia, Fed. Rep.",
     "radio": 0,
     "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2001 NONE",
+    "year": 2001,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -27230,6 +27790,34 @@
     "sp_prize": 0
   },
   {
+    "id": "2002 BALANCE",
+    "year": 2002,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -6
+  },
+  {
+    "id": "2002 NONE",
+    "year": 2002,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2003 ABC",
     "year": 2003,
     "broadcaster_id": "ABC",
@@ -27930,6 +28518,34 @@
     "sp_prize": 0
   },
   {
+    "id": "2003 BALANCE",
+    "year": 2003,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -2
+  },
+  {
+    "id": "2003 NONE",
+    "year": 2003,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2004 ABC",
     "year": 2004,
     "broadcaster_id": "ABC",
@@ -28574,6 +29190,20 @@
     "sp_prize": 0
   },
   {
+    "id": "2004 BALANCE",
+    "year": 2004,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -5
+  },
+  {
     "id": "2005 ABC",
     "year": 2005,
     "broadcaster_id": "ABC",
@@ -29215,6 +29845,20 @@
     "radio": 2,
     "tv": 0,
     "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2005 UNKNOWN",
+    "year": 2005,
+    "broadcaster_id": "UNKNOWN",
+    "acronym": "UNKNOWN",
+    "name": "Unknown",
+    "acr_name": 1,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 1,
     "sp_prize": 0
   },
   {
@@ -29871,6 +30515,34 @@
     "country": "United States of America",
     "country_abbr": "United States",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2006 BALANCE",
+    "year": 2006,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -4
+  },
+  {
+    "id": "2006 NONE",
+    "year": 2006,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -30546,6 +31218,20 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2007 BALANCE",
+    "year": 2007,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -4
   },
   {
     "id": "2008 RTSH",
@@ -31290,6 +31976,20 @@
     "sp_prize": 0
   },
   {
+    "id": "2008 BALANCE",
+    "year": 2008,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -9
+  },
+  {
     "id": "2009 RTSH",
     "year": 2009,
     "broadcaster_id": "RTSH",
@@ -31974,6 +32674,20 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2009 BALANCE",
+    "year": 2009,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -14
   },
   {
     "id": "2010 ABC",
@@ -32688,6 +33402,20 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2010 BALANCE",
+    "year": 2010,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -6
   },
   {
     "id": "2011 RTSH",
@@ -33514,6 +34242,20 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2011 BALANCE",
+    "year": 2011,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -1
   },
   {
     "id": "2012 RTSH",
@@ -34365,6 +35107,20 @@
     "country": "Vatican State",
     "country_abbr": "Vatican State",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2012 NONE",
+    "year": 2012,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -35294,6 +36050,20 @@
     "sp_prize": 0
   },
   {
+    "id": "2013 BALANCE",
+    "year": 2013,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -1
+  },
+  {
     "id": "2014 ABC",
     "year": 2014,
     "broadcaster_id": "ABC",
@@ -35669,6 +36439,34 @@
     "radio": 0,
     "tv": 0,
     "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2014 GREENPEACEITALIA",
+    "year": 2014,
+    "broadcaster_id": "GREENPEACEITALIA",
+    "acronym": "GREENPEACEITALIA",
+    "name": "Greenpeace Italia",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2014 JUANFRANCISCOSCASSA",
+    "year": 2014,
+    "broadcaster_id": "JUANFRANCISCOSCASSA",
+    "acronym": "JUAN FRANCISCO SCASSA",
+    "name": "Juan Francisco Scassa",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
     "sp_prize": 0
   },
   {
@@ -36174,6 +36972,20 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2015 THEHEART",
+    "year": 2015,
+    "broadcaster_id": "THEHEART",
+    "acronym": "THE HEART",
+    "name": "The Heart",
+    "acr_name": 1,
+    "country": "Canada",
+    "country_abbr": "Canada",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2015 VERONICASIMMONDS",
@@ -36776,6 +37588,34 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2015 VALENTINALANDENNA",
+    "year": 2015,
+    "broadcaster_id": "VALENTINALANDENNA",
+    "acronym": "VALENTINA LANDENNA",
+    "name": "Valentina Landenna",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2015 LEONARDOFERRARI",
+    "year": 2015,
+    "broadcaster_id": "LEONARDOFERRARI",
+    "acronym": "LEONARDO FERRARI CARISSIMI",
+    "name": "Leonardo Ferrari Carissimi",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2015 NHK",
@@ -37408,6 +38248,34 @@
     "sp_prize": 0
   },
   {
+    "id": "2015 BALANCE",
+    "year": 2015,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -5
+  },
+  {
+    "id": "2015 NONE",
+    "year": 2015,
+    "broadcaster_id": "NONE",
+    "acronym": "NONE",
+    "name": "Prize not awarded",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2016 ABC",
     "year": 2016,
     "broadcaster_id": "ABC",
@@ -37727,6 +38595,20 @@
     "radio": 0,
     "tv": 0,
     "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2016 GALILEO",
+    "year": 2016,
+    "broadcaster_id": "GALILEO",
+    "acronym": "GALILEO GALILEI",
+    "name": "Liceo Scientifico Galileo Galilei – Trieste",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
     "sp_prize": 0
   },
   {
@@ -42560,6 +43442,48 @@
     "sp_prize": 0
   },
   {
+    "id": "2022 POLITECNICOALDOMOROBARI",
+    "year": 2022,
+    "broadcaster_id": "POLITECNICOALDOMOROBARI",
+    "acronym": "POLITECNICO DI BARI/ UNIVERSITÀ ALDO MORO DI BARI",
+    "name": "Politecnico di Bari/ Università Aldo Moro di Bari",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2022 UNIVERSITAFOGGIA",
+    "year": 2022,
+    "broadcaster_id": "UNIVERSITAFOGGIA",
+    "acronym": "UNIVERSITÀ DEGLI STUDI DI FOGGIA",
+    "name": "Università degli Studi di Foggia",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2022 UNIVERSITASALENTO",
+    "year": 2022,
+    "broadcaster_id": "UNIVERSITASALENTO",
+    "acronym": "UNIVERSITÀ DEL SALENTO",
+    "name": "Università del Salento",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2022 NHK",
     "year": 2022,
     "broadcaster_id": "NHK",
@@ -43090,6 +44014,20 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2022 BALANCE",
+    "year": 2022,
+    "broadcaster_id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "country": "_null",
+    "country_abbr": "_null",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -36
   },
   {
     "id": "2023 RTA",
@@ -43633,6 +44571,34 @@
     "country": "Italy",
     "country_abbr": "Italy",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2023 DAMSUNIVERSITASALENTO",
+    "year": 2023,
+    "broadcaster_id": "DAMSUNIVERSITASALENTO",
+    "acronym": "DAMS UNIVERSITÀ DEL SALENTO",
+    "name": "DAMS Università del Salento",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2023 POLITECNICOBARI",
+    "year": 2023,
+    "broadcaster_id": "POLITECNICOBARI",
+    "acronym": "POLITECNICO DI BARI",
+    "name": "Politecnico di Bari",
+    "acr_name": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0

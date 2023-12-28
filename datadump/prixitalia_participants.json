@@ -4770,6 +4770,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1971 NONE",
+    "year": 1971,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1972 ABCo",
     "year": 1972,
     "broadcaster_id": "ABCo",
@@ -5756,6 +5765,15 @@
     "broadcaster_id": "JRT",
     "radio": 1,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1974 NONE",
+    "year": 1974,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -7259,6 +7277,15 @@
     "broadcaster_id": "JRT",
     "radio": 4,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1978 UNKNOWN",
+    "year": 1978,
+    "broadcaster_id": "UNKNOWN",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -9153,6 +9180,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1983 HENRIKHAHR",
+    "year": 1983,
+    "broadcaster_id": "HENRIKHAHR",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1983 SRGSSR",
     "year": 1983,
     "broadcaster_id": "SRGSSR",
@@ -9221,6 +9257,15 @@
     "broadcaster_id": "JRT",
     "radio": 4,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1983 NONE",
+    "year": 1983,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -10323,6 +10368,15 @@
     "sp_prize": 1
   },
   {
+    "id": "1986 NONE",
+    "year": 1986,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1987 ABCo",
     "year": 1987,
     "broadcaster_id": "ABCo",
@@ -10647,15 +10701,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1987 C4",
-    "year": 1987,
-    "broadcaster_id": "C4",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1987 ITCA",
     "year": 1987,
     "broadcaster_id": "ITCA",
@@ -10663,6 +10708,15 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1987 C4",
+    "year": 1987,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1987 NBC",
@@ -10843,6 +10897,15 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1988 ECKHARTSTEIN",
+    "year": 1988,
+    "broadcaster_id": "ECKHARTSTEIN",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1988 ERT",
@@ -11077,6 +11140,15 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 2
+  },
+  {
+    "id": "1988 NONE",
+    "year": 1988,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1989 ABC",
@@ -11439,6 +11511,15 @@
     "sp_prize": 1
   },
   {
+    "id": "1989 LIZFORGAN",
+    "year": 1989,
+    "broadcaster_id": "LIZFORGAN",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1989 ABCusa",
     "year": 1989,
     "broadcaster_id": "ABCusa",
@@ -11745,6 +11826,15 @@
     "sp_prize": 2
   },
   {
+    "id": "1990 ANGELOGUGLIELMI",
+    "year": 1990,
+    "broadcaster_id": "ANGELOGUGLIELMI",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1990 NHK",
     "year": 1990,
     "broadcaster_id": "NHK",
@@ -11862,15 +11952,6 @@
     "sp_prize": 1
   },
   {
-    "id": "1990 C4",
-    "year": 1990,
-    "broadcaster_id": "C4",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "1990 AIRC",
     "year": 1990,
     "broadcaster_id": "AIRC",
@@ -11878,6 +11959,15 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "1990 C4",
+    "year": 1990,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
   },
   {
     "id": "1990 ITV",
@@ -12357,6 +12447,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1991 CNN",
+    "year": 1991,
+    "broadcaster_id": "CNN",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1991 JRT",
     "year": 1991,
     "broadcaster_id": "JRT",
@@ -12735,20 +12834,20 @@
     "sp_prize": 12
   },
   {
-    "id": "1992 C4",
-    "year": 1992,
-    "broadcaster_id": "C4",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 6
-  },
-  {
     "id": "1992 AIRC",
     "year": 1992,
     "broadcaster_id": "AIRC",
     "radio": 4,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 6
+  },
+  {
+    "id": "1992 C4",
+    "year": 1992,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 6
   },
@@ -12775,6 +12874,15 @@
     "year": 1992,
     "broadcaster_id": "CPB/NPR",
     "radio": 4,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1992 NONE",
+    "year": 1992,
+    "broadcaster_id": "NONE",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -12942,6 +13050,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1993 ARDANT",
+    "year": 1993,
+    "broadcaster_id": "ARDANT",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1993 ARD",
     "year": 1993,
     "broadcaster_id": "ARD",
@@ -13003,6 +13120,15 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 2
+  },
+  {
+    "id": "1993 GASSMAN",
+    "year": 1993,
+    "broadcaster_id": "GASSMAN",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1993 NHK",
@@ -13122,6 +13248,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1993 VONSYDOW",
+    "year": 1993,
+    "broadcaster_id": "VONSYDOW",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1993 SRGSSR",
     "year": 1993,
     "broadcaster_id": "SRGSSR",
@@ -13140,20 +13275,20 @@
     "sp_prize": 0
   },
   {
-    "id": "1993 C4",
-    "year": 1993,
-    "broadcaster_id": "C4",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1993 AIRC",
     "year": 1993,
     "broadcaster_id": "AIRC",
     "radio": 3,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1993 C4",
+    "year": 1993,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -13180,6 +13315,15 @@
     "year": 1993,
     "broadcaster_id": "CPB/NPR",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1993 NONE",
+    "year": 1993,
+    "broadcaster_id": "NONE",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -13473,6 +13617,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1994 HOLOUBEK",
+    "year": 1994,
+    "broadcaster_id": "HOLOUBEK",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1994 RTP",
     "year": 1994,
     "broadcaster_id": "RTP",
@@ -13489,6 +13642,15 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1994 NEYOLOVA",
+    "year": 1994,
+    "broadcaster_id": "NEYOLOVA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1994 STVslovakia",
@@ -13563,15 +13725,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1994 C4",
-    "year": 1994,
-    "broadcaster_id": "C4",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "1994 AIRC",
     "year": 1994,
     "broadcaster_id": "AIRC",
@@ -13579,6 +13732,15 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "1994 C4",
+    "year": 1994,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
   },
   {
     "id": "1994 ITV",
@@ -14031,20 +14193,20 @@
     "sp_prize": 0
   },
   {
-    "id": "1995 C4",
-    "year": 1995,
-    "broadcaster_id": "C4",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1995 AIRC",
     "year": 1995,
     "broadcaster_id": "AIRC",
     "radio": 2,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1995 C4",
+    "year": 1995,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -14472,20 +14634,20 @@
     "sp_prize": 0
   },
   {
-    "id": "1996 C4",
-    "year": 1996,
-    "broadcaster_id": "C4",
-    "radio": 0,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1996 AIRC",
     "year": 1996,
     "broadcaster_id": "AIRC",
     "radio": 1,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1996 C4",
+    "year": 1996,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 3,
     "web": 0,
     "sp_prize": 0
   },
@@ -15003,6 +15165,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1998 MARIATERESAMISCOVICH",
+    "year": 1998,
+    "broadcaster_id": "MARIATERESAMISCOVICH",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1998 ABC",
     "year": 1998,
     "broadcaster_id": "ABC",
@@ -15017,6 +15188,15 @@
     "broadcaster_id": "ORF",
     "radio": 0,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 URSULAVONZALLINGER",
+    "year": 1998,
+    "broadcaster_id": "URSULAVONZALLINGER",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -15264,6 +15444,24 @@
     "sp_prize": 0
   },
   {
+    "id": "1998 PIERGIORGIOBRANZI",
+    "year": 1998,
+    "broadcaster_id": "PIERGIORGIOBRANZI",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 DIANAPALMA",
+    "year": 1998,
+    "broadcaster_id": "DIANAPALMA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1998 NHK",
     "year": 1998,
     "broadcaster_id": "NHK",
@@ -15408,6 +15606,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1998 LENNARTEHRENBORG",
+    "year": 1998,
+    "broadcaster_id": "LENNARTEHRENBORG",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1998 SRGSSR",
     "year": 1998,
     "broadcaster_id": "SRGSSR",
@@ -15453,6 +15660,24 @@
     "sp_prize": 0
   },
   {
+    "id": "1998 CHRISDUNKLEY",
+    "year": 1998,
+    "broadcaster_id": "CHRISDUNKLEY",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 GEORGETHOMSON",
+    "year": 1998,
+    "broadcaster_id": "GEORGETHOMSON",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1998 CBS",
     "year": 1998,
     "broadcaster_id": "CBS",
@@ -15467,6 +15692,24 @@
     "broadcaster_id": "CPB/PBS",
     "radio": 3,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 CPB/NPR",
+    "year": 1998,
+    "broadcaster_id": "CPB/NPR",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 CNN",
+    "year": 1998,
+    "broadcaster_id": "CNN",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -15494,6 +15737,15 @@
     "broadcaster_id": "ORF",
     "radio": 1,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 AUSTRIA",
+    "year": 1999,
+    "broadcaster_id": "AUSTRIA",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -15701,6 +15953,15 @@
     "broadcaster_id": "MEDIASET",
     "radio": 0,
     "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 ITALY",
+    "year": 1999,
+    "broadcaster_id": "ITALY",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -15948,6 +16209,24 @@
     "sp_prize": 0
   },
   {
+    "id": "1999 UNITEDKINGDOM",
+    "year": 1999,
+    "broadcaster_id": "UNITEDKINGDOM",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 JEREMYISAACS",
+    "year": 1999,
+    "broadcaster_id": "JEREMYISAACS",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1999 CBS",
     "year": 1999,
     "broadcaster_id": "CBS",
@@ -15975,6 +16254,15 @@
     "sp_prize": 0
   },
   {
+    "id": "1999 CNN",
+    "year": 1999,
+    "broadcaster_id": "CNN",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1999 RV",
     "year": 1999,
     "broadcaster_id": "RV",
@@ -15989,6 +16277,15 @@
     "broadcaster_id": "RTSyug",
     "radio": 2,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 NONE",
+    "year": 1999,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -16101,6 +16398,15 @@
     "sp_prize": 0
   },
   {
+    "id": "2000 TVROPA",
+    "year": 2000,
+    "broadcaster_id": "TVROPA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2000 YLE",
     "year": 2000,
     "broadcaster_id": "YLE",
@@ -16164,6 +16470,15 @@
     "sp_prize": 0
   },
   {
+    "id": "2000 CANALWEB",
+    "year": 2000,
+    "broadcaster_id": "CANALWEB",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2000 ARD",
     "year": 2000,
     "broadcaster_id": "ARD",
@@ -16223,6 +16538,24 @@
     "broadcaster_id": "RAI",
     "radio": 4,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2000 KATAWEB",
+    "year": 2000,
+    "broadcaster_id": "KATAWEB",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2000 ROMANOPRODI",
+    "year": 2000,
+    "broadcaster_id": "ROMANOPRODI",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -16502,6 +16835,24 @@
     "broadcaster_id": "RTSyug",
     "radio": 3,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2000 UNKNOWN",
+    "year": 2000,
+    "broadcaster_id": "UNKNOWN",
+    "radio": 0,
+    "tv": 0,
+    "web": 76,
+    "sp_prize": 24
+  },
+  {
+    "id": "2000 NONE",
+    "year": 2000,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -16997,6 +17348,15 @@
     "broadcaster_id": "ANEMyug",
     "radio": 0,
     "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2001 NONE",
+    "year": 2001,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -17505,6 +17865,24 @@
     "sp_prize": 0
   },
   {
+    "id": "2002 BALANCE",
+    "year": 2002,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -6
+  },
+  {
+    "id": "2002 NONE",
+    "year": 2002,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2003 ABC",
     "year": 2003,
     "broadcaster_id": "ABC",
@@ -17955,6 +18333,24 @@
     "sp_prize": 0
   },
   {
+    "id": "2003 BALANCE",
+    "year": 2003,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -2
+  },
+  {
+    "id": "2003 NONE",
+    "year": 2003,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2004 ABC",
     "year": 2004,
     "broadcaster_id": "ABC",
@@ -18369,6 +18765,15 @@
     "sp_prize": 0
   },
   {
+    "id": "2004 BALANCE",
+    "year": 2004,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -5
+  },
+  {
     "id": "2005 ABC",
     "year": 2005,
     "broadcaster_id": "ABC",
@@ -18780,6 +19185,15 @@
     "radio": 2,
     "tv": 0,
     "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2005 UNKNOWN",
+    "year": 2005,
+    "broadcaster_id": "UNKNOWN",
+    "radio": 0,
+    "tv": 0,
+    "web": 1,
     "sp_prize": 0
   },
   {
@@ -19201,6 +19615,24 @@
     "year": 2006,
     "broadcaster_id": "WFMT",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2006 BALANCE",
+    "year": 2006,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -4
+  },
+  {
+    "id": "2006 NONE",
+    "year": 2006,
+    "broadcaster_id": "NONE",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -19636,6 +20068,15 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2007 BALANCE",
+    "year": 2007,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -4
   },
   {
     "id": "2008 RTSH",
@@ -20115,6 +20556,15 @@
     "sp_prize": 0
   },
   {
+    "id": "2008 BALANCE",
+    "year": 2008,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -9
+  },
+  {
     "id": "2009 RTSH",
     "year": 2009,
     "broadcaster_id": "RTSH",
@@ -20554,6 +21004,15 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2009 BALANCE",
+    "year": 2009,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -14
   },
   {
     "id": "2010 ABC",
@@ -21013,6 +21472,15 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2010 BALANCE",
+    "year": 2010,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -6
   },
   {
     "id": "2011 RTSH",
@@ -21544,6 +22012,15 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2011 BALANCE",
+    "year": 2011,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -1
   },
   {
     "id": "2012 RTSH",
@@ -22090,6 +22567,15 @@
     "year": 2012,
     "broadcaster_id": "RV",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2012 NONE",
+    "year": 2012,
+    "broadcaster_id": "NONE",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -22689,6 +23175,15 @@
     "sp_prize": 0
   },
   {
+    "id": "2013 BALANCE",
+    "year": 2013,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -1
+  },
+  {
     "id": "2014 ABC",
     "year": 2014,
     "broadcaster_id": "ABC",
@@ -22929,6 +23424,24 @@
     "radio": 0,
     "tv": 0,
     "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2014 GREENPEACEITALIA",
+    "year": 2014,
+    "broadcaster_id": "GREENPEACEITALIA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2014 JUANFRANCISCOSCASSA",
+    "year": 2014,
+    "broadcaster_id": "JUANFRANCISCOSCASSA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
     "sp_prize": 0
   },
   {
@@ -23254,6 +23767,15 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2015 THEHEART",
+    "year": 2015,
+    "broadcaster_id": "THEHEART",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2015 VERONICASIMMONDS",
@@ -23641,6 +24163,24 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2015 VALENTINALANDENNA",
+    "year": 2015,
+    "broadcaster_id": "VALENTINALANDENNA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2015 LEONARDOFERRARI",
+    "year": 2015,
+    "broadcaster_id": "LEONARDOFERRARI",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2015 NHK",
@@ -24048,6 +24588,24 @@
     "sp_prize": 0
   },
   {
+    "id": "2015 BALANCE",
+    "year": 2015,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -5
+  },
+  {
+    "id": "2015 NONE",
+    "year": 2015,
+    "broadcaster_id": "NONE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2016 ABC",
     "year": 2016,
     "broadcaster_id": "ABC",
@@ -24252,6 +24810,15 @@
     "radio": 0,
     "tv": 0,
     "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2016 GALILEO",
+    "year": 2016,
+    "broadcaster_id": "GALILEO",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
     "sp_prize": 0
   },
   {
@@ -27360,6 +27927,33 @@
     "sp_prize": 0
   },
   {
+    "id": "2022 POLITECNICOALDOMOROBARI",
+    "year": 2022,
+    "broadcaster_id": "POLITECNICOALDOMOROBARI",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2022 UNIVERSITAFOGGIA",
+    "year": 2022,
+    "broadcaster_id": "UNIVERSITAFOGGIA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2022 UNIVERSITASALENTO",
+    "year": 2022,
+    "broadcaster_id": "UNIVERSITASALENTO",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2022 NHK",
     "year": 2022,
     "broadcaster_id": "NHK",
@@ -27700,6 +28294,15 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2022 BALANCE",
+    "year": 2022,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -36
   },
   {
     "id": "2023 RTA",
@@ -28048,6 +28651,24 @@
     "year": 2023,
     "broadcaster_id": "A+E",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2023 DAMSUNIVERSITASALENTO",
+    "year": 2023,
+    "broadcaster_id": "DAMSUNIVERSITASALENTO",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2023 POLITECNICOBARI",
+    "year": 2023,
+    "broadcaster_id": "POLITECNICOBARI",
+    "radio": 0,
     "tv": 0,
     "web": 0,
     "sp_prize": 0

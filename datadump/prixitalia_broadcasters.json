@@ -3787,7 +3787,7 @@
     "status": 4,
     "country": "Spain",
     "first": 1962,
-    "last": 1965,
+    "last": 1964,
     "prev": null,
     "next": "[\"RNE\", \"TVE\"]",
     "group_acronym": "RTVE",
@@ -3814,7 +3814,7 @@
     "acr_name": 0,
     "status": 4,
     "country": "Spain",
-    "first": 1966,
+    "first": 1965,
     "last": 1973,
     "prev": "[\"DGRT\"]",
     "next": "[\"RTVE\"]",
@@ -3828,7 +3828,7 @@
     "acr_name": 0,
     "status": 4,
     "country": "Spain",
-    "first": 1966,
+    "first": 1965,
     "last": 1973,
     "prev": "[\"DGRT\"]",
     "next": "[\"RTVE\"]",
@@ -3913,7 +3913,7 @@
     "status": 4,
     "country": "Sweden",
     "first": 1957,
-    "last": 1979,
+    "last": 1980,
     "prev": "[\"RADIOTJANST\"]",
     "next": "[\"RR\", \"SVT\"]",
     "group_acronym": "SVERIGESRADIO",
@@ -3926,7 +3926,7 @@
     "acr_name": 0,
     "status": 4,
     "country": "Sweden",
-    "first": 1980,
+    "first": 1981,
     "last": 9999,
     "prev": "[\"SVERIGESRADIOo\"]",
     "next": null,
@@ -3940,7 +3940,7 @@
     "acr_name": 0,
     "status": 4,
     "country": "Sweden",
-    "first": 1980,
+    "first": 1981,
     "last": 1992,
     "prev": "[\"SVERIGESRADIOo\"]",
     "next": "[\"SVERIGESRADIO\"]",
@@ -4221,7 +4221,7 @@
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
     "first": 1980,
-    "last": 1985,
+    "last": 1986,
     "prev": null,
     "next": "[\"C4\", \"ITV\"]",
     "group_acronym": "UKIB",
@@ -4242,20 +4242,6 @@
     "note": ""
   },
   {
-    "id": "C4",
-    "acronym": "C4",
-    "name": "Channel 4",
-    "acr_name": 0,
-    "status": 4,
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "first": 1986,
-    "last": 9999,
-    "prev": "[\"UKIB\"]",
-    "next": null,
-    "group_acronym": "C4",
-    "note": ""
-  },
-  {
     "id": "AIRC",
     "acronym": "AIRC",
     "name": "Association of Independent Radio Contractors",
@@ -4267,6 +4253,20 @@
     "prev": null,
     "next": "[\"CRCA\"]",
     "group_acronym": "CRCA",
+    "note": ""
+  },
+  {
+    "id": "C4",
+    "acronym": "C4",
+    "name": "Channel 4",
+    "acr_name": 0,
+    "status": 4,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "first": 1987,
+    "last": 9999,
+    "prev": "[\"UKIB\"]",
+    "next": null,
+    "group_acronym": "C4",
     "note": ""
   },
   {
@@ -4659,7 +4659,7 @@
     "prev": "[\"NET\"]",
     "next": null,
     "group_acronym": "CPB/PBS",
-    "note": "Styled as \"CPB/PBS\" in the catalogues."
+    "note": "Often styled as \"CPB/PBS\" in the catalogues."
   },
   {
     "id": "CPB/NPR",
@@ -4673,7 +4673,7 @@
     "prev": "[\"NET\"]",
     "next": null,
     "group_acronym": "CPB/NPR",
-    "note": "Styled as \"CPB/NPR\" in the catalogues."
+    "note": "Often styled as \"CPB/NPR\" in the catalogues."
   },
   {
     "id": "TBS",
@@ -5196,8 +5196,8 @@
   {
     "id": "UNKNOWN",
     "acronym": "UNKNOWN",
-    "name": "Winner unknown",
-    "acr_name": 0,
+    "name": "Unknown",
+    "acr_name": 1,
     "status": 0,
     "country": "_null",
     "first": 1940,
@@ -5205,6 +5205,20 @@
     "prev": null,
     "next": null,
     "group_acronym": "UNKNOWN",
-    "note": "When we know the prize has been awarded, but not (yet) to whom."
+    "note": "We know a prize has been awarded, but not (yet) to whom."
+  },
+  {
+    "id": "BALANCE",
+    "acronym": "BALANCE",
+    "name": "Programmes/registrations balance",
+    "acr_name": 0,
+    "status": 0,
+    "country": "_null",
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "BALANCE",
+    "note": "Used in participants table to match the programmes' count in editions table."
   }
 ]
