@@ -142,6 +142,21 @@ def prepare_db(db="prix_winners.grist"):
                  SELECT globkey, globvalue, note FROM oGlobals 
                  ORDER BY sort;''')
 
+    # create some service tables for sorting items
+    c.execute('CREATE TABLE _sort_results (item TEXT, value INTEGER);')
+    c.execute('CREATE TABLE _sort_sections (item TEXT, value INTEGER);')
+    c.execute('''INSERT INTO _sort_results (item, value) VALUES 
+                 ("winner", 1),
+                 ("finalist", 2), 
+                 ("mention", 3), 
+                 ("shortlist", 4), 
+                 ("also mentioned", 5);''')
+    c.execute('''INSERT INTO _sort_sections (item, value) VALUES 
+                 ("Radio", 1), 
+                 ("Tv", 2), 
+                 ("Web", 3), 
+                 ("Special Prize", 4);''')
+
     # create some other useful views
     c.execute('''CREATE VIEW vPrixWinners AS
                  SELECT winners.id, prog_id, winners.year, editions.city, 
