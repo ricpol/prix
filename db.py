@@ -383,11 +383,10 @@ def test_participant_competition(cursor, output):
     pass
 
 def test_winner_is_participant(cursor, output):
-    '''A winning broadcaster *member* should also be a participant.'''
+    '''A winner should also be a participant.'''
     errors = False
     cursor.execute('''SELECT broadcaster_id, year FROM winners 
-                      JOIN broadcasters ON broadcaster_id=broadcasters.id 
-                      WHERE status=4;''')
+                      JOIN broadcasters ON broadcaster_id=broadcasters.id;''')
     winners = cursor.fetchall()
     cursor.execute('SELECT id FROM participants;')
     participants = [i[0] for i in cursor.fetchall()]
