@@ -1,0 +1,51 @@
+{% if standalone %} {% extends "base.txt" %} {% endif %}
+
+{% macro get_broad(acronym, name, acr_name) -%}
+{%- if acr_name -%} {{- name -}}
+{%- else -%}
+{{- acronym }} {{ name -}}
+{% endif %}
+{%- endmacro %}
+
+{% macro get_year_result(b, year) -%}
+{{ year -}}
+{% for comp in 'radio', 'tv', 'web', 'sp_prize' %}
+{% if b[comp] %}
+ {{ b[comp] -}}{{- comp[0]|upper }}
+{%- for kind, progs, res in results[(b.broadcaster_id, year)] %}
+{%- if kind|lower==comp -%}
+{{ res[0]*progs }}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro -%}
+
+{% block content %}
+{{ common["ch_win_broadcasters"] }}
+{{ "-"*common["ch_win_broadcasters"]|length }}
+
+{% for b in participants %}
+{% if loop.first or loop.previtem.country_abbr != b.country_abbr %}
+.
+
+
+
+{{ b.country_abbr }}
+{{ "^"*b.country_abbr|length }}
+> {{ get_broad(b.acronym, b.name, b.acr_name) }}
+{{ get_year_result(b, b.year) -}}
+{% elif loop.previtem.name != b.name %}
+.
+
+> {{ get_broad(b.acronym, b.name, b.acr_name) }}
+{{ get_year_result(b, b.year) -}}
+{% else %}
+; {{ get_year_result(b, b.year) -}}
+{% endif %}
+{% endfor %}
+.
+
+
+
+{% endblock %}

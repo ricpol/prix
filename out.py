@@ -113,8 +113,8 @@ class DataProvider:
 
     def get_win_broadcasters(self):
         '''Data about the winning broadcasters.'''
-        #XXX at the moment this is tailored for the silver book only
-        # but it should be more general (not only winners, not only broad.)
+        # this is tailored for the silver book only
+        # a more general version for the big book is in get_participant_broadcasters
         sql = '''SELECT acronym, name, acr_name, country_abbr, 
                  group_concat(year, ", ") AS year
                  FROM 
@@ -130,6 +130,42 @@ class DataProvider:
         c = self.con.cursor()
         c.row_factory = _sqlite_dict_row_factory
         return c.execute(sql).fetchall()
+
+    def get_participant_broadcasters(self):
+        '''Data about the participant broadcasters, and their result.'''
+        c = self.con.cursor()
+        c.row_factory = _sqlite_dict_row_factory
+        sql = '''SELECT participants.year, participants.broadcaster_id, 
+                 broadcasters.acronym, broadcasters.name, broadcasters.acr_name, 
+                 countries.country_abbr, participants.radio, participants.tv, 
+                 participants.web, participants.sp_prize 
+                 FROM participants 
+                 JOIN broadcasters ON participants.broadcaster_id=broadcasters.id 
+                 JOIN countries ON broadcasters.country=countries.country 
+                 WHERE broadcasters.status>2 
+                 ORDER BY countries.sort, broadcasters.first, broadcasters.name, 
+                 participants.year;'''
+        participants = c.execute(sql).fetchall()
+        c = self.con.cursor()
+        sql = '''SELECT broadcaster_id, winners.year, 
+                 json_extract(prizes.kind, '$[0]') as prog_kind, 
+                 count(result) as progs, result
+                 FROM winners 
+                 JOIN broadcasters ON winners.broadcaster_id=broadcasters.id 
+                 JOIN prizes ON winners.prize_id=prizes.id 
+                 JOIN _sort_results ON result=_sort_results.item
+                 JOIN _sort_sections ON prog_kind=_sort_sections.item 
+                 WHERE broadcasters.status>2 
+                 GROUP BY winners.year, broadcaster_id, prog_kind, result
+                 ORDER BY broadcaster_id, winners.year, 
+                 _sort_sections.value, _sort_results.value;'''
+        results = {}
+        for id, year, kind, progs, res in c.execute(sql).fetchall():
+            try:
+                results[id, year].append((kind, progs, res))
+            except KeyError:
+                results[id, year] = [(kind, progs, res)]
+        return participants, results
 
 
 class BaseFormatter:
@@ -299,6 +335,12 @@ class PrixCompanionFormatter(BaseFormatter):
         self.publish(the_file, the_file, 'book winners',
                      winners=winners, display=self.winner_display, standalone=True)
 
+    def publish_win_broadcasters(self):
+        participants, results = self.db.get_participant_broadcasters()
+        the_file = 'win_broadcasters.' + self.outputtype
+        self.publish(the_file, the_file, 'book broadcasters',
+                     participants=participants, results=results, standalone=True)
+
     def publish_persons(self):
         persons = self.db.get_persons()
         the_file = 'persons.' + self.outputtype
@@ -404,12 +446,12 @@ if __name__ == '__main__':
     sections = {# for the silver booklet
                 'intro': 'publish_intro',
                 'winners': 'publish_winners', 
-                'win_broadcasters': 'publish_win_broadcasters', 
                 # for the book
                 'editions': 'publish_editions', 
                 'persons': 'publish_persons',
                 'biblio': 'publish_bibliography', 
                 # for both
+                'broadcasters': 'publish_win_broadcasters', 
                 'milestones': 'publish_milestones',
                 'genius': 'publish_genius',
                 'book': 'publish_book',

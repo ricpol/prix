@@ -1110,6 +1110,9 @@ silver_milestones_tex = (
 book_editions_tex = tuple()
 book_editions_html = tuple()
 book_editions_txt = tuple()
+book_broadcasters_txt = tuple()
+book_broadcasters_html = tuple()
+book_broadcasters_tex = tuple()
 book_winners_tex = tuple()
 book_winners_html = tuple()
 book_winners_txt = tuple()
@@ -1155,6 +1158,10 @@ REPLACEMENTS = {
     ('book editions', 'tex'): book_editions_tex,
     ('book editions', 'html'): book_editions_html,
     ('book editions', 'txt'): book_editions_txt,
+
+    ('book broadcasters', 'tex'): book_broadcasters_tex,
+    ('book broadcasters', 'html'): book_broadcasters_html,
+    ('book broadcasters', 'txt'): book_broadcasters_txt,
 
     ('book winners', 'tex'): book_winners_tex,
     ('book winners', 'html'): book_winners_html,
