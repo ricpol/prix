@@ -143,8 +143,8 @@ class DataProvider:
                  JOIN broadcasters ON participants.broadcaster_id=broadcasters.id 
                  JOIN countries ON broadcasters.country=countries.country 
                  WHERE broadcasters.status>2 
-                 ORDER BY countries.sort, broadcasters.first, broadcasters.name, 
-                 participants.year;'''
+                 ORDER BY countries.sort, broadcasters.sort, broadcasters.first, 
+                 broadcasters.name, participants.year;'''
         participants = c.execute(sql).fetchall()
         c = self.con.cursor()
         sql = '''SELECT broadcaster_id, winners.year, 

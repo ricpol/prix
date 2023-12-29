@@ -65,11 +65,12 @@ def prepare_db(db="prix_winners.grist"):
     # create new tables
     c.execute('''CREATE TABLE broadcasters AS
                  SELECT id_acro AS id, acronym, name, acr_name, status, 
-                 ocountries.country, first, last, prev_acro2 AS prev, 
-                 next_acro2 AS next, group_acronym, obroadcasters.note 
+                 ocountries.country, obroadcasters.sort, first, last, 
+                 prev_acro2 AS prev, next_acro2 AS next, group_acronym, 
+                 obroadcasters.note 
                  FROM obroadcasters 
                  JOIN ocountries ON obroadcasters.country=ocountries.id 
-                 ORDER BY ocountries.sort, status DESC, first;''')
+                 ORDER BY ocountries.sort, status DESC, obroadcasters.sort, first;''')
     c.execute('CREATE UNIQUE INDEX broadcasters_id ON broadcasters (id);')
     c.execute('''CREATE TABLE countries AS 
                  SELECT country, country_abbr, former, iso3166, region, 
@@ -176,7 +177,7 @@ def prepare_db(db="prix_winners.grist"):
                  SELECT participants.id, participants.year, 
                  broadcasters.id AS broadcaster_id, 
                  broadcasters.acronym, broadcasters.name, broadcasters.acr_name, 
-                 countries.country, countries.country_abbr,  
+                 countries.country, countries.country_abbr, broadcasters.sort, 
                  participants.radio, participants.tv, participants.web, 
                  participants.sp_prize 
                  FROM participants 
@@ -184,7 +185,7 @@ def prepare_db(db="prix_winners.grist"):
                  JOIN broadcasters ON participants.broadcaster_id=broadcasters.id
                  JOIN countries ON broadcasters.country=countries.country
                  ORDER BY participants.year, countries.sort, broadcasters.status DESC, 
-                 broadcasters.first;''')
+                 broadcasters.sort, broadcasters.first;''')
     c.execute('''CREATE VIEW vPrixPersons AS
                  SELECT persons.id, disamb, persons.name, surname, surname_ord, sfirst, role, 
                  programme_id, year, broadcasters.id AS id_acronym, acronym, country, 
