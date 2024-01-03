@@ -93,7 +93,7 @@ class DataProvider:
 
     def get_genius(self):
         '''Data about notable people ("the prix italia geniuses").'''
-        sql = '''SELECT year, full_name, description FROM genius;'''
+        sql = '''SELECT full_name, description FROM genius ORDER BY year;'''
         c = self.con.cursor()
         return c.execute(sql).fetchall()
 
@@ -453,7 +453,6 @@ if __name__ == '__main__':
                 # for both
                 'broadcasters': 'publish_win_broadcasters', 
                 'milestones': 'publish_milestones',
-                'genius': 'publish_genius',
                 'book': 'publish_book',
                 }
     parser = argparse.ArgumentParser(description='Prix Italia book processing.')

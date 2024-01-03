@@ -4,11 +4,13 @@
 {{ "=" * common["ch_genius"]|length }}
 {{ common["ch_genius"] }}
 {{ "=" * common["ch_genius"]|length }}
-{% for year, name, g in genius %}
+{% for name, g in genius %}
 
-*** {{ year }} - {{ name }} ***
-{{ g|replace("<b>", "")|replace("</b>", "") }}
+{% if not loop.first %}
+*** --- *** 
+{% endif %}
+
+{{ g|striptags }}
 {% endfor %}
+
 {% endblock %}
-
-
