@@ -17,5 +17,28 @@
 	"silver_ch_winners": "The Winners",
 	"silver_ch_win_broadcasters": "The Broadcasters", 
 	"silver_version": "1", 
-	"silver_vdate": "December 2023"
+	"silver_vdate": "December 2023",
+
+
+	"biblio_annex_title": "Annual catalogues and festival annexes",
+	"biblio_meeting_title": "Meetings and conferences",
+	"biblio_event_title": "Other festival events",
+	"biblio_art_title": "Art books",
+	"biblio_artother_title": "Other cultural books",
+	"biblio_prixbook_title": "Books published or promoted by Prix Italia",
+	"biblio_study_title": "Essays and studies of interest to the Prix Italia",
+	"biblio_radiocorriere_title": "Radiocorriere entries",
+
+	"biblio_annex_blurb": "The annual Prix Italia catalogues have been published since the first edition (from 2022 only in digital format), and for conciseness are not listed here. Alongside the catalogues, several other booklets were published on various occasions: the most important are listed here.",
+	"biblio_meeting_blurb": "Prix Italia conference proceedings and reports.",
+	"biblio_event_blurb": "Since 1971, the Prix Italia has organised conferences and workshops alongside the regular competition. At least until the late 1990s, the proceedings were published regularly. In more recent years, the conferences were video-recorded (and have been streamed for years now).",
+	"biblio_art_blurb": "From the very first edition, the Prix Italia promoted the publication of prestigious art books, thematically linked to the host city, by the Rai publishing house. ",
+	"biblio_artother_blurb": "In addition to the art books listed above, several other cultural books were published on the occasion of various Prix Italia editions.",
+	"biblio_prixbook_blurb": "Commemorative and out-of-series books published by the Prix Italia, and some others co-produced as part of various initiatives.",
+	"biblio_study_blurb": "Contributions by third-party authors on the Prix Italia and related topics.",
+	"biblio_radiocorriere_blurb": "While a complete press review would be impossible to collect here, the articles that the Radiocorriere (Rai's corporate magazine) dedicated annually to the Prix Italia are a precious resource for the scholar. We list here a selection of them, excluding those dedicated solely to the analysis of single works presented in the competition.",
+	"biblio_radiocorriere_note": "For conciseness, we indicate here only the issue and the year. For a complete citation, please note that the title is \"Radiocorriere\" until issue 18-1958, then \"Radiocorriere TV\". The publishing house is: \"Torino, Italy: Radio Italiana\" until issue 37-1949; then \"Torino, Italy: Edizioni Radio Italiana\" until issue 21-1959; then \"Torino, Italy: ERI\" until issue 13-1978; then \"Roma, Italy: ERI\" until issue 36-1987; from then on, \"Roma, Italy: Nuova ERI\".",
+
+
+	"_eof": "keep this here with no trailing comma"
 }

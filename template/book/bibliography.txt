@@ -1,20 +1,76 @@
-{% if standalone %}{% extends "book/base.txt" %}{% endif %}
+{% if standalone %}{% extends "base.txt" %}{% endif %}
+
+{% macro publish_section(section, showedition=True) %}
+{% for edition, author, title, notes, publisher, year in biblio[section] %}
+{% if showedition and (loop.first or loop.previtem[0] != edition) %}
+
+
+> {{ edition }}
+{%- endif +%}
+- {% if author %}{{ author -}}, {% endif %}
+{{ title -}}
+{% if notes %} {{ notes }}{% endif %}
+ {{ publisher -}}, {{ year -}}.
+{%- endfor %}
+{% endmacro %}
+
+{% macro short_rc(entry) -%}
+{{ entry.split()[-1][:-1]}}
+{%- endmacro %}
 
 {% block content %}
 {{ "=" * common["ch_bibliography"]|length }}
 {{ common["ch_bibliography"] }}
 {{ "=" * common["ch_bibliography"]|length }}
-{% for edition, category, author, title, notes, publisher, year in bibliography %}
+
+
+*** {{ common["biblio_annex_title"] }}
+{{ common["biblio_annex_blurb"] }}
+{{ publish_section("annex") }}
+
+
+*** {{ common["biblio_meeting_title"] }}
+{{ common["biblio_meeting_blurb"] }}
+{{ publish_section("meeting") }}
+
+
+*** {{ common["biblio_event_title"] }}
+{{ common["biblio_event_blurb"] }}
+{{ publish_section("event") }}
+
+
+*** {{ common["biblio_art_title"] }}
+{{ common["biblio_art_blurb"] }}
+{{ publish_section("art") }}
+
+
+*** {{ common["biblio_artother_title"] }}
+{{ common["biblio_artother_blurb"] }}
+{{ publish_section("artother") }}
+
+
+*** {{ common["biblio_prixbook_title"] }}
+{{ common["biblio_prixbook_blurb"] }}
+{{ publish_section("prixbook", False) }}
+
+
+*** {{ common["biblio_study_title"] }}
+{{ common["biblio_study_blurb"] }}
+{{ publish_section("study", False) }}
+
+
+*** {{ common["biblio_radiocorriere_title"] }}
+{{ common["biblio_radiocorriere_blurb"] }}
+{{ common["biblio_radiocorriere_note"] }}
+{% for edition, author, title, notes, publisher, year in biblio["radiocorriere"] %}
 {% if loop.first or loop.previtem[0] != edition %}
 
 
-*** {{ edition }} ***
+> {{ edition }}
 {%- endif +%}
-{% if author %}{{ author -}}, {% endif %}
-{{ title -}}
-{% if notes %} {{ notes }}{% endif %}
- {{ publisher -}}, {{ year -}}.
-{% endfor %}
+- {% if author %}{{ author -}}, {% endif %}
+{{ title }} {{ short_rc(notes) -}}.
+{%- endfor %}
+
+
 {% endblock %}
-
-

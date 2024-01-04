@@ -105,11 +105,16 @@ class DataProvider:
 
     def get_bibliography(self):
         '''Data about bibliography.'''
-        sql = '''SELECT edition, category, author, title, notes, publisher, year
+        sql = '''SELECT edition, author, title, notes, publisher, year
                  FROM bibliography 
+                 WHERE category=? 
                  ORDER BY edition, sort;'''
+        biblio = {}
         c = self.con.cursor()
-        return c.execute(sql).fetchall()
+        for section in ('annex', 'meeting', 'event', 'art', 'artother', 
+                        'prixbook', 'study', 'radiocorriere'):
+            biblio[section] = c.execute(sql, (section,)).fetchall()
+        return biblio
 
     def get_win_broadcasters(self):
         '''Data about the winning broadcasters.'''
@@ -354,10 +359,10 @@ class PrixCompanionFormatter(BaseFormatter):
                      milestones=milestones, standalone=True)
 
     def publish_bibliography(self):
-        bibliography = self.db.get_bibliography()
+        biblio = self.db.get_bibliography()
         the_file = 'bibliography.' + self.outputtype
         self.publish(the_file, the_file, 'book biblio', 
-                     bibliography=bibliography, standalone=True)
+                     biblio=biblio, standalone=True)
 
     def publish_genius(self):
         genius = self.db.get_genius()
