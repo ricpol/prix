@@ -136,9 +136,9 @@ def prepare_db(db="prix_winners.grist"):
                  ORDER BY year;''')
     c.execute('CREATE UNIQUE INDEX milestones_year ON milestones (year);')
     c.execute('''CREATE TABLE genius AS
-                 SELECT year, full_name, surname, description FROM oGenius 
-                 WHERE year!=0 
-                 ORDER BY year, surname;''')
+                 SELECT sort, year, full_name, surname, description FROM oGenius 
+                 WHERE sort!=0 
+                 ORDER BY sort;''')
     c.execute('''CREATE TABLE globals AS
                  SELECT globkey, globvalue, note FROM oGlobals 
                  ORDER BY sort;''')
