@@ -1111,7 +1111,13 @@ book_editions_tex = tuple()
 book_editions_html = tuple()
 book_editions_txt = tuple()
 book_broadcasters_txt = tuple()
-book_broadcasters_html = tuple()
+book_broadcasters_html = (
+    # this is because whitespace control in jinja is a nighmare...
+    ("|yearsep|", " ", -1), # maybe replace with &nbsp; instead
+    ("|compsep|;", ";", -1),
+    ("|compsep|.", ".", -1),
+    ("|compsep|", " ", -1),
+    )
 book_broadcasters_tex = tuple()
 book_winners_tex = tuple()
 book_winners_html = tuple()

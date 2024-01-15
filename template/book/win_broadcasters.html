@@ -1,0 +1,55 @@
+{% if standalone %} {% extends "base.html" %} {% endif %}
+
+{% macro get_broad(acronym, name, acr_name) %}
+{% if acr_name %} {{ name }}
+{% else %}
+{{ acronym }} {{ name }}
+{% endif %}
+{% endmacro %}
+
+{# note: whitespace control is a nightmare #}
+{# so we strategically put a "|yearsep|" and "|compsep|" #}
+{# and then we do a replacement (see replace.py) #}
+
+{%- macro get_year_result(b, year) -%}
+<b>{{ year }}</b>|yearsep|
+{%- for comp in 'radio', 'tv', 'web', 'sp_prize' -%}
+{%- if b[comp] -%}
+{{ b[comp] }}{{ comp[0]|upper }}
+{%- for kind, progs, res in results[(b.broadcaster_id, year)] -%}
+{%- if kind|lower==comp -%}
+{{ res[0]*progs }}
+{%- endif -%}
+{%- endfor -%}|compsep|
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro -%}
+
+
+{% block content %}
+<h1>{{ common["ch_win_broadcasters"] }}</h1>
+
+{%- for b in participants -%}
+
+{%- if loop.first -%}
+<h2>{{ b.country_abbr }}</h2>
+<h3>{{ get_broad(b.acronym, b.name, b.acr_name) }}</h3>
+<p>{{ get_year_result(b, b.year) -}}
+{%- elif loop.previtem.country_abbr != b.country_abbr -%}
+.</p>
+
+<h2>{{ b.country_abbr }}</h2>
+<h3>{{ get_broad(b.acronym, b.name, b.acr_name) }}</h3>
+<p>{{ get_year_result(b, b.year) -}}
+{%- elif loop.previtem.name != b.name -%}
+.</p>
+
+<h3>{{ get_broad(b.acronym, b.name, b.acr_name) }}</h3>
+<p>{{ get_year_result(b, b.year) -}}
+{%- else -%}
+; {{ get_year_result(b, b.year) }}
+{%- endif -%}
+{%- endfor -%}
+.</p>
+
+{% endblock %}
