@@ -1,22 +1,79 @@
-{% if standalone %} {% extends "book/base.html" %} {% endif %}
+{% if standalone %} {% extends "base.html" %} {% endif %}
+{% macro publish_section(section, showedition=True) %}
+{% for edition, author, title, notes, publisher, year in biblio[section] %}
+{% if loop.first %}
+{% if showedition %}<h3>{{ edition }}</h3>{% endif %}
+<ul>
+{% elif loop.previtem[0] != edition %}
+</ul>
+{% if showedition %}<h3>{{ edition }}</h3>{% endif %}
+<ul>
+{% endif %}
+<li>{% if author %}{{ author -}}, {% endif %}
+<i>{{ title }}</i>
+{% if notes %} {{ notes }}{% endif %}
+ {{ publisher -}}, {{ year -}}.</li>
+{% endfor %}
+</ul>
+{% endmacro %}
+
+{% macro short_rc(entry) -%}
+{{ entry.split()[-1][:-1]}}
+{%- endmacro %}
 
 {% block content %}
 <h1>{{ common["ch_bibliography"] }}</h1>
 
-{% for edition, category, author, title, notes, publisher, year in bibliography %}
+<h2>{{ common["biblio_annex_title"] }}</h2>
+<p>{{ common["biblio_annex_blurb"] }}</p>
+{{ publish_section("annex") }}
+
+
+<h2>{{ common["biblio_meeting_title"] }}</h2>
+<p>{{ common["biblio_meeting_blurb"] }}</p>
+{{ publish_section("meeting") }}
+
+
+<h2>{{ common["biblio_event_title"] }}</h2>
+<p>{{ common["biblio_event_blurb"] }}</p>
+{{ publish_section("event") }}
+
+
+<h2>{{ common["biblio_art_title"] }}</h2>
+<p>{{ common["biblio_art_blurb"] }}</p>
+{{ publish_section("art") }}
+
+
+<h2>{{ common["biblio_artother_title"] }}</h2>
+<p>{{ common["biblio_artother_blurb"] }}</p>
+{{ publish_section("artother") }}
+
+
+<h2>{{ common["biblio_prixbook_title"] }}</h2>
+<p>{{ common["biblio_prixbook_blurb"] }}</p>
+{{ publish_section("prixbook", False) }}
+
+
+<h2>{{ common["biblio_study_title"] }}</h2>
+<p>{{ common["biblio_study_blurb"] }}</p>
+{{ publish_section("study", False) }}
+
+
+<h2>{{ common["biblio_radiocorriere_title"] }}</h2>
+<p>{{ common["biblio_radiocorriere_blurb"] }}</p>
+<p>{{ common["biblio_radiocorriere_note"] }}</p>
+{% for edition, author, title, notes, publisher, year in biblio["radiocorriere"] %}
 {% if loop.first %}
-<h2>{{ edition }}</h2>
+<h3>{{ edition }}</h3>
 <ul>
 {% elif loop.previtem[0] != edition %}
 </ul>
-<h2>{{ edition }}</h2>
+<h3>{{ edition }}</h3>
 <ul>
 {% endif %}
 <li>{% if author %}{{ author -}}, {% endif %}
-<i>{{ title -}}</i>
-{% if notes %} {{ notes }}{% endif %}
- {{ publisher -}}, {{ year -}}.</li>
-{% endfor %}
+<i>{{ title }}</i> {{ short_rc(notes) -}}.</li>
+{%- endfor %}
+</ul>
+
 {% endblock %}
-
-

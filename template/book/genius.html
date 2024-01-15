@@ -2,8 +2,8 @@
 
 {% block content %}
 <h1>{{ common["ch_genius"] }}</h1>
-{% for year, name, g in genius %}
-<h2>{{ year }} - {{ name }}</h2>
-<p>{{ g }}</p>
+{% for name, g in genius %}
+{% if not loop.first %}<hr />{% endif %}
+<p>{{ g|safe }}</p>
 {% endfor %}
 {% endblock %}
