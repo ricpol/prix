@@ -52,4 +52,27 @@
 {%- endfor -%}
 .</p>
 
+
+
+
+<h1>Non-broadcaster participants</h1>
+
+{%- for o in others -%}
+{%- if loop.first -%}
+<h2>{{ o.country_abbr }}</h2>
+<p><b>{{ o.name }}</b> {{ o.year }}
+{%- elif loop.previtem.country_abbr != o.country_abbr -%}
+.</p>
+
+<h2>{{ o.country_abbr }}</h2>
+<p><b>{{ o.name }}</b> {{ o.year }}
+{%- elif loop.previtem.name != o.name -%}
+; <b>{{ o.name }}</b> {{ o.year }}
+{%- else -%}
+|yearsep|{{ o.year }}
+{%- endif -%}
+{%- endfor -%}
+.</p>
+
+
 {% endblock %}

@@ -48,4 +48,25 @@
 
 
 
+
+Non-broadcaster participants
+----------------------------
+{% for o in others %}
+{% if loop.first -%}
+{{ o.country_abbr }}
+{{ o.name }} {{ o.year }}
+{%- elif loop.previtem.country_abbr != o.country_abbr -%}
+.
+
+{{ o.country_abbr }}
+{{ o.name }} {{ o.year }}
+{%- elif loop.previtem.name != o.name -%}
+; {{ o.name }} {{ o.year }}
+{%- else %}
+ {{ o.year }}
+{%- endif -%}
+{% endfor %}
+.
+
+
 {% endblock %}

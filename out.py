@@ -172,6 +172,18 @@ class DataProvider:
                 results[id, year] = [(kind, progs, res)]
         return participants, results
 
+    def get_participants_other(self):
+        '''Data about the non-broadcaster participants.'''    # for the book only
+        sql = '''SELECT participants.year, broadcasters.name, countries.country_abbr 
+                 FROM participants 
+                 JOIN broadcasters ON participants.broadcaster_id=broadcasters.id 
+                 JOIN countries ON broadcasters.country=countries.country 
+                 WHERE broadcasters.status<3 and broadcasters.status>0
+                 ORDER BY countries.sort, broadcasters.name;'''
+        c = self.con.cursor()
+        c.row_factory = _sqlite_dict_row_factory
+        return c.execute(sql).fetchall()
+
 
 class BaseFormatter:
     def __init__(self, db='prix_winners.grist', outputtype='tex', 
@@ -342,9 +354,11 @@ class PrixCompanionFormatter(BaseFormatter):
 
     def publish_win_broadcasters(self):
         participants, results = self.db.get_participant_broadcasters()
+        others = self.db.get_participants_other()
         the_file = 'win_broadcasters.' + self.outputtype
         self.publish(the_file, the_file, 'book broadcasters',
-                     participants=participants, results=results, standalone=True)
+                     participants=participants, results=results, 
+                     others=others, standalone=True)
 
     def publish_persons(self):
         persons = self.db.get_persons()
