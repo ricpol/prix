@@ -2,7 +2,7 @@
 #-------------------------------------
 import os
 
-    # old,   new,   expected replacements
+    # old,   new,   expected replacements (-1 if we don't care)
 # THE SILVER BOOKLET
 silver_intro_txt = tuple()
 silver_intro_html = tuple()
@@ -1210,13 +1210,14 @@ def do_replace(txt, repl_set, out_type, verbose=True):
     verbose: warns when repl. number is different than expected
     """
     replacements = REPLACEMENTS[(repl_set, out_type)]
+    no_repl_happened = True
     if replacements:
         for old, new, num in replacements:
             occurrences = txt.count(old)
             txt = txt.replace(old, new)
-            if occurrences != num and verbose:
+            if num != -1 and occurrences != num and verbose:
                 print(f'Replacement >{old}< {occurrences} found, {num} expected.')
-    else:
-        if verbose:
-            print(f'No replacements found for {repl_set} / {out_type}.')
+                no_repl_happened = False
+    if no_repl_happened:
+        print(f'No replacements found for {repl_set} / {out_type}.')
     return txt
