@@ -1,60 +1,67 @@
-{% if standalone %} {% extends "book/base.html" %} {% endif %}
+{% if standalone %} {% extends "base.html" %} {% endif %}
+
+{% macro get_title(original, english, roman) -%}
+<b>{{ original }}</b>{% if roman %} ({{ roman }}){% endif %}{% if original != english %} | {{ english }} {% endif %}
+{%- endmacro %}
+
+{% macro get_broad(acronym, name, acr_name, country, country_abbr, iso3166, display) -%}
+{%- if acr_name %}{{ name }}{% else %}
+{%- if display["acronym"] %}{{ acronym }}{% endif %}
+{%- if display["name"] %} {{ name }}{% endif %}{% endif %}
+{%- if display["full_country"] %} ({{ country }})
+{%- elif display["short_country"] %} ({{ country_abbr }})
+{%- elif display["iso_country"] %} ({{ iso3166 }}){% endif %}
+{%- endmacro %}
+
+{% macro count_submissions(r, t, w, rs, ts, ws, s) -%}
+{% set reg = r+t+w %}{% set spec = rs+ts+ws+s %}
+{{ reg }}
+{%- if t or w %} ({{- r -}}r{% if t %}, {{ t -}}t{% endif %}{% if w %}, {{ w -}}w{% endif %}){%- endif -%}
+{%- if spec %} + {{ spec }}sp{%- endif -%}.
+{%- endmacro %}
+
 
 {% block content %}
-<h1 class="chaptertitle">{{ common["ch_winners"] }}</h1>
-{% for w in winners %}
-{% if loop.first %}
-    <h2 class="edition_year">{{ w.year }}</h2>
-{% elif loop.previtem.year != w.year %}
-    <hr />
-    <h2 class="edition_year">{{ w.year }}</h2>
+<h1>{{ common["ch_winners"] }}</h1>
+
+{% for w in winners %}{% set y = w.year %}
+{% if loop.first or loop.previtem.year != y %}
+<h2><big>{{ editions[y][0] }} {{ y -}}</big>, {{ editions[y][1]|daterangeformat(editions[y][2]) -}}.</h2>
+<h5>President: {{ editions[y][3] }}. Secretary General: {{ editions[y][4] }}.<br />
+Submissions: {{ count_submissions(*editions[y][5:]) }}<br />
+Participants: {{ broad_participants[y] }}{% if other_participants[y] %}
+ (+ {{ other_participants[y] }} non-broadcasters){% endif -%}. Countries: {{ countries[y] -}}.</h5>
 {% endif %}
-{% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
-    <h3 class="prize_name">
-        {% if display["full_prize"] %} 
-            {{ w.prize }} 
-        {% else %} 
-            {{ w.prize_abbr }} 
-        {% endif %}
-    </h3>
+{% if loop.first or loop.previtem.year != y or loop.previtem.prize != w.prize %}
+{% if display["full_prize"] %} 
+<h3>{{ w.prize }}</h3>
+{% else %} 
+<h3>{{ w.prize_abbr }}</h3>
 {% endif %}
-<p class="winner_details">
-    {% if w.result=="winner" %}
-        <span class="winner_result">Winner:</span>
-    {% else %}
-        <span class="other_result">{{ w.result -}}:</span>
-    {% endif %}
-    <span class="original_title">{{ w.or_title }}</span> (<span class="english_title">{{ w.en_title }}</span>)<br />
-    Submitted by:
-    {% if display["acronym"] %}
-        <span class="broadcaster_acronym">{{ w.acronym }} </span>
-    {% endif %}
-    {% if display["name"] %}
-        {% if not w.acr_name and display["acronym"] %}
-            <span class="broadcaster_name">{{ w.name }} </span>
-        {% endif %}
-    {% endif %}
-    {% if display["full_country"] %}
-        ({{ w.country }})<br />
-    {% elif display["short_country"] %}
-        ({{ w.country_abbr }})<br />
-    {% elif display["iso_country"] %}
-        ({{ w.iso3166 }})<br />
-    {% else %}
-        <br />
-    {% endif %}
-    {% if display["credits"] and w.credits and w.credits!="_null" %}
-        <span class="credit_list">{{ w.credits }}</span><br /> 
-    {% endif %}
-    {% if display["weblink"] and w.weblink!="_null" %}
-        <span class="weblink">{{ w.weblink }}</span><br /> 
-    {% endif %}
-    {% if display["reasoning"] and w.reasoning and w.reasoning!="_null" %}
-        <span class="reasoning">Reasoning: {{ w.reasoning }}</span><br /> 
-    {% endif %}
-    {% if display["note"] and w.note %}
-        <span class="note">Note: {{ w.note }}</span>
-    {% endif %}
-</p>
+{% endif %}
+{% if w.acronym=="NONE" %}
+<p><i>Not awarded.</i></p>
+{% else %}
+<p><b>{{ w.result|capitalize }}:</b><br />
+{% if w.or_title=="_null" -%}
+{{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }}<br />
+{% else %}
+{{ get_title(w.or_title, w.en_title, w.rom_title) }}<br />
+<i>Submitted by</i>: {{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }}<br />
+{% endif %}
+{% if display["credits"] and w.credits and w.credits!="_null" %}
+{{ w.credits }}<br />
+{% endif %}
+{% if display["weblink"] and w.weblink!="_null" %}
+{{ w.weblink }}<br />
+{% endif %}
+{% if display["reasoning"] and w.reasoning and w.reasoning!="_null" %}
+<i>The Jury</i>: {{ w.reasoning }}<br />
+{% endif %}
+{% if display["note"] and w.note %}
+<i>Note</i>: {{ w.note }}
+{% endif %}</p>
+{% endif %}
+
 {% endfor %}
 {% endblock %}
