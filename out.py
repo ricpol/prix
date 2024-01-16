@@ -30,6 +30,14 @@ def _tex_period_space_escape(s):
     '''Avoid extra space after a period.'''
     return s.replace('. ', '.~')
 
+_months = {6: 'June', 9: 'September', 10: 'October'}
+def _date_range_formatter(start, end):
+    '''A nice formatter for editions start/end dates.'''
+    if start.month == end.month:
+        return f'{start.day}/{end.day} {_months[start.month]}'
+    else: 
+        return f'{start.day} {_months[start.month]}/ {end.day} {_months[end.month]}'
+
 with open('template/common.json', 'r', encoding='utf8') as f:
     COMMON = json.load(f)
 
@@ -51,17 +59,38 @@ class DataProvider:
             langs.remove(i)
         return langs
 
-    def get_editions(self): #XXX this has a pretty oddball api... rewrite?
+    def get_editions(self):
         '''Data about editions.'''
         c = self.con.cursor()
-        editions = c.execute(
-            '''SELECT editions.year, city, startdate AS "startdate [date]", 
-               enddate AS "enddate [date]", president, secretary, radio, tv, 
-               web, special, radio_sp, tv_sp, web_sp 
-               FROM editions;''').fetchall()
-        c.execute('SELECT year, count(year) FROM participants GROUP BY year;')
-        participants = {year:part for year, part in c.fetchall()}
-        return editions, participants
+        c.execute('''SELECT editions.year, city, startdate AS "startdate [date]", 
+                     enddate AS "enddate [date]", president, secretary, radio, tv, 
+                     web, radio_sp, tv_sp, web_sp, special
+                     FROM editions;''')
+        editions = {year:rest for year, *rest in c.fetchall()}
+        c.execute('''SELECT year, count(year) 
+                     FROM participants 
+                     JOIN broadcasters ON broadcasters.id=broadcaster_id 
+                     WHERE broadcasters.status>2 AND radio+tv+web+sp_prize>0
+                     GROUP BY year;''')
+        broad_participants = {year:part for year, part in c.fetchall()}
+        c.execute('''SELECT year, count(year) 
+                     FROM participants 
+                     JOIN broadcasters ON broadcasters.id=broadcaster_id 
+                     WHERE broadcasters.status<3 AND broadcasters.status>0 
+                           AND radio+tv+web+sp_prize>0
+                     GROUP BY year;''')
+        other_participants = {year:part for year, part in c.fetchall()}
+        c.execute('''SELECT year, count(c) 
+                     FROM 
+                       (SELECT DISTINCT year, countries.country AS c
+                       FROM participants 
+                       JOIN broadcasters ON broadcasters.id= broadcaster_id 
+                       JOIN countries ON broadcasters.country=countries.country
+                       WHERE broadcasters.status>0 AND radio+tv+web+sp_prize>0
+                             AND countries.is_country=1)
+                     GROUP BY year''')
+        countries = {year:country for year, country in c.fetchall()}
+        return editions, broad_participants, other_participants, countries
 
     def get_winners(self, winners_only, prixitalia_only, exclude_unknowns, 
                     start_year=1948, end_year=9999):
@@ -214,6 +243,7 @@ class BaseFormatter:
                 self.jinja = Environment(
                             loader=FileSystemLoader(self.template_folder),
                             autoescape=select_autoescape(['html', 'htm', 'xml']))
+        self.jinja.filters["daterangeformat"] = _date_range_formatter
 
     def get_output(self, template_file, **context):
         '''Return an output, give a template and context.
@@ -339,18 +369,16 @@ class PrixCompanionFormatter(BaseFormatter):
                                'note': True,
                                }
 
-    def publish_editions(self):
-        editions, participants = self.db.get_editions() # XXX see db function
-        the_file = 'editions.' + self.outputtype
-        self.publish(the_file, the_file, 'book editions',
-                     editions=editions, participants=participants, standalone=True)
-
     def publish_winners(self):
-        winners = self.db.get_winners(winners_only=False, 
-                    prixitalia_only=False, exclude_unknowns=True)
+        #winners = self.db.get_winners(winners_only=False, 
+        #            prixitalia_only=False, exclude_unknowns=True)
+        editions, broad_participants, other_participants, countries = self.db.get_editions()
         the_file = 'winners.' + self.outputtype
         self.publish(the_file, the_file, 'book winners',
-                     winners=winners, display=self.winner_display, standalone=True)
+                     editions=editions, broad_participants=broad_participants, 
+                     other_participants=other_participants, countries=countries,
+                     #winners=winners, display=self.winner_display, 
+                     standalone=True)
 
     def publish_win_broadcasters(self):
         participants, results = self.db.get_participant_broadcasters()
