@@ -1,7 +1,7 @@
 {% if standalone %}{% extends "base.txt" %}{% endif %}
 
-{% macro get_title(original, english) -%}
-{{ original }}{% if original != english %} | {{ english }} {% endif %}
+{% macro get_title(original, english, roman) -%}
+{{ original }}{% if roman %} ({{ roman }}){% endif %}{% if original != english %} | {{ english }} {% endif %}
 {%- endmacro %}
 
 {% macro get_broad(acronym, name, acr_name, country, country_abbr, iso3166, display) -%}
@@ -27,14 +27,47 @@
 {{ common["ch_winners"] }}
 {{ "=" * common["ch_winners"]|length }}
 
+{% for w in winners %}{% set y = w.year %}
+{% if loop.first or loop.previtem.year != y %}
 
 
-{% for y in range(1949, 2024) %}
+
 *** {{ editions[y][0] }} {{ y -}}, {{ editions[y][1]|daterangeformat(editions[y][2]) -}}.
 President: {{ editions[y][3] }}. Secretary General: {{ editions[y][4] }}.
 Submissions: {{ count_submissions(*editions[y][5:]) }}
 Participants: {{ broad_participants[y] }}{% if other_participants[y] %}
  (+ {{ other_participants[y] }} non-broadcasters){% endif -%}. Countries: {{ countries[y] -}}.
+--------------------------{% endif %}
+{% if loop.first or loop.previtem.year != y or loop.previtem.prize != w.prize %}
+{% if display["full_prize"] %} 
+> {{ w.prize }}
+{% else %} 
+> {{ w.prize_abbr }}
+{% endif %}
+{% endif %}
+{% if w.acronym=="NONE" %}
+Not awarded.
+{% else %}
+- {{ w.result|capitalize }}: 
+{% if w.or_title=="_null" -%}
+{{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }}
+{% else %}
+{{ get_title(w.or_title, w.en_title, w.rom_title) }}
+Submitted by: {{ get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) }}
+{% endif %}
+{% if display["credits"] and w.credits and w.credits!="_null" %}
+{{ w.credits }}
+{% endif %}
+{% if display["weblink"] and w.weblink!="_null" %}
+{{ w.weblink }}
+{% endif %}
+{% if display["reasoning"] and w.reasoning and w.reasoning!="_null" %}
+The Jury: {{ w.reasoning }}
+{% endif %}
+{% if display["note"] and w.note %}
+Note: {{ w.note }}
+{% endif %}
+{% endif %}
 
 {% endfor %}
 

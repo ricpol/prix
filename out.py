@@ -96,7 +96,7 @@ class DataProvider:
                     start_year=1948, end_year=9999):
         '''Data about winning/mentioned programmes.'''
         sql = '''SELECT id, year, city, acronym, name, acr_name, country, country_abbr, 
-                 iso3166, or_title, en_title, lang_title, credits, weblink, 
+                 iso3166, or_title, rom_title, en_title, lang_title, credits, weblink, 
                  prize, prize_abbr, result, reasoning, note 
                  FROM vPrixWinners WHERE year>=? AND year<=?'''
         if winners_only:
@@ -370,14 +370,14 @@ class PrixCompanionFormatter(BaseFormatter):
                                }
 
     def publish_winners(self):
-        #winners = self.db.get_winners(winners_only=False, 
-        #            prixitalia_only=False, exclude_unknowns=True)
+        winners = self.db.get_winners(winners_only=False, 
+                    prixitalia_only=False, exclude_unknowns=True)
         editions, broad_participants, other_participants, countries = self.db.get_editions()
         the_file = 'winners.' + self.outputtype
         self.publish(the_file, the_file, 'book winners',
                      editions=editions, broad_participants=broad_participants, 
                      other_participants=other_participants, countries=countries,
-                     #winners=winners, display=self.winner_display, 
+                     winners=winners, display=self.winner_display, 
                      standalone=True)
 
     def publish_win_broadcasters(self):
@@ -492,15 +492,14 @@ if __name__ == '__main__':
     outputs = ('silver', 'book')
     sections = {# for the silver booklet
                 'intro': 'publish_intro',
-                'winners': 'publish_winners', 
                 # for the book
-                'editions': 'publish_editions', 
                 'persons': 'publish_persons',
                 'biblio': 'publish_bibliography', 
                 'genius': 'publish_genius',
                 # for both
                 'broadcasters': 'publish_win_broadcasters', 
                 'milestones': 'publish_milestones',
+                'winners': 'publish_winners', 
                 'book': 'publish_book',
                 }
     parser = argparse.ArgumentParser(description='Prix Italia book processing.')
