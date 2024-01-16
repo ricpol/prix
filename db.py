@@ -73,7 +73,7 @@ def prepare_db(db="prix_winners.grist"):
                  ORDER BY ocountries.sort, status DESC, obroadcasters.sort, first;''')
     c.execute('CREATE UNIQUE INDEX broadcasters_id ON broadcasters (id);')
     c.execute('''CREATE TABLE countries AS 
-                 SELECT country, country_abbr, former, iso3166, region, 
+                 SELECT country, country_abbr, former, is_country, iso3166, region, 
                  subregion, sort, note 
                  FROM ocountries 
                  ORDER BY sort;''')
