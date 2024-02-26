@@ -1,0 +1,13 @@
+
+{{ "=" * common["ch_genius"]|length }}
+{{ common["ch_genius"] }}
+{{ "=" * common["ch_genius"]|length }}
+{% for name, g in genius %}
+
+{% if not loop.first %}
+*** --- *** 
+{% endif %}
+
+{{ g|striptags }}
+{% endfor %}
+

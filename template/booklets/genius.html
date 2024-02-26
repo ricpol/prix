@@ -1,0 +1,6 @@
+
+<h1>{{ common["ch_genius"] }}</h1>
+{% for name, g in genius %}
+{% if not loop.first %}<hr />{% endif %}
+<p>{{ g|safe }}</p>
+{% endfor %}

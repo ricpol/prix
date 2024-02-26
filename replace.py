@@ -1135,6 +1135,11 @@ book_genius_tex = tuple()
 book_genius_html = tuple()
 book_genius_txt = tuple()
 
+# THE 75GENIUS BOOKLET
+genius_book_tex = tuple()
+genius_book_html = tuple()
+genius_book_txt = tuple()
+
 
 REPLACEMENTS = { 
     ('silver intro', 'txt'): silver_intro_txt,
@@ -1198,6 +1203,11 @@ REPLACEMENTS = {
     ('book book', 'txt'): (book_editions_txt + book_winners_txt 
                            + book_persons_txt + book_milestones_txt 
                            + book_bibliography_txt + book_genius_txt),
+
+
+    ('genius book', 'tex'): genius_book_tex,
+    ('genius book', 'html'): genius_book_html,
+    ('genius book', 'txt'): genius_book_txt,
 }
 
 

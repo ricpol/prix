@@ -122,8 +122,9 @@ class DataProvider:
 
     def get_genius(self):
         '''Data about notable people ("the prix italia geniuses").'''
-        sql = '''SELECT full_name, description FROM genius ORDER BY sort;'''
+        sql = '''SELECT sort, full_name, description FROM genius ORDER BY sort;'''
         c = self.con.cursor()
+        c.row_factory = _sqlite_dict_row_factory
         return c.execute(sql).fetchall()
 
     def get_milestones(self):
@@ -291,6 +292,11 @@ class BaseFormatter:
         out = self.get_output(template_file, **context)
         out = self.finalize_output(out, replacements)
         self.write_output(out, out_file)
+
+    def publish_book(self):
+        '''Publish the whole thing.'''
+        # this is the basic output type, always required 
+        raise NotImplementedError("This method MUST exist!")
         
 
 class PrixSilverFormatter(BaseFormatter):
@@ -428,6 +434,50 @@ class PrixCompanionFormatter(BaseFormatter):
                      genius=genius, standalone=False)
 
 
+class GeniusFormatter(BaseFormatter):
+    '''The formatter for the "75genius" booklet.'''
+    def __init__(self, db='prix_winners.grist', outputtype='tex'):
+        template_folder = os.path.join(TEMPLATE_FOLDER, 'booklets')
+        super().__init__(db, outputtype, template_folder)
+
+    @staticmethod
+    def _tex_lettrine_escape(s, lettrine_specs):
+        '''A Jinja filter to apply a tex lettrine to paragraph.
+           This is a very specific filter, tailor-made for this formatter.'''
+        s = _tex_escape(s)
+        head, tail = s.split(' ', maxsplit=1)
+        if head.startswith('<'):  
+        # we have a leading tag, could be <b> or <i>
+            if head.endswith('>'): 
+            # this is a single word, enclosed with tags -> we drop tags altogether
+                newhead = f'\\lettrine{lettrine_specs}{{{head[3]}}}{{{head[4:-4]}}}'
+                newtail = tail
+            else:
+            # we move the leading tag to the front of the tail
+                newhead = f'\\lettrine{lettrine_specs}{{{head[3]}}}{{{head[4:]}}}'
+                newtail = f'{head[0:3]}{tail}'
+        else:
+            # a normal first word, no tags to worry about
+            newhead = f'\\lettrine{lettrine_specs}{{{head[0]}}}{{{head[1:]}}}'
+            newtail = tail
+        if len(head) == 1:
+            return f'{newhead}{newtail}' # this is nicer
+        else:
+            return f'{newhead} {newtail}'
+
+    def set_outputtype(self, outputtype):
+        '''Add a tex filter to the Jinja engine.'''
+        super().set_outputtype(outputtype)
+        if self.outputtype == 'tex':
+            self.jinja.filters["texlettrine"] = self._tex_lettrine_escape
+
+    def publish_book(self):
+        genius = self.db.get_genius()
+        the_file = 'genius.' + self.outputtype
+        self.publish(the_file, the_file, 'genius book', 
+                     genius=genius, standalone=False)
+
+
 
 
 class SpecialFormatter(BaseFormatter):
@@ -489,7 +539,7 @@ class SpecialFormatter(BaseFormatter):
 
 if __name__ == '__main__':
     import argparse
-    outputs = ('silver', 'book')
+    outputs = ('silver', 'book', '75genius')
     sections = {# for the silver booklet
                 'intro': 'publish_intro',
                 # for the book
@@ -500,6 +550,8 @@ if __name__ == '__main__':
                 'broadcasters': 'publish_win_broadcasters', 
                 'milestones': 'publish_milestones',
                 'winners': 'publish_winners', 
+
+                # for everything (base option, always present)
                 'book': 'publish_book',
                 }
     parser = argparse.ArgumentParser(description='Prix Italia book processing.')
@@ -517,6 +569,8 @@ if __name__ == '__main__':
         klass = PrixSilverFormatter
     elif args.output == 'book':
         klass = PrixCompanionFormatter
+    elif args.output == '75genius':
+        klass = GeniusFormatter
 
     f = klass(db=args.db, outputtype=None)
     for outputtype in ('txt', 'html', 'tex'):

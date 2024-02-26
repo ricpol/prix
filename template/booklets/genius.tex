@@ -1,0 +1,107 @@
+{# this is actually a Jinja template! #}
+\documentclass[11pt, oneside]{book}
+\title{Prix Italia 1948-2023. A 75-year-spanning stroke of genius}
+\author{Riccardo Polignieri}
+\date{}
+\usepackage[pdfauthor={Riccardo Polignieri},
+pdftitle={Prix Italia 1948-2023. A 75-year-spanning stroke of genius},
+pdfsubject={Portaits of people who made the Prix Italia relevant.},
+pdfkeywords={Prix Italia competition}]{hyperref}
+\usepackage[svgnames]{xcolor}
+\usepackage[paperwidth=14cm, paperheight=24cm,
+lmargin=2cm, rmargin=2cm, tmargin=2.5cm, bmargin=2cm,
+]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lfoot{} \cfoot{} \rfoot{\thepage}
+\renewcommand\headrulewidth{0pt}
+
+\fancypagestyle{img_page}{
+\lhead{} \chead{} \rhead{}
+\lfoot{} \cfoot{} \rfoot{\thepage}
+}
+
+\usepackage{titlesec}
+\titleformat*{\section}{\large\itshape}
+
+
+\usepackage{lettrine}
+\usepackage{fourier-orns}
+\usepackage[stretch=25]{microtype}
+\tolerance=500 % halves overfull boxes a little %
+\usepackage{graphicx}
+\graphicspath{ {../imgs} }
+\usepackage[labelformat=empty]{caption}
+\usepackage[rightcaption]{sidecap}
+\usepackage{marginnote}
+\usepackage[nopgf,nobookmark]{incgraph} % to include cover images %
+
+\begin{document}
+\thispagestyle{empty}
+\incgraph[documentpaper][width=\paperwidth, height=\paperheight]{../imgs/geniuscover_a.jpg}
+
+\newpage\thispagestyle{empty} % the back of the cover %
+\null\vfill
+
+\newpage\thispagestyle{empty}
+\setcounter{page}{1} % start counting here %
+\null\vspace{150pt}
+\hfill{\LARGE\slshape Prix Italia 1948-2023}
+
+\bigskip
+
+\hfill{\LARGE\slshape A 75-year-spanning}
+
+\hfill{\LARGE\slshape stroke of genius}
+
+\bigskip
+\bigskip
+
+\hfill{\large Portaits of people}
+
+\hfill{\large who made the Prix Italia relevant.}
+
+\vfill
+
+\newpage\thispagestyle{empty}
+\null\vfill
+{\footnotesize\ttfamily\noindent Prix Italia 1948-2023. A 75-year-spanning stroke of genius\\Curated by Riccardo Polignieri\\Release 1, March 2024\\Corrections: prixitalia(at)rai.it}
+
+
+
+\newpage
+
+
+
+{% for g in genius %}
+{% if loop.index % 2 == 1 %}
+
+\vfill
+\newpage
+\null\vfill
+
+{% else %}
+
+\bigskip
+\bigskip
+
+\begin{center}{\LARGE \decofourleft \decofourright}\end{center}
+
+\bigskip
+\bigskip
+
+{% endif %}
+\marginnote{ {{ g.sort }} }[\baselineskip]{{ g.description|texlettrine("[loversize=0.2, lhang=0.2, findent=0.2em, nindent=0em]")|replace("<b>", "\\textsc{")|replace("</b>", "}")|replace("<i>", "\\textit{")|replace("</i>", "}") }}
+
+{% endfor %}
+
+
+
+% \newpage\thispagestyle{empty} % only if the previous (last) page is odd %
+% \null\vfill %
+\newpage\thispagestyle{empty} % the front of the back-cover %
+\null\vfill
+\newpage\thispagestyle{empty}
+\incgraph[documentpaper][width=\paperwidth, height=\paperheight]{../imgs/geniuscover_b.jpg}
+\end{document}
+
