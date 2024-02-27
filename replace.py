@@ -1241,7 +1241,7 @@ def do_replace(txt, repl_set, out_type, verbose=True):
             txt = txt.replace(old, new)
             if num != -1 and occurrences != num and verbose:
                 print(f'Replacement >{old}< {occurrences} found, {num} expected.')
-                no_repl_happened = False
+            no_repl_happened = False
     if no_repl_happened:
         print(f'No replacements found for {repl_set} / {out_type}.')
     return txt
