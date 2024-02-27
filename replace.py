@@ -1136,7 +1136,21 @@ book_genius_html = tuple()
 book_genius_txt = tuple()
 
 # THE 75GENIUS BOOKLET
-genius_book_tex = tuple()
+genius_book_tex = (
+    # fixing overfull boxes
+    ("journalist by vocation, a well-travelled",
+    "journalist by vocation, a well-trav\\-elled", 1),
+    ("proceeded slowly, amidst",
+     "proceeded slow\\-ly, amidst", 1),
+    # the last portrait is different
+    ("\\null\\vfill\n\n% start portrait n 75 %",
+     "\\null\\vspace{50pt}\n\n% start portrait n 75 %", 1),
+    # just for good looking
+    ("end portrait n 59 %\n\n\\bigskip",
+     "end portrait n 59 %\n\n\\bigskip\\bigskip", 1),
+    ("\\bigskip\n\n% start portrait n 60",
+     "\\bigskip\\bigskip\n\n% start portrait n 60", 1),
+    )
 genius_book_html = tuple()
 genius_book_txt = tuple()
 

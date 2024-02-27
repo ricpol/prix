@@ -5,7 +5,7 @@
 \date{}
 \usepackage[pdfauthor={Riccardo Polignieri},
 pdftitle={Prix Italia 1948-2023. A 75-year-spanning stroke of genius},
-pdfsubject={Portaits of people who made the Prix Italia relevant.},
+pdfsubject={Protagonists and moments from the history of the Prix Italia},
 pdfkeywords={Prix Italia competition}]{hyperref}
 \usepackage[svgnames]{xcolor}
 \usepackage[paperwidth=14cm, paperheight=24cm,
@@ -16,14 +16,8 @@ lmargin=2cm, rmargin=2cm, tmargin=2.5cm, bmargin=2cm,
 \lfoot{} \cfoot{} \rfoot{\thepage}
 \renewcommand\headrulewidth{0pt}
 
-\fancypagestyle{img_page}{
-\lhead{} \chead{} \rhead{}
-\lfoot{} \cfoot{} \rfoot{\thepage}
-}
-
 \usepackage{titlesec}
 \titleformat*{\section}{\large\itshape}
-
 
 \usepackage{lettrine}
 \usepackage{fourier-orns}
@@ -31,12 +25,12 @@ lmargin=2cm, rmargin=2cm, tmargin=2.5cm, bmargin=2cm,
 \tolerance=500 % halves overfull boxes a little %
 \usepackage{graphicx}
 \graphicspath{ {../imgs} }
-\usepackage[labelformat=empty]{caption}
-\usepackage[rightcaption]{sidecap}
-\usepackage{marginnote}
 \usepackage[nopgf,nobookmark]{incgraph} % to include cover images %
 
 \begin{document}
+% this should fix some overfull boxes %
+\hyphenation{Jan-kow-ska Bo-rel-li}
+
 \thispagestyle{empty}
 \incgraph[documentpaper][width=\paperwidth, height=\paperheight]{../imgs/geniuscover_a.jpg}
 
@@ -57,9 +51,9 @@ lmargin=2cm, rmargin=2cm, tmargin=2.5cm, bmargin=2cm,
 \bigskip
 \bigskip
 
-\hfill{\large Portaits of people}
+\hfill{\large Protagonists and moments}
 
-\hfill{\large who made the Prix Italia relevant.}
+\hfill{\large from the history of the Prix Italia.}
 
 \vfill
 
@@ -67,11 +61,16 @@ lmargin=2cm, rmargin=2cm, tmargin=2.5cm, bmargin=2cm,
 \null\vfill
 {\footnotesize\ttfamily\noindent Prix Italia 1948-2023. A 75-year-spanning stroke of genius\\Curated by Riccardo Polignieri\\Release 1, March 2024\\Corrections: prixitalia(at)rai.it}
 
+\newpage
+\null\vspace{150pt}
 
+{\noindent\large\slshape These portraits were originally posted on the Prix Italia's social media to celebrate its anniversary: 75 extraordinary personalities who have marked 75 years of our competitions, and with their works have gifted insight, awareness and beauty to our time.}
+
+{\noindent\large\slshape We present them collected here in the hope that they will stimulate curiosity and invite discovery of the extraordinary legacy of the Prix Italia, which is also a heritage of humanity.}
+ 
+\vfill
 
 \newpage
-
-
 
 {% for g in genius %}
 {% if loop.index % 2 == 1 %}
@@ -85,22 +84,49 @@ lmargin=2cm, rmargin=2cm, tmargin=2.5cm, bmargin=2cm,
 \bigskip
 \bigskip
 
-\begin{center}{\LARGE \decofourleft \decofourright}\end{center}
+\begin{center}{\LARGE\color[gray]{0.25} \decofourleft \decofourright}\end{center}
 
 \bigskip
 \bigskip
 
 {% endif %}
-\marginnote{ {{ g.sort }} }[\baselineskip]{{ g.description|texlettrine("[loversize=0.2, lhang=0.2, findent=0.2em, nindent=0em]")|replace("<b>", "\\textsc{")|replace("</b>", "}")|replace("<i>", "\\textit{")|replace("</i>", "}") }}
+% start portrait n {{ g.sort }} %
+
+\lettrine[loversize=0.3, lraise=0.1, lhang=0.3, findent=0.6em, nindent=0.1em]{\color{lightgray}\itshape {{- g.sort -}} }{} {{- g.description|texescape|replace("<b>", "\\textsc{")|replace("</b>", "}")|replace("<i>", "\\textit{")|replace("</i>", "}") }}
+
+% end portrait n {{ g.sort }} %
+{% endfor %}
+
+\newpage
+\null\vspace{50pt}
+
+{\noindent\LARGE\bfseries\slshape Names}
+
+\bigskip
+
+{\noindent\footnotesize The protagonists are listed alphabetically by surname, and referred to by portrait number.}
+
+\bigskip
+\bigskip
+
+{% for g in genius|sort(attribute="surname_ord") %}
+{\noindent\small {{ g.full_name -}}, {{ g.sort }} }
 
 {% endfor %}
 
-
-
-% \newpage\thispagestyle{empty} % only if the previous (last) page is odd %
-% \null\vfill %
 \newpage\thispagestyle{empty} % the front of the back-cover %
 \null\vfill
+
+{\noindent\footnotesize {\slshape On the front cover, top-to-bottom and left-to-right:} Luciano Berio, Birgit Cullberg, Melville De Mellow, Pierre Schoendoerffer, Tom Stoppard, Takemitsu Tōru, George Tabori, Giorgio Bandini, Piers Plowright, Samuel Beckett, Ousmane Sembène, Inger Åby, Petr Weigl, Mauricio Kagel, Giorgio Pressburger, Bertil Danielsson, Jiří Vilímek, Heinrich Böll*, Bruno Maderna, Sergio Zavoli, Ugo Gregoretti, Klaus Lindemann, Jean-Pierre Ponnelle, Krszysztof Penderecki.}
+
+\medskip
+
+{\noindent\footnotesize {\slshape On the back cover, top-to-bottom and left-to-right:} Eugène Ionesco, Friedrich Dürrenmatt, Henri Pousseur, Andrzej Wajda*, Janina Jankowska, Dylan Thomas, Tony Palmer, Juris Podnieks, Karlheinz Stockhausen*, Neda Depolo, János Komives, Bernard Berenson, Roberto Rossellini, Ken Loach*, Maurice Jarre, Lindsay Kemp*, René Clair, Nino Rota.}
+
+\medskip
+
+{\noindent\footnotesize All pictures: Prix Italia archives, except * (Wikipedia Commons).}
+
 \newpage\thispagestyle{empty}
 \incgraph[documentpaper][width=\paperwidth, height=\paperheight]{../imgs/geniuscover_b.jpg}
 \end{document}

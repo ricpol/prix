@@ -122,7 +122,9 @@ class DataProvider:
 
     def get_genius(self):
         '''Data about notable people ("the prix italia geniuses").'''
-        sql = '''SELECT sort, full_name, description FROM genius ORDER BY sort;'''
+        sql = '''SELECT sort, full_name, surname, surname_ord, description 
+                 FROM genius 
+                 ORDER BY sort;'''
         c = self.con.cursor()
         c.row_factory = _sqlite_dict_row_factory
         return c.execute(sql).fetchall()
