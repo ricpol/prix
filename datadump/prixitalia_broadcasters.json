@@ -585,6 +585,21 @@
     "note": ""
   },
   {
+    "id": "SESCTV",
+    "acronym": "SESCTV",
+    "name": "SescTV",
+    "acr_name": 1,
+    "status": 4,
+    "country": "Brazil",
+    "sort": 0,
+    "first": 2024,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "SESCT",
+    "note": ""
+  },
+  {
     "id": "BNT",
     "acronym": "BNT",
     "name": "Balgarska Natsionalna Televizia/ Bulgarian National Television",
@@ -597,6 +612,21 @@
     "prev": null,
     "next": null,
     "group_acronym": "BNT",
+    "note": ""
+  },
+  {
+    "id": "BNR",
+    "acronym": "BNR",
+    "name": "Bǎlgarsko Nacionalno Radio/ Bulgarian National Radio",
+    "acr_name": 0,
+    "status": 4,
+    "country": "Bulgaria",
+    "sort": 0,
+    "first": 2024,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "BNR",
     "note": ""
   },
   {
@@ -1092,6 +1122,21 @@
     "prev": null,
     "next": null,
     "group_acronym": "MARIADONVANG",
+    "note": ""
+  },
+  {
+    "id": "EDUCA",
+    "acronym": "EDUCA",
+    "name": "Educa",
+    "acr_name": 1,
+    "status": 4,
+    "country": "Ecuador",
+    "sort": 0,
+    "first": 2024,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "EDUCA",
     "note": ""
   },
   {
@@ -1815,6 +1860,21 @@
     "note": ""
   },
   {
+    "id": "RUV",
+    "acronym": "RÚV",
+    "name": "Ríkisútvarpið/ The Icelandic National Broadcasting Service",
+    "acr_name": 0,
+    "status": 4,
+    "country": "Iceland",
+    "sort": 0,
+    "first": 2024,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "RUV",
+    "note": ""
+  },
+  {
     "id": "AIR",
     "acronym": "AIR",
     "name": "Ākāśavāṇī/ All India Radio",
@@ -2022,6 +2082,21 @@
     "prev": null,
     "next": null,
     "group_acronym": "BENNYBECKER",
+    "note": ""
+  },
+  {
+    "id": "NOA",
+    "acronym": "NOA (ACHINOAM NIN)",
+    "name": "Noa (Achinoam Nin)",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Israel",
+    "sort": 0,
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "NOA",
     "note": ""
   },
   {
@@ -2237,7 +2312,7 @@
   {
     "id": "SKYARTE",
     "acronym": "SKY ARTE",
-    "name": "Sky Italia / Sky Arte",
+    "name": "Sky Italia/ Sky Arte",
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
@@ -2790,6 +2865,21 @@
     "note": ""
   },
   {
+    "id": "RICCARDOPOLIGNIERI",
+    "acronym": "RICCARDO POLIGNIERI",
+    "name": "Riccardo Polignieri",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Italy",
+    "sort": 0,
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "RICPOL",
+    "note": ""
+  },
+  {
     "id": "ENTERADIOTRIESTE",
     "acronym": "ENTE RADIO TRIESTE",
     "name": "Ente Radio Trieste",
@@ -2922,6 +3012,21 @@
     "prev": null,
     "next": null,
     "group_acronym": "RTK",
+    "note": ""
+  },
+  {
+    "id": "LATVIJASRADIO",
+    "acronym": "LATVIJAS RADIO",
+    "name": "Latvijas Radio",
+    "acr_name": 1,
+    "status": 4,
+    "country": "Latvia",
+    "sort": 0,
+    "first": 2024,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "LATVIJASRADIO",
     "note": ""
   },
   {
@@ -3087,6 +3192,21 @@
     "prev": null,
     "next": null,
     "group_acronym": "ELONCE",
+    "note": ""
+  },
+  {
+    "id": "TVUNAM",
+    "acronym": "TV UNAM",
+    "name": "TV Unam Dirección General de Televisión Universitaria",
+    "acr_name": 0,
+    "status": 4,
+    "country": "Mexico",
+    "sort": 0,
+    "first": 2024,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "TVUNAM",
     "note": ""
   },
   {
@@ -4170,6 +4290,21 @@
     "note": ""
   },
   {
+    "id": "FERNANDOARRABAL",
+    "acronym": "FERNANDO ARRABAL",
+    "name": "Fernando Arrabal",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Spain",
+    "sort": 0,
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "FERNANDOARRABAL",
+    "note": ""
+  },
+  {
     "id": "RADIOTJANST",
     "acronym": "RADIOTJÄNST",
     "name": "Radiotjänst",
@@ -4887,6 +5022,21 @@
     "prev": null,
     "next": null,
     "group_acronym": "LIZFORGAN",
+    "note": ""
+  },
+  {
+    "id": "GRAHAMELLIS",
+    "acronym": "GRAHAM ELLIS",
+    "name": "Graham Ellis",
+    "acr_name": 1,
+    "status": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "sort": 0,
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "GRAHAMELLIS",
     "note": ""
   },
   {

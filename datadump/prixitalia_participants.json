@@ -29005,5 +29005,698 @@
     "tv": 1,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2024 RTSH",
+    "year": 2024,
+    "broadcaster_id": "RTSH",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 EPTV",
+    "year": 2024,
+    "broadcaster_id": "EPTV",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 EPRS",
+    "year": 2024,
+    "broadcaster_id": "EPRS",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RTA",
+    "year": 2024,
+    "broadcaster_id": "RTA",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 ABC",
+    "year": 2024,
+    "broadcaster_id": "ABC",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 ORF",
+    "year": 2024,
+    "broadcaster_id": "ORF",
+    "radio": 3,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RTBF",
+    "year": 2024,
+    "broadcaster_id": "RTBF",
+    "radio": 1,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 VRT",
+    "year": 2024,
+    "broadcaster_id": "VRT",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 ORTB",
+    "year": 2024,
+    "broadcaster_id": "ORTB",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 TVSENADO",
+    "year": 2024,
+    "broadcaster_id": "TVSENADO",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 FRM",
+    "year": 2024,
+    "broadcaster_id": "FRM",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 SESCTV",
+    "year": 2024,
+    "broadcaster_id": "SESCTV",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 BNT",
+    "year": 2024,
+    "broadcaster_id": "BNT",
+    "radio": 0,
+    "tv": 2,
+    "web": 2,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 BNR",
+    "year": 2024,
+    "broadcaster_id": "BNR",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 CRTV",
+    "year": 2024,
+    "broadcaster_id": "CRTV",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 CBC/SRC",
+    "year": 2024,
+    "broadcaster_id": "CBC/SRC",
+    "radio": 3,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 RTVC",
+    "year": 2024,
+    "broadcaster_id": "RTVC",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 HRT",
+    "year": 2024,
+    "broadcaster_id": "HRT",
+    "radio": 2,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 CR",
+    "year": 2024,
+    "broadcaster_id": "CR",
+    "radio": 3,
+    "tv": 0,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 CT",
+    "year": 2024,
+    "broadcaster_id": "CT",
+    "radio": 0,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 DR",
+    "year": 2024,
+    "broadcaster_id": "DR",
+    "radio": 2,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 TV2",
+    "year": 2024,
+    "broadcaster_id": "TV2",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 EDUCA",
+    "year": 2024,
+    "broadcaster_id": "EDUCA",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 YLE",
+    "year": 2024,
+    "broadcaster_id": "YLE",
+    "radio": 3,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RADIOFRANCE",
+    "year": 2024,
+    "broadcaster_id": "RADIOFRANCE",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 ARTEFRANCE",
+    "year": 2024,
+    "broadcaster_id": "ARTEFRANCE",
+    "radio": 2,
+    "tv": 2,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 FRANCETV",
+    "year": 2024,
+    "broadcaster_id": "FRANCETV",
+    "radio": 0,
+    "tv": 3,
+    "web": 2,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 ARTEGEIE",
+    "year": 2024,
+    "broadcaster_id": "ARTEGEIE",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 FRMEDIASMONDE",
+    "year": 2024,
+    "broadcaster_id": "FRMEDIASMONDE",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 ARD",
+    "year": 2024,
+    "broadcaster_id": "ARD",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 ZDF",
+    "year": 2024,
+    "broadcaster_id": "ZDF",
+    "radio": 0,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 MTVA",
+    "year": 2024,
+    "broadcaster_id": "MTVA",
+    "radio": 2,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 RUV",
+    "year": 2024,
+    "broadcaster_id": "RUV",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RTE",
+    "year": 2024,
+    "broadcaster_id": "RTE",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RAI",
+    "year": 2024,
+    "broadcaster_id": "RAI",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 TV2000",
+    "year": 2024,
+    "broadcaster_id": "TV2000",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 SKYARTE",
+    "year": 2024,
+    "broadcaster_id": "SKYARTE",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 NHK",
+    "year": 2024,
+    "broadcaster_id": "NHK",
+    "radio": 1,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 KBS",
+    "year": 2024,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 MBC",
+    "year": 2024,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 NACB",
+    "year": 2024,
+    "broadcaster_id": "NACB",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RTK",
+    "year": 2024,
+    "broadcaster_id": "RTK",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 LATVIJASRADIO",
+    "year": 2024,
+    "broadcaster_id": "LATVIJASRADIO",
+    "radio": 1,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 LRT",
+    "year": 2024,
+    "broadcaster_id": "LRT",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 SPR14",
+    "year": 2024,
+    "broadcaster_id": "SPR14",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 CANAL22",
+    "year": 2024,
+    "broadcaster_id": "CANAL22",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 ELONCE",
+    "year": 2024,
+    "broadcaster_id": "ELONCE",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 TVUNAM",
+    "year": 2024,
+    "broadcaster_id": "TVUNAM",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 RTCG",
+    "year": 2024,
+    "broadcaster_id": "RTCG",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 NPO",
+    "year": 2024,
+    "broadcaster_id": "NPO",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 NRK",
+    "year": 2024,
+    "broadcaster_id": "NRK",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 PBC",
+    "year": 2024,
+    "broadcaster_id": "PBC",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 SERTV",
+    "year": 2024,
+    "broadcaster_id": "SERTV",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 PR",
+    "year": 2024,
+    "broadcaster_id": "PR",
+    "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 TVP",
+    "year": 2024,
+    "broadcaster_id": "TVP",
+    "radio": 0,
+    "tv": 3,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RTP",
+    "year": 2024,
+    "broadcaster_id": "RTP",
+    "radio": 1,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 TVR",
+    "year": 2024,
+    "broadcaster_id": "TVR",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 ROR",
+    "year": 2024,
+    "broadcaster_id": "ROR",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 RTS",
+    "year": 2024,
+    "broadcaster_id": "RTS",
+    "radio": 3,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 RTVS",
+    "year": 2024,
+    "broadcaster_id": "RTVS",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RTVSLO",
+    "year": 2024,
+    "broadcaster_id": "RTVSLO",
+    "radio": 2,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 SABC",
+    "year": 2024,
+    "broadcaster_id": "SABC",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RTVE",
+    "year": 2024,
+    "broadcaster_id": "RTVE",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 SVT",
+    "year": 2024,
+    "broadcaster_id": "SVT",
+    "radio": 0,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 SVERIGESRADIO",
+    "year": 2024,
+    "broadcaster_id": "SVERIGESRADIO",
+    "radio": 3,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 VIAPLAY",
+    "year": 2024,
+    "broadcaster_id": "VIAPLAY",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 SRGSSR",
+    "year": 2024,
+    "broadcaster_id": "SRGSSR",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 THAIPBS",
+    "year": 2024,
+    "broadcaster_id": "THAIPBS",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 TRT",
+    "year": 2024,
+    "broadcaster_id": "TRT",
+    "radio": 1,
+    "tv": 1,
+    "web": 2,
+    "sp_prize": 1
+  },
+  {
+    "id": "2024 TVTM",
+    "year": 2024,
+    "broadcaster_id": "TVTM",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 UAPBC",
+    "year": 2024,
+    "broadcaster_id": "UAPBC",
+    "radio": 2,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 BBC",
+    "year": 2024,
+    "broadcaster_id": "BBC",
+    "radio": 3,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 C4",
+    "year": 2024,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 ITV",
+    "year": 2024,
+    "broadcaster_id": "ITV",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 RV",
+    "year": 2024,
+    "broadcaster_id": "RV",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 EBU",
+    "year": 2024,
+    "broadcaster_id": "EBU",
+    "radio": 0,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 BALANCE",
+    "year": 2024,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -3
   }
 ]

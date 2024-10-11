@@ -1546,7 +1546,7 @@
     "target": "[\"other\"]",
     "kind": "[\"Special Prize\",\"Honorary\"]",
     "operation": "[\"honorary\",\"external\"]",
-    "present": 0,
+    "present": 1,
     "first_year": 1998
   },
   {
@@ -2491,7 +2491,7 @@
   },
   {
     "id": 242,
-    "prize": "Special Prize of the President of the Italian Republic",
+    "prize": "Special Prize in Honour of the President of the Italian Republic",
     "prize_abbr": "Sp. Prize President of the Italian Republic",
     "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\",\"tv art\",\"tv fiction\",\"tv nonfiction\",\"web other\"]",
     "kind": "[\"Special Prize\",\"President\"]",

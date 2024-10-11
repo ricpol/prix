@@ -1,182 +1,602 @@
 [
   {
+    "sort": 1,
+    "year": 1950,
+    "full_name": "Marcel Bezençon",
+    "surname": "Bezençon",
+    "surname_ord": "bezençon",
+    "description": "Ostensibly, the Prix Italia was born as a community of broadcasters, but in practice, its success was due to a community of individuals – colleagues and friends strongly connected by a common ideal of peace, unity, and beauty in post-war reconstruction Europe. Perhaps no one deserves the title of \"first friend\" of the Prix Italia more than Swiss SSR director <b>Marcel Bezençon</b>, who was among its most enthusiastic promoters since the semi-official preliminary meetings in 1947. Enamoured with Italy and its culture, Bezençon is best known as the longtime president of the EBU in the 1960s, and for devising the massive success of the Eurovision Song Contest (inspired by the Sanremo Festival). But he was also the architect of the TV \"Festival de la Rose d'or\" in Montreux, and president of the Prix Italia assembly on several occasions, the first time as early as 1950: year after year, the Prix community would return to offer him the position, in gratitude and esteem for his prestige and charisma."
+  },
+  {
+    "sort": 2,
     "year": 1949,
     "full_name": "Felice Casorati",
     "surname": "Casorati",
-    "description": "One of the most important painters, engravers and scenographers of the first half of the twentieth century, <b>Felice Casorati</b> collaborated with RAI in Turin on several occasions in the last years of his life. For the Prix Italia he produced some engravings for the Capri convention volume in 1948, a series of four lithographs for the first edition in 1949, and an engraving for the cover of the book of the Prix's first 10-year anniversary in 1958."
+    "surname_ord": "casorati",
+    "description": "One of the most important painters, engravers, and scenographers of the first half of the twentieth century, <b>Felice Casorati</b> collaborated with Rai in Turin many times in the last years of his life. For the Prix Italia, he produced some engravings for the Capri convention volume in 1948, a series of four lithographs for the first edition in 1949, and an engraving for the cover of the book of the Prix's 10-year anniversary in 1958."
   },
   {
+    "sort": 3,
+    "year": 1948,
+    "full_name": "Alberto Mantelli",
+    "surname": "Mantelli",
+    "surname_ord": "mantelli",
+    "description": "Behind the competition and its never-ending flow of programmes, jurors, delegates, participants, and winners, over the decades the Prix Italia has always been managed by a competent staff in support of the Secretary General, working when required \"like a kamikaze\", as one impressed journalist once put it. <b>Alberto Mantelli</b>, the irreplaceable right-hand man of the first Secretary General Gian Franco Zaffrani, might be seen as a symbol of this silent operational machine. Mantelli contributed more than anyone in shaping the Prix in its early years: his, for example, was the editorial co-ordination of the catalogues and prestigious publications revolving around the competition. He can be spotted in the photos of the proceedings, flawless and discreet next to Zaffrani; very reserved, he disappears as if by magic from those of the more convivial moments. But far beyond his work for the Prix Italia, Mantelli was a towering figure of early Italian radio, of which he was the main conceiver and first director of the Third Programme. An outstanding musicologist and music critic himself, he founded <i>L'Approdo Musicale</i>, one of Italy's most influential musicology journals."
+  },
+  {
+    "sort": 4,
     "year": 1951,
     "full_name": "René Clair",
     "surname": "Clair",
-    "description": "<b>René Clair</b>'s celebrated victory in 1951 with his first radio work <i>The Devil's Teardrop</i> is… perhaps best understood in context. Clair, a sacred monster of 1920s-40s cinema, was mostly considered unfashionable at the time, and actively contested by the nascent New Wave of French cinema. On the other hand, the Prix Italia, still young in its third edition, had a boost in reputation from this choice, which helped consolidate its international prestige. All that being said, <i>The Devil's Teardrop</i> remains a work of great charm, elevated furthermore by an extraordinary voice work by Gérard Philipe (speaking of sacred monsters…)."
+    "surname_ord": "clair",
+    "description": "<b>René Clair</b>'s celebrated victory in 1951 with his first radio work <i>The Devil's Teardrop</i> is perhaps best understood in context. Clair, a sacred monster of 1920s-40s cinema, was mostly considered unfashionable at the time, and actively contested by the nascent New Wave of French cinema. On the other hand, the Prix Italia, still young in its third edition, had a boost in reputation from this choice, which helped consolidate its international prestige. That said, <i>The Devil's Teardrop</i> remains a work of great charm, further elevated by an extraordinary voice work by Gérard Philipe (speaking of sacred monsters…)."
   },
   {
+    "sort": 5,
+    "year": 1954,
+    "full_name": "Bernard Berenson",
+    "surname": "Berenson",
+    "surname_ord": "berenson",
+    "description": "For many years, the Prix Italia cultivated the tradition of producing or otherwise stimulating the publication of fine art books related to the year's host city, in collaboration with the Rai publishing house. One of the high points of this cultural output occurred at the 1954 Prix Italia in Florence, with the publication of a collection of <i>Drawings of the Florentine Masters</i> by the giant of art history <b>Bernard Berenson</b>, then a nonagenarian, who had been living for years in the Florentine countryside. The book is of particular importance in that it features extensive material from Berenson's 1903 masterpiece <i>The Drawings of the Florentine Painters</i>, thus offering an early translation several years before the first complete Italian edition of 1961."
+  },
+  {
+    "sort": 6,
+    "year": 1954,
+    "full_name": "Dylan Thomas",
+    "surname": "Thomas",
+    "surname_ord": "thomas",
+    "description": "The figure of <b>Dylan Thomas</b> dominated the 1954 edition of the Prix Italia. The most visionary, cryptic, fascinating, and brilliant poet of the post-Eliot generation had only the year before finished the radio adaptation of what was to remain his last work, <i>Under Milk Wood.</i> A producer for the BBC, who had commissioned it, had to literally snatch the manuscript out of the author's hand on the steps of the plane taking him to New York, where he would die of pneumonia at age 39, after a <i>maudit</i> life marked by alcoholism. Graced by the unmistakable voice of a then barely 30-year-old Richard Burton, <i>Under Milk Wood</i> deeply impressed the jury and the audience: the Prix Italia it received was both the recognition of a masterpiece and a posthumous tribute to one of the greats of the 20th century."
+  },
+  {
+    "sort": 7,
+    "year": 1955,
+    "full_name": "Alain Trutat",
+    "surname": "Trutat",
+    "surname_ord": "trutat",
+    "description": "It was of course <b>Alain Trutat</b>, the poet of radio, who made the first French adaptation of Dylan Thomas's <i>Under Milk Wood</i>, immediately after the memorable victory at the 1954 Prix Italia (it is worth mentioning that Trutat's boss at RTF, Paul Gilson, himself an author and poet, was president of that jury). As it happens, just one year later, in 1955, victory fell to Trutat as the producer and director of <i>Ruisselle</i>, a fairy tale to the music of Maurice Jarre. Later on, his directions for French radio brought him two more victories: in 1961 and 1963, the same year when, in the context of the reorganisation of the ORTF, he was among the founders of the cultural radio channel France Culture. A great supporter of the Prix Italia, Trutat would participate assiduously in the festival as a juror or delegate and would be president of the jury in 1974."
+  },
+  {
+    "sort": 8,
+    "year": 1955,
+    "full_name": "Maurice Jarre",
+    "surname": "Jarre",
+    "surname_ord": "jarre",
+    "description": "<b>Maurice Jarre</b>'s legacy will forever remain linked to the three Oscars he won for the soundtracks of David Lean's films. But before his international career took off with <i>Laurence of Arabia</i>, Jarre was already a well-known composer in France. Appointed by Jean Vilar as music director of the Théâtre National Populaire in 1951, he composed incidental music for more than thirty of the company's plays. At the same time, he frequently collaborated with French radio. To this early fertile decade of his career date both the Prix Italia he won: the first one, in 1955, for the radio drama <i>Ruisselle</i> (directed by Alain Trutat and featuring the voice of Maria Casarès); the second, for television, for <i>The Fire Maidens</i> (1962), a Youri ballet choreographed by Georges Skibine (and directed by Jean-Marie Coldefy, one of the pioneers of French TV)."
+  },
+  {
+    "sort": 9,
     "year": 1957,
     "full_name": "Bertil Danielsson",
     "surname": "Danielsson",
-    "description": "<b>Bertil Danielsson</b>'s innovative and poetic <i>Viggen Viggo</i> earned Sweden's television its first international award: the Prix Italia for documentaries in 1957. A showcase for Konrad Lorenz's theories, not yet so widespread at the time, and a manifesto of a possible coexistence between man and nature, <i>Viggen Viggo</i> is still a cornerstone of nature documentary filmmaking. As for Danielsson, he went on to win the Prix Italia again in 1964."
+    "surname_ord": "danielsson",
+    "description": "<b>Bertil Danielsson</b>'s innovative and poetic <i>Viggo the Sea Duck</i> earned Sweden's television its first international award: the Prix Italia for documentaries in 1957. A showcase for Konrad Lorenz's theories, then not so widespread yet, and a manifesto of a possible coexistence between man and nature, <i>Viggo the Sea Duck</i> is still a cornerstone of nature documentary filmmaking. As for Danielsson, he went on to win the Prix Italia again in 1964."
   },
   {
-    "year": 1958,
-    "full_name": "Friedrich Dürrenmatt",
-    "surname": "Dürrenmatt",
-    "description": "When he won the Prix Italia in 1958, <b>Friedrich Dürrenmatt</b> was certainly no longer an unknown. \"The heir of Brecht\" had been causing a stir on the stage for more than ten years, with his uncompromising plays and his baroque, sanguine, anti-naturalistic language. However, Dürrenmatt, already a successful novelist, was still somewhat new to the radio drama genre. His first experiment <i>The breakdown</i> had been a great success only the year before, but his instinct was almost immediately to rewrite it as a novel. This <i>One Evening in Late Autumn</i>, produced by the Austrian ORF, on the other hand, proved conclusively that one of the most original voices of the post-war period also had quite a knack for the radio, a medium he would go on to cultivate assiduously in the years to come."
-  },
-  {
+    "sort": 10,
     "year": 1958,
     "full_name": "Takemitsu Tōru",
     "surname": "Takemitsu",
-    "description": "One of the most influential Japanese composers of the 20th century, <b>Takemitsu Tōru</b> first came to international notoriety when, as the story goes, Igor Stravinsky accidentally heard and praised his <i>Requiem for strings</i> during a visit to Japan in 1959. Actually, a highly perceptive Prix Italia jury had already figured it out the year before. <i>Three Images in Worlds and Music</i> (NHK) was a trilogy that included works by Hayashi Hikaru and Irino Yoshirō, as well as Takemitsu Tōru. The prize received confirmed the extraordinary moment of Japanese avant-garde music, and at the same time the value of the Prix as a bridge between cultures."
+    "surname_ord": "takemitsu",
+    "description": "One of the most influential Japanese composers of the 20th century, <b>Takemitsu Tōru</b> first came to international notoriety when, as the story goes, Igor Stravinsky accidentally heard and praised his <i>Requiem for Strings</i> during a visit to Japan in 1959. However, a highly perceptive Prix Italia jury had already figured his talent out the year before. <i>Three Images in Worlds and Music</i> (NHK) was a trilogy that included works by Hayashi Hikaru and Irino Yoshirō, as well as Takemitsu Tōru. The prize received confirmed the extraordinary moment of Japanese avant-garde music and, at the same time, the value of the Prix Italia as a bridge between cultures."
   },
   {
+    "sort": 11,
+    "year": 1958,
+    "full_name": "Friedrich Dürrenmatt",
+    "surname": "Dürrenmatt",
+    "surname_ord": "durrenmatt",
+    "description": "When he won the Prix Italia in 1958, <b>Friedrich Dürrenmatt</b> was certainly no longer an unknown. \"The heir of Brecht\" had been causing a stir on the stage for more than ten years, with his uncompromising plays and baroque, sanguine, anti-naturalistic language. However, Dürrenmatt, already a successful novelist and playwright, was still somewhat new to the vehicle of radio drama. His first experiment, <i>The Breakdown</i>, had been a great success only the year before, but his instinct was almost immediately to rewrite it as a novel. This <i>One Evening in Late Autumn</i>, produced by the Austrian ORF, on the other hand, proved conclusively that one of the most original voices of the post-war period also had quite a knack for the radio, a medium he would go on to cultivate assiduously in the years to come."
+  },
+  {
+    "sort": 12,
     "year": 1958,
     "full_name": "Sergio Zavoli",
     "surname": "Zavoli",
-    "description": "<b>Sergio Zavoli</b> kicked off a 50-year career with RAI, which would see him become its President as well as Italy's best-known TV journalist, by winning the Prix Italia twice with as many radio documentaries in 1953 and 1958. The latter, in particular was a unique and unrepeatable testimony, documenting life in a cloistered monastery in the pre-conciliar era: <i>Seclusion</i> was a huge success, was translated and circulated abroad, becoming a first international breakthrough for Rai, and Zavoli set a standard for the very spirit of the Prix Italia in its early years."
+    "surname_ord": "zavoli",
+    "description": "<b>Sergio Zavoli</b> kicked off a 50-year career at Rai, which would see him become its President as well as Italy's best-known TV journalist, by winning the Prix Italia twice with as many radio documentaries in 1953 and 1958. The latter, in particular was <i>Seclusion</i>, a unique and unrepeatable testimony documenting life in a cloistered monastery in the pre-conciliar era, with which Zavoli set a standard for the very spirit of the Prix Italia in its early years. A huge success, it was widely translated and circulated abroad, becaming the first international breakthrough for Rai."
   },
   {
+    "sort": 13,
     "year": 1959,
     "full_name": "Samuel Beckett",
     "surname": "Beckett",
-    "description": "<b>Samuel Beckett</b>'s very presence at the 1959 Prix Italia award ceremony was a sensational and unusual event and, in its own way, a very Beckettian affair. Famously reluctant to mundane occasions, Beckett appeared in his full mask of austerity, seemingly impervious to emotion, only briefly shaking hands with the Rai managing director who was awarding him the prize for his play <i>Embers</i>. \"Closed in on himself like a porcupine\", in the words of one of the many journalists who tried with little luck to wrest a few words from him. But his very presence there, as hermetic and oracular as his masterpieces, resonated with prestige and dignity: the Prix Italia, \"the Oscar of radio\", and the supreme poet were meeting on the same level."
+    "surname_ord": "beckett",
+    "description": "<b>Samuel Beckett</b>'s attendance at the 1959 Prix Italia award ceremony was a sensational and unusual event and, in its own way, a very Beckettian affair. Famously reluctant to mundane occasions, Beckett appeared in his full mask of austerity, seemingly impervious to emotion, only briefly shaking hands with the Rai managing director who was awarding him the prize for his play <i>Embers</i>, \"closed in on himself like a porcupine\", in the words of one of the many journalists who tried with little luck to wrest a few words from him. But his very presence there, as hermetic and oracular as his masterpieces, resonated with prestige and dignity: the supreme poet and the Prix Italia, \"the Oscar of radio\", and  were meeting on the same level."
   },
   {
+    "sort": 14,
+    "year": 1959,
+    "full_name": "Nino Rota",
+    "surname": "Rota",
+    "surname_ord": "rota",
+    "description": "One shall not even try to summarize <b>Nino Rota</b>'s career and importance in a few lines. His worldwide fame is due to the unforgettable soundtracks for Fellini, Visconti, and Coppola; yet his orchestral, chamber, and vocal output also puts him among the most notable Italian composers of the 20th century. He won a Nastro d'Argento in 1969, a David di Donatello in 1977, and in between a BAFTA Award, a Golden Globe, and an Academy Award. It is also worth mentioning that Rota had already been well known to the always vigilant Prix Italia juries for at least a decade earlier: <i>The Two Shy Ones</i> already received a mention in 1950, but then the stunning avant-garde <i>A Neurasthenic's Night</i> (conducted for the occasion by none other than Bruno Maderna) won the prize in 1959."
+  },
+  {
+    "sort": 15,
     "year": 1960,
     "full_name": "Ugo Gregoretti",
     "surname": "Gregoretti",
-    "description": "<b>Ugo Gregoretti</b>, a man of sophisticated yet not ostentatious culture, of acute if good-natured irony, always subversive and never provocative, enjoyed an extraordinary career first as a TV director and then in the cinema, but also in theatre and as a writer. He first made himself known at the Prix Italia in 1960, with a short film on <i>The Sicily of The Leopard</i>, a lucid and affectionate documentary on the tracks of Tomasi di Lampedusa's masterpiece, which earned Rai the Prix Italia."
+    "surname_ord": "gregoretti",
+    "description": "<b>Ugo Gregoretti</b>, a man of sophisticated yet not ostentatious culture, of acute if good-natured irony, always subversive and never provocative, enjoyed an extraordinary career first as a TV director and then in the cinema, but also in theatre and as a writer. He first made himself known at the Prix Italia in 1960, with a short film on <i>The Sicily of The Leopard</i>, which earned Rai the Prix Italia: a lucid and affectionate documentary on the tracks of Tomasi di Lampedusa's masterpiece."
   },
   {
+    "sort": 16,
+    "year": 1960,
+    "full_name": "Henri Pousseur",
+    "surname": "Pousseur",
+    "surname_ord": "pousseur",
+    "description": "In the early years of the Prix Italia, the jury picks in the music section were overall oriented towards a degree of caution. Scrolling through the list of winners in the 1950s and 1960s, the scant consideration for the avant-garde may strike us as a shortcoming. However, at least in part, this was a programmatic choice: the Prix Italia, meant to reward Radio and its role as a cultural mediator, also took into account the accessibility of the works to the general public. The mould-breaking choice of 1960 stands out all the more when <i>Electra</i>, a production of Belgian RTB by <b>Henri Pousseur</b>, won over the jury. Pousseur was, in fact, one of the founders of the Darmstadt school and represented, together with Boulez, Stockhausen, Berio, Maderna, Nono, and Kagel, the spearhead of musical research in the 1950s. <i>Electra</i> itself is a vast and layered work featuring a mixed orchestration of traditional instruments, voices, and electronic music. At the same time, it remains in the groove of a tradition, from Monteverdi to Stockhausen, of blending music and the spoken word, which for Pousseur finds its fulfilment in the possibilities of the radiophonic medium."
+  },
+  {
+    "sort": 17,
     "year": 1961,
     "full_name": "Gary Cooper",
     "surname": "Cooper",
-    "description": "In a career spanning nearly 40 years, <b>Gary Cooper</b> starred in more than 100 films and won two Oscars for best actor. His last performance, however, was not for the big screen but for television, as narrator of the documentary <i>The Real West</i>. Already very ill, Cooper wanted to participate anyway, narrating the true story of the legendary West of which he had been one of the most celebrated movie icons. The documentary won the Prix Italia in 1961, a few months after the star's death."
+    "surname_ord": "cooper",
+    "description": "In a career spanning nearly 40 years, <b>Gary Cooper</b> starred in more than 100 films and won two Oscars for best actor. His last performance, however, was not for the big screen but for television, as narrator of the documentary <i>The Real West</i>. Already very ill, Cooper wanted to participate anyway, narrating the true story of the legendary West, of which he had been one of the most celebrated movie icons. The documentary won the Prix Italia in 1961, a few months after the star's death."
   },
   {
+    "sort": 18,
     "year": 1961,
     "full_name": "Birgit Cullberg",
     "surname": "Cullberg",
-    "description": "While the TV competition was born in 1957, the Prix Italia hesitated several years before creating a \"noble\" musical art category for television as well. Could TV ever be an equally suitable medium for music and art, as the radio proved to be? Legendary Swedish choreographer <b>Birgit Cullberg</b> dispelled any doubts by claiming the first Prix Italia for TV Musical Works in 1961 with <i>The Evil Queen</i>. Cullberg's gradual experiments in TV choreography would leave a deep mark in the following years: <i>Red Wine in a Green Glass</i>, her second win in 1971, already made sophisticated use of the chroma key, among other things. Her son <b>Mats Ek</b>, who will pick up her legacy, will in turn win the Prix Italia in 1997, 1999 and 2010. When genius, and the Prix, runs in the family…"
+    "surname_ord": "cullberg",
+    "description": "While the TV competition was born in 1957, the Prix Italia hesitated several years before creating a \"noble\" musical art category for television as well. Could TV ever be an equally suitable medium for music and arts, as the radio proved to be? Swedish choreographer <b>Birgit Cullberg</b> dispelled any doubts by claiming the first Prix Italia for TV Musical Works in 1961 with <i>The Evil Queen</i>. Cullberg's gradual experiments in TV choreography would leave a deep mark in the following years: <i>Red Wine in a Green Glass</i>, her second win in 1971, already made sophisticated use of the chroma key, among other things. Her son <b>Mats Ek</b>, who would pick up her legacy, will, in turn, win the Prix Italia in 1997, 1999, and 2010. When genius (and the Prix) runs in the family."
   },
   {
+    "sort": 19,
+    "year": 1961,
+    "full_name": "Karlheinz Stockhausen",
+    "surname": "Stockhausen",
+    "surname_ord": "stockhausen",
+    "description": "Every major international award has its own regret list, and in the ranking of Prix Italia's most egregious oversights, <b>Karlheinz Stockhausen</b> would come very close to the top. At least four times in the 1960s and 1970s, German broadcaster ARD submitted his works in competition, starting with <i>Carré</i> (1961) and following with <i>Moments</i> (1963), <i>Trans</i> (1976) and <i>Sirius</i> (1977). Despite these being large-scale works and key moments in Stockhausen's output (<i>Sirius</i>, for instance, is the immediate precursor of the masterpiece <i>Licht</i>), none of them managed to win the coveted Prix Italia for Radio Music."
+  },
+  {
+    "sort": 20,
+    "year": 1963,
+    "full_name": "Eugène Ionesco",
+    "surname": "Ionesco",
+    "surname_ord": "ionesco",
+    "description": "The victory of <i>The Lesson</i> (produced by the Danish DR) in the 1963 TV music competition was the result of a collaboration between some truly extraordinary individuals. Dancer and choreographer Flemming Flindt had the idea of adapting <b>Eugène Ionesco</b>'s masterpiece into ballet, turning it into a dance lesson. The intuition was felicitous: the rigour required to learn ballet was perfectly suited to the increasingly oppressive progression of the original play. Ionesco himself contributed to the project, forming a fruitful collaboration with Flemming. The final touch came from the music score of Georges Delerue, for whom the Prix Italia was the first international award and who would go on to an extraordinary career as a favourite New Wave composer, with hundreds of soundtracks for both French and Hollywood masters. The following year, Flindt adapted the play for the theatre, and in that form it soon became one of Rudolf Nureyev's most famous performances."
+  },
+  {
+    "sort": 21,
     "year": 1963,
     "full_name": "Harold Pinter",
     "surname": "Pinter",
-    "description": "Perhaps the first world-class playwright to truly embrace the new medium, by 1963 <b>Harold Pinter</b> was writing for theatre, TV or both at the same time. <i>The Lover</i> is a typical example of his 'comedies of menace', where futile, everyday details gradually pile up and assume a disturbing and mysterious significance. The Prix Italia he won that year (for a then-Rediffusion/ITV production) had a twofold importance: it confirmed Pinter as one of the great talents of his generation, and settled once and for all the question of whether TV could, just like radio, be a vehicle for cutting edge dramatic literature."
+    "surname_ord": "pinter",
+    "description": "Perhaps the first world-class playwright to truly embrace the new medium, by 1963 <b>Harold Pinter</b> was writing for theatre, TV, or both at the same time. <i>The Lover</i> is a typical example of his \"comedies of menace\", where futile, everyday details gradually pile up and assume a disturbing and mysterious significance. The Prix Italia he won that year (for a then-Rediffusion/ITV production) had a twofold importance: it confirmed Pinter as one of the great talents of his generation and settled once and for all the question of whether TV could, just like radio, be a vehicle for cutting edge dramatic literature."
   },
   {
+    "sort": 22,
     "year": 1964,
     "full_name": "Melville De Mellow",
     "surname": "De Mellow",
-    "description": "<b>Melville De Mellow</b> is the grandfather of Indian radio broadcasters, elevated to immense national popularity after his historic 7-hour coverage of Gandhi's funeral. Mainly a sports and current news commentator, at the peak of his fame he set out to produce a nature documentary: he plunged into the jungle with a small crew, exposing himself to great risks, to capture the sounds of the elusive Asiatic lions. It was a special project, designed to be presented at the most prestigious radio competition in the world. <i>Lali and the Gir Lions</i> marked All India Radio's first participation in the Prix Italia and won a Special Prize in 1964."
+    "surname_ord": "de mellow",
+    "description": "<b>Melville De Mellow</b> is the grandfather of Indian radio broadcasters, elevated to immense national popularity after his historic 7-hour coverage of Gandhi's funeral. Mainly a sports and current news commentator, at the peak of his fame he set out to produce a nature documentary: he plunged into the jungle with a small crew, exposing himself to great risks to capture the sounds of the elusive Asiatic lions – a special project designed to be submitted to the most prestigious radio competition in the world. <i>Lali and the Gir Lions</i> marked All India Radio's first participation in the Prix Italia and won a Special Prize in 1964."
   },
   {
+    "sort": 23,
     "year": 1966,
     "full_name": "Gian Franco Zaffrani",
     "surname": "Zaffrani",
-    "description": "In its 75 years of existence, the Prix Italia has awarded over 900 prizes - and received at least two! In 1978, on the occasion of its 30th anniversary, it was given the prestigious Emmy Directorate Award, honouring individuals or organisations for their outstanding contribution to international television. To date, it is the only case of an organisation having won this award. Even earlier, in 1966 <b>Gian Franco Zaffrani</b>, the first Secretary General of the Prix, was awarded the Bronze Medallion, the highest civic honour of New York City \"for his contribution to International Broadcasting and to the Culture of the People of the City of New York\"."
+    "surname_ord": "zaffrani",
+    "description": "In its 75 years of existence, the Prix Italia has awarded over 900 prizes, but received at least two! In 1978, on the occasion of its 30th anniversary, it was given the prestigious Emmy Directorate Award, honouring individuals or organisations for their outstanding contribution to international television. To date, it is the only case of an organisation having won this award. Even earlier, in 1966 <b>Gian Franco Zaffrani</b>, the first Secretary General, was awarded the Bronze Medallion, the highest civic honour of New York City \"for his contribution to International Broadcasting and to the Culture of the People of the City of New York\"."
   },
   {
+    "sort": 24,
+    "year": 1966,
+    "full_name": "Luciano Berio",
+    "surname": "Berio",
+    "surname_ord": "berio",
+    "description": "One of the most significant composers of the European avant-garde, <b>Luciano Berio</b> is the other half (together with Bruno Maderna) of the creative forge of Rai's Studio di Fonologia in Milan. Already in 1955, Rai presented their seminal <i>Portrait of a City</i> out of competition, but the first Prix Italia victory came in 1966 with the work <i>Laborintus II</i>, actually a commission from the French ORTF. For Rai, Berio won again in 1975 with <i>Imaginary Diary</i> (with Giorgio Pressburger) and again in 1982 with <i>Duo</i>, a radio theatre composition on a text by Italo Calvino."
+  },
+  {
+    "sort": 25,
+    "year": 1967,
+    "full_name": "Pierre Schoendoerffer",
+    "surname": "Schoendoerffer",
+    "surname_ord": "schoendoerffer",
+    "description": "Journalist and war reporter <b>Pierre Schoendoerffer</b> followed the Indochina War as a cameraman for the French army's information service. He stayed in the region for four years, four months of which he spent in a Viet Minh prison camp. This first experience resulted in the war film <i>The 317th Platoon</i>, which won at Cannes and earned him international notoriety. Ten years later, after American troops had taken over, the war in Vietnam was still going on. Commissioned by French ORTF, Schoendoerffer returned to the theatre of war in the autumn of 1965; there, for six weeks he filmed the daily life of an American platoon. The result was <i>The Anderson Platoon</i>, an exceptional TV documentary that helped shed light on the war and was an immediate sensation, winning an Academy Award in 1967, just before earning the Prix Italia in the same year, and then an Emmy the following year."
+  },
+  {
+    "sort": 26,
+    "year": 1967,
+    "full_name": "Krszysztof Penderecki",
+    "surname": "Penderecki",
+    "surname_ord": "penderecki",
+    "description": "After the initial breakthrough of <i>Threnody to the Victims of Hiroshima</i>, <b>Krszysztof Penderecki</b>'s definitive international consecration came at the 1967 Prix Italia, where ARD presented his monumental <i>Passion According to St. Luke</i>. A work of exceptional performing difficulty, and the fruit of years of laborious gestation, the Passion is the expression of a vast, far-reaching musical thinking, which combines serialism with Baroque structure, the acoustic instruments of the tradition played with the new approach of sonorism, strongly dissonant and dramatic pieces alternating with long meditative segments. After winning the prize in the 1967 radio competition, Penderecki repeated himself the following year, this time in the TV section with <i>Dies Irae</i> (a ZDF production), another outstanding example of his deep spiritual vocation."
+  },
+  {
+    "sort": 27,
     "year": 1968,
     "full_name": "Giorgio Bandini",
     "surname": "Bandini",
-    "description": "<b>Giorgio Bandini</b> was \"the inventor of radio drama\" at RAI - documentarist, director, eclectic author, renovator of genres, one of the most original figures of Italian radio in the 1960s and 1970s. He obtained his first major recognition at the Prix Italia, winning in 1968 with <i>Nostra casa disumana</i>."
+    "surname_ord": "bandini",
+    "description": "<b>Giorgio Bandini</b> was \"the inventor of radio drama\" at Rai – documentarist, director, eclectic author, renovator of genres, and one of the most original figures of Italian radio in the 1960s and 1970s. He obtained his first major recognition at the Prix Italia, winning in 1968 with <i>Our Inhuman House</i>."
   },
   {
+    "sort": 28,
+    "year": 1968,
+    "full_name": "Ken Loach",
+    "surname": "Loach",
+    "surname_ord": "loach",
+    "description": "Widely regarded as one of the best television programmes ever in the UK, <i>Cathy Come Home</i> is the masterpiece of the first phase of <b>Ken Loach</b>'s career as a television director for the BBC. It was submitted at the Prix Italia in the fateful year 1968, the 20th anniversary but also the edition that marked a push for renewal, leading to a major overhaul of the competition a few years later. His victory was the first international recognition for a director still unknown at the time; it was also a sign that the Prix juries were ready to embrace more radical themes and productions that were emerging as a new direction for quality television."
+  },
+  {
+    "sort": 29,
+    "year": 1968,
+    "full_name": "János Komives",
+    "surname": "Komives",
+    "surname_ord": "komives",
+    "description": "Having fled to Paris after the Soviet invasion in 1956, the Budapest-born <b>János Komives</b> distinguished himself, not yet in his thirties, as an extraordinary conductor, leading in particular the ORTF orchestra. Indeed, a commission from the ORTF resulted in his first international recognition as a composer: <i>The True Story of the Choir Loft of Luca Della Robbia</i>, winner of the Prix Italia 1968, is a large-scale \"radio oratorio\" on a purportedly apocryphal medieval text, inspired by a visit to the Museo dell'Opera del Duomo in Florence. Ten years later, he would win again with the diametrically opposite <i>Open Heart</i> (Radio France, 1978), an intimate close-up of a heart surgery."
+  },
+  {
+    "sort": 30,
+    "year": 1968,
+    "full_name": "Tom Stoppard",
+    "surname": "Stoppard",
+    "surname_ord": "stoppard",
+    "description": "Fresh from the sudden, extraordinary success of <i>Rosencrantz and Guildenstern Are Dead</i>, in 1968 <b>Tom Stoppard</b>, still at the beginning of his career, could hardly be called an unknown. In those years, he alternated his output for the theatre with several radio originals for the BBC. <i>Albert's Bridge</i>, for example, was created for radio in 1967. After winning the Prix Italia in 1968, it made its theatre debut the following year. All in all, 1968 was not a bad year for Stoppard, as <i>Rosencrantz</i> had triumphed at the Tony Awards only a few months earlier."
+  },
+  {
+    "sort": 31,
+    "year": 1969,
+    "full_name": "Jiří Vilímek",
+    "surname": "Vilímek",
+    "surname_ord": "vilimek",
+    "description": "In 1957, Czech Radio promoted a large competition for radio scripts, which helped to relaunch its repertoire and resulted in a golden age for its prose production in the following decade. Among the most interesting newly discovered authors was <b>Jiří Vilímek</b>, a writer with strong political sensibility who often played on the edge of what was allowed at the time. In <i>The Inevitable Death of a Marathon Runner</i>, a newspaper editorial staff portrays the story of an athlete, ever more magnified to mythical dimensions. The public is in a frenzy, but the real protagonist is now less appealing than his fictional version: for the authors, the best option to keep up the success is to kill the marathon runner. This work, eerily anticipating Sidney Lumet's <i>Network</i>, was actually a scathing critique of the cult of Julio Fučík fabricated by Soviet propaganda. But the prize awarded by the jury at the 1969 Prix Italia was also a quiet but meaningful gesture of support after the events of the spring of the year before."
+  },
+  {
+    "sort": 32,
+    "year": 1969,
+    "full_name": "Krzysztof Zanussi",
+    "surname": "Zanussi",
+    "surname_ord": "zanussi",
+    "description": "Search around, and you will easily find that <i>The Structure of Crystals</i> (1969) is the debut feature of Polish film master <b>Krzysztof Zanussi</b>. This is accurate, up to a point. Already in 1967-1968, Polish TV showcased Zanussi's first shorts: in particular, <i>Face to Face</i> was deemed suitable for the 1969 Prix Italia. Indeed, this 25-minute short is a worthy prologue to the much more famous feature film; in the episode of ordinary indifference of a man who causes the death of a stranger being chased by the police, one already finds his usual themes of moral anxiety and the hollowness of the Polish intelligentsia. Hence, the year before <i>The Structure of Crystals</i> started to be noticed on the festival circuit worldwide, the jurors of the Prix Italia were the first to assess this emerging talent and to realise that the \"third wave\" of Polish cinema was just around the corner."
+  },
+  {
+    "sort": 33,
+    "year": 1969,
+    "full_name": "Petr Weigl",
+    "surname": "Weigl",
+    "surname_ord": "weigl",
+    "description": "A sophisticated stylist, Czech director <b>Petr Weigl</b> specialised in the field of music films in a decades-long career full of international awards, including two Emmy nominations. A regular fixture of Czechoslovak television since the mid-1960s, he worked just as frequently for German (ARD and ZDF) and British (BBC and Channel 4) television. His work is an example of the relative cultural openness of the Iron Curtain and the co-productions between Eastern and Western broadcasters during the Cold War. The Prix Italia intercepted his genius at the beginning of his career, awarding him two victories in 1969 and 1972 (both for the Czech CST): the first for the dramatic, expressionistic direction of <i>The Labyrinth of Power</i>, to the music of Luboš Fišer; the second for the more classical take on Prokofief's ballet <i>Romeo and Juliet</i>, choreographed with energetic Zeffirellian flair by Miroslav Kůra."
+  },
+  {
+    "sort": 34,
     "year": 1970,
     "full_name": "Giorgio Pressburger",
     "surname": "Pressburger",
-    "description": "So multifaceted and prolific was the genius of <b>Giorgio Pressburger</b> that being considered one of the most original radio writers in the 1970s almost comes as a by-product. A novelist, essayist, author and director for theatre, radio, TV and the cinema, teacher, conceiver and artistic director of festivals and cultural events, a polyglot but above all a true Mitteleuropean intellectual gifted with a refined sensibility and a vast and curious culture, Pressburger's collaboration with RAI spanned more than 3 decades, both in radio and television. Between 1970 and 1975, he won the Prix Italia no less than three times: for <i>Giochi di fanciulli</i>, <i>Ages</i> (a collaboration with Bruno Maderna) and <i>Diario Immaginario</i> (with Luciano Berio). He won a special prize again in 1988 for the original <i>Gocce</i> radio format."
+    "surname_ord": "pressburger",
+    "description": "So multifaceted and prolific was the genius of <b>Giorgio Pressburger</b> that being considered one of the most original radio writers in the 1970s almost comes as a by-product. A novelist, essayist, author and director for theatre, radio, TV, and the cinema; a teacher, conceiver, and artistic director of festivals and cultural events; a polyglot but, above all, a true Mitteleuropean intellectual, gifted with a refined sensibility and a vast and curious culture, Pressburger's collaboration with Rai spanned more than three decades, both in radio and television. Between 1970 and 1975, he won the Prix Italia no less than three times: for <i>Children's Games</i>, <i>Ages</i> (a collaboration with Bruno Maderna), and <i>Imaginary Diary</i> (with Luciano Berio). He won a special prize again in 1988 for the original <i>Drops</i> radio format."
   },
   {
+    "sort": 35,
+    "year": 1971,
+    "full_name": "Adrian Cowell",
+    "surname": "Cowell",
+    "surname_ord": "cowell",
+    "description": "The five documentary features of <b>Adrian Cowell</b>'s <i>The Decade of Destruction</i> series on the systematic pillaging of the Amazon rainforest played a significant role in the rising of a new political and global environmental consciousness in the 1980s. <i>Mountains of Gold</i> (ITV; the third of the series), about mining exploitation in the Amazon, received a mention from the Prix Italia jury in 1989. But Cowell's commitment to documenting the environment and people of the Brazilian rainforest dates back to his first expedition in the 1960s. The fruit of his journalistic commitment is also the trilogy of documentaries dedicated to hidden, uncontacted, or little-known tribes. The first of these works, <i>The Tribe That Hides From Man</i> (ITA/ITCA), won the Prix Italia for TV documentary in 1971."
+  },
+  {
+    "sort": 36,
     "year": 1972,
     "full_name": "Umberto Eco",
     "surname": "Eco",
+    "surname_ord": "eco",
     "description": "When the Prix Italia decided to complement the \"practical part\" of its competitions with a more \"theoretical part\", thus starting the tradition of a major annual study conference on the topics of audiovisual, it only made sense to entrust the curatorship to one of the world's leading semiologists and mass-media specialists. <b>Umberto Eco</b> oversaw the scientific organization of the first two Prix Italia conferences, in 1972 and 1973."
   },
   {
+    "sort": 37,
     "year": 1972,
     "full_name": "Klaus Lindemann",
     "surname": "Lindemann",
-    "description": "Every so often, when we see a classical concert or ballet filmed on television, we get the feeling that the images flow \"just the right way\", always in time, never intrusive, supporting the music with discretion – this is a sign that we are watching a truly talented director at work. Such was <b>Klaus Lindemann</b>, who in the 1970s and 1980s helped set a golden standard for how music should be filmed on TV. The two Prix Italia won in 1972 (ZDF) and 1973 (ARD) are a tribute to the geniuses behind the scenes who create the aesthetics of what we watch on TV."
+    "surname_ord": "lindemann",
+    "description": "Every so often, when seeing a classical concert or ballet on television, one gets the feeling that the images flow just the right way, always in time, never intrusive, supporting the music with discretion – this is watching a truly talented director at work. Such was <b>Klaus Lindemann</b>, who, in the 1970s and 1980s, helped set a golden standard for how music should be filmed on TV. The two Prix Italia won in 1972 (ZDF) and 1973 (ARD) are a tribute to the geniuses behind the scenes forging the aesthetics of what we watch on TV."
   },
   {
+    "sort": 38,
     "year": 1972,
     "full_name": "Bruno Maderna",
     "surname": "Maderna",
-    "description": "The partnership between musician and conductor <b>Bruno Maderna</b> and Rai was both extensive and fruitful: together with Luciano Berio he founded in 1956 the legendary Studio di Fonologia at Rai in Milan, a hotbed for musical experimentation and innovation for decades to come. Inevitably, his participations in the Prix Italia was also frequent: already in 1959 he contributed to the victory of <i>La notte di un nevrastenico</i> by conducting Nino Rota's score. His win as a musician came only in 1972, a year before his untimely death, with <i>Ages</i>, a radio invention composed in collaboration with Giorgio Pressburger, adapted from Shakespeare's <i>As You Like It</i>."
+    "surname_ord": "maderna",
+    "description": "The partnership between musician and conductor <b>Bruno Maderna</b> and Rai was both extensive and fruitful: together with Luciano Berio he founded in 1956 the legendary Studio di Fonologia at Rai in Milan, a hotbed for musical experimentation and innovation for decades to come. Inevitably, his participation in the Prix Italia was also frequent: already in 1959, he contributed to the victory of <i>A Neurasthenic's Night</i> by conducting Nino Rota's score. His win as a musician came only in 1972, a year before his untimely death, with <i>Ages</i>, a radio invention composed in collaboration with Giorgio Pressburger, adapted from Shakespeare's <i>As You Like It</i>."
   },
   {
+    "sort": 39,
+    "year": 1973,
+    "full_name": "Sergio Borelli",
+    "surname": "Borelli",
+    "surname_ord": "borelli",
+    "description": "An independent journalist by vocation, a well-travelled, curious, and freethinking spirit, <b>Sergio Borelli</b> began a career as a foreign correspondent for various newspapers in the 1950s, before moving to Italian TV in 1965. He joined the staff of the Prix Italia at the beginning of the 1970s and worked there until 1987, in a long and fruitful collaboration especially with Secretary General Zorzi. The Prix Italia offered him the ideal platform to meet other TV operators interested in experimenting and networking: CIRCOM, born in 1973 to share this vision, from the following year would organise a meeting within the Prix annual festival from the following year. Borelli, one of the founders, would become its president between 1983 and 1989. In 1977, he was also one of the founders of INPUT, started as an international exchange programme between public televisions, and which Borelli would continue to work on full-time as programme coordinator, after he retired from Rai."
+  },
+  {
+    "sort": 40,
+    "year": 1975,
+    "full_name": "Jean-Pierre Ponnelle",
+    "surname": "Ponnelle",
+    "surname_ord": "ponnelle",
+    "description": "Before his untimely death in 1988, <b>Jean-Pierre Ponnelle</b> became known, over the course of thirty years, as one of the most visionary, if often controversial, opera directors. From the mid-1970s onwards, he also turned to adapting his stage directions for TV and making several TV art movies. His first major attempt, <i>Carmina Burana</i>, in 1975 was already a classic. A perfect synthesis of musical composition and scenic restitution, the work is a fascinating depiction of medieval society. Ponnelle succeeds in making renowned opera singers such as Lucia Popp and Hermann Prey act naturally, integrating them fully into the TV medium. <i>Carmina Burana</i> won ZDF a well-deserved prize at the Prix Italia that year."
+  },
+  {
+    "sort": 41,
+    "year": 1977,
+    "full_name": "Benjamin Britten",
+    "surname": "Britten",
+    "surname_ord": "britten",
+    "description": "The <i>Saint Nicolas</i> cantata bears witness to <b>Benjamin Britten</b>'s interest in music education and amateur practice. Written for a mixed ensemble with few professionals required, it is a piece of the highest musical inspiration, yet accessible in execution, and thus a favourite of school choirs and ensembles. The performance that took place on Christmas 1976 was memorable, albeit for a sad reason. Planned to celebrate the 400th anniversary of St. Albans Cathedral, it featured tenor Ian Paltridge and the Wandsworth School Boys' Choir, an exceptionally talented school choir that had collaborated with Britten on several occasions. The composer himself was to introduce, but he passed away shortly before the performance, which thus also became a posthumous tribute. The televising of the event earned IBA/ITCA the Prix Italia the following year."
+  },
+  {
+    "sort": 42,
+    "year": 1977,
+    "full_name": "Mauricio Kagel",
+    "surname": "Kagel",
+    "surname_ord": "kagel",
+    "description": "Versatility for <b>Mauricio Kagel</b> was the result of a totalizing, meta-medial approach to music and a programmatic statement about the role of music in society. At once a composer, photographer, and video maker, he found himself writing indifferently for concert halls, theatre, film, and television. The \"instrumental theatre\" he theorized, which combines sound with the visual component of instruments and performers in the act of playing, is not negated, but rather paradoxically emphasized, in the two radio compositions for which he won the Prix Italia. <i>Midnight Music</i> (ARD, 1985) is a piece for actors, chorus, and instruments based on texts by Robert Schumann. The radical <i>The Inversion of America</i> (ARD, 1977) experiments with the spectrum of possibilities of radio drama as an acoustic art form, proving Kagel's principle that \"radio drama is neither a literary nor a musical genre, but merely an acoustic one of undetermined substance\"."
+  },
+  {
+    "sort": 43,
+    "year": 1977,
+    "full_name": "Roberto Rossellini",
+    "surname": "Rossellini",
+    "surname_ord": "rossellini",
+    "description": "In the second part of his career, <b>Roberto Rossellini</b> abandoned cinema to devote himself to the medium of television. It was a meditated, programmatic choice: the eye of TV seemed to him more detached and objective; he also saw TV as a superior educational medium. He filmed dozens of hours of films and TV documentaries, establishing a canon of accuracy and formal elegance. His last works <i>Beaubourg</i> and <i>Concert for Michelangelo</i>, are both dedicated to art. The latter is an analytical exploration of various works by Michelangelo in a succession of slow, studied tracking shots. Rai presented it at the 1977 Prix Italia, just a few months after the author's sudden death."
+  },
+  {
+    "sort": 44,
+    "year": 1978,
+    "full_name": "Andrzej Wajda",
+    "surname": "Wajda",
+    "surname_ord": "wajda",
+    "description": "While the importance of <b>Andrzej Wajda</b> as a film director cannot be exaggerated, today the extraordinary quality of his stage directions remains largely appreciated by specialists only. His best theatre works are fortunately preserved and available through TV adaptations. In particular, the monumental 1974 staging of <i>November Night</i> at the Krakow Stary Theatre, considered one of Wajda's theatrical pinnacles, was remade for TV in 1978: it was Wajda's first contribution to the long-running series <i>Teatr Telewizji</i>, one of the noblest cultural institutions of Polish TV. Needless to say, TVP presented the programme at the Prix Italia in 1979 where, alas, it was not awarded a prize, perhaps because it was too eccentric compared to the formats of regular TV fiction. The importance of this submission did not, however, escape the Prix, which organised a panel discussion and preview screening dedicated to Wajda the following year."
+  },
+  {
+    "sort": 45,
+    "year": 1978,
+    "full_name": "George Tabori",
+    "surname": "Tabori",
+    "surname_ord": "tabori",
+    "description": "For the Hungarian Jew <b>George Tabori</b>, writing was the inevitable by-product of a restless and meaningful life: he wrote everything from Hollywood screenplays (Hitchcock's <i>I Confess</i>) to genre novels and, after a fateful encounter with Bertold Brecht, many scripts for the theatre, where, by the 1990s, he ended up to be the most performed author in Germany. In the crowd in Berlin on the day Hitler won the elections in 1933, exiled to London a few years later, he inhabited and embodied the 20th century. A director, actor, and master storyteller, he explored the relationship between Jews and Germans and the condition of the exile, always with sharp but good-natured irony devoid of bitterness. He left his mark on the Prix Italia with the victory in 1978 of his radio play <i>Weissmann and Copperhead</i> (ARD)."
+  },
+  {
+    "sort": 46,
+    "year": 1978,
+    "full_name": "Roland Joffé",
+    "surname": "Joffé",
+    "surname_ord": "joffe",
+    "description": "By 1977, <b>Roland Joffé</b> had the infamous MI5 \"Christmas tree\" attached to his name, meaning he was a suspected communist sympathiser. It was only thanks to the persistence of producer Tony Garnett that the BBC cleared him to direct the radical TV play <i>The Spongers</i>. Whatever the shady pressures of the times, it must be said that the BBC was quick to recognise the value of this outspoken critique of welfare spending cuts and submitted it to the Prix Italia in 1978, soon after it aired, in part as a statement of independence. The jury, for its part, was won over, and the victory of <i>The Spongers</i> marked the start of Joffé's international career."
+  },
+  {
+    "sort": 47,
     "year": 1979,
     "full_name": "Inger Åby",
     "surname": "Åby",
-    "description": "<b>Inger Åby</b> may well be the single most awarded person in the history of Prix Italia. At the forefront of the extraordinary season of the Swedish television in the 1980s (when SVT won nine times in ten years) Åby, a producer and director of great figurative talent, counts four wins for herself between 1979 and 1995. In 1983, her <i>Gustav III</i> was particularly acclaimed, a tale of a king's last day to the music of <i>Orpheus and Eurydice</i>."
+    "surname_ord": "aby",
+    "description": "<b>Inger Åby</b> may well be the single most awarded person in the history of Prix Italia. At the forefront of the extraordinary season of Swedish television in the 1980s (when SVT won nine times in ten years) Åby, a producer and director of great figurative talent, counts four wins for herself between 1979 and 1995. In 1983, her <i>Gustav III</i>, a tale of a king's last day to the music of <i>Orpheus and Eurydice</i> was particularly acclaimed."
   },
   {
+    "sort": 48,
+    "year": 1981,
+    "full_name": "Janina Jankowska",
+    "surname": "Jankowska",
+    "surname_ord": "jankowska",
+    "description": "By 1980, Polskie Radio reporter <b>Janina Jankowska</b> had already had her share of run-ins with the Security Services (SB) and was not entirely surprised when a very nervous regime banned her from documenting the ongoing strikes at the shipyards. It so happened that she casually took a few days of maternity leave, resulting in an extraordinary hour-long reportage of the strikes at the Gdańsk shipyard in the summer of 1980, which led to the birth of Solidarity. The programme was broadcast on the First Channel and reached all of Poland, contributing in no small measure to a new national awareness. <i>Polish Summer</i> won the Prix Italia the following year."
+  },
+  {
+    "sort": 49,
+    "year": 1981,
+    "full_name": "Tony Palmer",
+    "surname": "Palmer",
+    "surname_ord": "palmer",
+    "description": "No name like <b>Tony Palmer</b> is synonymous with music films: in his more than one hundred works, he has covered every aspect and era of music biographies, operas, and productions, from Frank Zappa to Yehudi Menuhin, from The Beatles to Wagner, from Liberace to Maria Callas. Although he has been active since the mid-1960s, his first international recognition came with back-to-back victories at the Prix Italia in 1980 and 1981. In particular, <i>At the Haunted End of the Day</i> (UKIB, 1981) was the first extensive biography ever to appear in any media of William Walton, at the time the greatest living English composer. The film was a personal, melancholic, and sensitive portrait – a masterpiece. The award ceremony in Siena was graced by the presence of Sir William himself, who had formed a close relationship with Palmer and wanted to be there, in one of his last public appearances."
+  },
+  {
+    "sort": 50,
+    "year": 1982,
+    "full_name": "Lindsay Kemp",
+    "surname": "Kemp",
+    "surname_ord": "kemp",
+    "description": "<i>Cruel Garden</i> is a quintessential show by <b>Lindsay Kemp</b>: inspired by the figure and work of Garcia Lorca, it is a breathtaking parade of imagery of poetry, surrealism, transfiguration, death, and religious influences. In 1981, the BBC made a praiseworthy adaptation for TV, which helped preserve it for future generations. Submitted to the Prix Italia the following year, it did not fail to win the prize for TV music."
+  },
+  {
+    "sort": 51,
     "year": 1983,
     "full_name": "Piers Plowright",
     "surname": "Plowright",
-    "description": "BBC radio 3 and 4 have been \"the true home\" for <b>Piers Plowright</b>, producer of fiction and documentaries, a veritable \"luminary of radio\" but also a man of the theater, gifted with rare sensitivity and culture. In his BBC career he won no less than three Prix Italias in 1983, 1986 and 1988 and many other awards."
+    "surname_ord": "plowright",
+    "description": "BBC Radio 3 and 4 have been \"the true home\" for <b>Piers Plowright</b>, producer of fiction and documentaries, a veritable luminary of radio but also a man of the theatre, gifted with rare sensitivity and culture. In his BBC career he won no less than three Prix Italias in 1983, 1986, and 1988, and many other awards."
   },
   {
+    "sort": 52,
     "year": 1984,
     "full_name": "Peter Brook",
     "surname": "Brook",
-    "description": "<i>Tragédie de Carmen</i> is one of <b>Peter Brook</b>'s most radical plays, and a landmark in the history of 20th-century theater. Stripped of all operatic artificiality, the play discharges its power on stage in 90 minutes of passion, betrayal, freedom and desire. After the 1981 stage play, Brook himself directed a television version in 1983, which took by storm the Prix Italia the following year."
+    "surname_ord": "brook",
+    "description": "<i>Tragédie de Carmen</i> is one of <b>Peter Brook</b>'s most radical plays and a landmark in the history of 20th-century theatre. Stripped of all operatic artificiality, the play discharges its power on stage in ninety minutes of passion, betrayal, freedom, and desire. After the 1981 stage play, Brook himself directed a television version in 1983, which took by storm the Prix Italia the following year."
   },
   {
+    "sort": 53,
     "year": 1984,
     "full_name": "Neda Depolo",
     "surname": "Depolo",
-    "description": "Legendary author and producer <b>Neda Depolo</b>, a pioneer of stereophonic techniques since the 1960s, is among the leading names of Radio Beograd's extraordinary creative season in the 1980s Yugoslavia. In those years, the programs she curated earned 2 wins and 3 mentions at the Prix Italia. Today Radio Beograd runs an annual competition for young talent named after her."
+    "surname_ord": "depolo",
+    "description": "Legendary author and producer <b>Neda Depolo</b>, a pioneer of stereophonic techniques since the 1960s, is among the leading names of Radio Beograd's extraordinary creative season in the 1980s Yugoslavia. In those years, the programmes she curated earned two wins and 3 three mentions at the Prix Italia. Today, Radio Beograd runs an annual competition for young talent named after her."
   },
   {
-    "year": 1988,
-    "full_name": "Anthony Hopkins",
-    "surname": "Hopkins",
-    "description": "<b>Anthony Hopkins</b> is… well, Anthony Hopkins! One of the most acclaimed actors in film history, he has earned a dizzying number of awards throughout a decades-long career. His intense performance in <i>The Good Father</i> contributed in no small part to Channel 4 winning the Prix Italia in 1988."
+    "sort": 54,
+    "year": 1984,
+    "full_name": "John Schlesinger",
+    "surname": "Schlesinger",
+    "surname_ord": "schlesinger",
+    "description": "While <b>John Schlesinger</b> enjoyed an outstanding, Oscar-winning career as a film director, his works for TV have been few and far between. Notable among these are the two spy stories for the BBC, written by veteran Alan Bennett, <i>An Englishman Abroad</i> (1983) and <i>A Question of Attribution</i> (1991). These are both related to the uncovering of the Cambridge Five spy ring, thus set in the past and told in an intimate manner, with little action. Although removed from the contemporary settings and provocative topics usual for him, Schlesinger matches Bennett's refined text with excellent chiselling work: <i>An Englishman Abroad</i>, in particular, was very well received and won several prizes in the UK; in 1984, it was awarded a special prize at the Prix Italia."
   },
   {
+    "sort": 55,
+    "year": 1984,
+    "full_name": "Ken Russell",
+    "surname": "Russell",
+    "surname_ord": "russell",
+    "description": "<b>Ken Russell</b>, controversial par excellence, apostle of excess, put together a long filmography of provocative and sometimes deliberately shocking works. But his flamboyant, unapologetic style was always supported by a confident taste, a romantic spirit, a true and insightful understanding, and a personal affection for the characters he narrated. He won the Prix Italia in 1984 with <i>Ralph Vaughan Williams, a Symphonic Portrait</i>: undoubtedly a minor work in a subdued and more didactic tone. Yet, this documentary also makes for a very personal work that exposes a more intimate side of Russell, a loving if slightly awkward father telling a little girl about Williams's music."
+  },
+  {
+    "sort": 56,
+    "year": 1985,
+    "full_name": "Philip Glass",
+    "surname": "Glass",
+    "surname_ord": "glass",
+    "description": "Like a Rothko painting, <i>Koyaanisqatsi</i> is the one experimental film everyone has an opinion about. A hodgepodge of disjointed images or perhaps the perfect synthesis of our contemporary global eye, the rearguard of a waning new age or the vanguard of nascent environmentalism… What is certain about Godfrey Reggio and <b>Philip Glass</b>'s masterpiece is that it marked an epoch and grassrooted itself in the collective consciousness, decades before whatever viral sensation of today. The television version broadcast by PBS effortlessly won the 1985 Prix Italia."
+  },
+  {
+    "sort": 57,
+    "year": 1985,
+    "full_name": "Leonard Bernstein",
+    "surname": "Bernstein",
+    "surname_ord": "bernstein",
+    "description": "What does it take to make music? When <b>Leonard Bernstein</b> set to work on a new recording of his classic <i>West Side Story</i>, director Christopher Swann and his crew were given full access to film all phases of the studio production. The result was a harrowing documentary that chronicles the struggles, time constraints, scheduling conflicts, and relentless rehearsal sessions; but also the intimate relationship the conductor manages to establish with the orchestra and singers, and the wonder of the outcome. Swann's multi-camera approach and tight editing manage to stay always close to the action, fully capturing the joy and exhaustion of the musical endeavour. <i>Leonard Bernstein's West Side Story</i> imposed itself at the 1985 Prix Italia, at a time when music documentaries were not yet usually appreciated by juries."
+  },
+  {
+    "sort": 58,
+    "year": 1986,
+    "full_name": "Heinrich Böll",
+    "surname": "Böll",
+    "surname_ord": "boll",
+    "description": "The intersection between Nobel Prize winner <b>Heinrich Böll</b> and the Prix Italia is admittedly marginal, but nonetheless significant in its way. The poem Böll wrote for Swiss composer Klaus Huber was among his last works and touched on the so distinctively Böell-ian theme of the destruction and reconstruction of the cathedral and the city of Cologne, razed to the ground by bombing in World War II. On several occasions during the composition of the opera <i>Cantiones de Circulo Gyrante</i>, Böll suggested that his text should be played as a requiem. Initially sceptical, Huber gradually allowed himself to be influenced. Böll died in 1985 before he could see the completion of the work, which was presented in his memory and won the Prix Italia the following year. A few years later, Huber reworked the sections of the work on Böll's texts and made a <i>Kleines Requiem für Heinrich Böll</i>, fulfilling the great writer's original intuition."
+  },
+  {
+    "sort": 59,
     "year": 1988,
     "full_name": "Anthony Minghella",
     "surname": "Minghella",
-    "description": "<b>Anthony Minghella</b> achieved international star status after his Oscar win for <i>The English Patient</i> (1996). But his earlier career as a radio writer and producer is no less rich and original. His first radio drama <i>Hang Up</i> did not escape the attention of the jury, and earned BBC a Prix Italia in 1988."
+    "surname_ord": "minghella",
+    "description": "<b>Anthony Minghella</b> achieved international star status after his Oscar win for <i>The English Patient</i> (1996). But his earlier career as a radio writer and producer is no less rich and original. His first radio drama <i>Hang Up</i> did not escape the attention of the jury and earned BBC a Prix Italia in 1988."
   },
   {
+    "sort": 60,
+    "year": 1988,
+    "full_name": "Anthony Hopkins",
+    "surname": "Hopkins",
+    "surname_ord": "hopkins",
+    "description": "<b>Anthony Hopkins</b> is… well, Anthony Hopkins! One of the most acclaimed actors in film history, he has earned a dizzying number of awards throughout a decades-long career. His intense performance in <i>The Good Father</i> contributed in no small part to Channel 4 winning the Prix Italia in 1988."
+  },
+  {
+    "sort": 61,
+    "year": 1989,
+    "full_name": "Ousmane Sembène",
+    "surname": "Sembène",
+    "surname_ord": "sembene",
+    "description": "Over the decades, the Prix Italia has organised many film and TV movie reviews, keeping a curious, open eye on the best of international production beyond what could be featured in its official competitions. A memorable occasion was in Perugia in 1989, where six examples of contemporary African cinema were showcased (including Idrissa Ouedraogo's <i>Yaaba</i>, fresh from its Cannes success a few months earlier). But the guest of honour and true guiding spirit of that initiative was undoubtedly <b>Ousmane Sembène</b>, widely considered \"the father of African cinema\", whose pioneering first feature film <i>Black Girl</i> was screened, and who also participated in person in the co-production workshop organised alongside the festival. His impassioned, impromptu introductory speech on the vitality of the new African perspective, without condoning the lingering aftermaths of neo-colonial culture, can be read as a classic of Sembène's poetics and political activism."
+  },
+  {
+    "sort": 62,
     "year": 1989,
     "full_name": "Andrzej Brzoska",
     "surname": "Brzoska",
-    "description": "A highly respected and acclaimed sound director, <b>Andrzej Brzoska</b> has been crafting the sound of countless quality productions at Polskie Radio since the 1980s, especially in the field of radio drama. His list of awards both in Poland and abroad is impressive, and continues to this day. But his first international recognition came at the Prix Italia, where his name is linked to no less than three PR victories in 1989, 1992 and 1996."
+    "surname_ord": "brzoska",
+    "description": "A highly respected and acclaimed sound director, <b>Andrzej Brzoska</b> has been crafting the sound of countless quality productions at Polskie Radio since the 1980s, especially in the field of radio drama. His list of awards both in Poland and abroad is impressive and continues to this day. But his first international recognition came at the Prix Italia, where his name is linked to no less than three PR victories in 1989, 1992, and 1996."
   },
   {
+    "sort": 63,
+    "year": 1990,
+    "full_name": "Juris Podnieks",
+    "surname": "Podnieks",
+    "surname_ord": "podnieks",
+    "description": "Bold documentary filmmaker <b>Juris Podnieks</b> made a splash in 1986 with <i>Is it easy to be young?</i>, which captured the zeitgeist of Latvian youth just a year after the start of Gorbachev's policy of perestroika. When Richard Creasey, then director of documentaries at Central TV, saw the film in Moscow, he commissioned Podnieks to work on the ongoing transformations in Soviet society. The project <i>Hello, do you hear us?</i> ended up lasting five years and expanding into as many documentaries. Podnieks's work was for Western audiences the first (and still essential today) extensive and unfiltered portrayal of the living conditions of the Russian people, who had remained largely hidden until then behind the Iron Curtain, and who were opening themselves with hope to an uncertain future. The first episode of the series, <i>Red Hot</i> was presented by ITV at the Prix Italia in 1990, winning the prize for TV documentary."
+  },
+  {
+    "sort": 64,
+    "year": 1990,
+    "full_name": "Ingmar Bergman",
+    "surname": "Bergman",
+    "surname_ord": "bergman",
+    "description": "<b>Ingmar Bergman</b>'s recognition at the Prix Italia came late but was no less significant. Although his first work presented in competition dates as far back as 1951, when he was completely unknown outside Sweden, the Prix Italia would not come until forty years later with the radio monologue <i>A Matter of the Soul</i> (1990). He also received a second Prix Italia in 2004 for his final film, <i>Saraband</i>. This double award places the Swedish film maestro in the very small group of authors who can claim to have won in both radio and TV categories, a testament to the multifaceted variety of Bergman's oeuvre (who was also a longtime theatre director as well as, of course, a filmmaker)."
+  },
+  {
+    "sort": 65,
     "year": 1991,
     "full_name": "Peter Greenaway",
     "surname": "Greenaway",
-    "description": "After a flow of cinematic masterpieces in the 1980s, visionary filmmaker <b>Peter Greenaway</b> turned to TV – and used it like no one before. The imaginative extravaganza of <i>A TV Dante</i> cannot really be put into words. One could say that Greenaway uses the medium like a painter's canvas, but even this would be reductive: it is rather as if television as a whole were a continent yet to be explored, a language yet to be invented. The Prix Italia won in 1991 consecrated what is still considered the most extraordinary achievement of Greenaway at his experimental best."
+    "surname_ord": "greenaway",
+    "description": "After a flow of cinematic masterpieces in the 1980s, visionary director <b>Peter Greenaway</b> turned to TV – and used it like no one before. The imaginative extravaganza of <i>A TV Dante</i> cannot really be put into words. One could say that Greenaway uses the medium like a painter's canvas, but even this would be reductive: rather, it feels as if television as a whole was a continent yet to be explored, a language to be invented. The Prix Italia won in 1991 consecrated what is still considered the most extraordinary achievement of Greenaway at his experimental best."
   },
   {
-    "year": 1996,
-    "full_name": "Werner Herzog",
-    "surname": "Herzog",
-    "description": "In a way, all of <b>Werner Herzog</b>'s films come from his own obsessions, and few obsessions have stayed with him like his lifelong fascination with Gesualdo da Venosa and his music. <i>Gesualdo: Death for Five Voices</i> is a documentary, up to a point: then, the labyrinthine nature of the music and the mysterious events of Gesualdo's life become a mirror for the director's own imagery and restlessness, and the film turns into one of the most puzzling and personal works in Herzog's production. Filmed for ZDF, <i>Gesualdo</i> won the Prix Italia in 1996."
+    "sort": 66,
+    "year": 1991,
+    "full_name": "Boro Kontić",
+    "surname": "Kontić",
+    "surname_ord": "kontic",
+    "description": "Sarajevo radio journalist extraordinaire <b>Boro Kontić</b> happened to win the Prix Italia in two very different ways. First with a reportage on the years of post-Tito disenchantment in Yugoslavia, by then a country on the brink of dissolution: <i>Jazz Time</i> (1991, JRT) owed its title to its free-style, layered editing and was a collage of stories and feelings, a foreboding of tragedies to come. The second time was at the height of the war, with <i>Sniper</i> (1993, DR), a dramatic collection of clandestine interviews with snipers at work, smuggled out of the city in ruins while Kontić himself was unable to leave. That year, the prize in absentia was also a respectful tribute to an exceptional witness of such a harrowing moment in history."
   },
   {
+    "sort": 67,
+    "year": 1994,
+    "full_name": "Stephen Frears",
+    "surname": "Frears",
+    "surname_ord": "frears",
+    "description": "Although certainly not one of his most celebrated films, <i>The Snapper</i> is quintessential <b>Stephen Frears</b>: razor-sharp focus on the characters, careful exploration of social classes, and a slice of real life portrayed with a seemingly light touch and caustic humour. This TV movie earned lead actor Colm Meaney a Golden Globe nomination and the BBC a Prix Italia award in 1994."
+  },
+  {
+    "sort": 68,
+    "year": 1994,
+    "full_name": "DV8 Physical Theatre",
+    "surname": "DV8 Physical Theatre",
+    "surname_ord": "dv8",
+    "description": "Few dance companies have been as fitting for TV as <b>DV8 Physical Theatre</b>: the rejection of form as an end in itself, the everyday settings and costumes, the topical and thought-provoking themes – almost like documentaries in music, dancing sociology. Dealing from time to time with AIDS, intolerance, human rights, sexuality, and gender roles, DV8 managed to stay relevant for 25 years both in their artistic language and in the themes they address. As it happens, three of the four shows that were transposed for TV also won the Prix Italia: <i>Strange Fish</i> (1994, BBC), <i>The Cost of Living</i> (2005, Channel 4), and above all, their signature <i>Enter Achilles</i> (1996, BBC) a biting exploration of stereotypical masculinity and men's insecurities."
+  },
+  {
+    "sort": 69,
     "year": 1996,
     "full_name": "Brian Woods",
     "surname": "Woods",
-    "description": "A multiple Emmy and Bafta award winner, <b>Brian Woods</b> has earned a well-deserved reputation as a director of human rights-themed documentaries. He achieved his first major success with the harrowing <i>The dying rooms</i> and its sequel <i>Return to the dying rooms</i>, which won the 1996 Prix Italia, as well as an Emmy and a Peabody Award, among others."
+    "surname_ord": "woods",
+    "description": "A multiple Emmy and Bafta award winner, <b>Brian Woods</b> has earned a well-deserved reputation as a director of human rights-themed documentaries. He achieved his first major success with the harrowing <i>The Dying Rooms</i> and its sequel <i>Return to the Dying Rooms</i>, which won the 1996 Prix Italia, as well as an Emmy and a Peabody Award, among others."
   },
   {
+    "sort": 70,
+    "year": 1996,
+    "full_name": "Werner Herzog",
+    "surname": "Herzog",
+    "surname_ord": "herzog",
+    "description": "In a way, all of <b>Werner Herzog</b>'s films come from his own obsessions, and few obsessions have stayed with him as much as his lifelong fascination with Gesualdo da Venosa and his music. <i>Gesualdo: Death for Five Voices</i> is a documentary, up to a point: then, the labyrinthine nature of the music and the mysterious events of Gesualdo's life become a mirror for the director's imagery and restlessness, and the film turns into one of the most puzzling and personal works in Herzog's production. Filmed for ZDF, <i>Gesualdo</i> won the Prix Italia in 1996."
+  },
+  {
+    "sort": 71,
     "year": 1999,
     "full_name": "Federico Fellini",
     "surname": "Fellini",
-    "description": "A young <b>Federico Fellini</b> wrote several radio scripts for the then EIAR between 1939 and 1943, which were recovered from the RAI archives and aired only several years after the great director's death, in an effort of great archival and cultural significance. In particular, for the comedy <i>Fuori programma n. 7,</i> director Idalberto Fei chose an all-star cast that included such Fellini actors as Sandra Milo and Milena Vukotic, alongside Paolo Poli, Maurizio Micheli, Toni Garrani and others. This revival earned Fellini a posthumous Prix Italia in 1999."
+    "surname_ord": "fellini",
+    "description": "A young <b>Federico Fellini</b> wrote a few radio scripts for the then EIAR between 1939 and 1943, which were recovered from the RAI archives and aired only several years after the director's death, in an archival effort of great cultural significance. In particular, for the comedy <i>Unscheduled Show N. 7</i>, director Idalberto Fei chose an all-star cast that included such Fellini actors as Sandra Milo and Milena Vukotic, alongside Paolo Poli, Maurizio Micheli, Toni Garrani and others. This revival earned Fellini a posthumous Prix Italia in 1999."
   },
   {
+    "sort": 72,
+    "year": 2008,
+    "full_name": "Anthony Rose",
+    "surname": "Rose",
+    "surname_ord": "rose",
+    "description": "In hindsight, far more than the occasional ungenerous criticism coming from the outside, one values the intuition and stubborn will of the management to push through a pioneering undertaking. The development of the <i>BBC iPlayer</i> proceeded slowly, amidst aborted attempts and ensuing controversy. Its penultimate iteration, still essentially a dedicated media player based on the on-demand download paradigm, Napster/BitTorrent style, was presented in mid-2007 and received much criticism: was the BBC about to turn into a software house? In December, the situation reversed when Head of Digital <b>Anthony Rose</b> and his team unveiled a new version based on the streaming paradigm instead: everything now worked in a browser, on a website, no software or download required. In the spring of the following year, yet new features were implemented, and this time success was not long in coming. Finally, when the new iPlayer was submitted to the competition in autumn 2008, the jurors of the Prix Italia had no doubts about awarding it a victory. The new era of broadcasting had officially begun."
+  },
+  {
+    "sort": 73,
     "year": 2010,
     "full_name": "David Dufresne",
     "surname": "Dufresne",
-    "description": "Launched as an experiment in 1998 and then officially confirmed in 2000, the Prix Italia Web Competition quickly demonstrated the new potential of the \"third medium\" available to broadcasters. The Web could inform, be up to date, summarise and present data, collect endless amounts of user-generated content in a short time. But <b>David Dufresne</b>'s <i>Prison Valley</i>, which earned Arte a victory in 2010, showed perhaps for the first time that the Web could also be beautiful. This ground-breaking, genre-defining feature is part documentary, part interactive road-movie in which you play a journalist investigating the prison industry in recession-era America. By creatively leveraging cutting-edge technology, Dufresne's work opened up new perspectives and helped establish the Web as a first-class medium for sharing quality content."
+    "surname_ord": "dufresne",
+    "description": "Launched as an experiment in 1998 and officially confirmed in 2000, the Prix Italia Web Competition quickly demonstrated the new potential of the \"third medium\" available to broadcasters. The Web could inform, be up to date, summarise and present data, and collect endless amounts of user-generated content in a short time. But <b>David Dufresne</b>'s <i>Prison Valley</i>, which earned Arte a victory in 2010, showed perhaps for the first time that the Web could also be beautiful. This ground-breaking, genre-defining feature is part documentary, part interactive road movie in which you play a journalist investigating the prison industry in recession-era America. By creatively leveraging cutting-edge technology, Dufresne's work opened up new perspectives and helped establish the Web as a first-class medium for sharing quality content."
+  },
+  {
+    "sort": 74,
+    "year": 2012,
+    "full_name": "Wim Wenders",
+    "surname": "Wenders",
+    "surname_ord": "wenders",
+    "description": "<i>Pina</i> is one of <b>Wim Wenders</b> best-loved and visually stunning works, also thanks to its thoughtful, artistic use of cutting-edge 3D technology. Started as a documentary, transformed into an all-round poetic tribute after Bausch's death, the film was immediately recognised as a masterpiece and nominated for Academy and Bafta awards, among others. The victory at the Prix Italia in 2012, on the other hand, was also an acknowledgement of the ongoing evolution of radio-TV broadcasters (the ZDF, in this case) that were developing into global media companies, increasingly involved in features not intended exclusively for the small screen."
+  },
+  {
+    "sort": 75,
+    "year": 2014,
+    "full_name": "Bob Wilson",
+    "surname": "Wilson",
+    "surname_ord": "wilson",
+    "description": "Philip Glass's <i>Einstein on the Beach</i> is a cornerstone of 20th century music. <b>Robert Wilson</b>'s abstract, diagonal, non-narrative staging is simultaneously a foundation and complement to the score. When it first appeared in 1976, it propelled them both to international success. The live TV broadcast of this monumental 5-hour masterpiece, produced by France2 on the occasion of the major revival and international tour in 2012, was presented in competition in 2014. Also because of its uniqueness, the jury opted to give it a special mention – as if to keep it, appropriately, out of competition. The Prix Italia, on the other hand, had already celebrated Bob Wilson two years earlier by hosting an exhibition of his hyper-modern portraits in the setting of Turin's sumptuous, baroque Palazzo Madama."
   }
 ]

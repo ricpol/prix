@@ -1,12 +1,12 @@
 [
   {
     "globkey": "version",
-    "globvalue": "1",
+    "globvalue": "2",
     "note": "Version number of the data set."
   },
   {
     "globkey": "vdate",
-    "globvalue": "2023-10-31",
+    "globvalue": "2024-10-11",
     "note": "Version date of the data set."
   },
   {
@@ -16,12 +16,12 @@
   },
   {
     "globkey": "winbook_version",
-    "globvalue": "1",
+    "globvalue": "2",
     "note": "Version release of the last published winners book (the silver book)."
   },
   {
     "globkey": "winbook_date",
-    "globvalue": "2023-12-04",
+    "globvalue": "2024-10-11",
     "note": "Release date of the last published winners book (the silver book)."
   },
   {
