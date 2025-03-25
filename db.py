@@ -65,9 +65,10 @@ def prepare_db(db="prix_winners.grist"):
     # create new tables
     c.execute('''CREATE TABLE broadcasters AS
                  SELECT id_acro AS id, acronym, name, acr_name, status, 
-                 ocountries.country, obroadcasters.sort, first, last, 
+                 ocountries.country, ocountries.country_abbr, obroadcasters.sort, 
+                 first, last, 
                  prev_acro2 AS prev, next_acro2 AS next, group_acronym, 
-                 obroadcasters.note 
+                 obroadcasters.note, is_wall 
                  FROM obroadcasters 
                  JOIN ocountries ON obroadcasters.country=ocountries.id 
                  ORDER BY ocountries.sort, status DESC, obroadcasters.sort, first;''')
@@ -176,9 +177,12 @@ def prepare_db(db="prix_winners.grist"):
                  ORDER BY winners.year, winners.sort;''')
     c.execute('''CREATE VIEW vPrixParticipants AS
                  SELECT participants.id, participants.year, 
-                 broadcasters.id AS broadcaster_id, 
+                 broadcasters.id AS broadcaster_id, broadcasters.status, 
+                 broadcasters.is_wall, 
+                 broadcasters.first AS year_first, broadcasters.last AS year_last, 
                  broadcasters.acronym, broadcasters.name, broadcasters.acr_name, 
-                 countries.country, countries.country_abbr, broadcasters.sort, 
+                 countries.former, countries.country, countries.country_abbr, 
+                 countries.sort AS countries_sort, broadcasters.sort AS broadcasters_sort, 
                  participants.radio, participants.tv, participants.web, 
                  participants.sp_prize 
                  FROM participants 

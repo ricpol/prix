@@ -491,10 +491,25 @@ class SpecialFormatter(BaseFormatter):
     # so make sure to call set_outputtype every time first
     def __init__(self, db='prix_winners.grist', outputtype='tex'):
         template_folder = os.path.join(TEMPLATE_FOLDER, 'special')
-        super().__init__(self, db, outputtype, template_folder)
+        super().__init__(db, outputtype, template_folder)
 
     # ad-hoc (special) and test outputs
     # -----------------------------------------------------------------------
+    def publish_the_wall(self): # HTML template only 
+        # "the wall" is the full list of historical broadcasters
+        sql = '''SELECT  former, broadcasters.country_abbr, name 
+                 FROM broadcasters 
+                 JOIN countries ON broadcasters.country=countries.country 
+                 WHERE is_wall=True 
+                 ORDER BY countries.sort, broadcasters.sort, broadcasters.first;'''
+        c = self.db.con.cursor()
+        broadcasters = c.execute(sql).fetchall()
+        the_file = 'special_wall.' + self.outputtype
+        out = self.get_output(the_file, broadcasters=broadcasters, 
+                              standalone=True)
+        self.write_output(out, the_file)
+
+
     def publish_special_prixsite(self): # HTML template only
     # what is needed for the prix website
         sql = '''SELECT year, city, acronym, name, acr_name, country_abbr, 

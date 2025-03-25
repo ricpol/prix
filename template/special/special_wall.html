@@ -1,0 +1,11 @@
+
+<html lang="en"><body>
+
+{% for former, country, name in broadcasters %}
+{%- if loop.first or loop.previtem[1] != country -%}
+<span class="participant_country">{%- if former -%} former {% endif %}{{- country -}}</span> {{ name }} 
+{% else -%}
+• {{ name }} 
+{% endif -%}
+{% endfor %}
+</body></html>
