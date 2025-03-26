@@ -498,8 +498,12 @@ def check_roles_in_glossary(cursor, output):
     errors = False
     cursor.execute('SELECT id, credits FROM winners;')
     for id, credit in cursor.fetchall():
-        #print(credit)
-        creditline = cr.unpack_creditlist(credit)
+        try:
+            creditline = cr.unpack_creditlist(credit)
+        except Exception as e:
+            output.write(f'! exception when parsing credits for programme {id}.\n')
+            errors = True
+            continue
         for roles, persons in creditline:
             for role in roles:
                 if role not in cr.ROLES:
@@ -514,7 +518,12 @@ def check_roles_plural_form(cursor, output):
     errors = False
     cursor.execute('SELECT id, credits FROM winners;')
     for id, credit in cursor.fetchall():
-        creditline = cr.unpack_creditlist(credit)
+        try:
+            creditline = cr.unpack_creditlist(credit)
+        except Exception as e:
+            output.write(f'! exception when parsing credits for programme {id}.\n')
+            errors = True
+            continue
         for roles, persons in creditline:
             err_flag = False
             if len(persons) == 1 and any([r not in cr.ROLES_SINGULAR for r in roles]):
@@ -533,7 +542,12 @@ def check_double_credits(cursor, output):
     errors = False
     cursor.execute('SELECT id, credits FROM winners;')
     for id, credit in cursor.fetchall():
-        creditline = cr.unpack_creditlist(credit)
+        try:
+            creditline = cr.unpack_creditlist(credit)
+        except Exception as e:
+            output.write(f'! exception when parsing credits for programme {id}.\n')
+            errors = True
+            continue
         credit_roles = []
         credit_persons = []
         for roles, persons in creditline:
@@ -558,7 +572,12 @@ def check_credit_order(cursor, output):
     errors = False
     cursor.execute('SELECT id, credits FROM winners;')
     for id, credit in cursor.fetchall():
-        creditline = cr.unpack_creditlist(credit)
+        try:
+            creditline = cr.unpack_creditlist(credit)
+        except Exception as e:
+            output.write(f'! exception when parsing credits for programme {id}.\n')
+            errors = True
+            continue
         first = True
         for roles, persons in creditline:
             if roles == ['By'] and not first:
