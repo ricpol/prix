@@ -1,13 +1,30 @@
 # routine for preparing the db for release, export data, various tests.
 #----------------------------------------------------------------------
 
+import os
 import sqlite3
 import json
 from datetime import date, timedelta
 import unicodedata 
 import string
 
-def prepare_db(db="prix_winners.grist"):
+from pygrister.api import GristApi
+
+DBNAME = 'prix_winners.grist'
+
+def download_db(db=DBNAME):
+    """Download the Grist db."""
+    with open('grist_config.json', encoding='utf8') as f:
+        grist_config = json.loads(f.read())
+    try:
+        os.remove(db)
+    except:
+        pass
+    g = GristApi(config=grist_config)
+    g.download_sqlite(db, nohistory=True)
+
+
+def prepare_db(db=DBNAME):
     """Prepare the original Grist sqlite dump for release."""
     con = sqlite3.connect(db)
     c = con.cursor()
@@ -645,5 +662,7 @@ def test_all(db="prix_winners.grist", output=sys.stdout):
 # test_participant_competition, 
 
 if __name__ == '__main__':
+    download_db()
+    prepare_db()
     with open('out.txt', 'a', encoding='utf8') as f:
         test_all(output=f)

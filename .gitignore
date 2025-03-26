@@ -3,5 +3,6 @@ __pycache__
 _notes
 *.jpg
 *.grist
+grist_config.json
 output
 
