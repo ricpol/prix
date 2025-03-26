@@ -25,7 +25,7 @@ ROLES_SINGULAR = ['', '_null',
     # producers, bosses
     'Commissioner', 'Coordination', 'Coproducer', 'Executive Producer', 
     'Head of Programme', 'Producer', 'Programmer', 'Stage Direction', 
-    'Studio Manager', 'Supervising Editor', 'Technical Project Manager',
+    'Studio Manager', 'Executive Editor', 'Technical Project Manager',
     # others
     'Archive', 'Research', 
     ]
@@ -52,7 +52,7 @@ ROLES_PLURAL = ['',
     'Producers', 'Programmers', 'Project Managers', 
     'Recording', 'Reporters', 'Research', 
     'Scenography', 'Script', 'Social Editors', 'Sound', 'Stage Direction', 
-    'Studio Managers', 'Subject', 'Supervising Editors', 
+    'Studio Managers', 'Subject', 'Executive Editors', 
     'Technical Project Managers', 'Technicians', 'Teleplay', 'Transmedia', 
     'Video', 'Vocals', 
     'Web Artists', 'Web Designers', 'Web Editors', 'Web Masters', 'Web Programmers', 
