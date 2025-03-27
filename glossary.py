@@ -40,19 +40,19 @@ ROLES_PLURAL = ['',
     'Content Authors', 'Content Managers', 'Coordination', 'Coproducers', 'Correspondents', 
     'Costumes', 
     'Dancers', 'Designers', 'Developers', 'Directors', 'Drawings', 
-    'Editors', 'Effects', 'Electronics', 'Executive Producers', 
+    'Editors', 'Effects', 'Electronics', 'Executive Editors', 'Executive Producers', 
     'Filmmakers', 'Foley', 'Format', 
     'Graphics', 
     'Head of Programme', 
     'Instrumentalists', 'Interactivity', 
     'Lyrics', 
-    'Mixing', 'Music arrangement', 'Music', 'Musicians', 
+    'Mixing', 'Music', 'Music arrangement', 'Musicians', 
     'Narrators', 
     'Participants', 'Performers', 'Photography', 'Photos', 'Poems', 'Presenters', 
     'Producers', 'Programmers', 'Project Managers', 
     'Recording', 'Reporters', 'Research', 
     'Scenography', 'Script', 'Social Editors', 'Sound', 'Stage Direction', 
-    'Studio Managers', 'Subject', 'Executive Editors', 
+    'Studio Managers', 'Subject', 
     'Technical Project Managers', 'Technicians', 'Teleplay', 'Transmedia', 
     'Video', 'Vocals', 
     'Web Artists', 'Web Designers', 'Web Editors', 'Web Masters', 'Web Programmers', 
@@ -84,4 +84,18 @@ CREDIT_PUNCTUATION = " :,.'-_&()"  # the ONLY allowed in credits! ("_" is for "_
 #
 
 
+def role_singular2plural(role):
+    if role not in ROLES:
+        raise ValueError(f'{role} not in glossary')
+    try:
+        return ROLES_PLURAL[ROLES_SINGULAR.index(role)]
+    except ValueError:
+        return role
 
+def role_plural2singular(role):
+    if role not in ROLES:
+        raise ValueError(f'{role} not in glossary')
+    try:
+        return ROLES_SINGULAR[ROLES_PLURAL.index(role)]
+    except ValueError:
+        return role

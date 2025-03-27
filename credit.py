@@ -1,4 +1,5 @@
-from glossary import ROLES, ROLES_SINGULAR, ROLES_PLURAL
+from glossary import (ROLES, ROLES_SINGULAR, ROLES_PLURAL, 
+                      role_singular2plural, role_plural2singular)
 
 def unpack(component): # str -> list
     # unpacks a single component (roles or persons)
@@ -188,6 +189,46 @@ def credit2persons(credits):
                     out += f'{name}\t{surname}\t{surname_ord}\t{role}\t{id_}\n'
     return out
 
+#  SINGULAR/PLURAL ROLES FIXING: "Director: foo, bar." -> "DirectorS: foo, bar." etc.
+#  note: this work ONLY with separate text files, as a safety measure: 
+#  the workflow is: 1) copy all credits (from Grist interface) to a credit_list.txt 
+#  file; 2) fix_plurals() will output an out.txt; 3) run a diff between the 
+#  two files to ensure that only the wanted changes have been produced; 4) mostly, 
+#  DOUBLE CHECK corner cases like "dancer/s", "participant/s" and collective names; 
+#  5) paste back the result into the Grist interface (assuming you don't have changed 
+#  the sorting in the meantime!).
+
+def fix_credit_plurals(credit):
+    # accepts an already unpacked credit (not a credit list!)
+    singular = len(credit[1]) == 1
+    new_credit = [[], credit[1][:]]
+    for role in credit[0]:
+        if singular:
+            new_credit[0].append(role_plural2singular(role))
+        else:
+            new_credit[0].append(role_singular2plural(role))
+    return new_credit
+
+def fix_allcredits_plural(all_credits):
+    # accepts an unpacked all-creditlists database
+    new_credits = []
+    for creditlist in all_credits:
+        new_creditlist = []
+        for credit in creditlist:
+            new_creditlist.append(fix_credit_plurals(credit))
+        new_credits.append(new_creditlist)
+    return new_credits
+
+def fix_plurals():
+    with open('credit_list.txt', 'r', encoding='utf8') as f:
+        db_credits = f.read()
+    credits = unpack_allcredits(db_credits)
+    new_credits = fix_allcredits_plural(credits)
+    assert len(credits) == len(new_credits)
+    for n, o in zip(credits, new_credits):
+        assert len(n) == len(o)
+    with open('out.txt', 'a', encoding='utf8') as f:
+        f.write(pack_allcredits(new_credits))
 
 # ------------------------------------------------------------------------------
 #  test for credit packing/unpacking
