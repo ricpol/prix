@@ -316,7 +316,7 @@ class PrixSilverFormatter(BaseFormatter):
                                'short_prize': True,
                                'credits': True,
                                'weblink': False,
-                               'reasoning': False,
+                               'reasoning': True,
                                'note': True,
                               }
 
