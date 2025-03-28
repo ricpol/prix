@@ -40,10 +40,11 @@
     \section*{ {{- w.year -}}, {{ w.city -}} }
 {% endif %}
 {% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
-    {% if display["full_prize"] %} 
+\begin{samepage}
+    {% if display["full_prize"] -%} 
 %<{{ w.id }}%
 \subsection*{{- "{{" -}}\color{DarkRed}{{- w.prize|texescape|periodspacescape -}} {{- "}}" -}}
-    {% else %} 
+    {% else -%} 
 %<{{ w.id }}%
 \subsection*{{- "{{" -}}\color{DarkRed} {{- w.prize_abbr|texescape|periodspacescape -}} {{- "}}" -}}
     {% endif %}
@@ -68,5 +69,9 @@ Not awarded.
 {% endif %}
 
 %{{ w.id }}>%
+\end{samepage}
+{% if loop.nextitem and loop.nextitem.year == w.year %}
+\filbreak\vfill
+{% endif %}
 {% endfor %}
 {% endblock %}
