@@ -17,6 +17,22 @@
 {%- endif -%}
 {%- endmacro -%}
 
+{%- macro get_title_for_mentions(lang, original, english) -%}
+{%- if lang in ('', 'english', 'nolanguage', 'tsonga') -%}
+{{ original|texescape -}}
+{%- if original != english -%} -- {\itshape {{ english|texescape -}} }{%- endif -%}
+{%- elif lang=='russian' -%}
+{\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}} -- {\itshape {{ english|texescape -}} }
+{%- elif lang in ('japanese', 'chinese') -%}
+{{ original|texescape }} -- {\itshape {{ english|texescape -}} }
+{%- elif lang=='korean' -%}
+{\koreanfont {{ original|texescape -}} } -- {\itshape {{ english|texescape -}} }
+{%- else -%}
+{\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
+{%- if original != english %} -- {\itshape {{ english|texescape -}} }{%- endif -%}
+{%- endif -%}
+{%- endmacro -%}
+
 {% macro get_broad(acronym, name, acr_name, country, country_abbr, iso3166, display) -%}
 {%- if acr_name %} {{ name|texescape -}} 
 {% else %}
@@ -26,6 +42,45 @@
 {% if display["full_country"] %} ({{ country|texescape }})
 {% elif display["short_country"] %} ({{ country_abbr|texescape }})
 {% elif display["iso_country"] %} ({{ iso3166 }}) {% endif %}
+{%- endmacro %}
+
+{% macro get_headline(w, display) -%}
+{% if w.acronym=="NONE" %}
+Not awarded.
+{% else %}
+{%- if w.or_title=="_null" -%} {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} 
+{%- else -%}
+{{- get_title(w.lang_title, w.or_title, w.en_title) -}}
+\nopagebreak[2]\\ {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} \\*
+{%- endif -%}
+{%- endif -%}
+{%- endmacro %}
+
+{% macro get_details(w, display) -%}
+{% if display["credits"] and w.credits and w.credits!="_null" -%} 
+{\footnotesize {{ w.credits|texescape -}} } \\* {% endif %}
+{% if display["weblink"] and w.weblink!="_null" -%} 
+{{ w.weblink|texescape }} \\* {% endif %}
+{% if display["reasoning"] and w.reasoning and w.reasoning!="_null" %} 
+{\footnotesize \textit{The Jury:} {{ w.reasoning|texescape -}} } \\* {% endif %}
+{% if display["note"] and w.note -%} 
+{\footnotesize\textit{ {{ w.note|texescape -}} {{- "}}" -}} \\* {% endif %}
+{%- endmacro %}
+
+{% macro get_mention(w, display, prev_result) -%}
+{%- if w.result != prev_result -%} {\color{DarkRed}\textit{ {{- w.result -}} {{- "}}" }} {% endif -%}
+{%- if w.or_title=="_null" -%} {{- w.acronym|texescape -}}, {{ w.country_abbr -}}. 
+{%- else -%}
+{{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ w.acronym|texescape -}}, {{ w.country_abbr -}} . 
+{% endif -%}
+{%- endmacro %}
+
+{% macro get_prize(w, display) -%}
+{% if display["full_prize"] -%} 
+\subsection*{{- "{{" -}}\color{DarkRed}{{- w.prize|texescape|periodspacescape -}} {{- "}}" -}}
+{% else -%} 
+\subsection*{{- "{{" -}}\color{DarkRed}{{- w.prize_abbr|texescape|periodspacescape -}} {{- "}}" -}}
+{% endif %}
 {%- endmacro %}
 
 {% block content %}
@@ -41,37 +96,22 @@
 {% endif %}
 {% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
 \begin{samepage}
-    {% if display["full_prize"] -%} 
 %<{{ w.id }}%
-\subsection*{{- "{{" -}}\color{DarkRed}{{- w.prize|texescape|periodspacescape -}} {{- "}}" -}}
-    {% else -%} 
-%<{{ w.id }}%
-\subsection*{{- "{{" -}}\color{DarkRed} {{- w.prize_abbr|texescape|periodspacescape -}} {{- "}}" -}}
-    {% endif %}
-{% else %} \\ \\
+{{ get_prize(w, display) }}
 {% endif %}
-{% if w.acronym=="NONE" %}
-Not awarded.
-{% else %}
-{%- if w.or_title=="_null" -%} {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} 
-{%- else -%}
-{{- get_title(w.lang_title, w.or_title, w.en_title) -}}
-\nopagebreak[2]\\ {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} \\*
-{%- endif -%}
-{% if display["credits"] and w.credits and w.credits!="_null" -%} 
-{\footnotesize {{ w.credits|texescape -}} } \\* {% endif %}
-{% if display["weblink"] and w.weblink!="_null" -%} 
-{{ w.weblink|texescape }} \\* {% endif %}
-{% if display["reasoning"] and w.reasoning and w.reasoning!="_null" %} 
-{\footnotesize \textit{The Jury:} {{ w.reasoning|texescape -}} } \\* {% endif %}
-{% if display["note"] and w.note -%} 
-{\footnotesize\textit{ {{ w.note|texescape -}} {{- "}}" -}} \\* {% endif %}
-{% endif %}
-
+{% if w.result=="winner" %}
+{{ get_headline(w, display) }}
+{{ get_details(w, display) }}
 %{{ w.id }}>%
+{% else %}
+{% if loop.previtem.result == "winner" %} \\ {% endif %}
+{{- get_mention(w, display, loop.previtem.result ) -}}
+{% endif %}
+{% if loop.nextitem and loop.nextitem.prize != w.prize %}
 \end{samepage}
-{% if loop.nextitem and loop.nextitem.year == w.year %}
+{% if loop.nextitem.year == w.year %}
 \filbreak\vfill
+{% endif %}
 {% endif %}
 {% endfor %}
 {% endblock %}
