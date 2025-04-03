@@ -8,9 +8,9 @@
 {\normalsize\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
 \nopagebreak[3]\\{\itshape {{ english|texescape -}} }
 {%- elif lang in ('japanese', 'chinese') -%}
-\begin{addmargin}[-0.05em]{0em}{\normalsize {{ original|texescape -}} }\end{addmargin}{\itshape {{ english|texescape -}} }
+\hspace{-0.05em}{\normalsize{\japanesefont {{ original|texescape -}} {{- "}}" -}}{\itshape {{ english|texescape -}} }
 {%- elif lang=='korean' -%}
-\begin{addmargin}[-0.05em]{0em}{\normalsize{\koreanfont {{ original|texescape -}} {{- "}}" -}}\end{addmargin}{\itshape {{ english|texescape -}} }
+\hspace{-0.05em}{\normalsize{\koreanfont {{ original|texescape -}} {{- "}}" -}}{\itshape {{ english|texescape -}} }
 {%- else -%}
 {\large\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
 {%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
@@ -24,7 +24,7 @@
 {%- elif lang=='russian' -%}
 {\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}} -- {\itshape {{ english|texescape -}} }
 {%- elif lang in ('japanese', 'chinese') -%}
-{{ original|texescape }} -- {\itshape {{ english|texescape -}} }
+{\japanesefont {{ original|texescape -}} } -- {\itshape {{ english|texescape -}} }
 {%- elif lang=='korean' -%}
 {\koreanfont {{ original|texescape -}} } -- {\itshape {{ english|texescape -}} }
 {%- else -%}
@@ -68,7 +68,7 @@ Not awarded.
 {%- endmacro %}
 
 {% macro get_mention(w, display, prev_result) -%}
-{%- if w.result != prev_result -%} {\color{DarkRed}\textit{ {{- w.result -}} {{- "}}" }} {% endif -%}
+{%- if w.result != prev_result -%} {\color{DarkRed}\textsc{ {{- w.result -}} {{- "}}" }} {% endif -%}
 {%- if w.or_title=="_null" -%} {{- w.acronym|texescape -}}, {{ w.country_abbr -}}. 
 {%- else -%}
 {{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ w.acronym|texescape -}}, {{ w.country_abbr -}} . 
@@ -107,11 +107,12 @@ Not awarded.
 {% if loop.previtem.result == "winner" %} \\ {% endif %}
 {{- get_mention(w, display, loop.previtem.result ) -}}
 {% endif %}
-{% if loop.nextitem and loop.nextitem.prize != w.prize %}
+{% if loop.nextitem and (loop.nextitem.prize != w.prize or loop.nextitem.year != w.year) %}
 \end{samepage}
 {% if loop.nextitem.year == w.year %}
-\filbreak\vfill
+\filbreak
 {% endif %}
 {% endif %}
 {% endfor %}
+\end{samepage}
 {% endblock %}

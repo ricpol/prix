@@ -32,12 +32,19 @@ silver_winners_tex = (
     ("itshape VIIIth Station",
      "itshape VIII\\textsuperscript{th} Station", 1),
     # some ex-aequos, must be in the same "samepage" context
-    ("%18>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n\\bigskip\n", 1),
-    ("%26>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n\\bigskip\n", 1),
-    ("%691>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n\\bigskip\n", 1),
-    ("%1402>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n\\bigskip\n", 1),
-    
-
+    ("%18>%\n", "\n\\bigskip\n\\noindent", 1),
+    ("%26>%\n", "\n\\bigskip\n\\noindent", 1),
+    ("%691>%\n", "\n\\bigskip\n\\noindent", 1),
+    ("%1402>%\n", "\n\\bigskip\n\\noindent", 1),
+    ("%460>%\n", "\n\\bigskip\n\\noindent ", 1), # the CNN case need one more space
+    # when a winner without credits is followed by a shortlist/mentions, 
+    # a double pagebreak will occur: let't get rid of those
+    ("%582>%\n\\\\ ", "%582>%\n\\noindent", 1),
+    ("%581>%\n\\\\ ", "%581>%\n\\noindent", 1),
+    ("%717>%\n\\\\ ", "%717>%\n\\noindent", 1),
+    ("%754>%\n\\\\ ", "%754>%\n\\noindent", 1),
+    ("%899>%\n\\\\ ", "%899>%\n\\noindent", 1),
+    ("%1232>%\n\\\\ ", "%1232>%\n\\noindent", 1),
     # the golden medal 1983: we use the "Prodi" layout below
     ("Henrik Hahr (Sweden)", 
      "{\\large Henrik Hahr}\\\\ Sweden", 1),
@@ -48,9 +55,6 @@ silver_winners_tex = (
      "{\\large Liz Forgan}\\\\ United Kingdom", 1),
     ("Angelo Guglielmi (Italy)",
      "{\\large Angelo Guglielmi}\\\\ Italy", 1), 
-    # this is to avoid the correct but ugly blank line
-    # in the 1991 Presidents' Prize
-    ("%460>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\\\\\n", 1),
     # these are because the Euro Prize was awarded to a Country, 
     # not a programme
     ("Italy (Italy)", 
@@ -62,12 +66,12 @@ silver_winners_tex = (
     # these are for the Honorary Prix Italia 1998
     # maybe should be {\large NAME}\\COUNTRY\\
     # but we are consistent with the 1991 Presidents' Prize format
-    ("%2157>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n", 1),
-    ("%2156>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n", 1),
-    ("%2160>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n", 1),
-    ("%2159>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n", 1),
-    ("%2158>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n", 1),
-    ("%2155>%\n\\end{samepage}\n\\filbreak\\vfill\n\\\\ \\\\\n", "\n", 1),
+    ("\n\n%2157>%", "\n", 1),
+    ("\n\n%2156>%", "\n", 1),
+    ("\n\n%2160>%", "\n", 1),
+    ("\n\n%2159>%", "\n", 1),
+    ("\n\n%2158>%", "\n", 1),
+    ("\n\n%2155>%", "\n", 1),
     # special tribute 1999: we use the "Prodi" layout below
     ("Jeremy Isaacs (United Kingdom)",
      "{\\large Jeremy Isaacs}\\\\ United Kingdom", 1),
@@ -88,15 +92,15 @@ silver_winners_tex = (
     ("Piccolo Teatro Milano (Italy)", 
      "Italy", 1),
     # 2015, expo: do not repeat name in credits...
-    ("\n\\\\*{\\footnotesize By: Valentina Landenna.}", "", 1),
-    ("\n\\\\*{\\footnotesize By: Leonardo Ferrari Carissimi.}", "", 1),
+    ("\n{\\footnotesize By: Valentina Landenna.}", "", 1),
+    ("\n{\\footnotesize By: Leonardo Ferrari Carissimi.}", "", 1),
     # the short names here are just too long...
     ("La Sept -- Société européenne de programmes de télévision (France)",
      "La Sept (France)", 3),
     ("ARTE Groupement Européen d'Intérêt Économique (France)",
      "ARTE GEIE (France", 1),
     # a programme title...
-    ("Annie M. G.", "Annie M.~G.", 1),
+    ("Annie M. G.", "Annie M.~G.", 2),
     # ugly linebreaks: avoid with mbox
     # --------------------------------
     ("Producer: Bert van der Zouw. Script: J Bernlef", 
@@ -154,11 +158,64 @@ silver_winners_tex = (
     # PART 2 -- page-level fixes
     # ==========================
     # sorted by year
-    # * these are just for good looking: we add an explicit \pagebreak 
-    #   at the end so that \vfill can distribute the space, but the 
-    #   "natural" pagebreak was already ok
 
-    #("%33>%", "%33>%\n\\vfill", 1),
+    # this is to keep 1949 and 1950 in the same page
+    # note: we *could* just modify the value in winners.tex but
+    # we feel that 70pt is the correct value, and we try to keep 
+    # all the tweaks in one place, here
+    ("\\vspace{70pt}\n\\fancyhead[R]{\\scshape The Winners}", 
+     "\\vspace{50pt}\n\\fancyhead[R]{\\scshape The Winners}", 1),
+    # The following needs an explanation: 
+    # basically, the "samepage" context does a decent job, except it makes tex break too early 
+    # sometimes, leaving a lot of space at the bottom of the page. This tends to happen with 
+    # the last prize block before a new-year section, probably because we had to remove 
+    # all the \fillbreak before a section (because it was too much: tex was then starting a 
+    # new page with every section!). Inserting \pagebreaks[x] won't work either...
+    # Bottom line, we must manually insert a few \nopagebreak and \pagebreak hints.
+    # 1961
+    ("%87>%\n\\end{samepage}\n\\filbreak", "%87>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\section*{1962, Verona}", "\\pagebreak\\section*{1962, Verona}", 1),
+    # 1964
+    ("%120>%\n\\end{samepage}\n\\filbreak", "%120>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\section*{1965, Firenze}", "\\pagebreak\\section*{1965, Firenze}", 1),
+    # 1978
+    ("%273>%\n\\end{samepage}\n\\filbreak", "%273>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\section*{1979, Lecce}", "\\pagebreak\\section*{1979, Lecce}", 1),
+    # 1986
+    ("\\filbreak\n\\begin{samepage}\n%<384%", "\nopagebreak\n\\begin{samepage}\n%<384%", 1),
+    ("\\section*{1987, Vicenza}", "\\pagebreak\\section*{1987, Vicenza}", 1),
+    # 1989
+    ("\\filbreak\n\\begin{samepage}\n%<2171%", "\\nopagebreak\n\\begin{samepage}\n%<2171%", 1),
+    ("\\section*{1990, Palermo}", "\\pagebreak\\section*{1990, Palermo}", 1),
+    # 1997 
+    ("%568>%\n\\end{samepage}\n\\filbreak", "%568>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\section*{1998, Assisi}", "\\pagebreak\\section*{1998, Assisi}", 1),
+    # 1999
+    ("%2168>%\n\\end{samepage}\n\\filbreak", "%2168>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\section*{2000, Bologna/Rimini}", "\\pagebreak\\section*{2000, Bologna/Rimini}", 1),
+    # 2002
+    ("\\filbreak\n\\begin{samepage}\n%<2246%", "\\nopagebreak\n\\begin{samepage}\n%<2246%", 1),
+    ("\\section*{2003, Catania/Siracusa}", "\\pagebreak\\section*{2003, Catania/Siracusa}", 1),
+    # 2003
+    ("\\filbreak\n\\begin{samepage}\n%<782%", "\\nopagebreak\n\\begin{samepage}\n%<782%", 1),
+    ("\\section*{2004, Catania/Taormina}", "\\pagebreak\\section*{2004, Catania/Taormina}", 1),
+    # 2004
+    ("\\filbreak\n\\begin{samepage}\n%<830%", "\\nopagebreak\n\\begin{samepage}\n%<830%", 1),
+    ("\\section*{2005, Milano}", "\\pagebreak\\section*{2005, Milano}", 1),
+    # 2005
+    ("\\filbreak\n\\begin{samepage}\n%<873%", "\\nopagebreak\n\\begin{samepage}\n%<873%", 1),
+    ("\\section*{2006, Venezia}", "\\pagebreak\\section*{2006, Venezia}", 1),
+    # 2006
+    ("\\filbreak\n\\begin{samepage}\n%<919%", "\\nopagebreak\n\\begin{samepage}\n%<919%", 1),
+    ("\\section*{2007, Verona}", "\\pagebreak\\section*{2007, Verona}", 1),
+    # 2007
+    ("\\filbreak\n\\begin{samepage}\n%<967%", "\\nopagebreak\n\\begin{samepage}\n%<967%", 1),
+    ("\\section*{2008, Cagliari}", "\\pagebreak\\section*{2008, Cagliari}", 1),
+
+
+
+
+
     #("%39>%", "%39>%\n\\pagebreak", 1),
     #("%<357%\n", "%<357%\n\\enlargethispage{1\\baselineskip}", 1),
 
