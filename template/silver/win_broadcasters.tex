@@ -7,6 +7,17 @@
 {% endif %}
 {%- endmacro %}
 
+{%- macro get_result(broadcaster) -%}
+{%- if broadcaster.result == "winner" -%}
+{\color{DarkRed} {{- broadcaster.year -}} }
+{%- elif broadcaster.result == "mention" -%}
+{\textit {{- broadcaster.year -}} }
+{%- else -%}
+{{- broadcaster.year -}}
+{%- endif -%}
+{%- endmacro %}
+
+
 {% block content %}
 \chapter*{\hfill{\slshape {{ common["silver_ch_win_broadcasters"] -}} {{- "}}" -}}
 \thispagestyle{empty}
@@ -16,12 +27,12 @@
 {% if loop.first or loop.previtem.country_abbr != b.country_abbr %}
     \section*{ {{- b.country_abbr -}} }
     \subsection*{ {{- get_broad(b.acronym, b.name, b.acr_name) -}} }
-    {{- b.year }}
+    {{- get_result(b) -}}
 {% elif loop.previtem.name != b.name %}
     \subsection*{ {{- get_broad(b.acronym, b.name, b.acr_name) -}} }
-    {{- b.year }}
+    {{- get_result(b) -}}
 {% else %}
-    {{- b.year }}
+    {{- get_result(b) -}}
 {% endif %}
 {% endfor %}
 {% endblock %}

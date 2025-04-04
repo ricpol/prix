@@ -204,6 +204,21 @@ class DataProvider:
                 results[id, year] = [(kind, progs, res)]
         return participants, results
 
+    def get_broadcaster_results(self):
+        '''A more compact list, for the silver booklet.'''
+        part, res = self.get_participant_broadcasters()
+        for p in part:
+            year_res = 'mention'
+            try:
+                for kind, num, result in res[p['broadcaster_id'], p['year']]:
+                    if result == 'winner':
+                        year_res = 'winner'
+                        break
+            except KeyError:
+                year_res = 'participant'
+            p['result'] = year_res
+        return part
+
     def get_participants_other(self):
         '''Data about the non-broadcaster participants.'''    # for the book only
         sql = '''SELECT participants.year, broadcasters.name, countries.country_abbr 
@@ -334,7 +349,7 @@ class PrixSilverFormatter(BaseFormatter):
                      winners=winners, display=self.winner_display, standalone=True)
 
     def publish_win_broadcasters(self):
-        broadcasters = self.db.get_win_broadcasters()
+        broadcasters = self.db.get_broadcaster_results()
         the_file = 'win_broadcasters.' + self.outputtype
         self.publish(the_file, the_file, 'silver broadcasters',
                      broadcasters=broadcasters, standalone=True)
