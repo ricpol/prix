@@ -3,33 +3,33 @@
 {% macro get_title(lang, original, english) -%}
 {% if lang in ('', 'english', 'nolanguage', 'tsonga') -%}
 {\large {{ original|texescape -}} } 
-{%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
+{%- if original != english -%} \\{\itshape {{ english|texescape -}} }{%- endif -%}
 {%- elif lang=='russian' -%}
 {\normalsize\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
-\nopagebreak[3]\\{\itshape {{ english|texescape -}} }
+\\{\itshape {{ english|texescape -}} }
 {%- elif lang in ('japanese', 'chinese') -%}
 \hspace{-0.05em}{\normalsize{\japanesefont {{ original|texescape -}} {{- "}}" -}}{\itshape {{ english|texescape -}} }
 {%- elif lang=='korean' -%}
 \hspace{-0.05em}{\normalsize{\koreanfont {{ original|texescape -}} {{- "}}" -}}{\itshape {{ english|texescape -}} }
 {%- else -%}
 {\large\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
-{%- if original != english -%} \nopagebreak[3]\\{\itshape {{ english|texescape -}} }{%- endif -%}
+{%- if original != english -%} \\{\itshape {{ english|texescape -}} }{%- endif -%}
 {%- endif -%}
 {%- endmacro -%}
 
 {%- macro get_title_for_mentions(lang, original, english) -%}
 {%- if lang in ('', 'english', 'nolanguage', 'tsonga') -%}
 {{ original|texescape -}}
-{%- if original != english -%} -- {\itshape {{ english|texescape -}} }{%- endif -%}
+{%- if original != english -%} ~-- {\itshape {{ english|texescape -}} }{%- endif -%}
 {%- elif lang=='russian' -%}
-{\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}} -- {\itshape {{ english|texescape -}} }
+{\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}} ~-- {\itshape {{ english|texescape -}} }
 {%- elif lang in ('japanese', 'chinese') -%}
-{\japanesefont {{ original|texescape -}} } -- {\itshape {{ english|texescape -}} }
+{\japanesefont {{ original|texescape -}} }~-- {\itshape {{ english|texescape -}} }
 {%- elif lang=='korean' -%}
-{\koreanfont {{ original|texescape -}} } -- {\itshape {{ english|texescape -}} }
+{\koreanfont {{ original|texescape -}} }~-- {\itshape {{ english|texescape -}} }
 {%- else -%}
 {\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
-{%- if original != english %} -- {\itshape {{ english|texescape -}} }{%- endif -%}
+{%- if original != english -%} ~-- {\itshape {{ english|texescape -}} }{%- endif -%}
 {%- endif -%}
 {%- endmacro -%}
 
@@ -51,27 +51,26 @@ Not awarded.
 {%- if w.or_title=="_null" -%} {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} 
 {%- else -%}
 {{- get_title(w.lang_title, w.or_title, w.en_title) -}}
-\nopagebreak[2]\\ {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}} \\*
+\\* {{- get_broad(w.acronym, w.name, w.acr_name, w.country, w.country_abbr, w.iso3166, display) -}}
 {%- endif -%}
 {%- endif -%}
 {%- endmacro %}
 
-{% macro get_details(w, display) -%}
+{%- macro get_details(w, display) -%}
 {% if display["credits"] and w.credits and w.credits!="_null" -%} 
-{\footnotesize {{ w.credits|texescape -}} } \\* {% endif %}
+\\* {\footnotesize {{ w.credits|texescape -}} } {%- endif %}
 {% if display["weblink"] and w.weblink!="_null" -%} 
-{{ w.weblink|texescape }} \\* {% endif %}
-{% if display["reasoning"] and w.reasoning and w.reasoning!="_null" %} 
-{\footnotesize \textit{The Jury:} {{ w.reasoning|texescape -}} } \\* {% endif %}
+\\* {{ w.weblink|texescape }} {%- endif %}
+{% if display["reasoning"] and w.reasoning and w.reasoning!="_null" -%} 
+\\* {\footnotesize {\color{DarkRed}\textit{The Jury: {{- "}}" }} {{ w.reasoning|texescape -}} } {%- endif %}
 {% if display["note"] and w.note -%} 
-{\footnotesize\textit{ {{ w.note|texescape -}} {{- "}}" -}} \\* {% endif %}
+\\* {\footnotesize\textit{ {{ w.note|texescape -}} {{- "}}" -}} {%- endif %}
 {%- endmacro %}
 
-{% macro get_mention(w, display, prev_result) -%}
-{%- if w.result != prev_result -%} {\color{DarkRed}\textsc{ {{- w.result -}} {{- "}}" }} {% endif -%}
+{% macro get_mention(w) -%}
 {%- if w.or_title=="_null" -%} {{- w.acronym|texescape -}}, {{ w.country_abbr -}}. 
 {%- else -%}
-{{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ w.acronym|texescape -}}, {{ w.country_abbr -}} . 
+{{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ w.acronym|texescape -}}, {{ w.country_abbr -}}
 {% endif -%}
 {%- endmacro %}
 
@@ -89,29 +88,33 @@ Not awarded.
 \vspace{70pt}
 \fancyhead[R]{\scshape {{ common["silver_ch_winners"] -}} }
 {% for w in winners %}
-{% if loop.first %}
-    \section*{ {{- w.year -}}, {{ w.city -}} }
-{% elif loop.previtem.year != w.year %}
-    \section*{ {{- w.year -}}, {{ w.city -}} }
-{% endif %}
-{% if loop.first or loop.previtem.year != w.year or loop.previtem.prize != w.prize %}
-\begin{samepage}
-%<{{ w.id }}%
+{% if loop.first or loop.previtem.year != w.year %}
+\bigskip\begin{samepage}
+\section*{ {{- w.year -}}, {{ w.city -}} }
+{{ get_prize(w, display) }}
+{% elif loop.previtem.year == w.year and loop.previtem.prize != w.prize %}
+\filbreak
+\bigskip\begin{samepage}
 {{ get_prize(w, display) }}
 {% endif %}
 {% if w.result=="winner" %}
-{{ get_headline(w, display) }}
-{{ get_details(w, display) }}
+%<{{ w.id }}%
+{{ get_headline(w, display) -}}
+{{- get_details(w, display) }}
 %{{ w.id }}>%
 {% else %}
-{% if loop.previtem.result == "winner" %} \\ {% endif %}
-{{- get_mention(w, display, loop.previtem.result ) -}}
+{% if loop.previtem.result == "winner" %}
+\medskip
+
+\noindent {% endif %}
+{% if loop.previtem.result != w.result -%} {{ " " -}} {\color{DarkRed}\textsc{ {{- w.result -}} {{- "}}" }} {% endif %}
+{{ " " }} {{- get_mention(w) }} 
+{%- if loop.nextitem.result == w.result -%} ~\ding{"61} {% endif -%}
+{%- if loop.nextitem.result == "winner" -%} .
 {% endif %}
-{% if loop.nextitem and (loop.nextitem.prize != w.prize or loop.nextitem.year != w.year) %}
-\end{samepage}
-{% if loop.nextitem.year == w.year %}
-\filbreak
 {% endif %}
+{%- if loop.nextitem and loop.nextitem.result == "winner" %}
+\end{samepage} 
 {% endif %}
 {% endfor %}
 \end{samepage}

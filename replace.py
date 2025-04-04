@@ -14,6 +14,12 @@ silver_winners_tex = (
     # ==========================
     # these should not compromise page breaking,
     # but even if so... we need them anyway
+    ('Czech Rep..', 'Czech Rep.', -1),
+    ('Shortlist motivation:', '{\\color{DarkRed}\\textit{Shortlist motivation:}}', -1),
+    ('Noa (Achinoam Nin) (Israel)', 'Noa (Achinoam Nin), Israel', 1),
+    # country names should *also* be tex-escaped... :-(
+    ('Italy – Trieste', 'Italy -- Trieste', -1),
+    ('Germany - DDR', 'Germany -- DDR', -1),
     # fixing some overfull boxes
     # --------------------------
     ("Ministry of Rights and Equal Opportunities Sp.~Prize", 
@@ -24,6 +30,13 @@ silver_winners_tex = (
      "Prix Italia Web,\\\\Best Trans-Media for Young Adult Public", 1),
     ("Pasja, czyli misterium Męki Pańskiej w Kalwarii Zebrzydowskiej widziane",
      "Pasja, czyli misterium Męki Pańskiej w Kalwarii Zebrzydow\\-skiej widziane", 1),
+    ("DreamStation by RADIO FRANCE,",
+     "DreamStation by R\\kern-0.1em A\\kern-0.1em D\\kern-0.1em I\\kern-0.1em O F\\kern-0.1em R\\kern-0.1em A\\kern-0.1em N\\kern-0.1em C\\kern-0.1em E,", 1),
+    ("salvaguardia dell'agricoltura",
+     "salvaguardia dell'agri\\-coltura", 1),
+    # whitespace tricks
+    ("Producer: Stuart Weiss. Choreography: Pat Birch.", 
+     "Producer: Stuart Weiss. Choreography: Pat Birch.~", 1),
     # various fixes
     # -------------
     # not sure about these: maybe use unicode chars instead?
@@ -31,20 +44,6 @@ silver_winners_tex = (
      "textfrench{VIII\\textsuperscript{e} Station", 1),
     ("itshape VIIIth Station",
      "itshape VIII\\textsuperscript{th} Station", 1),
-    # some ex-aequos, must be in the same "samepage" context
-    ("%18>%\n", "\n\\bigskip\n\\noindent", 1),
-    ("%26>%\n", "\n\\bigskip\n\\noindent", 1),
-    ("%691>%\n", "\n\\bigskip\n\\noindent", 1),
-    ("%1402>%\n", "\n\\bigskip\n\\noindent", 1),
-    ("%460>%\n", "\n\\bigskip\n\\noindent ", 1), # the CNN case need one more space
-    # when a winner without credits is followed by a shortlist/mentions, 
-    # a double pagebreak will occur: let't get rid of those
-    ("%582>%\n\\\\ ", "%582>%\n\\noindent", 1),
-    ("%581>%\n\\\\ ", "%581>%\n\\noindent", 1),
-    ("%717>%\n\\\\ ", "%717>%\n\\noindent", 1),
-    ("%754>%\n\\\\ ", "%754>%\n\\noindent", 1),
-    ("%899>%\n\\\\ ", "%899>%\n\\noindent", 1),
-    ("%1232>%\n\\\\ ", "%1232>%\n\\noindent", 1),
     # the golden medal 1983: we use the "Prodi" layout below
     ("Henrik Hahr (Sweden)", 
      "{\\large Henrik Hahr}\\\\ Sweden", 1),
@@ -92,8 +91,8 @@ silver_winners_tex = (
     ("Piccolo Teatro Milano (Italy)", 
      "Italy", 1),
     # 2015, expo: do not repeat name in credits...
-    ("\n{\\footnotesize By: Valentina Landenna.}", "", 1),
-    ("\n{\\footnotesize By: Leonardo Ferrari Carissimi.}", "", 1),
+    ("\\\\* {\\footnotesize By: Valentina Landenna.}", "", 1),
+    ("\\\\* {\\footnotesize By: Leonardo Ferrari Carissimi.}", "", 1),
     # the short names here are just too long...
     ("La Sept -- Société européenne de programmes de télévision (France)",
      "La Sept (France)", 3),
@@ -143,17 +142,31 @@ silver_winners_tex = (
     ("Peaky Blinders: Rambert",
      "Peaky Blinders:\\\\Rambert", 1),
     # forced no-indents
-    # -----------------
-    ("{\\footnotesize \\textit{The Jury:} BBC World Radio Service", 
-     "\\noindent{\\footnotesize \\textit{The Jury:} BBC World Radio Service", 1),
-    ("{\\footnotesize \\textit{The Jury:} Cable News Network", 
-     "\\noindent{\\footnotesize \\textit{The Jury:} Cable News Network", 1),
-    #("", "", 1),
-    #("", "", 1),
-    #("", "", 1),
-    #("", "", 1),
-    #("", "", 1),
-
+    ("Chris Dunkley (United Kingdom)", "\\noindent Chris Dunkley (United Kingdom)", 1),
+    ("Lennart Ehrenborg (Sweden)", "\\noindent Lennart Ehrenborg (Sweden)", 1),
+    ("Maria Teresa Miscovich (Argentina)", "\\noindent Maria Teresa Miscovich (Argentina)", 1),
+    ("Diana Palma (Italy)", "\\noindent Diana Palma (Italy)", 1),
+    ("Lord George Thomson of Monifieth (United Kingdom)", "\\noindent Lord George Thomson of Monifieth (United Kingdom)", 1),
+    ("Ursula von Zallinger (Austria)", "\\noindent Ursula von Zallinger (Austria)", 1),
+    # some ex-aequos, must be in the same "samepage" context
+    ("%18>%\n", "\n\\bigskip\n\\noindent", 1),
+    ("%26>%\n", "\n\\bigskip\n\\noindent", 1),
+    ("%691>%\n", "\n\\bigskip\n\\noindent", 1),
+    ("%1402>%\n", "\n\\bigskip\n\\noindent", 1),
+    ("%460>%\n", "\n\\bigskip\n\\noindent ", 1), # the CNN case need one more space
+    # ex-aequo prizes break our template logic for opening/closing the samepage context 
+    # and I'm not in the mood of fixing it, so...
+    ("\\noindent\\end{samepage}\n%<19%", "\\noindent\n%<19%", 1), 
+    ("\\noindent\\end{samepage}\n%<27%", "\\noindent\n%<27%", 1), 
+    ("\\noindent \\end{samepage}\n%<461%", "\\noindent\n%<461%", 1), 
+    ("\\end{samepage}\n%<2156%", "%<2156%", 1), 
+    ("\\end{samepage}\n%<2160%", "%<2160%", 1), 
+    ("\\end{samepage}\n%<2159%", "%<2159%", 1), 
+    ("\\end{samepage}\n%<2158%", "%<2158%", 1), 
+    ("\\end{samepage}\n%<2155%", "%<2155%", 1), 
+    ("\\end{samepage}\n%<2161%", "%<2161%", 1), 
+    ("\\noindent\\end{samepage}\n%<692%", "\\noindent\n%<692%", 1), 
+    ("\\noindent\\end{samepage}\n%<1403%", "\\noindent\n%<1403%", 1), 
 
     # PART 2 -- page-level fixes
     # ==========================
@@ -170,56 +183,163 @@ silver_winners_tex = (
     # sometimes, leaving a lot of space at the bottom of the page. This tends to happen with 
     # the last prize block before a new-year section, probably because we had to remove 
     # all the \fillbreak before a section (because it was too much: tex was then starting a 
-    # new page with every section!). Inserting \pagebreaks[x] won't work either...
+    # new page with every section!). Inserting \pagebreak[x] won't work either...
     # Bottom line, we must manually insert a few \nopagebreak and \pagebreak hints.
+    #1956
+    ("%46>%\n\\end{samepage}\n\\filbreak", "%46>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1957, Taormina}", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1957, Taormina}", 1),
+    #1957
+    ("%53>%\n\\end{samepage}\n\\filbreak", "%53>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1958, Venezia", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1958, Venezia", 1),
     # 1961
     ("%87>%\n\\end{samepage}\n\\filbreak", "%87>%\n\\end{samepage}\n\\nopagebreak", 1),
-    ("\\section*{1962, Verona}", "\\pagebreak\\section*{1962, Verona}", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1962, Verona", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1962, Verona", 1), 
+    # 1962
+    ("%100>%\n\\end{samepage}\n\\filbreak", "%100>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1963, Napoli", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1963, Napoli", 1), 
     # 1964
     ("%120>%\n\\end{samepage}\n\\filbreak", "%120>%\n\\end{samepage}\n\\nopagebreak", 1),
-    ("\\section*{1965, Firenze}", "\\pagebreak\\section*{1965, Firenze}", 1),
-    # 1978
-    ("%273>%\n\\end{samepage}\n\\filbreak", "%273>%\n\\end{samepage}\n\\nopagebreak", 1),
-    ("\\section*{1979, Lecce}", "\\pagebreak\\section*{1979, Lecce}", 1),
-    # 1986
-    ("\\filbreak\n\\begin{samepage}\n%<384%", "\nopagebreak\n\\begin{samepage}\n%<384%", 1),
-    ("\\section*{1987, Vicenza}", "\\pagebreak\\section*{1987, Vicenza}", 1),
-    # 1989
-    ("\\filbreak\n\\begin{samepage}\n%<2171%", "\\nopagebreak\n\\begin{samepage}\n%<2171%", 1),
-    ("\\section*{1990, Palermo}", "\\pagebreak\\section*{1990, Palermo}", 1),
-    # 1997 
-    ("%568>%\n\\end{samepage}\n\\filbreak", "%568>%\n\\end{samepage}\n\\nopagebreak", 1),
-    ("\\section*{1998, Assisi}", "\\pagebreak\\section*{1998, Assisi}", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1965, Firenze", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1965, Firenze", 1), 
+    # 1966
+    ("%141>%\n\\end{samepage}\n\\filbreak", "%141>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1967, Ravenna", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1967, Ravenna", 1),
+    # 1969
+    ("%171>%\n\\end{samepage}\n\\filbreak", "%171>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1970, Firenze", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1970, Firenze", 1),  
+    # 1971
+    ("%191>%\n\\end{samepage}\n\\filbreak", "%191>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1972, Torino", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1972, Torino", 1),
+    # 1975
+    ("%236>%\n\\end{samepage}\n\\filbreak", "%236>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1976, Bologna", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1976, Bologna", 1),
+    # 1977
+    ("%260>%\n\\end{samepage}\n\\filbreak", "%260>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1978, Milano", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1978, Milano", 1),
+    # 1981
+    ("%308>%\n\\end{samepage}\n\\filbreak", "%308>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1982, Venezia", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1982, Venezia", 1),
+    # 1987 
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Sp.~Prize TV Programme on Ecology}}\n%<398%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Sp.~Prize TV Programme on Ecology}}\n%<398%", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1988, Capri", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1988, Capri", 1),
+    # 1988
+    ("%412>%\n\\end{samepage}\n\\filbreak", "%412>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1989, Perugia", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1989, Perugia", 1),
+    # 1998
+    ("%2161>%\n\\end{samepage}\n\\filbreak", "%2161>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1999, Firenze/Siena", 
+     "\\pagebreak\\begin{samepage}\n\\section*{1999, Firenze/Siena", 1),
     # 1999
     ("%2168>%\n\\end{samepage}\n\\filbreak", "%2168>%\n\\end{samepage}\n\\nopagebreak", 1),
-    ("\\section*{2000, Bologna/Rimini}", "\\pagebreak\\section*{2000, Bologna/Rimini}", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2000, Bologna/Rimini", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2000, Bologna/Rimini", 1),
     # 2002
-    ("\\filbreak\n\\begin{samepage}\n%<2246%", "\\nopagebreak\n\\begin{samepage}\n%<2246%", 1),
-    ("\\section*{2003, Catania/Siracusa}", "\\pagebreak\\section*{2003, Catania/Siracusa}", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Honorary Prix Italia}}\n%<2246%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Honorary Prix Italia}}\n%<2246%", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2003, Catania/Siracusa", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2003, Catania/Siracusa", 1),
     # 2003
-    ("\\filbreak\n\\begin{samepage}\n%<782%", "\\nopagebreak\n\\begin{samepage}\n%<782%", 1),
-    ("\\section*{2004, Catania/Taormina}", "\\pagebreak\\section*{2004, Catania/Taormina}", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Award}}\n%<782%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Award}}\n%<782%", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2004, Catania/Taormina", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2004, Catania/Taormina", 1),
     # 2004
-    ("\\filbreak\n\\begin{samepage}\n%<830%", "\\nopagebreak\n\\begin{samepage}\n%<830%", 1),
-    ("\\section*{2005, Milano}", "\\pagebreak\\section*{2005, Milano}", 1),
+    ("%1856>%\n\\end{samepage}\n\\filbreak", "%1856>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2005, Milano", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2005, Milano", 1),
     # 2005
-    ("\\filbreak\n\\begin{samepage}\n%<873%", "\\nopagebreak\n\\begin{samepage}\n%<873%", 1),
-    ("\\section*{2006, Venezia}", "\\pagebreak\\section*{2006, Venezia}", 1),
+    ("%1852>%\n\\end{samepage}\n\\filbreak", "%1852>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2006, Venezia", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2006, Venezia", 1),
     # 2006
-    ("\\filbreak\n\\begin{samepage}\n%<919%", "\\nopagebreak\n\\begin{samepage}\n%<919%", 1),
-    ("\\section*{2007, Verona}", "\\pagebreak\\section*{2007, Verona}", 1),
+    ("%922>%\n\\end{samepage}\n\\filbreak", "%922>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2007, Verona", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2007, Verona", 1),
     # 2007
-    ("\\filbreak\n\\begin{samepage}\n%<967%", "\\nopagebreak\n\\begin{samepage}\n%<967%", 1),
-    ("\\section*{2008, Cagliari}", "\\pagebreak\\section*{2008, Cagliari}", 1),
-
-
-
-
-
-    #("%39>%", "%39>%\n\\pagebreak", 1),
-    #("%<357%\n", "%<357%\n\\enlargethispage{1\\baselineskip}", 1),
-
-
+    ("%965>%\n\\end{samepage}\n\\filbreak", "%965>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2008, Cagliari", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2008, Cagliari", 1),
+    # 2008
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Award}}\n%<1017%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Award}}\n%<1017%", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2009, Torino", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2009, Torino", 1),
+    # 2010
+    ("%1159>%\n\\end{samepage}\n\\filbreak", "%1159>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2011, Torino", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2011, Torino", 1),
+    # 2012
+    ("%2175>%\n\\end{samepage}\n\\filbreak", "%2175>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2013, Torino", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2013, Torino", 1),
+    # 2013
+    ("%1343>%\n\\end{samepage}\n\\filbreak", "%1343>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2014, Torino", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2014, Torino", 1),
+    # 2015
+    ("%2252>%\n\\end{samepage}\n\\filbreak", "%2252>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2016, Lampedusa", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2016, Lampedusa", 1),
+    # 2016
+    ("%525>%\n\\end{samepage}\n\\filbreak", "%525>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2017, Milano", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2017, Milano", 1),
+    # 2017 - with a rare forced break not at the end of the year
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Drama}}\n%<1424%", 
+     "\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Drama}}\n%<1424%", 1),
+    ("%1424>%", "%1424>%\n\\enlargethispage{1\\baselineskip}", 1),
+    ("%1434>%\n\\end{samepage}\n\\filbreak", "%1434>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2018, Capri", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2018, Capri", 1),
+    # 2018 - another two...
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Drama}}\n%<1438%", 
+     "\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Drama}}\n%<1438%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Web Entertainment}}\n%<1447%", 
+     "\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Web Entertainment}}\n%<1447%", 1),
+    ("%1447>%", "%1447>%\n\\enlargethispage{1\\baselineskip}", 1),
+    # 2019
+    ("%1471>%\n\\end{samepage}\n\\filbreak", "%1471>%\n\\end{samepage}\n\\nopagebreak", 1),
+    # 2020
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<1496%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<1496%", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2021, Milano", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2021, Milano", 1),
+    # 2021
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<1518%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<1518%", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2022, Bari", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2022, Bari", 1),
+    # 2022
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize -- Communication}}\n%<2167%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize -- Communication}}\n%<2167%", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2023, Bari", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2023, Bari", 1),
+    # 2023 - this is pretty tortured because the digital interactive motivation is sooo long
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio \\& Podcast Doc.~and Reportage}}\n%<2090%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio \\& Podcast Doc.~and Reportage}}\n%<2090%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Fiction}}\n%<2125%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Fiction}}\n%<2125%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Factual}}\n%<2118%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Factual}}\n%<2118%", 1),
+    ("%2125>%", "%2125>%\n\\enlargethispage{2\\baselineskip}", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize -- Engineering}}\n%<2162%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize -- Engineering}}\n%<2162%", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2024, Torino", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2024, Torino", 1),
+ 
     )
 silver_broadcasters_txt = tuple()
 silver_broadcasters_html = tuple()
