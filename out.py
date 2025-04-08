@@ -219,14 +219,14 @@ class DataProvider:
             p['result'] = year_res
         return part
 
-    def get_participants_other(self):
-        '''Data about the non-broadcaster participants.'''    # for the book only
+    def get_other_participants(self):
+        '''Data about the non-broadcaster participants.'''
         sql = '''SELECT participants.year, broadcasters.name, countries.country_abbr 
                  FROM participants 
                  JOIN broadcasters ON participants.broadcaster_id=broadcasters.id 
                  JOIN countries ON broadcasters.country=countries.country 
                  WHERE broadcasters.status<3 and broadcasters.status>0
-                 ORDER BY countries.sort, broadcasters.name;'''
+                 ORDER BY participants.year, countries.sort, broadcasters.name;'''
         c = self.con.cursor()
         c.row_factory = _sqlite_dict_row_factory
         return c.execute(sql).fetchall()
@@ -354,6 +354,12 @@ class PrixSilverFormatter(BaseFormatter):
         self.publish(the_file, the_file, 'silver broadcasters',
                      broadcasters=broadcasters, standalone=True)
 
+    def publish_other_participants(self):
+        participants = self.db.get_other_participants()
+        the_file = 'win_others.' + self.outputtype
+        self.publish(the_file, the_file, 'silver participants',
+                     participants=participants, standalone=True)
+
     def publish_milestones(self):
         milestones = self.db.get_milestones()
         the_file = 'milestones.' + self.outputtype
@@ -364,13 +370,14 @@ class PrixSilverFormatter(BaseFormatter):
         winners = self.db.get_winners(winners_only=False, 
                     prixitalia_only=False, exclude_unknowns=True)
         broadcasters = self.db.get_broadcaster_results()
+        participants = self.db.get_other_participants()
         milestones = self.db.get_milestones()
         the_template = 'book.' + self.outputtype
         the_output = 'silver_book.' + self.outputtype
         self.publish(the_template, the_output, 'silver book', 
                      winners=winners, display=self.winner_display,
-                     broadcasters=broadcasters, milestones=milestones, 
-                     standalone=False)
+                     broadcasters=broadcasters, participants=participants, 
+                     milestones=milestones, standalone=False)
 
 
 class PrixCompanionFormatter(BaseFormatter):
@@ -405,7 +412,7 @@ class PrixCompanionFormatter(BaseFormatter):
 
     def publish_win_broadcasters(self):
         participants, results = self.db.get_participant_broadcasters()
-        others = self.db.get_participants_other()
+        others = self.db.get_other_participants()
         the_file = 'win_broadcasters.' + self.outputtype
         self.publish(the_file, the_file, 'book broadcasters',
                      participants=participants, results=results, 
@@ -574,6 +581,7 @@ if __name__ == '__main__':
     outputs = ('silver', 'book', '75genius')
     sections = {# for the silver booklet
                 'intro': 'publish_intro',
+                'participants': 'publish_other_participants',
                 # for the book
                 'persons': 'publish_persons',
                 'biblio': 'publish_bibliography', 

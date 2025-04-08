@@ -1,0 +1,17 @@
+{% if standalone %} {% extends "base.tex" %} {% endif %}
+
+{% block content %}
+\chapter*{\hfill{\slshape {{ common["silver_ch_win_others"] -}} {{- "}}" -}}
+\thispagestyle{empty}
+\fancyhead[R]{\scshape {{ common["silver_ch_win_others"] -}} }
+{\raggedright{\large {{ common["silver_win_others_blurb_tex_version"] -}} {{- "}}" }}
+\vspace{50pt}
+{% for p in participants %}
+{% if loop.first or loop.previtem.year != p.year %}
+    \bigskip \\* \noindent{\large {\color{DarkRed} {{ p.year -}} {{- "}}" }} \\*
+    {{- p.name }} ( {{- p.country_abbr -}} ). {{ " " }}
+{%- else -%}
+    {{- p.name }} ( {{- p.country_abbr -}} ). {{ " " }}
+{%- endif -%}
+{% endfor %}
+{% endblock %}

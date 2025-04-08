@@ -388,12 +388,15 @@ silver_broadcasters_tex = (
      "Elektronskih Medija/\\\\Association of Independent Electronic Media", 3), 
     ("Thai Public Broadcasting Service", "Thai Public Broadcasting Service~", 1), 
     ("radio/ National Radio Company of Ukraine", 
-     "radio/\\\\National Radio Company of Ukraine", 1)
+     "radio/\\\\National Radio Company of Ukraine", 1),
     ("Television Authority/ Independent Television", 
      "Television Authority/\\\\Independent Television", 1), 
     ("Broadcasting Authority/ Independent Television", 
      "Broadcasting Authority/\\\\Independent Television", 1), 
                           )
+silver_other_participants_txt = tuple()
+silver_other_participants_html = tuple()
+silver_other_participants_tex = tuple()
 silver_milestones_txt = tuple()
 silver_milestones_html = tuple()
 silver_milestones_tex = (
@@ -466,16 +469,23 @@ REPLACEMENTS = {
     ('silver broadcasters', 'html'): silver_broadcasters_html,
     ('silver broadcasters', 'tex'): silver_broadcasters_tex,
 
+    ('silver participants', 'txt'): silver_other_participants_txt,
+    ('silver participants', 'html'): silver_other_participants_html,
+    ('silver participants', 'tex'): silver_other_participants_tex,
+
     ('silver milestones', 'txt'): silver_milestones_txt,
     ('silver milestones', 'html'): silver_milestones_html,
     ('silver milestones', 'tex'): silver_milestones_tex,
 
     ('silver book', 'txt'): (silver_intro_txt + silver_winners_txt 
-                             + silver_broadcasters_txt + silver_milestones_txt),
+                             + silver_broadcasters_txt + silver_other_participants_txt 
+                             + silver_milestones_txt),
     ('silver book', 'html'): (silver_intro_html + silver_winners_html 
-                              + silver_broadcasters_html+ silver_milestones_html),
+                              + silver_broadcasters_html+ silver_other_participants_html 
+                              + silver_milestones_html),
     ('silver book', 'tex'): (silver_intro_tex + silver_winners_tex 
-                             + silver_broadcasters_tex + silver_milestones_tex),
+                             + silver_broadcasters_tex + silver_other_participants_tex 
+                             + silver_milestones_tex),
 
 
     ('book editions', 'tex'): book_editions_tex,

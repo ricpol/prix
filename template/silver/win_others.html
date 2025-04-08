@@ -1,0 +1,25 @@
+{% if standalone %} {% extends "base.html" %} {% endif %}
+
+{% macro get_broad(acronym, name, acr_name) -%}
+{%- if acr_name -%} {{- name -}}
+{%- else -%}
+{{- acronym }} {{ name -}}
+{% endif %}
+{%- endmacro %}
+
+{% block content %}
+<h2>{{ common["silver_ch_win_broadcasters"] -}}</h2>
+
+{% for b in broadcasters %}
+{% if loop.first or loop.previtem.country_abbr != b.country_abbr %}
+    <h3>{{- b.country_abbr -}}</h3>
+    <p>{{- get_broad(b.acronym, b.name, b.acr_name) -}}<br />
+    {{- b.year }}
+{% elif loop.previtem.name != b.name %}
+    </p><p>{{- get_broad(b.acronym, b.name, b.acr_name) -}}<br />
+    {{- b.year }}
+{% else %}
+    {{- b.year }}
+{% endif %}
+{% endfor %}
+{% endblock %}

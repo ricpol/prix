@@ -1,0 +1,34 @@
+{% if standalone %} {% extends "base.txt" %} {% endif %}
+
+{% macro get_broad(acronym, name, acr_name) -%}
+{%- if acr_name -%} {{- name -}}
+{%- else -%}
+{{- acronym }} {{ name -}}
+{% endif %}
+{%- endmacro %}
+
+{% block content %}
+{{ common["silver_ch_win_broadcasters"] }}
+{{ "-"*common["silver_ch_win_broadcasters"]|length }}
+
+{% for b in broadcasters %}
+{% if loop.first or loop.previtem.country_abbr != b.country_abbr %}
+
+
+{{ b.country_abbr }}
+{{ "^"*b.country_abbr|length }}
+
+>{{ get_broad(b.acronym, b.name, b.acr_name) }}
+{{ b.year }}
+{% elif loop.previtem.name != b.name %}
+>{{ get_broad(b.acronym, b.name, b.acr_name) }}
+{{ b.year }}
+{% else %}
+{{ b.year }}
+{% endif %}
+{% endfor %}
+
+
+
+
+{% endblock %}
