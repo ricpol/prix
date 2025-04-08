@@ -363,7 +363,7 @@ class PrixSilverFormatter(BaseFormatter):
     def publish_book(self):
         winners = self.db.get_winners(winners_only=False, 
                     prixitalia_only=False, exclude_unknowns=True)
-        broadcasters = self.db.get_win_broadcasters()
+        broadcasters = self.db.get_broadcaster_results()
         milestones = self.db.get_milestones()
         the_template = 'book.' + self.outputtype
         the_output = 'silver_book.' + self.outputtype
