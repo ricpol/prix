@@ -14,12 +14,17 @@ silver_winners_tex = (
     # ==========================
     # these should not compromise page breaking,
     # but even if so... we need them anyway
+    # LEAVE THIS FIRST
+    # it's hard to keep the dashes straight... I put non-breaking spaces
+    # whenever possible in the templates, but db strings don't have those.
+    # So, let's do a sweeping replace first:
+    (' --', '~--', -1), ('~~', '~', -1),
     ('Czech Rep..', 'Czech Rep.', -1),
     ('Shortlist motivation:', '{\\color{DarkRed}\\textit{Shortlist motivation:}}', -1),
-    ('Noa (Achinoam Nin) (Israel)', 'Noa (Achinoam Nin), Israel', 1),
+    ('Noa (Achinoam Nin) (Israel)', 'Noa (Achinoam Nin), Israel', 2),
     # country names should *also* be tex-escaped... :-(
-    ('Italy – Trieste', 'Italy -- Trieste', -1),
-    ('Germany - DDR', 'Germany -- DDR', -1),
+    ('Italy – Trieste', 'Italy~-- Trieste', -1),
+    ('Germany – DDR', 'Germany~-- DDR', -1),
     # fixing some overfull boxes
     # --------------------------
     ("Ministry of Rights and Equal Opportunities Sp.~Prize", 
@@ -45,23 +50,26 @@ silver_winners_tex = (
     ("itshape VIIIth Station",
      "itshape VIII\\textsuperscript{th} Station", 1),
     # the golden medal 1983: we use the "Prodi" layout below
-    ("Henrik Hahr (Sweden)", 
-     "{\\large Henrik Hahr}\\\\ Sweden", 1),
+    ("%<2169%\nHenrik Hahr (Sweden)", 
+     "%<2169%\n{\\large Henrik Hahr}\\\\ Sweden", 1),
     # prix galileo 1988-1990: we use the "Prodi" layout below
-    ("Eckhart Stein (Germany)", 
-     "{\\large Eckhart Stein}\\\\ Germany", 1),
-    ("Liz Forgan (United Kingdom)", 
-     "{\\large Liz Forgan}\\\\ United Kingdom", 1),
-    ("Angelo Guglielmi (Italy)",
-     "{\\large Angelo Guglielmi}\\\\ Italy", 1), 
+    ("%<2170%\nEckhart Stein (Germany)", 
+     "%<2170%\n{\\large Eckhart Stein}\\\\ Germany", 1),
+    ("%<2171%\nLiz Forgan (United Kingdom)", 
+     "%<2171%\n{\\large Liz Forgan}\\\\ United Kingdom", 1),
+    ("%<2172%\nAngelo Guglielmi (Italy)",
+     "%<2172%\n{\\large Angelo Guglielmi}\\\\ Italy", 1), 
     # these are because the Euro Prize was awarded to a Country, 
     # not a programme
-    ("Italy (Italy)", 
-     "{\\large Italy}", 1),
-    ("Austria (Austria)", 
-     "{\\large Austria}", 1),
-    ("United Kingdom (United Kingdom)", 
-     "{\\large United Kingdom}", 1),
+    ("%<609%\nItaly (Italy)", 
+     "%<609%\n{\\large Italy}", 1),
+    ("%<610%\nAustria (Austria)", 
+     "%<610%\n{\\large Austria}", 1),
+    ("%<611%\nUnited Kingdom (United Kingdom)", 
+     "%<611%\n{\\large United Kingdom}", 1),
+    # the same, in the participant list
+    ("\\\\*Austria (Austria).  Italy (Italy).  Jeremy Isaacs (United Kingdom).  United Kingdom (United Kingdom).",
+     "\\\\*Austria. Italy. United Kingdom. Jeremy Isaacs (United Kingdom).", 1), 
     # these are for the Honorary Prix Italia 1998
     # maybe should be {\large NAME}\\COUNTRY\\
     # but we are consistent with the 1991 Presidents' Prize format
@@ -72,29 +80,29 @@ silver_winners_tex = (
     ("\n\n%2158>%", "\n", 1),
     ("\n\n%2155>%", "\n", 1),
     # special tribute 1999: we use the "Prodi" layout below
-    ("Jeremy Isaacs (United Kingdom)",
-     "{\\large Jeremy Isaacs}\\\\ United Kingdom", 1),
+    ("%<2168%\nJeremy Isaacs (United Kingdom)",
+     "%<2168%\n{\\large Jeremy Isaacs}\\\\ United Kingdom", 1),
     # This is for the Euro Prize (honorary) 2000
     # should be smaller (see 1991 and 1998 above) 
     # but it would be odd-looking in the page context
-    ("Romano Prodi (Italy)", 
-     "{\\large Romano Prodi}\\\\ Italy", 1),
+    ("%<2154%\nRomano Prodi (Italy)", 
+     "%<2154%\n{\\large Romano Prodi}\\\\ Italy", 1),
     # This is for the sp. prize web 2000
-    ("Kataweb (Italy)", 
-     "{\\large Kataweb}\\\\ Italy", 1),
+    ("%<651%\nKataweb (Italy)", 
+     "%<651%\n{\\large Kataweb}\\\\ Italy", 1),
     # This is a fix for the latex parser in Cardine 2001
     #("\n%691>%\n\\\\ \\\\\n", "\n\\\\ \\\\\n", 1),
     # This is for the multimedia section prize 2012
-    ("Il Post (Italy)", 
-     "Italy", 1),
+    ("%<1276%\n{\\large\\textitalian{Il Post}}\\\\* Il Post (Italy)", 
+     "%<1276%\n{\\large\\textitalian{Il Post}}\\\\* Italy", 1),
     # This is for the multimedia section prize 2013
-    ("Piccolo Teatro Milano (Italy)", 
-     "Italy", 1),
+    ("%<1342%\n{\\large\\textitalian{Piccolo Teatro Milano}}\\\\* Piccolo Teatro Milano (Italy)", 
+     "%<1342%\n{\\large\\textitalian{Piccolo Teatro Milano}}\\\\* Italy", 1),
     # 2015, expo: do not repeat name in credits...
     ("\\\\* {\\footnotesize By: Valentina Landenna.}", "", 1),
     ("\\\\* {\\footnotesize By: Leonardo Ferrari Carissimi.}", "", 1),
     # the short names here are just too long...
-    ("La Sept -- Société européenne de programmes de télévision (France)",
+    ("La Sept~-- Société européenne de programmes de télévision (France)",
      "La Sept (France)", 3),
     ("ARTE Groupement Européen d'Intérêt Économique (France)",
      "ARTE GEIE (France", 1),
@@ -133,21 +141,21 @@ silver_winners_tex = (
      "Students' Jury Sp.~Prize\\\\TV Doc.~Cultural and General Interest", 1),
     ("Sp.~Prize Outstanding Innovative/Creative Web Project", 
      "Sp.~Prize Outstanding Innovative/Creative\\\\Web Project", 2),
-    ("Sp.~Prixe Expo 2015 -- Young Independent Film-Makers", 
-     "Sp.~Prixe Expo 2015 -- Young Independent\\\\Film-Makers", 1),
+    ("Sp.~Prixe Expo 2015~-- Young Independent Film-Makers", 
+     "Sp.~Prixe Expo 2015~-- Young Independent\\\\Film-Makers", 1),
     ("Prix Italia Radio Music Attracting a Broader Audience", 
      "Prix Italia Radio Music Attracting\\\\a Broader Audience", 1),
-    ("Prix Italia Radio Doc.~and Reportage -- Documentary", 
-     "Prix Italia Radio Doc.~and Reportage --\\\\Documentary", 1),
+    ("Prix Italia Radio Doc.~and Reportage~-- Documentary", 
+     "Prix Italia Radio Doc.~and Reportage~--\\\\Documentary", 1),
     ("Peaky Blinders: Rambert",
      "Peaky Blinders:\\\\Rambert", 1),
     # forced no-indents
-    ("Chris Dunkley (United Kingdom)", "\\noindent Chris Dunkley (United Kingdom)", 1),
-    ("Lennart Ehrenborg (Sweden)", "\\noindent Lennart Ehrenborg (Sweden)", 1),
-    ("Maria Teresa Miscovich (Argentina)", "\\noindent Maria Teresa Miscovich (Argentina)", 1),
-    ("Diana Palma (Italy)", "\\noindent Diana Palma (Italy)", 1),
-    ("Lord George Thomson of Monifieth (United Kingdom)", "\\noindent Lord George Thomson of Monifieth (United Kingdom)", 1),
-    ("Ursula von Zallinger (Austria)", "\\noindent Ursula von Zallinger (Austria)", 1),
+    ("%<2156%\nChris Dunkley (United Kingdom)", "%<2156%\n\\noindent Chris Dunkley (United Kingdom)", 1),
+    ("%<2160%\nLennart Ehrenborg (Sweden)", "%<2160%\n\\noindent Lennart Ehrenborg (Sweden)", 1),
+    ("%<2159%\nMaria Teresa Miscovich (Argentina)", "%<2159%\n\\noindent Maria Teresa Miscovich (Argentina)", 1),
+    ("%<2158%\nDiana Palma (Italy)", "%<2158%\n\\noindent Diana Palma (Italy)", 1),
+    ("%<2155%\nLord George Thomson of Monifieth (United Kingdom)", "%<2155%\n\\noindent Lord George Thomson of Monifieth (United Kingdom)", 1),
+    ("%<2161%\nUrsula von Zallinger (Austria)", "%<2161%\n\\noindent Ursula von Zallinger (Austria)", 1),
     # some ex-aequos, must be in the same "samepage" context
     ("%18>%\n", "\n\\bigskip\n\\noindent", 1),
     ("%26>%\n", "\n\\bigskip\n\\noindent", 1),
@@ -323,8 +331,8 @@ silver_winners_tex = (
     ("\\bigskip\\begin{samepage}\n\\section*{2022, Bari", 
      "\\pagebreak\\begin{samepage}\n\\section*{2022, Bari", 1),
     # 2022
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize -- Communication}}\n%<2167%", 
-     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize -- Communication}}\n%<2167%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize~-- Communication}}\n%<2167%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize~-- Communication}}\n%<2167%", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2023, Bari", 
      "\\pagebreak\\begin{samepage}\n\\section*{2023, Bari", 1),
     # 2023 - this is pretty tortured because the digital interactive motivation is sooo long
@@ -335,8 +343,8 @@ silver_winners_tex = (
     ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Factual}}\n%<2118%", 
      "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Factual}}\n%<2118%", 1),
     ("%2125>%", "%2125>%\n\\enlargethispage{2\\baselineskip}", 1),
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize -- Engineering}}\n%<2162%", 
-     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize -- Engineering}}\n%<2162%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize~-- Engineering}}\n%<2162%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize~-- Engineering}}\n%<2162%", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2024, Torino", 
      "\\pagebreak\\begin{samepage}\n\\section*{2024, Torino", 1),
  

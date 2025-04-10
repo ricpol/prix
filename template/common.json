@@ -16,12 +16,12 @@
 	"silver_mainauthor": "Riccardo Polignieri",
 	"silver_ch_winners": "The Winners",
 	"silver_ch_win_broadcasters": "The Broadcasters", 
-	"silver_ch_win_others": "The Other Participants",
+	"silver_ch_win_others": "Other Participants",
 	"silver_version": "2", 
 	"silver_vdate": "October 2024",
 
 	"silver_broadcasters_blurb_tex_version": "\\hfill All broadcaster organisations who participated,\\\\* \\hfill were {\\slshape mentioned} or {\\bfseries won} at the Prix Italia.", 
-	"silver_win_others_blurb_tex_version": "Non-broadcaster organisations and persons\\\\who were mentioned or won at the Prix Italia.",
+	"silver_win_others_blurb_tex_version": "\\hfill Non-broadcaster organisations and persons\\\\* \\hfill who were mentioned or won at the Prix Italia.",
 
 	"biblio_annex_title": "Annual catalogues and festival annexes",
 	"biblio_meeting_title": "Meetings and conferences",

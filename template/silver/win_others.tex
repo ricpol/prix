@@ -9,9 +9,9 @@
 {% for p in participants %}
 {% if loop.first or loop.previtem.year != p.year %}
     \bigskip \\* \noindent{\large {\color{DarkRed} {{ p.year -}} {{- "}}" }} \\*
-    {{- p.name }} ( {{- p.country_abbr -}} ). {{ " " }}
+    {{- p.name|texescape }} ( {{- p.country_abbr -}} ). {{ " " }}
 {%- else -%}
-    {{- p.name }} ( {{- p.country_abbr -}} ). {{ " " }}
+    {{- p.name|texescape }} ( {{- p.country_abbr -}} ). {{ " " }}
 {%- endif -%}
 {% endfor %}
 {% endblock %}
