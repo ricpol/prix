@@ -114,6 +114,8 @@ Not awarded.
 {% endif %}
 {% endif %}
 {%- if loop.nextitem and loop.nextitem.result == "winner" %}
+%{{ w.id }}>%
+{# ^ this will put 2 end marks for a normal w, but 1 mark for the last w listed in a shortlist #}
 \end{samepage} 
 {% endif %}
 {% endfor %}
