@@ -18,9 +18,10 @@ silver_winners_tex = (
     # it's hard to keep spaces/dashes straight... I put non-breaking spaces
     # whenever possible in the templates, but db strings don't have those.
     # So, let's do a sweeping replace first:
-    ('  ', ' ', -1),
-    ('~ ', '~', -1),
-    (' --', '~--', -1), ('~~', '~', -1),
+    ('  ', ' ', -1), 
+    ('~ ', '~', -1), 
+    (' --', '~--', -1), 
+    ('~~', '~', -1),
     ('Ukrayinsʹke radio', "Ukrayins'ke radio", 1), # missing char... :-(
     ('Czech Rep..', 'Czech Rep.', -1),
     ('Shortlist motivation:', '{\\color{DarkRed}\\textit{Shortlist motivation:}}', -1),
@@ -188,7 +189,9 @@ silver_winners_tex = (
     # we feel that 70pt is the correct value, and we try to keep 
     # all the tweaks in one place, here
     ("\\vspace{70pt}\n\\fancyhead[R]{\\scshape The Winners}", 
-     "\\vspace{50pt}\n\\fancyhead[R]{\\scshape The Winners}", 1),
+     "\\vspace{20pt}\n\\fancyhead[R]{\\scshape The Winners}", 1),
+    # for the same reason, we reduce the gap between 1949 and 1950
+    ("%9>%\n\\end{samepage}\n\\bigskip", "%9>%\n\\end{samepage}\n\\medskip", 1), 
     # The following needs an explanation: 
     # basically, the "samepage" context does a decent job, except it makes tex break too early 
     # sometimes, leaving a lot of space at the bottom of the page. This tends to happen with 

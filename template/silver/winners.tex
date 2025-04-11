@@ -72,6 +72,7 @@ Not awarded.
 {%- else -%}
 {{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ w.acronym|texescape -}}, {{ w.country_abbr -}}
 {% endif -%}
+{%- if w.note %} ( {{- w.note|texescape -}} ) {%- endif -%}
 {%- endmacro %}
 
 {% macro get_prize(w, display) -%}
