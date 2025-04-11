@@ -15,10 +15,13 @@ silver_winners_tex = (
     # these should not compromise page breaking,
     # but even if so... we need them anyway
     # LEAVE THIS FIRST
-    # it's hard to keep the dashes straight... I put non-breaking spaces
+    # it's hard to keep spaces/dashes straight... I put non-breaking spaces
     # whenever possible in the templates, but db strings don't have those.
     # So, let's do a sweeping replace first:
+    ('  ', ' ', -1),
+    ('~ ', '~', -1),
     (' --', '~--', -1), ('~~', '~', -1),
+    ('Ukrayinsʹke radio', "Ukrayins'ke radio", 1), # missing char... :-(
     ('Czech Rep..', 'Czech Rep.', -1),
     ('Shortlist motivation:', '{\\color{DarkRed}\\textit{Shortlist motivation:}}', -1),
     ('Noa (Achinoam Nin) (Israel)', 'Noa (Achinoam Nin), Israel', 2),
@@ -68,7 +71,7 @@ silver_winners_tex = (
     ("%<611%\nUnited Kingdom (United Kingdom)", 
      "%<611%\n{\\large United Kingdom}", 1),
     # the same, in the participant list
-    ("\\\\*Austria (Austria).  Italy (Italy).  Jeremy Isaacs (United Kingdom).  United Kingdom (United Kingdom).",
+    ("\\\\*Austria (Austria). Italy (Italy). Jeremy Isaacs (United Kingdom). United Kingdom (United Kingdom).",
      "\\\\*Austria. Italy. United Kingdom. Jeremy Isaacs (United Kingdom).", 1), 
     # these are for the Honorary Prix Italia 1998
     # maybe should be {\large NAME}\\COUNTRY\\

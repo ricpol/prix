@@ -8,9 +8,9 @@
 {\normalsize\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
 \\{\itshape {{ english|texescape -}} }
 {%- elif lang in ('japanese', 'chinese') -%}
-\hspace{-0.05em}{\normalsize{\japanesefont {{ original|texescape -}} {{- "}}" -}}{\itshape {{ english|texescape -}} }
+\hspace{-0.05em}{\normalsize{\japanesefont {{ original|texescape -}} {{- "}}" }} \\{\itshape {{ english|texescape -}} }
 {%- elif lang=='korean' -%}
-\hspace{-0.05em}{\normalsize{\koreanfont {{ original|texescape -}} {{- "}}" -}}{\itshape {{ english|texescape -}} }
+\hspace{-0.05em}{\normalsize{\koreanfont {{ original|texescape -}} {{- "}}" }} \\{\itshape {{ english|texescape -}} }
 {%- else -%}
 {\large\text{{- lang -}}{ {{- original|texescape -}} {{- "}}" -}}
 {%- if original != english -%} \\{\itshape {{ english|texescape -}} }{%- endif -%}
@@ -107,7 +107,7 @@ Not awarded.
 \medskip
 
 \noindent {% endif %}
-{% if loop.previtem.result != w.result -%} {{ " " -}} {\color{DarkRed}\textsc{ {{- w.result -}} {{- "}}" }} {% endif %}
+{% if loop.previtem.result != w.result -%} {{ " " -}} {\color{DarkRed}\textsc{ {{- w.result -}} {{- "}}~" }} {% endif %}
 {{ " " }} {{- get_mention(w) }} 
 {%- if loop.nextitem.result == w.result -%} ~\ding{"61} {% endif -%}
 {%- if loop.nextitem.result == "winner" -%} .
