@@ -24,8 +24,11 @@ silver_winners_tex = (
     ('~~', '~', -1),
     ('Ukrayinsʹke radio', "Ukrayins'ke radio", 1), # missing char... :-(
     ('Czech Rep..', 'Czech Rep.', -1),
-    ('Shortlist motivation:', '{\\color{DarkRed}\\textit{Shortlist motivation:}}', -1),
+    ('Shortlist reasoning:', '{\\color{DarkRed}\\textit{Shortlist reasoning:}}', -1),
     ('Noa (Achinoam Nin) (Israel)', 'Noa (Achinoam Nin), Israel', 2),
+    ("{mention}}~CNN by CNN, United States.", "{mention}}~CNN (United States).", 1),
+    ('ding{"61} TVROPA, Denmark..', 'ding{"61} TVROPA, Denmark.', 1),
+    ('Mediastorm by Mediastorm', 'Mediastorm', 1),
     # country names should *also* be tex-escaped... :-(
     ('Italy – Trieste', 'Italy~-- Trieste', -1),
     ('Germany – DDR', 'Germany~-- DDR', -1),
@@ -39,13 +42,19 @@ silver_winners_tex = (
      "Prix Italia Web,\\\\Best Trans-Media for Young Adult Public", 1),
     ("Pasja, czyli misterium Męki Pańskiej w Kalwarii Zebrzydowskiej widziane",
      "Pasja, czyli misterium Męki Pańskiej w Kalwarii Zebrzydow\\-skiej widziane", 1),
-    ("DreamStation by RADIO FRANCE,",
-     "DreamStation by R\\kern-0.1em A\\kern-0.1em D\\kern-0.1em I\\kern-0.1em O F\\kern-0.1em R\\kern-0.1em A\\kern-0.1em N\\kern-0.1em C\\kern-0.1em E,", 1),
     ("salvaguardia dell'agricoltura",
      "salvaguardia dell'agri\\-coltura", 1),
     # whitespace tricks
     ("Producer: Stuart Weiss. Choreography: Pat Birch.", 
      "Producer: Stuart Weiss. Choreography: Pat Birch.~", 1),
+    ("awarded by a majority of votes.", "awarded by a majority of votes.~", 1),
+    ("frequently neglected ecological topic.", "frequently neglected ecological topic.~", 1), 
+    ("Ida Rapaičová, Anna Javorková.", "Ida Rapaičová, Anna Javorková.~", 1), 
+    ("comes up with surprising results.", "comes up with surprising results.~", 1), 
+    ("Editor: Samu Heikkilä.", "Editor: Samu Heikkilä.~", 1), 
+    ("presented to Ms. Emmanuelle de Riedmatten.", "presented to Ms. Emmanuelle de Riedmatten.~", 1), 
+    # sometimes it's hard to keep dashes together with cjk characters
+    ("~-- {\\itshape Sleepless Waits a Lonely Wife", " {\\itshape Sleepless Waits a Lonely Wife", 1), 
     # various fixes
     # -------------
     # not sure about these: maybe use unicode chars instead?
@@ -120,11 +129,13 @@ silver_winners_tex = (
      "Actors: \\mbox{Evgenia} Dobrovolskaya", 1),
     ("ukrainischen Leihmüttern", 
      "ukrainischen Leih\\-müttern", 1),
+    ("사이렌", "\\mbox{사이렌}", 1),
     # these make overfull boxes... whatever
     ("Pertti Saloma, Seppo Partanen, Martti Timonen.}",
      "Pertti Saloma, Seppo Partanen, Martti \\mbox{Timonen}.}", 1),
     ("Sten Holmberg, Jonas Hallqvist.", 
      "Sten Holmberg, Jonas \\mbox{Hallqvist}.", 1),
+    ("``This is Europe? I thought it'd be''.", "\\mbox{``This is Europe? I thought it'd be''.}", 1),
     # forced linebreaks
     # -----------------
     ("Prime Minister Sp.~Prize TV Programme from a Book",
@@ -141,6 +152,8 @@ silver_winners_tex = (
      "フィリピン・\\\\ムスリムの兄と妹", 1),
     ("Students' Jury Sp.~Prize TV Drama Serials and Series", 
      "Students' Jury Sp.~Prize\\\\TV Drama Serials and Series", 4),
+    ("Students' Jury Sp.~Prize TV Movies and Mini-Series", 
+     "Students' Jury Sp.~Prize\\\\TV Movies and Mini-Series", 4),
     ("Students' Jury Sp.~Prize TV Doc.~Cultural and General Interest", 
      "Students' Jury Sp.~Prize\\\\TV Doc.~Cultural and General Interest", 1),
     ("Sp.~Prize Outstanding Innovative/Creative Web Project", 
@@ -220,9 +233,9 @@ silver_winners_tex = (
     ("\\bigskip\\begin{samepage}\n\\section*{1965, Firenze", 
      "\\pagebreak\\begin{samepage}\n\\section*{1965, Firenze", 1), 
     # 1966
-    ("%141>%\n\\end{samepage}\n\\filbreak", "%141>%\n\\end{samepage}\n\\nopagebreak", 1),
-    ("\\bigskip\\begin{samepage}\n\\section*{1967, Ravenna", 
-     "\\pagebreak\\begin{samepage}\n\\section*{1967, Ravenna", 1),
+#    ("%141>%\n\\end{samepage}\n\\filbreak", "%141>%\n\\end{samepage}\n\\nopagebreak", 1),
+#    ("\\bigskip\\begin{samepage}\n\\section*{1967, Ravenna", 
+#     "\\pagebreak\\begin{samepage}\n\\section*{1967, Ravenna", 1),
     # 1969
     ("%171>%\n\\end{samepage}\n\\filbreak", "%171>%\n\\end{samepage}\n\\nopagebreak", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{1970, Firenze", 
@@ -378,6 +391,13 @@ silver_winners_tex = (
      "\\bigskip\\begin{samepage}\n\\section*{2019, Roma}", 1),
     # only starting from 2000 (because it's already too much of a pain...)
     # we also add more space between prizes, if needed
+    # 1985 - ok this one is too ugly to not fix
+    ("%366>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
+     "%366>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%367>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
+     "%367>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%368>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
+     "%368>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     # 2000
     ("%617>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
      "%617>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),

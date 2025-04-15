@@ -67,10 +67,14 @@ Not awarded.
 \\* {\footnotesize\textit{ {{ w.note|texescape -}} {{- "}}" -}} {%- endif %}
 {%- endmacro %}
 
+{% macro get_acro_for_mentions(w) -%}
+{%- if w.acr_name -%} {{- w.name|texescape -}} {%- else -%} {{- w.acronym|texescape -}} {%- endif -%}
+{%- endmacro %}
+
 {% macro get_mention(w) -%}
 {%- if w.or_title=="_null" -%} {{- w.acronym|texescape -}}, {{ w.country_abbr -}}. 
 {%- else -%}
-{{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ w.acronym|texescape -}}, {{ w.country_abbr -}}
+{{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ get_acro_for_mentions(w) -}}, {{ w.country_abbr -}}
 {% endif -%}
 {%- if w.note %} ( {{- w.note|texescape -}} ) {%- endif -%}
 {%- endmacro %}
