@@ -58,11 +58,11 @@ Not awarded.
 
 {%- macro get_details(w, display) -%}
 {% if display["credits"] and w.credits and w.credits!="_null" -%} 
-\\* {\footnotesize {{ w.credits|texescape -}} } {%- endif %}
+\\* {\footnotesize {{ w.credits|texescape -}}~} {%- endif %}
 {% if display["weblink"] and w.weblink!="_null" -%} 
 \\* {{ w.weblink|texescape }} {%- endif %}
 {% if display["reasoning"] and w.reasoning and w.reasoning!="_null" -%} 
-\\* {\footnotesize {\color{DarkRed}\textit{The Jury: {{- "}}" }} {{ w.reasoning|texescape -}} } {%- endif %}
+\\* {\footnotesize {\color{DarkRed}\textit{The Jury: {{- "}}" }} {{ w.reasoning|texescape -}}~} {%- endif %}
 {% if display["note"] and w.note -%} 
 \\* {\footnotesize\textit{ {{ w.note|texescape -}} {{- "}}" -}} {%- endif %}
 {%- endmacro %}
