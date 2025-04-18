@@ -72,11 +72,11 @@ Not awarded.
 {%- endmacro %}
 
 {% macro get_mention(w) -%}
-{%- if w.or_title=="_null" -%} {{- w.acronym|texescape -}}, {{ w.country_abbr -}}. 
+{%- if w.or_title=="_null" -%} {{- w.acronym|texescape -}}, {{ w.country_abbr -}}
 {%- else -%}
 {{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ get_acro_for_mentions(w) -}}, {{ w.country_abbr -}}
 {% endif -%}
-{%- if w.note %} ( {{- w.note|texescape -}} ) {%- endif -%}
+{%- if w.note %} ( {{- w.note|texescape -}} ) {%- endif -%}. 
 {%- endmacro %}
 
 {% macro get_prize(w, display) -%}
@@ -115,8 +115,6 @@ Not awarded.
 {% if loop.previtem.result != w.result -%} {{ " " -}} {\color{DarkRed}\textsc{ {{- w.result -}} {{- "}}~" }} {% endif %}
 {{ " " }} {{- get_mention(w) }} 
 {%- if loop.nextitem.result == w.result -%} ~\ding{"61} {% endif -%}
-{%- if loop.nextitem.result == "winner" -%} .
-{% endif %}
 {% endif %}
 {%- if loop.nextitem and loop.nextitem.result == "winner" %}
 %{{ w.id }}>%
