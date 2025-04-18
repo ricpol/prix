@@ -44,15 +44,6 @@ silver_winners_tex = (
      "Pasja, czyli misterium Męki Pańskiej w Kalwarii Zebrzydow\\-skiej widziane", 1),
     ("salvaguardia dell'agricoltura",
      "salvaguardia dell'agri\\-coltura", 1),
-    # whitespace tricks
-    ("Producer: Stuart Weiss. Choreography: Pat Birch.", 
-     "Producer: Stuart Weiss. Choreography: Pat Birch.~", 1),
-    ("awarded by a majority of votes.", "awarded by a majority of votes.~", 1),
-    ("frequently neglected ecological topic.", "frequently neglected ecological topic.~", 1), 
-    ("Ida Rapaičová, Anna Javorková.", "Ida Rapaičová, Anna Javorková.~", 1), 
-    ("comes up with surprising results.", "comes up with surprising results.~", 1), 
-    ("Editor: Samu Heikkilä.", "Editor: Samu Heikkilä.~", 1), 
-    ("presented to Ms. Emmanuelle de Riedmatten.", "presented to Ms. Emmanuelle de Riedmatten.~", 1), 
     # sometimes it's hard to keep dashes together with cjk characters
     ("~-- {\\itshape Sleepless Waits a Lonely Wife", " {\\itshape Sleepless Waits a Lonely Wife", 1), 
     # various fixes
@@ -112,13 +103,13 @@ silver_winners_tex = (
     ("%<1342%\n{\\large\\textitalian{Piccolo Teatro Milano}}\\\\* Piccolo Teatro Milano (Italy)", 
      "%<1342%\n{\\large\\textitalian{Piccolo Teatro Milano}}\\\\* Italy", 1),
     # 2015, expo: do not repeat name in credits...
-    ("\\\\* {\\footnotesize By: Valentina Landenna.}", "", 1),
-    ("\\\\* {\\footnotesize By: Leonardo Ferrari Carissimi.}", "", 1),
+    ("\\\\* {\\footnotesize By: Valentina Landenna.~}", "", 1),
+    ("\\\\* {\\footnotesize By: Leonardo Ferrari Carissimi.~}", "", 1),
     # the short names here are just too long...
     ("La Sept~-- Société européenne de programmes de télévision (France)",
      "La Sept (France)", 3),
     ("ARTE Groupement Européen d'Intérêt Économique (France)",
-     "ARTE GEIE (France", 1),
+     "ARTE GEIE (France)", 1),
     # a programme title...
     ("Annie M. G.", "Annie M.~G.", 2),
     # ugly linebreaks: avoid with mbox
@@ -131,8 +122,8 @@ silver_winners_tex = (
      "ukrainischen Leih\\-müttern", 1),
     ("사이렌", "\\mbox{사이렌}", 1),
     # these make overfull boxes... whatever
-    ("Pertti Saloma, Seppo Partanen, Martti Timonen.}",
-     "Pertti Saloma, Seppo Partanen, Martti \\mbox{Timonen}.}", 1),
+    ("Pertti Saloma, Seppo Partanen, Martti Timonen.~}",
+     "Pertti Saloma, Seppo Partanen, Martti \\mbox{Timonen}.~}", 1),
     ("Sten Holmberg, Jonas Hallqvist.", 
      "Sten Holmberg, Jonas \\mbox{Hallqvist}.", 1),
     ("``This is Europe? I thought it'd be''.", "\\mbox{``This is Europe? I thought it'd be''.}", 1),
@@ -232,10 +223,6 @@ silver_winners_tex = (
     ("%120>%\n\\end{samepage}\n\\filbreak", "%120>%\n\\end{samepage}\n\\nopagebreak", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{1965, Firenze", 
      "\\pagebreak\\begin{samepage}\n\\section*{1965, Firenze", 1), 
-    # 1966
-#    ("%141>%\n\\end{samepage}\n\\filbreak", "%141>%\n\\end{samepage}\n\\nopagebreak", 1),
-#    ("\\bigskip\\begin{samepage}\n\\section*{1967, Ravenna", 
-#     "\\pagebreak\\begin{samepage}\n\\section*{1967, Ravenna", 1),
     # 1969
     ("%171>%\n\\end{samepage}\n\\filbreak", "%171>%\n\\end{samepage}\n\\nopagebreak", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{1970, Firenze", 
@@ -313,30 +300,26 @@ silver_winners_tex = (
     ("\\bigskip\\begin{samepage}\n\\section*{2013, Torino", 
      "\\pagebreak\\begin{samepage}\n\\section*{2013, Torino", 1),
     # 2013
-    ("%1343>%\n\\end{samepage}\n\\filbreak", "%1343>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("%2176>%\n\\end{samepage}\n\\filbreak", "%2176>%\n\\end{samepage}\n\\nopagebreak", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2014, Torino", 
      "\\pagebreak\\begin{samepage}\n\\section*{2014, Torino", 1),
-    # 2015
-    ("%2252>%\n\\end{samepage}\n\\filbreak", "%2252>%\n\\end{samepage}\n\\nopagebreak", 1),
-    ("\\bigskip\\begin{samepage}\n\\section*{2016, Lampedusa", 
-     "\\pagebreak\\begin{samepage}\n\\section*{2016, Lampedusa", 1),
-    # 2016
-    ("%525>%\n\\end{samepage}\n\\filbreak", "%525>%\n\\end{samepage}\n\\nopagebreak", 1),
-    ("\\bigskip\\begin{samepage}\n\\section*{2017, Milano", 
-     "\\pagebreak\\begin{samepage}\n\\section*{2017, Milano", 1),
-    # 2017 - with a rare forced break not at the end of the year
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Drama}}\n%<1424%", 
-     "\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Drama}}\n%<1424%", 1),
+    # 2014
+    ("%1343>%\n\\end{samepage}\n\\filbreak", "%1343>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{2015, Torino", 
+     "\\pagebreak\\begin{samepage}\n\\section*{2015, Torino", 1),
+    # 2017
+    ("%1599>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Doc", 
+     "%1599>%\n\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Doc", 1),
     ("%1424>%", "%1424>%\n\\enlargethispage{1\\baselineskip}", 1),
-    ("%1434>%\n\\end{samepage}\n\\filbreak", "%1434>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("%1434>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
+     "%1434>%\n\\end{samepage}\n\\nopagebreak\n\\smallskip", 1),
+    ("%1435>%", "%1435>%\n\\enlargethispage{1\\baselineskip}", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2018, Capri", 
-     "\\pagebreak\\begin{samepage}\n\\section*{2018, Capri", 1),
-    # 2018 - another two...
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Drama}}\n%<1438%", 
-     "\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Drama}}\n%<1438%", 1),
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Web Entertainment}}\n%<1447%", 
-     "\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Web Entertainment}}\n%<1447%", 1),
-    ("%1447>%", "%1447>%\n\\enlargethispage{1\\baselineskip}", 1),
+     "\\begin{samepage}\n\\section*{2018, Capri", 1),
+    # 2018
+    ("%1675>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
+     "%1675>%\n\\end{samepage}\n\\nopagebreak\n", 1),
+    ("%1445>%", "%1445>%\n\\enlargethispage{1\\baselineskip}", 1),
     # 2019
     ("%1471>%\n\\end{samepage}\n\\filbreak", "%1471>%\n\\end{samepage}\n\\nopagebreak", 1),
     # 2020
@@ -385,10 +368,10 @@ silver_winners_tex = (
      "\\bigskip\\begin{samepage}\n\\section*{1997, Ravenna}", 1),
     ("\\begin{samepage}\n\\section*{2010, Torino}", 
      "\\bigskip\\begin{samepage}\n\\section*{2010, Torino}", 1),
-    ("\\begin{samepage}\n\\section*{2015, Torino}", 
-     "\\bigskip\\begin{samepage}\n\\section*{2015, Torino}", 1),
-    ("\\begin{samepage}\n\\section*{2019, Roma}", 
-     "\\bigskip\\begin{samepage}\n\\section*{2019, Roma}", 1),
+#    ("\\begin{samepage}\n\\section*{2015, Torino}", 
+#     "\\bigskip\\begin{samepage}\n\\section*{2015, Torino}", 1),
+#    ("\\begin{samepage}\n\\section*{2019, Roma}", 
+#     "\\bigskip\\begin{samepage}\n\\section*{2019, Roma}", 1),
     # only starting from 2000 (because it's already too much of a pain...)
     # we also add more space between prizes, if needed
     # 1985 - ok this one is too ugly to not fix
@@ -537,52 +520,23 @@ silver_winners_tex = (
     ("%1323>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
      "%1323>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     # 2014
-    ("%1349>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1349>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1345>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1345>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1346>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1346>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1355>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1355>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1352>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1352>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%2266>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%2266>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     # 2015
-    ("%1550>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1550>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1546>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1546>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1548>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1548>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1379>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1379>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1560>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1560>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1556>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1556>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%1558>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%1558>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%1403>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%1403>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     # 2016
-    ("%1574>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1574>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1570>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1570>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1586>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1586>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%525>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip",   # \nopagebreak introduced earlier
-     "%525>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip\\bigskip", 1),
-    # 2017
-    ("%1606>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1606>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1617>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1617>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%1582>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%1582>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     # 2018
-    ("%1633>%\n\\end{samepage}\n\\nopagebreak\n\\medskip",
-     "%1633>%\n\\end{samepage}\n\\nopagebreak\n\\medskip\\bigskip", 1),
-    ("%1642>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1642>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1661>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1661>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1689>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
-     "%1689>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%1639>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%1639>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%1650>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%1650>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%1672>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%1672>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     # 2019
     ("%2012>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
      "%2012>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
