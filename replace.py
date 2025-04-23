@@ -1,6 +1,9 @@
 # replacements for tex post-production
 #-------------------------------------
 import os
+from texify import (PRIZE_NAMES_TEX, PRIZE_NAMES_ABBR_TEX, 
+                    BROADCASTER_ACRONYMS_TEX, BROADCASTER_NAMES_TEX, 
+                    COUNTRY_NAMES_TEX, COUNTRY_NAMES_ABBR_TEX)
 
     # old,   new,   expected replacements (-1 if we don't care)
 # THE SILVER BOOKLET
@@ -27,19 +30,13 @@ silver_winners_tex = (
     ('Shortlist reasoning:', '{\\color{DarkRed}\\textit{Shortlist reasoning:}}', -1),
     ('Noa (Achinoam Nin) (Israel)', 'Noa (Achinoam Nin), Israel', 2),
     ("{mention}}~CNN by CNN, United States.", "{mention}}~CNN (United States).", 1),
-    ('ding{"61} TVROPA, Denmark..', 'ding{"61} TVROPA, Denmark.', 1),
     ('Mediastorm by Mediastorm', 'Mediastorm', 1),
-    # country names should *also* be tex-escaped... :-(
-    ('Italy – Trieste', 'Italy~-- Trieste', -1),
-    ('Germany – DDR', 'Germany~-- DDR', -1),
     # fixing some overfull boxes
     # --------------------------
     ("Ministry of Rights and Equal Opportunities Sp.~Prize", 
      "Ministry of Rights and Equal Opportunities Sp.~Pr.", 1),
-    ("Sp.~Prize ``Programmes That Effect Social Change''", 
-     "Sp.~Pr.~``Programmes That Effect Social Change''", 3),
-    ("Prix Italia Web, Best Trans-Media for Young Adult Public",
-     "Prix Italia Web,\\\\Best Trans-Media for Young Adult Public", 1),
+    ("Prix~Italia Web, Best Trans-Media for Young Adult Public",
+     "Prix~Italia Web,\\\\Best Trans-Media for Young Adult Public", 1),
     ("Pasja, czyli misterium Męki Pańskiej w Kalwarii Zebrzydowskiej widziane",
      "Pasja, czyli misterium Męki Pańskiej w Kalwarii Zebrzydow\\-skiej widziane", 1),
     ("salvaguardia dell'agricoltura",
@@ -52,7 +49,7 @@ silver_winners_tex = (
     ("textfrench{VIIIe Station",
      "textfrench{VIII\\textsuperscript{e} Station", 1),
     ("itshape VIIIth Station",
-     "itshape VIII\\textsuperscript{th} Station", 1),
+     "itshape VIII Station", 1),
     # the golden medal 1983: we use the "Prodi" layout below
     ("%<2169%\nHenrik Hahr (Sweden)", 
      "%<2169%\n{\\large Henrik Hahr}\\\\ Sweden", 1),
@@ -97,8 +94,8 @@ silver_winners_tex = (
     # This is a fix for the latex parser in Cardine 2001
     #("\n%691>%\n\\\\ \\\\\n", "\n\\\\ \\\\\n", 1),
     # This is for the multimedia section prize 2012
-    ("%<1276%\n{\\large\\textitalian{Il Post}}\\\\* Il Post (Italy)", 
-     "%<1276%\n{\\large\\textitalian{Il Post}}\\\\* Italy", 1),
+    ("%<1276%\n{\\large\\textitalian{Il~Post}}\\\\* Il~Post (Italy)", 
+     "%<1276%\n{\\large\\textitalian{Il~Post}}\\\\* Italy", 1),
     # This is for the multimedia section prize 2013
     ("%<1342%\n{\\large\\textitalian{Piccolo Teatro Milano}}\\\\* Piccolo Teatro Milano (Italy)", 
      "%<1342%\n{\\large\\textitalian{Piccolo Teatro Milano}}\\\\* Italy", 1),
@@ -106,8 +103,8 @@ silver_winners_tex = (
     ("\\\\* {\\footnotesize By: Valentina Landenna.~}", "", 1),
     ("\\\\* {\\footnotesize By: Leonardo Ferrari Carissimi.~}", "", 1),
     # the short names here are just too long...
-    ("La Sept~-- Société européenne de programmes de télévision (France)",
-     "La Sept (France)", 3),
+    ("La~Sept~-- Société européenne de~programmes de~télévision (France)",
+     "La~Sept (France)", 3),
     ("ARTE Groupement Européen d'Intérêt Économique (France)",
      "ARTE GEIE (France)", 1),
     # a programme title...
@@ -133,10 +130,10 @@ silver_winners_tex = (
      "Prime Minister Sp.~Prize\\\\TV Programme from a Book", 1),
     ("Best TV Campaign, Non-Euro Country",
      "Best TV Campaign,\\\\Non-Euro Country", 1),
-    ("Prix Italia Radio Doc.~Cultural and General Interest",
-     "Prix Italia Radio Doc.\\\\Cultural and General Interest", 4),
-    ("Prix Italia TV Doc.~Cultural and General Interest",
-     "Prix Italia TV Doc.\\\\Cultural and General Interest", 14),
+    ("Prix~Italia Radio Doc.~Cultural and General Interest",
+     "Prix~Italia Radio Doc.\\\\Cultural and General Interest", 4),
+    ("Prix~Italia TV Doc.~Cultural and General Interest",
+     "Prix~Italia TV Doc.\\\\Cultural and General Interest", 14),
     ("Archives Web Site / Le site Web des archives",
      "Archives Web Site/\\\\Le site Web des archives", 1),
     ("フィリピン・ムスリムの兄と妹", 
@@ -151,10 +148,10 @@ silver_winners_tex = (
      "Sp.~Prize Outstanding Innovative/Creative\\\\Web Project", 2),
     ("Sp.~Prixe Expo 2015~-- Young Independent Film-Makers", 
      "Sp.~Prixe Expo 2015~-- Young Independent\\\\Film-Makers", 1),
-    ("Prix Italia Radio Music Attracting a Broader Audience", 
-     "Prix Italia Radio Music Attracting\\\\a Broader Audience", 1),
-    ("Prix Italia Radio Doc.~and Reportage~-- Documentary", 
-     "Prix Italia Radio Doc.~and Reportage~--\\\\Documentary", 1),
+    ("Prix~Italia Radio Music Attracting a Broader Audience", 
+     "Prix~Italia Radio Music Attracting\\\\a Broader Audience", 1),
+    ("Prix~Italia Radio Doc.~and Reportage~-- Documentary", 
+     "Prix~Italia Radio Doc.~and Reportage~--\\\\Documentary", 1),
     ("Peaky Blinders: Rambert",
      "Peaky Blinders:\\\\Rambert", 1),
     # forced no-indents
@@ -162,8 +159,8 @@ silver_winners_tex = (
     ("%<2160%\nLennart Ehrenborg (Sweden)", "%<2160%\n\\noindent Lennart Ehrenborg (Sweden)", 1),
     ("%<2159%\nMaria Teresa Miscovich (Argentina)", "%<2159%\n\\noindent Maria Teresa Miscovich (Argentina)", 1),
     ("%<2158%\nDiana Palma (Italy)", "%<2158%\n\\noindent Diana Palma (Italy)", 1),
-    ("%<2155%\nLord George Thomson of Monifieth (United Kingdom)", "%<2155%\n\\noindent Lord George Thomson of Monifieth (United Kingdom)", 1),
-    ("%<2161%\nUrsula von Zallinger (Austria)", "%<2161%\n\\noindent Ursula von Zallinger (Austria)", 1),
+    ("%<2155%\nLord~George Thomson of~Monifieth (United Kingdom)", "%<2155%\n\\noindent Lord~George Thomson of~Monifieth (United Kingdom)", 1),
+    ("%<2161%\nUrsula von~Zallinger (Austria)", "%<2161%\n\\noindent Ursula von~Zallinger (Austria)", 1),
     # some ex-aequos, must be in the same "samepage" context
     ("%18>%\n%18>%\n", "\n\\bigskip\n\\noindent", 1),
     ("%26>%\n%26>%\n", "\n\\bigskip\n\\noindent", 1),
@@ -261,13 +258,13 @@ silver_winners_tex = (
     ("\\bigskip\\begin{samepage}\n\\section*{2000, Bologna/Rimini", 
      "\\pagebreak\\begin{samepage}\n\\section*{2000, Bologna/Rimini", 1),
     # 2002
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Honorary Prix Italia}}\n%<2246%", 
-     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Honorary Prix Italia}}\n%<2246%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Honorary Prix~Italia}}\n%<2246%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Honorary Prix~Italia}}\n%<2246%", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2003, Catania/Siracusa", 
      "\\pagebreak\\begin{samepage}\n\\section*{2003, Catania/Siracusa", 1),
     # 2003
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Award}}\n%<782%", 
-     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Award}}\n%<782%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis~Award}}\n%<782%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis~Award}}\n%<782%", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2004, Catania/Taormina", 
      "\\pagebreak\\begin{samepage}\n\\section*{2004, Catania/Taormina", 1),
     # 2004
@@ -287,8 +284,8 @@ silver_winners_tex = (
     ("\\bigskip\\begin{samepage}\n\\section*{2008, Cagliari", 
      "\\pagebreak\\begin{samepage}\n\\section*{2008, Cagliari", 1),
     # 2008
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Award}}\n%<1017%", 
-     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Award}}\n%<1017%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis~Award}}\n%<1017%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis~Award}}\n%<1017%", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2009, Torino", 
      "\\pagebreak\\begin{samepage}\n\\section*{2009, Torino", 1),
     # 2010
@@ -308,8 +305,8 @@ silver_winners_tex = (
     ("\\bigskip\\begin{samepage}\n\\section*{2015, Torino", 
      "\\pagebreak\\begin{samepage}\n\\section*{2015, Torino", 1),
     # 2017
-    ("%1599>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Doc", 
-     "%1599>%\n\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio Doc", 1),
+    ("%1599>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix~Italia Radio Doc", 
+     "%1599>%\n\\end{samepage}\n\\nopagebreak\n\\medskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix~Italia Radio Doc", 1),
     ("%1424>%", "%1424>%\n\\enlargethispage{1\\baselineskip}", 1),
     ("%1434>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
      "%1434>%\n\\end{samepage}\n\\nopagebreak\n\\smallskip", 1),
@@ -322,6 +319,9 @@ silver_winners_tex = (
     ("%1445>%", "%1445>%\n\\enlargethispage{1\\baselineskip}", 1),
     # 2019
     ("%1471>%\n\\end{samepage}\n\\filbreak", "%1471>%\n\\end{samepage}\n\\nopagebreak", 1),
+    ("%1470>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
+     "%1470>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip\n", 1),
+
     # 2020
     ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<1496%", 
      "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<1496%", 1),
@@ -338,15 +338,15 @@ silver_winners_tex = (
     ("\\bigskip\\begin{samepage}\n\\section*{2023, Bari", 
      "\\pagebreak\\begin{samepage}\n\\section*{2023, Bari", 1),
     # 2023 - this is pretty tortured because the digital interactive motivation is sooo long
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio \\& Podcast Doc.~and Reportage}}\n%<2090%", 
-     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Radio \\& Podcast Doc.~and Reportage}}\n%<2090%", 1),
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Fiction}}\n%<2125%", 
-     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Fiction}}\n%<2125%", 1),
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Factual}}\n%<2118%", 
-     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix Italia Digital Factual}}\n%<2118%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix~Italia Radio \\& Podcast Doc.~and Reportage}}\n%<2090%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix~Italia Radio \\& Podcast Doc.~and Reportage}}\n%<2090%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix~Italia Digital Fiction}}\n%<2125%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix~Italia Digital Fiction}}\n%<2125%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix~Italia Digital Factual}}\n%<2118%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Prix~Italia Digital Factual}}\n%<2118%", 1),
     ("%2125>%", "%2125>%\n\\enlargethispage{2\\baselineskip}", 1),
-    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize~-- Engineering}}\n%<2162%", 
-     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB Prize~-- Engineering}}\n%<2162%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB~Prize~-- Engineering}}\n%<2162%", 
+     "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB~Prize~-- Engineering}}\n%<2162%", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2024, Torino", 
      "\\pagebreak\\begin{samepage}\n\\section*{2024, Torino", 1),
 
@@ -544,6 +544,8 @@ silver_winners_tex = (
      "%2024>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     ("%2036>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
      "%2036>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%2044>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%2044>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     # 2020
     ("%1964>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
      "%1964>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
@@ -551,8 +553,6 @@ silver_winners_tex = (
      "%1986>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     ("%1978>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
      "%1978>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
-    ("%1495>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip",   # \nopagebreak introduced earlier
-     "%1495>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip\\bigskip", 1),
     # 2021
     ("%1927>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
      "%1927>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
@@ -589,50 +589,50 @@ silver_broadcasters_txt = tuple()
 silver_broadcasters_html = tuple()
 silver_broadcasters_tex = (
     # forced linebreaks (to avoid overfull boxes)
-    ("Belgische Radio- en Televisieomroep/ Radio-Télévision Belge",
-     "Belgische Radio- en Televisieomroep/\\\\Radio-Télévision Belge", 2),
+    ("Belgische Radio-~en~Televisieomroep/ Radio-Télévision Belge",
+     "Belgische Radio-~en~Televisieomroep/\\\\Radio-Télévision Belge", 2),
     ("Canadian Broadcasting Corporation/ Société Radio-Canada",
      "Canadian Broadcasting Corporation/\\\\Société Radio-Canada", 1),
     ("ARTE Groupement Européen d'Intérêt Économique}}{\\itshape 2019",
      "ARTE\\\\Groupement Européen d'Intérêt Économique}}{\\itshape 2019", 1),
     # forced linebreaks and other tricks (aesthetics only)
-    ("Établissement Public de Télévision/ Télévision Algérienne",
-      "Établissement Public de Télévision/\\\\Télévision Algérienne", 1),
+    ("Établissement Public de~Télévision/ Télévision Algérienne",
+      "Établissement Public de~Télévision/\\\\Télévision Algérienne", 1),
     ("Balgarska Natsionalna Televizia/ Bulgarian National Television",
      "Balgarska Natsionalna Televizia/\\\\Bulgarian National Television", 1),
     ("Bǎlgarsko Nacionalno Radio/ Bulgarian National Radio",
      "Bǎlgarsko Nacionalno Radio/\\\\Bulgarian National Radio", 1),
-    ("Cameroon Radio Television/ Radiodiffusion-télévision du Cameroun",
-     "Cameroon Radio Television/\\\\Radiodiffusion-télévision du Cameroun", 1),
-    ("section*{Czech Rep.}", "section*{Czech Republic}", 1),
-    ("Société européenne de programmes de télévision}}1989", 
-     "Société européenne de programmes\\\\de télévision}}1989", 1),
+    ("Cameroon Radio Television/ Radiodiffusion-télévision du~Cameroun",
+     "Cameroon Radio Television/\\\\Radiodiffusion-télévision du~Cameroun", 1),
+    ("section*{Czech~Rep.}", "section*{Czech~Republic}", 1),
+    ("Société européenne de~programmes de~télévision}}1989", 
+     "Société européenne de~programmes\\\\de~télévision}}1989", 1),
     ("al-Mis'ri/ Egyptian Radio and Television Union",
      "al-Mis'ri/\\\\Egyptian Radio and Television Union", 1),
     ("mauts'q'ebeli/ Georgian Public Broadcasting",
      "mauts'q'ebeli/\\\\Georgian Public Broadcasting", 1),
-    ("Ríkisútvarpið/ The Icelandic National Broadcasting Service",
-     "Ríkisútvarpið/\\\\The Icelandic National Broadcasting Service", 1),
-    ("National Association of Commercial Broadcasters in Japan", 
-     "National Association of Commercial Broadcasters\\\\in Japan", 1),
+    ("Ríkisútvarpið/ The~Icelandic National Broadcasting Service",
+     "Ríkisútvarpið/\\\\The~Icelandic National Broadcasting Service", 1),
+    ("National Association of~Commercial Broadcasters in~Japan", 
+     "National Association of~Commercial Broadcasters\\\\in~Japan", 1),
     ("al'urduniyi/ Jordan Radio", 
      "al'urduniyi/\\\\Jordan Radio", 1),
     ("Bangsong Gongsa/ Korean Broadcasting",
      "Bangsong Gongsa/\\\\Korean Broadcasting", 1), 
     ("Munhwa Bangsong/ Munhwa Broadcasting",
      "Munhwa Bangsong/\\\\Munhwa Broadcasting", 1), 
-    ("Radio Televizioni i Kosovës/ Radio Television of Kosovo",
-     "Radio Televizioni i Kosovës/ Radio Television of Kosovo~", 1),
-    ("voor de Radio-omroep/ Institut National de Radiodiffusion", 
-     "voor de Radio-omroep/\\\\Institut National de Radiodiffusion", 1),
+    ("Radio~Televizioni i~Kosovës/ Radio Television of~Kosovo",
+     "Radio~Televizioni i~Kosovës/ Radio Television of~Kosovo~", 1),
+    ("voor~de~Radio-omroep/ Institut National de~Radiodiffusion", 
+     "voor~de~Radio-omroep/\\\\Institut National de~Radiodiffusion", 1),
     ("al-Filasṭīniyya/ Palestinian Broadcasting Corporation", 
      "al-Filasṭīniyya/\\\\Palestinian Broadcasting Corporation", 1), 
-    ("Golos Rossii/ Voice of Russia", "Golos Rossii/\\\\Voice of Russia", 1), 
-    ("Elektronskih Medija/ Association of Independent Electronic Media",
-     "Elektronskih Medija/\\\\Association of Independent Electronic Media", 3), 
+    ("Golos Rossii/ Voice of~Russia", "Golos Rossii/\\\\Voice of~Russia", 1), 
+    ("Elektronskih Medija/ Association of~Independent Electronic Media",
+     "Elektronskih Medija/\\\\Association of~Independent Electronic Media", 3), 
     ("Thai Public Broadcasting Service", "Thai Public Broadcasting Service~", 1), 
-    ("radio/ National Radio Company of Ukraine", 
-     "radio/\\\\National Radio Company of Ukraine", 1),
+    ("radio/ National Radio Company of~Ukraine", 
+     "radio/\\\\National Radio Company of~Ukraine", 1),
     ("Television Authority/ Independent Television", 
      "Television Authority/\\\\Independent Television", 1), 
     ("Broadcasting Authority/ Independent Television", 
@@ -786,6 +786,10 @@ def do_replace(txt, repl_set, out_type, verbose=True):
     verbose: warns when repl. number is different than expected
     """
     replacements = REPLACEMENTS[(repl_set, out_type)]
+    if out_type == 'tex':
+        replacements = PRIZE_NAMES_TEX + PRIZE_NAMES_ABBR_TEX + \
+            BROADCASTER_NAMES_TEX + BROADCASTER_ACRONYMS_TEX + \
+            COUNTRY_NAMES_TEX + COUNTRY_NAMES_ABBR_TEX + replacements
     no_repl_happened = True
     if replacements:
         for old, new, num in replacements:

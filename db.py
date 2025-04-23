@@ -301,6 +301,7 @@ import sys
 from collections import Counter
 import credit as cr
 from glossary import *
+from texify import *
 
 unique_colums = (
     ('broadcasters', 'id'), 
@@ -663,6 +664,63 @@ def test_persons_role_in_glossary(cursor, output):
         output.write('  persons: roles ok.\n')
     return not errors
 
+def test_country_list_in_sync(cursor, output):  # if countries in texify.py are synced with db
+    errors = False
+    cursor.execute('SELECT country, country_abbr FROM countries;')
+    db = cursor.fetchall()
+    db_countries = set([i[0] for i in db])
+    tex_countries = set(COUNTRY_NAMES)
+    db_countries_abbr = set([i[1] for i in db])
+    tex_countries_abbr = set(COUNTRY_NAMES_ABBR)
+    for i in db_countries.symmetric_difference(tex_countries):
+        output.write(f'Country name not in sync (db/texify.py): {i}\n')
+        errors = True
+    for i in db_countries_abbr.symmetric_difference(tex_countries_abbr):
+        output.write(f'Country abbr. name not in sync (db/texify.py): {i}\n')
+        errors = True
+    if not errors:
+        output.write('  Country names in sync (db/texify.py).\n')
+    return not errors
+
+def test_broad_list_in_sync(cursor, output):  # if broadcasters in texify.py are synced with db
+    errors = False
+    cursor.execute('SELECT name, acronym FROM broadcasters;')
+    db = cursor.fetchall()
+    db_names = set([i[0] for i in db])
+    tex_names = set(BROADCASTER_NAMES)
+    db_acronyms = set([i[1] for i in db])
+    tex_acronyms = set(BROADCASTER_ACRONYMS)
+    for i in db_names.symmetric_difference(tex_names):
+        output.write(f'Broad. name not in sync (db/texify.py): {i}\n')
+        errors = True
+    for i in db_acronyms.symmetric_difference(tex_acronyms):
+        output.write(f'Broad. acronym not in sync (db/texify.py): {i}\n')
+        errors = True
+    if not errors:
+        output.write('  Broadcaster names in sync (db/texify.py).\n')
+    return not errors
+
+def test_prize_list_in_sync(cursor, output):  # if prizes in texify.py are synced with db
+    errors = False
+    cursor.execute('SELECT prize, prize_abbr FROM prizes;')
+    db = cursor.fetchall()
+    db_prizes = set([i[0] for i in db])
+    tex_prizes = set(PRIZE_NAMES)
+    db_prize_abbr = set([i[1] for i in db])
+    tex_acronyms = set(PRIZE_NAMES_ABBR)
+    for i in db_prizes.symmetric_difference(tex_prizes):
+        output.write(f'Prize name not in sync (db/texify.py): {i}\n')
+        errors = True
+    for i in db_prize_abbr.symmetric_difference(tex_acronyms):
+        output.write(f'Prize abbr. name not in sync (db/texify.py): {i}\n')
+        errors = True
+    if not errors:
+        output.write('  Prize names in sync (db/texify.py).\n')
+    return not errors
+
+
+
+
 def test_all(db="prix_winners.grist", output=sys.stdout):
     con = sqlite3.connect(db, detect_types=sqlite3.PARSE_COLNAMES)
     c = con.cursor()
@@ -673,7 +731,9 @@ def test_all(db="prix_winners.grist", output=sys.stdout):
             test_winner_credits, check_roles_in_glossary, 
             check_roles_plural_form, check_double_credits, 
             check_credit_order, test_long_credits, test_punctuation, 
-            test_persons_order_ascii_only, test_persons_role_in_glossary,):
+            test_persons_order_ascii_only, test_persons_role_in_glossary,
+            test_country_list_in_sync, test_broad_list_in_sync,
+            test_prize_list_in_sync,):
         test(c, output)
         output.write('  ' + '=='*10 + '\n\n')
     con.close()
