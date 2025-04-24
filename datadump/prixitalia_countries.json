@@ -309,7 +309,7 @@
   },
   {
     "country": "German Democratic Republic",
-    "country_abbr": "Germany - DDR",
+    "country_abbr": "Germany – DDR",
     "former": 1,
     "is_country": 1,
     "iso3166": "DDR",
@@ -407,9 +407,9 @@
     "note": ""
   },
   {
-    "country": "Italy",
-    "country_abbr": "Italy",
-    "former": 0,
+    "country": "Italy – Trieste, Free Territory of",
+    "country_abbr": "Italy – Trieste",
+    "former": 1,
     "is_country": 1,
     "iso3166": "ITA",
     "region": "Europe",
@@ -418,9 +418,9 @@
     "note": ""
   },
   {
-    "country": "Italy - Trieste, Free Territory of",
-    "country_abbr": "Italy - Trieste",
-    "former": 1,
+    "country": "Italy",
+    "country_abbr": "Italy",
+    "former": 0,
     "is_country": 1,
     "iso3166": "ITA",
     "region": "Europe",
@@ -596,7 +596,7 @@
   {
     "country": "North Macedonia",
     "country_abbr": "North Macedonia",
-    "former": 1,
+    "former": 0,
     "is_country": 1,
     "iso3166": "MKD",
     "region": "Europe",

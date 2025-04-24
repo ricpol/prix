@@ -77,9 +77,20 @@
     "year": 1948
   },
   {
-    "id": 146,
+    "id": 370,
     "edition": 1948,
     "sort": 708,
+    "category": "radiocorriere",
+    "author": "",
+    "title": "Nuove apparecchiature per le trasmissioni dirette da Capri.",
+    "notes": "In Radiocorriere, 37-1948.",
+    "publisher": "Torino, Italy: Radio Italiana",
+    "year": 1948
+  },
+  {
+    "id": 146,
+    "edition": 1948,
+    "sort": 709,
     "category": "radiocorriere",
     "author": "Malinverni, Vittorio",
     "title": "Il Premio Italia.",
@@ -214,7 +225,7 @@
     "sort": 500,
     "category": "art",
     "author": "Mantelli, Alberto and Zaffrani, Gianfranco",
-    "title": "Choix de textes sur Venise",
+    "title": "Choix de textes sur Venise. Avec vingt dessins de maitres venitiens du quinzieme au dix huitieme siècle.",
     "notes": "Text in French.",
     "publisher": "Torino, Italy: Radio Italiana",
     "year": 1949
@@ -1115,7 +1126,7 @@
     "edition": 1958,
     "sort": 400,
     "category": "study",
-    "author": "Zaffrani, Gian Franco",
+    "author": "Zaffrani, Gianfranco",
     "title": "Dix ans de rencontres.",
     "notes": "In Prix Italia yearly catalogue 1958. Text in French.",
     "publisher": "Torino, Italy: Edizioni Radio Italiana",
@@ -1584,6 +1595,50 @@
     "year": 1964
   },
   {
+    "id": 371,
+    "edition": 1964,
+    "sort": 705,
+    "category": "",
+    "author": "Zaffrani, Gianfranco",
+    "title": "Il \"Premio Italia\" a Genova.",
+    "notes": "In Radiocorriere TV, 37-1964.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 372,
+    "edition": 1964,
+    "sort": 710,
+    "category": "",
+    "author": "Bassano, Enrico",
+    "title": "Il Prix Italia '64 uscirà dal Porto di Genova",
+    "notes": "In Radiocorriere TV, 39-1964.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 373,
+    "edition": 1964,
+    "sort": 715,
+    "category": "",
+    "author": "Bassano, Enrico",
+    "title": "I vincitori del Premio Italia.",
+    "notes": "In Radiocorriere TV, 40-1964.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 374,
+    "edition": 1964,
+    "sort": 720,
+    "category": "",
+    "author": "Bassano, Enrico",
+    "title": "Bilancio del Premio Italia.",
+    "notes": "In Radiocorriere TV, 41-1964.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
     "id": 132,
     "edition": 1965,
     "sort": 500,
@@ -1604,6 +1659,50 @@
     "notes": "Text in Italian, English, French.",
     "publisher": "Torino, Italy: ERI",
     "year": 1965
+  },
+  {
+    "id": 375,
+    "edition": 1965,
+    "sort": 705,
+    "category": "",
+    "author": "Zaffrani, Gianfranco",
+    "title": "I lavori per il XVII Premio Italia.",
+    "notes": "In Radiocorriere TV, 37-1965.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 376,
+    "edition": 1965,
+    "sort": 710,
+    "category": "",
+    "author": "Griffo, Laura",
+    "title": "Giurie al lavoro a Firenze per assegnare il Premio Italia 1965.",
+    "notes": "In Radiocorriere TV, 39-1965.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 377,
+    "edition": 1965,
+    "sort": 715,
+    "category": "",
+    "author": "Griffo, Laura",
+    "title": "I vincitori del Premio Italia.",
+    "notes": "In Radiocorriere TV, 40-1965.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 378,
+    "edition": 1965,
+    "sort": 720,
+    "category": "",
+    "author": "Griffo, Laura",
+    "title": "Bilancio del Premio Italia.",
+    "notes": "In Radiocorriere TV, 41-1965.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
   },
   {
     "id": 136,
@@ -1639,6 +1738,39 @@
     "year": 1966
   },
   {
+    "id": 379,
+    "edition": 1966,
+    "sort": 705,
+    "category": "",
+    "author": "Zaffrani, Gianfranco",
+    "title": "A Palermo il diciottesimo Premio Italia.",
+    "notes": "In Radiocorriere TV, 37-1966.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 380,
+    "edition": 1966,
+    "sort": 710,
+    "category": "",
+    "author": "Lugato, Giuseppe",
+    "title": "Nelle sale del Gattopardo la vetrina del Premio Italia.",
+    "notes": "In Radiocorriere TV, 39-1966.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 381,
+    "edition": 1966,
+    "sort": 715,
+    "category": "",
+    "author": "Lugato, Giuseppe",
+    "title": "L'avanguardia Radio e Tv da tutto il mondo.",
+    "notes": "In Radiocorriere TV, 40-1966.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
     "id": 134,
     "edition": 1967,
     "sort": 500,
@@ -1650,13 +1782,35 @@
     "year": 1967
   },
   {
+    "id": 382,
+    "edition": 1967,
+    "sort": 705,
+    "category": "",
+    "author": "Lugato, Giuseppe",
+    "title": "Quest'anno a Ravenna il 19mo Premio Italia.",
+    "notes": "In Radiocorriere TV, 37-1967.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
+    "id": 383,
+    "edition": 1967,
+    "sort": 710,
+    "category": "",
+    "author": "Tabasso, Giuseppe",
+    "title": "In 120 opere radio-televisive i problemi dell'uomo moderno.",
+    "notes": "In Radiocorriere TV, 40-1967.",
+    "publisher": "Torino, Italy: ERI",
+    "year": 0
+  },
+  {
     "id": 1,
     "edition": 1968,
     "sort": 400,
     "category": "prixbook",
-    "author": "Zaffrani, Gian Franco et al.",
+    "author": "Zaffrani, Gianfranco et al.",
     "title": "Premio Italia 1948/1968.",
-    "notes": "Introduction by Zaffrani, Gian Franco.",
+    "notes": "Introduction by Zaffrani, Gianfranco.",
     "publisher": "Roma, Italy: SA.GRA.RO",
     "year": 1968
   },

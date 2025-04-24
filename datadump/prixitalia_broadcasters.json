@@ -6,13 +6,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Albania",
+    "country_abbr": "Albania",
     "sort": 0,
     "first": 2000,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTSH",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ORA",
@@ -21,13 +23,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Albania",
+    "country_abbr": "Albania",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ORA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "EPTV",
@@ -36,13 +40,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Algeria",
+    "country_abbr": "Algeria",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EPTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "EPRS",
@@ -51,13 +57,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Algeria",
+    "country_abbr": "Algeria",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EPRS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTA",
@@ -66,13 +74,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Argentina",
+    "country_abbr": "Argentina",
     "sort": 0,
     "first": 2017,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ABRA",
@@ -81,13 +91,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Argentina",
+    "country_abbr": "Argentina",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ABRA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ENCUENTRO",
@@ -96,13 +108,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Argentina",
+    "country_abbr": "Argentina",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ENCUENTRO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CONSTRUIRTV",
@@ -111,13 +125,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Argentina",
+    "country_abbr": "Argentina",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CONSTRUIRTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TELAM",
@@ -126,13 +142,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Argentina",
+    "country_abbr": "Argentina",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TELAM",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MARIATERESAMISCOVICH",
@@ -141,13 +159,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Argentina",
+    "country_abbr": "Argentina",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MISCOVICH",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ABCo",
@@ -156,13 +176,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Australia",
+    "country_abbr": "Australia",
     "sort": 0,
     "first": 1957,
     "last": 1987,
     "prev": null,
     "next": "[\"ABC\"]",
     "group_acronym": "ABC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ABC",
@@ -171,13 +193,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Australia",
+    "country_abbr": "Australia",
     "sort": 0,
     "first": 1988,
     "last": 9999,
     "prev": "[\"ABCo\"]",
     "next": null,
     "group_acronym": "ABC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SBS",
@@ -186,13 +210,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Australia",
+    "country_abbr": "Australia",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SBS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BELINDALOPEZ",
@@ -201,13 +227,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Australia",
+    "country_abbr": "Australia",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BELINDALOPEZ",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LIZTHOMPSON",
@@ -216,13 +244,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Australia",
+    "country_abbr": "Australia",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LIZTHOMPSON",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RAVAG",
@@ -231,13 +261,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Austria",
+    "country_abbr": "Austria",
     "sort": 0,
     "first": 1949,
     "last": 1954,
     "prev": null,
     "next": "[\"ORF\"]",
     "group_acronym": "ORF",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ORF",
@@ -246,13 +278,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Austria",
+    "country_abbr": "Austria",
     "sort": 0,
     "first": 1955,
     "last": 9999,
     "prev": "[\"RAVAG\"]",
     "next": null,
     "group_acronym": "ORF",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "AUSTRIA",
@@ -261,13 +295,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Austria",
+    "country_abbr": "Austria",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "AUSTRIA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "URSULAVONZALLINGER",
@@ -276,13 +312,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Austria",
+    "country_abbr": "Austria",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VONZALLINGER",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "BB",
@@ -291,13 +329,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Bangladesh",
+    "country_abbr": "Bangladesh",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BB",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NIR/INR",
@@ -306,13 +346,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 1,
     "first": 1949,
     "last": 1959,
     "prev": null,
     "next": "[\"BRT/RTB\"]",
     "group_acronym": "VRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BRT/RTB",
@@ -321,13 +363,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 2,
     "first": 1960,
     "last": 1978,
     "prev": "[\"NIR/INR\"]",
     "next": "[\"BRT/RTBF\"]",
     "group_acronym": "VRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BRT/RTBF",
@@ -336,13 +380,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 3,
     "first": 1979,
     "last": 1990,
     "prev": "[\"BRT/RTB\"]",
     "next": "[\"BRTN\", \"RTBF\"]",
     "group_acronym": "VRT",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RTBF",
@@ -351,13 +397,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 4,
     "first": 1991,
     "last": 9999,
     "prev": "[\"BRT/RTBF\"]",
     "next": null,
     "group_acronym": "VRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BRTN",
@@ -366,13 +414,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 5,
     "first": 1991,
     "last": 1996,
     "prev": "[\"BRT/RTBF\"]",
     "next": "[\"VRT\"]",
     "group_acronym": "VRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "VRT",
@@ -381,13 +431,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 6,
     "first": 1997,
     "last": 9999,
     "prev": "[\"BRTN\"]",
     "next": null,
     "group_acronym": "VRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ACSR",
@@ -396,13 +448,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ACSR",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ANNARAIMONDO",
@@ -411,13 +465,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ANNARAIMONDO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "MAGALISCHUERMANS",
@@ -426,13 +482,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Belgium",
+    "country_abbr": "Belgium",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MAGALISCHUERMANS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ORTB",
@@ -441,13 +499,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Benin",
+    "country_abbr": "Benin",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ORTB",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTVBIH",
@@ -456,13 +516,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Bosnia and Herzegovina",
+    "country_abbr": "Bosnia Herzegovina",
     "sort": 0,
     "first": 1995,
     "last": 2001,
     "prev": "[\"JRT\"]",
     "next": "[\"PBSBIH\"]",
     "group_acronym": "BHRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "PBSBIH",
@@ -471,13 +533,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Bosnia and Herzegovina",
+    "country_abbr": "Bosnia Herzegovina",
     "sort": 0,
     "first": 2002,
     "last": 2006,
     "prev": "[\"RTVBIH\"]",
     "next": "[\"BHRT\"]",
     "group_acronym": "BHRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BHRT",
@@ -486,13 +550,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Bosnia and Herzegovina",
+    "country_abbr": "Bosnia Herzegovina",
     "sort": 0,
     "first": 2007,
     "last": 9999,
     "prev": "[\"PBSBIH\"]",
     "next": null,
     "group_acronym": "BHRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTRS",
@@ -501,13 +567,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Bosnia and Herzegovina",
+    "country_abbr": "Bosnia Herzegovina",
     "sort": 0,
     "first": 2017,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTRS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "REDEUNIDAS",
@@ -516,13 +584,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Brazil",
+    "country_abbr": "Brazil",
     "sort": 0,
     "first": 1949,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "REDEUNIDAS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TVGLOBO",
@@ -531,13 +601,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Brazil",
+    "country_abbr": "Brazil",
     "sort": 0,
     "first": 1980,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TVGLOBO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RECORDTV",
@@ -546,13 +618,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Brazil",
+    "country_abbr": "Brazil",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RECORDTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TVSENADO",
@@ -561,13 +635,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Brazil",
+    "country_abbr": "Brazil",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TVSENADO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "FRM",
@@ -576,13 +652,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Brazil",
+    "country_abbr": "Brazil",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "FRM",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SESCTV",
@@ -591,13 +669,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Brazil",
+    "country_abbr": "Brazil",
     "sort": 0,
     "first": 2024,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SESCT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BNT",
@@ -606,13 +686,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Bulgaria",
+    "country_abbr": "Bulgaria",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BNT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BNR",
@@ -621,13 +703,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Bulgaria",
+    "country_abbr": "Bulgaria",
     "sort": 0,
     "first": 2024,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BNR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CRTV",
@@ -636,13 +720,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Cameroon",
+    "country_abbr": "Cameroon",
     "sort": 0,
     "first": 1989,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CRTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CBC/SRC",
@@ -651,13 +737,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 1954,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CBC/SRC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CTV",
@@ -666,13 +754,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 1972,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ATEC",
@@ -681,13 +771,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 1975,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ATEC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ARTV",
@@ -696,13 +788,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 2009,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ARTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TLN",
@@ -711,13 +805,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TLN",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "THEHEART",
@@ -726,13 +822,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THEHEART",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RADIOTOPIASTHEHEART",
@@ -741,13 +839,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIOTOPIASTHEHEART",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "VERONICASIMMONDS",
@@ -756,13 +856,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VERONICASIMMONDS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ANNAFRIZ",
@@ -771,13 +873,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Canada",
+    "country_abbr": "Canada",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ANNAFRIZ",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "TVNchile",
@@ -786,13 +890,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Chile",
+    "country_abbr": "Chile",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TVNchile",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CNR",
@@ -801,13 +907,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "China",
+    "country_abbr": "China",
     "sort": 0,
     "first": 1998,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CNR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CCTV",
@@ -816,13 +924,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "China",
+    "country_abbr": "China",
     "sort": 0,
     "first": 2008,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CCTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RNC",
@@ -831,13 +941,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Colombia",
+    "country_abbr": "Colombia",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RNC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTVC",
@@ -846,13 +958,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Colombia",
+    "country_abbr": "Colombia",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTVC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RCNRADIO",
@@ -861,13 +975,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Colombia",
+    "country_abbr": "Colombia",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RCNRADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TELEMEDELLIN",
@@ -876,13 +992,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Colombia",
+    "country_abbr": "Colombia",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TELEMEDELLIN",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SINART",
@@ -891,13 +1009,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Costa Rica",
+    "country_abbr": "Costa Rica",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SINART",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTIivory",
@@ -906,13 +1026,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Côte D'Ivoire",
+    "country_abbr": "Côte D'Ivoire",
     "sort": 0,
     "first": 1989,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTIivory",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "HRT",
@@ -921,13 +1043,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Croatia",
+    "country_abbr": "Croatia",
     "sort": 0,
     "first": 1992,
     "last": 9999,
     "prev": "[\"JRT\"]",
     "next": null,
     "group_acronym": "HRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "HULAHOP",
@@ -936,13 +1060,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Croatia",
+    "country_abbr": "Croatia",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "HULAHOP",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "CUBAVISION",
@@ -951,43 +1077,49 @@
     "acr_name": 1,
     "status": 4,
     "country": "Cuba",
+    "country_abbr": "Cuba",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CUBAVISION",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CRo",
-    "acronym": "ČRo",
+    "acronym": "ČsRo",
     "name": "Československý Rozhlas",
     "acr_name": 0,
     "status": 4,
     "country": "Czechoslovakia",
+    "country_abbr": "Czechoslovakia",
     "sort": 1,
     "first": 1949,
     "last": 1992,
     "prev": null,
     "next": "[\"CR\", \"SRO\"]",
     "group_acronym": "CR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CST",
-    "acronym": "ČST",
+    "acronym": "ČsT",
     "name": "Československá Televize",
     "acr_name": 0,
     "status": 4,
     "country": "Czechoslovakia",
+    "country_abbr": "Czechoslovakia",
     "sort": 2,
     "first": 1964,
     "last": 1992,
     "prev": null,
     "next": "[\"CT\", \"STVslovakia\"]",
     "group_acronym": "CT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CR",
@@ -996,13 +1128,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Czech Republic",
+    "country_abbr": "Czech Rep.",
     "sort": 1,
     "first": 1993,
     "last": 9999,
     "prev": "[\"CRo\"]",
     "next": null,
     "group_acronym": "CR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CT",
@@ -1011,13 +1145,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Czech Republic",
+    "country_abbr": "Czech Rep.",
     "sort": 2,
     "first": 1993,
     "last": 9999,
     "prev": "[\"CST\"]",
     "next": null,
     "group_acronym": "CT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "DR",
@@ -1026,13 +1162,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Denmark",
+    "country_abbr": "Denmark",
     "sort": 0,
     "first": 1962,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "DR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TV2",
@@ -1041,13 +1179,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Denmark",
+    "country_abbr": "Denmark",
     "sort": 0,
     "first": 1988,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TV2",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIO24SYV",
@@ -1056,13 +1196,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Denmark",
+    "country_abbr": "Denmark",
     "sort": 0,
     "first": 2015,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIO24SYV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIO4",
@@ -1071,13 +1213,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Denmark",
+    "country_abbr": "Denmark",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIO4",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TVROPA",
@@ -1086,13 +1230,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Denmark",
+    "country_abbr": "Denmark",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TVROPA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "THIRDEAR",
@@ -1101,13 +1247,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Denmark",
+    "country_abbr": "Denmark",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THIRDEAR",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "MARIADONVANG",
@@ -1116,13 +1264,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Denmark",
+    "country_abbr": "Denmark",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MARIADONVANG",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "EDUCA",
@@ -1131,13 +1281,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Ecuador",
+    "country_abbr": "Ecuador",
     "sort": 0,
     "first": 2024,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EDUCA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "EGYPTRADIO",
@@ -1146,13 +1298,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Egypt",
+    "country_abbr": "Egypt",
     "sort": 0,
     "first": 1949,
     "last": 2009,
     "prev": null,
     "next": "[\"ERTU\"]",
     "group_acronym": "NMA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ERTU",
@@ -1161,13 +1315,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Egypt",
+    "country_abbr": "Egypt",
     "sort": 0,
     "first": 2010,
     "last": 2018,
     "prev": "[\"EGYPTRADIO\"]",
     "next": "[\"NMA\"]",
     "group_acronym": "NMA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ART",
@@ -1176,13 +1332,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Egypt",
+    "country_abbr": "Egypt",
     "sort": 0,
     "first": 2018,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ART",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NMA",
@@ -1191,13 +1349,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Egypt",
+    "country_abbr": "Egypt",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": "[\"ERTU\"]",
     "next": null,
     "group_acronym": "NMA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "YLE",
@@ -1206,13 +1366,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Finland",
+    "country_abbr": "Finland",
     "sort": 0,
     "first": 1949,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "YLE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MTVfi",
@@ -1221,13 +1383,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Finland",
+    "country_abbr": "Finland",
     "sort": 0,
     "first": 1977,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MTVfi",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIOMEDIARY",
@@ -1236,13 +1400,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Finland",
+    "country_abbr": "Finland",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIOMEDIARY",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RDF",
@@ -1251,13 +1417,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 1,
     "first": 1949,
     "last": 1950,
     "prev": null,
     "next": "[\"RTF\"]",
     "group_acronym": "ORTF",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTF",
@@ -1266,13 +1434,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 2,
     "first": 1951,
     "last": 1964,
     "prev": "[\"RDF\"]",
     "next": "[\"ORTF\"]",
     "group_acronym": "ORTF",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ORTF",
@@ -1281,13 +1451,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 3,
     "first": 1965,
     "last": 1974,
     "prev": "[\"RTF\"]",
     "next": "[\"TF1\", \"A2\", \"FR3\", \"RADIOFRANCE\"]",
     "group_acronym": "ORTF",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIOFRANCE",
@@ -1296,13 +1468,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 4,
     "first": 1975,
     "last": 9999,
     "prev": "[\"ORTF\"]",
     "next": null,
     "group_acronym": "RADIOFRANCE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TF1",
@@ -1311,13 +1485,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 5,
     "first": 1975,
     "last": 9999,
     "prev": "[\"ORTF\"]",
     "next": null,
     "group_acronym": "TF1",
-    "note": "Since 1987, the abbreviation no longer expands."
+    "note": "Since 1987, the abbreviation no longer expands.",
+    "is_wall": 1
   },
   {
     "id": "A2",
@@ -1326,13 +1502,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 6,
     "first": 1975,
     "last": 1991,
     "prev": "[\"ORTF\"]",
     "next": "[\"FRANCE2\"]",
     "group_acronym": "FRANCE2",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "FR3",
@@ -1341,13 +1519,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 7,
     "first": 1975,
     "last": 1991,
     "prev": "[\"ORTF\"]",
     "next": "[\"FRANCE3\"]",
     "group_acronym": "FRANCE3",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CANAL+",
@@ -1356,13 +1536,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 8,
     "first": 1988,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CANAL+",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "FRANCE2",
@@ -1371,13 +1553,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 9,
     "first": 1992,
     "last": 9999,
     "prev": "[\"A2\"]",
     "next": null,
     "group_acronym": "FRANCE2",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "FRANCE3",
@@ -1386,13 +1570,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 10,
     "first": 1992,
     "last": 9999,
     "prev": "[\"FR3\"]",
     "next": null,
     "group_acronym": "FRANCE3",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "FRANCE5",
@@ -1401,13 +1587,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 11,
     "first": 2004,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "FRANCE5",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "FRANCETV",
@@ -1416,13 +1604,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 12,
     "first": 2014,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "FRANCETV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "LASEPT",
@@ -1431,13 +1621,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 13,
     "first": 1989,
     "last": 2000,
     "prev": null,
     "next": "[\"ARTEFRANCE\"]",
     "group_acronym": "ARTEFRANCE",
-    "note": "Since 1993, \"La Sept / Arte\"."
+    "note": "Since 1993, \"La Sept / Arte\".",
+    "is_wall": 1
   },
   {
     "id": "ARTEFRANCE",
@@ -1446,13 +1638,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 14,
     "first": 2001,
     "last": 9999,
     "prev": "[\"LASEPT\"]",
     "next": null,
     "group_acronym": "ARTEFRANCE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ARTEGEIE",
@@ -1461,13 +1655,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 15,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ARTEGEIE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "FRMEDIASMONDE",
@@ -1476,13 +1672,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "France",
+    "country_abbr": "France",
     "sort": 16,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "FRMEDIASMONDE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CANALWEB",
@@ -1491,13 +1689,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CANALWEB",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SMALLBANG",
@@ -1506,13 +1706,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SMALLBANG",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LAFABRIQUEDOCUMENTAIRE",
@@ -1521,13 +1723,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LAFABRIQUEDOCUMENTAIRE",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "PHAUNERADIO",
@@ -1536,13 +1740,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PHAUNERADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SOLFERINO",
@@ -1551,13 +1757,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SOLFERINO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ARDANT",
@@ -1566,13 +1774,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ARDANT",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "AMANDINECASADAMONT",
@@ -1581,13 +1791,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "AMANDINECASADAMONT",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "DINAHBIRD",
@@ -1596,13 +1808,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "DINAHBIRD",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ELSAFAYNER",
@@ -1611,13 +1825,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "France",
+    "country_abbr": "France",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ELSAFAYNER",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GPB",
@@ -1626,13 +1842,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Georgia",
+    "country_abbr": "Georgia",
     "sort": 0,
     "first": 2018,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GPB",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SKR",
@@ -1641,13 +1859,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "German Democratic Republic",
+    "country_abbr": "Germany – DDR",
     "sort": 1,
     "first": 1973,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SKR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SKF",
@@ -1656,13 +1876,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "German Democratic Republic",
+    "country_abbr": "Germany – DDR",
     "sort": 2,
     "first": 1973,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SKF",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ARD",
@@ -1671,13 +1893,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Germany",
+    "country_abbr": "Germany",
     "sort": 0,
     "first": 1952,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ARD",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ZDF",
@@ -1686,13 +1910,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Germany",
+    "country_abbr": "Germany",
     "sort": 0,
     "first": 1963,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ZDF",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "HTWBERLIN",
@@ -1701,13 +1927,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Germany",
+    "country_abbr": "Germany",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "HTWBERLIN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ECKHARTSTEIN",
@@ -1716,13 +1944,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Germany",
+    "country_abbr": "Germany",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ECKHARTSTEIN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GRACEYOON",
@@ -1731,13 +1961,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Germany",
+    "country_abbr": "Germany",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GRACEYOON",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "EIR",
@@ -1746,13 +1978,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Greece",
+    "country_abbr": "Greece",
     "sort": 0,
     "first": 1958,
     "last": 1976,
     "prev": null,
     "next": "[\"ERT\"]",
     "group_acronym": "ERT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ERT",
@@ -1761,13 +1995,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Greece",
+    "country_abbr": "Greece",
     "sort": 0,
     "first": 1977,
     "last": 9999,
     "prev": "[\"EIR\"]",
     "next": null,
     "group_acronym": "ERT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CYCLOPEPROD",
@@ -1776,13 +2012,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Greece",
+    "country_abbr": "Greece",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CYCLOPEPROD",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "MRT",
@@ -1791,13 +2029,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Hungary",
+    "country_abbr": "Hungary",
     "sort": 0,
     "first": 1964,
     "last": 1974,
     "prev": null,
     "next": "[\"MR\", \"MTV\"]",
     "group_acronym": "MTVA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MR",
@@ -1806,13 +2046,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Hungary",
+    "country_abbr": "Hungary",
     "sort": 0,
     "first": 1975,
     "last": 2014,
     "prev": "[\"MRT\"]",
     "next": null,
     "group_acronym": "MTVA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MTV",
@@ -1821,13 +2063,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Hungary",
+    "country_abbr": "Hungary",
     "sort": 0,
     "first": 1975,
     "last": 2014,
     "prev": "[\"MRT\"]",
     "next": "[\"MTVA\"]",
     "group_acronym": "MTVA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "DUNATV",
@@ -1836,13 +2080,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Hungary",
+    "country_abbr": "Hungary",
     "sort": 0,
     "first": 2008,
     "last": 2014,
     "prev": null,
     "next": "[\"MTVA\"]",
     "group_acronym": "DUNATV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MTVA",
@@ -1851,13 +2097,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Hungary",
+    "country_abbr": "Hungary",
     "sort": 0,
     "first": 2015,
     "last": 9999,
     "prev": "[\"DUNATV\", \"MR\", \"MTV\"]",
     "next": null,
     "group_acronym": "MTVA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RUV",
@@ -1866,13 +2114,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Iceland",
+    "country_abbr": "Iceland",
     "sort": 0,
     "first": 2024,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RUV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "AIR",
@@ -1881,13 +2131,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "India",
+    "country_abbr": "India",
     "sort": 0,
     "first": 1962,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "AIR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "PRASAR BHARATI",
@@ -1896,13 +2148,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "India",
+    "country_abbr": "India",
     "sort": 0,
     "first": 2008,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PRASAR BHARATI",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RRI",
@@ -1911,13 +2165,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Indonesia",
+    "country_abbr": "Indonesia",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RRI",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIOEIREANN",
@@ -1926,13 +2182,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Ireland",
+    "country_abbr": "Ireland",
     "sort": 0,
     "first": 1955,
     "last": 1966,
     "prev": null,
     "next": "[\"RTE\"]",
     "group_acronym": "RTE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTE",
@@ -1941,13 +2199,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Ireland",
+    "country_abbr": "Ireland",
     "sort": 0,
     "first": 1967,
     "last": 9999,
     "prev": "[\"RADIOEIREANN\"]",
     "next": null,
     "group_acronym": "RTE",
-    "note": "Until 2009, \"Raidió Telefis Éireann\"."
+    "note": "Until 2009, \"Raidió Telefis Éireann\".",
+    "is_wall": 1
   },
   {
     "id": "NEWSTALK",
@@ -1956,13 +2216,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Ireland",
+    "country_abbr": "Ireland",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NEWSTALK",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "GREYHERONMEDIA",
@@ -1971,13 +2233,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Ireland",
+    "country_abbr": "Ireland",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GREYHERONMEDIA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "NEARFM",
@@ -1986,13 +2250,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Ireland",
+    "country_abbr": "Ireland",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NEARFM",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "MACCANATEORANTA",
@@ -2001,13 +2267,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Ireland",
+    "country_abbr": "Ireland",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MACCANATEORANTA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "IBS",
@@ -2016,13 +2284,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Israel",
+    "country_abbr": "Israel",
     "sort": 0,
     "first": 1956,
     "last": 1964,
     "prev": null,
     "next": "[\"IBA\"]",
     "group_acronym": "IBA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "IBA",
@@ -2031,13 +2301,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Israel",
+    "country_abbr": "Israel",
     "sort": 0,
     "first": 1965,
     "last": 9999,
     "prev": "[\"IBS\"]",
     "next": null,
     "group_acronym": "IBA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ISRAELSTORY",
@@ -2046,13 +2318,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Israel",
+    "country_abbr": "Israel",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ISRAELSTORY",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SIPURISRAELI",
@@ -2061,13 +2335,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Israel",
+    "country_abbr": "Israel",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SIPURISRAELI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "BENNYBECKER",
@@ -2076,13 +2352,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Israel",
+    "country_abbr": "Israel",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BENNYBECKER",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "NOA",
@@ -2091,28 +2369,49 @@
     "acr_name": 1,
     "status": 1,
     "country": "Israel",
+    "country_abbr": "Israel",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NOA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
+  },
+  {
+    "id": "ENTERADIOTRIESTE",
+    "acronym": "ENTE RADIO TRIESTE",
+    "name": "Ente Radio Trieste",
+    "acr_name": 1,
+    "status": 4,
+    "country": "Italy – Trieste, Free Territory of",
+    "country_abbr": "Italy – Trieste",
+    "sort": 0,
+    "first": 1949,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "ENTE RADIO TRIESTE",
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RAIo",
     "acronym": "RAI",
-    "name": "Radio Audizioni Italiane",
+    "name": "Radio Audizioni Italia",
     "acr_name": 0,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 1,
     "first": 1949,
     "last": 1952,
     "prev": null,
     "next": "[\"RAI\"]",
     "group_acronym": "RAI",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RAI",
@@ -2121,13 +2420,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 2,
     "first": 1953,
     "last": 9999,
     "prev": "[\"RAIo\"]",
     "next": null,
     "group_acronym": "RAI",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RAISAT",
@@ -2136,13 +2437,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 3,
     "first": 2001,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RAISAT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "VM",
@@ -2151,13 +2454,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 4,
     "first": 1994,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VM",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTI",
@@ -2166,13 +2471,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 5,
     "first": 1994,
     "last": 1995,
     "prev": null,
     "next": "[\"MEDIASET\"]",
     "group_acronym": "MEDIASET",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MEDIASET",
@@ -2181,13 +2488,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 6,
     "first": 1996,
     "last": 9999,
     "prev": "[\"RTI\"]",
     "next": null,
     "group_acronym": "MEDIASET",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "STUDIOUNIVERSAL",
@@ -2196,13 +2505,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 7,
     "first": 2002,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "STUDIOUNIVERSAL",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SAT2000",
@@ -2211,13 +2522,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 8,
     "first": 2006,
     "last": 2009,
     "prev": null,
     "next": "[\"TV2000\"]",
     "group_acronym": "TV2000",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TV2000",
@@ -2226,13 +2539,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 9,
     "first": 2010,
     "last": 9999,
     "prev": "[\"SAT2000\"]",
     "next": null,
     "group_acronym": "TV2000",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIO24",
@@ -2241,13 +2556,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 10,
     "first": 2010,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIO24",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "LA7",
@@ -2256,13 +2573,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 11,
     "first": 2010,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LA7",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CLASSICA",
@@ -2271,13 +2590,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 12,
     "first": 2011,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CLASSICA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "DISCOVERYITA",
@@ -2286,13 +2607,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 13,
     "first": 2013,
     "last": 2021,
     "prev": null,
     "next": "[\"WARNERDISCOVERY\"]",
     "group_acronym": "WARNERDISCOVERY",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "WARNERDISCOVERY",
@@ -2301,13 +2624,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 14,
     "first": 2022,
     "last": 9999,
     "prev": "[\"DISCOVERYITA\"]",
     "next": null,
     "group_acronym": "WARNERDISCOVERY",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SKYARTE",
@@ -2316,13 +2641,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 15,
     "first": 2013,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SKYARTE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "GEDI",
@@ -2331,13 +2658,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 16,
     "first": 2016,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GEDI",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "A+E",
@@ -2346,13 +2675,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 17,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "A+E",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ITALY",
@@ -2361,13 +2692,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ITALY",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "KATAWEB",
@@ -2376,13 +2709,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "KATAWEB",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ILPOST",
@@ -2391,13 +2726,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ILPOST",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "WIREDITA",
@@ -2406,13 +2743,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "WIREDITA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "PICCOLOTEATRO",
@@ -2421,13 +2760,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PICCOLOTEATRO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LASTAMPA",
@@ -2436,13 +2777,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LASTAMPA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GALILEO",
@@ -2451,13 +2794,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GALILEO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "DAMSUNIVERSITASALENTO",
@@ -2466,13 +2811,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "UNISALENTO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "POLITECNICOBARI",
@@ -2481,13 +2828,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "POLIBARI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "UNIVERSITAFOGGIA",
@@ -2496,13 +2845,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "UNIFOGGIA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "UNIVERSITASALENTO",
@@ -2511,13 +2862,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "UNISALENTO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "POLITECNICOALDOMOROBARI",
@@ -2526,13 +2879,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "POLIBARI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GREENPEACEITALIA",
@@ -2541,13 +2896,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GREENPEACE",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "INTERNAZIONALE",
@@ -2556,13 +2913,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "INTERNAZIONALE",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RADIOBULLETS",
@@ -2571,13 +2930,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIOBULLETS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ULTRAFRAGOLA",
@@ -2586,13 +2947,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ULTRAFRAGOLA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "CASTELLORIVOLI",
@@ -2601,13 +2964,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CASTELLORIVOLI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LAREPUBBLICA",
@@ -2616,13 +2981,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LAREPUBBLICA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ANSA",
@@ -2631,13 +2998,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ANSA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "CORRIEREDELLASERA",
@@ -2646,13 +3015,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CORRIEREDELLASERA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "EXIBART",
@@ -2661,13 +3032,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EXIBART",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ILSOLE24ORE",
@@ -2676,13 +3049,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ILSOLE24ORE",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "VALENTINALANDENNA",
@@ -2691,13 +3066,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VALENTINALANDENNA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LEONARDOFERRARI",
@@ -2706,13 +3083,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LEONARDOFERRARI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "JUANFRANCISCOSCASSA",
@@ -2721,13 +3100,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "JUANFRANCISCOSCASSA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GASSMAN",
@@ -2736,13 +3117,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GASSMAN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ROMANOPRODI",
@@ -2751,13 +3134,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PRODI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "PIERGIORGIOBRANZI",
@@ -2766,13 +3151,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BRANZI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "DIANAPALMA",
@@ -2781,13 +3168,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PALMA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ANGELOGUGLIELMI",
@@ -2796,13 +3185,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ANGELOGUGLIELMI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GIANLUCASTAZI",
@@ -2811,13 +3202,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GIANLUCASTAZI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GIOVANNIMORANDINI",
@@ -2826,13 +3219,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GIOVANNIMORANDINI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LAURAFAGGIN",
@@ -2841,13 +3236,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LAURAFAGGIN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ROBERTANICOLAI",
@@ -2856,13 +3253,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ROBERTANICOLAI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RICCARDOPOLIGNIERI",
@@ -2871,28 +3270,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Italy",
+    "country_abbr": "Italy",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
-    "group_acronym": "RICPOL",
-    "note": ""
-  },
-  {
-    "id": "ENTERADIOTRIESTE",
-    "acronym": "ENTE RADIO TRIESTE",
-    "name": "Ente Radio Trieste",
-    "acr_name": 1,
-    "status": 4,
-    "country": "Italy - Trieste, Free Territory of",
-    "sort": 0,
-    "first": 1949,
-    "last": 9999,
-    "prev": null,
-    "next": null,
-    "group_acronym": "ENTE RADIO TRIESTE",
-    "note": ""
+    "group_acronym": "RICCARDOPOLIGNIERI",
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "NHK",
@@ -2901,13 +3287,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Japan",
+    "country_abbr": "Japan",
     "sort": 0,
     "first": 1955,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NHK",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NAB",
@@ -2916,13 +3304,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Japan",
+    "country_abbr": "Japan",
     "sort": 0,
     "first": 1962,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NAB",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "JRTV",
@@ -2931,13 +3321,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Jordan",
+    "country_abbr": "Jordan",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "JRTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "KBS",
@@ -2946,13 +3338,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Korea, Republic of",
+    "country_abbr": "South Korea",
     "sort": 0,
     "first": 1981,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "KBS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MBC",
@@ -2961,13 +3355,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Korea, Republic of",
+    "country_abbr": "South Korea",
     "sort": 0,
     "first": 2001,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MBC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "EBS",
@@ -2976,13 +3372,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Korea, Republic of",
+    "country_abbr": "South Korea",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EBS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NACB",
@@ -2991,13 +3389,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Korea, Republic of",
+    "country_abbr": "South Korea",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NACB",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTK",
@@ -3006,13 +3406,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Kosovo",
+    "country_abbr": "Kosovo",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTK",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "LATVIJASRADIO",
@@ -3021,13 +3423,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Latvia",
+    "country_abbr": "Latvia",
     "sort": 0,
     "first": 2024,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LATVIJASRADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "LRT",
@@ -3036,13 +3440,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Lithuania",
+    "country_abbr": "Lithuania",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CLR",
@@ -3051,13 +3457,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Luxembourg",
+    "country_abbr": "Luxembourg",
     "sort": 0,
     "first": 1954,
     "last": 1954,
     "prev": null,
     "next": "[\"CLT\"]",
     "group_acronym": "CLT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CLT",
@@ -3066,13 +3474,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Luxembourg",
+    "country_abbr": "Luxembourg",
     "sort": 0,
     "first": 1955,
     "last": 9999,
     "prev": "[\"CLR\"]",
     "next": null,
     "group_acronym": "CLT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "REDIFFUSION",
@@ -3081,13 +3491,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Malta",
+    "country_abbr": "Malta",
     "sort": 0,
     "first": 1970,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "REDIFFUSION",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MBA",
@@ -3096,13 +3508,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Malta",
+    "country_abbr": "Malta",
     "sort": 0,
     "first": 1972,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MBA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "PBSmalta",
@@ -3111,13 +3525,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Malta",
+    "country_abbr": "Malta",
     "sort": 0,
     "first": 2013,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PBSmalta",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CANAL13",
@@ -3126,13 +3542,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Mexico",
+    "country_abbr": "Mexico",
     "sort": 0,
     "first": 1975,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CANAL13",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "IMER",
@@ -3141,28 +3559,32 @@
     "acr_name": 0,
     "status": 4,
     "country": "Mexico",
+    "country_abbr": "Mexico",
     "sort": 0,
     "first": 2010,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "IMER",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SPR14",
-    "acronym": "SPR - 14",
+    "acronym": "SPR – 14",
     "name": "Sistema Público de Radiodifusión del Estado Mexicano – Canal Catorce",
     "acr_name": 0,
     "status": 4,
     "country": "Mexico",
+    "country_abbr": "Mexico",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SPR14",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CANAL22",
@@ -3171,13 +3593,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Mexico",
+    "country_abbr": "Mexico",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CANAL22",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ELONCE",
@@ -3186,13 +3610,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Mexico",
+    "country_abbr": "Mexico",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ELONCE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TVUNAM",
@@ -3201,13 +3627,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Mexico",
+    "country_abbr": "Mexico",
     "sort": 0,
     "first": 2024,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TVUNAM",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RMC",
@@ -3216,13 +3644,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Monaco",
+    "country_abbr": "Monaco",
     "sort": 0,
     "first": 1949,
     "last": 1984,
     "prev": null,
     "next": "[\"RMC/TMC\"]",
     "group_acronym": "RMC/TMC",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RMC/TMC",
@@ -3231,13 +3661,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Monaco",
+    "country_abbr": "Monaco",
     "sort": 0,
     "first": 1985,
     "last": 9999,
     "prev": "[\"RMC\"]",
     "next": null,
     "group_acronym": "RMC/TMC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MONACOINFO",
@@ -3246,13 +3678,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Monaco",
+    "country_abbr": "Monaco",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MONACOINFO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIOMONACO",
@@ -3261,13 +3695,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Monaco",
+    "country_abbr": "Monaco",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIOMONACO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTCG",
@@ -3276,13 +3712,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Montenegro",
+    "country_abbr": "Montenegro",
     "sort": 0,
     "first": 2006,
     "last": 9999,
     "prev": "[\"JRT\"]",
     "next": null,
     "group_acronym": "RTCG",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTM",
@@ -3291,13 +3729,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Morocco",
+    "country_abbr": "Morocco",
     "sort": 0,
     "first": 1958,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTM",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TVM",
@@ -3306,13 +3746,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Mozambique",
+    "country_abbr": "Mozambique",
     "sort": 0,
     "first": 2009,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TVM",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NRU",
@@ -3321,13 +3763,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Netherlands",
+    "country_abbr": "Netherlands",
     "sort": 0,
     "first": 1949,
     "last": 1968,
     "prev": null,
     "next": "[\"NOS\"]",
     "group_acronym": "NPO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NTS",
@@ -3336,13 +3780,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Netherlands",
+    "country_abbr": "Netherlands",
     "sort": 0,
     "first": 1966,
     "last": 1968,
     "prev": null,
     "next": "[\"NOS\"]",
     "group_acronym": "NPO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NOS",
@@ -3351,13 +3797,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Netherlands",
+    "country_abbr": "Netherlands",
     "sort": 0,
     "first": 1969,
     "last": 2002,
     "prev": "[\"NTS\", \"NRU\"]",
     "next": "[\"NPO\"]",
     "group_acronym": "NPO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NPO",
@@ -3366,13 +3814,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Netherlands",
+    "country_abbr": "Netherlands",
     "sort": 0,
     "first": 2003,
     "last": 9999,
     "prev": "[\"NOS\"]",
     "next": null,
     "group_acronym": "NPO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "PROSPEKTOR",
@@ -3381,13 +3831,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Netherlands",
+    "country_abbr": "Netherlands",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PROSPEKTOR",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SUBMARINE",
@@ -3396,13 +3848,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Netherlands",
+    "country_abbr": "Netherlands",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SUBMARINE",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "BEELDENGELUID",
@@ -3411,13 +3865,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Netherlands",
+    "country_abbr": "Netherlands",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BEELDENGELUID",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "NZBC",
@@ -3426,13 +3882,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "New Zealand",
+    "country_abbr": "New Zealand",
     "sort": 0,
     "first": 1964,
     "last": 1974,
     "prev": null,
     "next": "[\"BCNZ\"]",
     "group_acronym": "RNZ",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BCNZ",
@@ -3441,13 +3899,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "New Zealand",
+    "country_abbr": "New Zealand",
     "sort": 0,
     "first": 1975,
     "last": 1998,
     "prev": "[\"NZBC\"]",
     "next": "[\"RNZ\"]",
     "group_acronym": "RNZ",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RNZ",
@@ -3456,13 +3916,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "New Zealand",
+    "country_abbr": "New Zealand",
     "sort": 0,
     "first": 1999,
     "last": 9999,
     "prev": "[\"BCNZ\"]",
     "next": null,
     "group_acronym": "RNZ",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "MRTmac",
@@ -3471,13 +3933,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "North Macedonia",
+    "country_abbr": "North Macedonia",
     "sort": 0,
     "first": 1993,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MRTmac",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "KANAL103",
@@ -3486,13 +3950,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "North Macedonia",
+    "country_abbr": "North Macedonia",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "KANAL103",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "NRK",
@@ -3501,13 +3967,32 @@
     "acr_name": 0,
     "status": 4,
     "country": "Norway",
+    "country_abbr": "Norway",
     "sort": 0,
     "first": 1964,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NRK",
-    "note": ""
+    "note": "",
+    "is_wall": 1
+  },
+  {
+    "id": "JORUNNHOPE",
+    "acronym": "JORUNNHOPE",
+    "name": "Jorunn Hope",
+    "acr_name": 1,
+    "status": 1,
+    "country": "Norway",
+    "country_abbr": "Norway",
+    "sort": 0,
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "JORUNNHOPE",
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "PBC",
@@ -3516,13 +4001,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Palestine",
+    "country_abbr": "Palestine",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PBC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SERTV",
@@ -3531,13 +4018,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Panama",
+    "country_abbr": "Panama",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SERTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTPperu",
@@ -3546,13 +4035,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Peru",
+    "country_abbr": "Peru",
     "sort": 0,
     "first": 1988,
     "last": 2021,
     "prev": null,
     "next": "[\"IRTP\"]",
     "group_acronym": "IRTP",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "IRTP",
@@ -3561,13 +4052,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Peru",
+    "country_abbr": "Peru",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": "[\"RTPperu\"]",
     "next": null,
     "group_acronym": "IRTP",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "PRo",
@@ -3576,13 +4069,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Poland",
+    "country_abbr": "Poland",
     "sort": 0,
     "first": 1955,
     "last": 1961,
     "prev": null,
     "next": "[\"PRT\"]",
     "group_acronym": "PR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "PRT",
@@ -3591,13 +4086,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Poland",
+    "country_abbr": "Poland",
     "sort": 0,
     "first": 1962,
     "last": 1993,
     "prev": "[\"PRo\"]",
     "next": "[\"PR\", \"TVP\"]",
     "group_acronym": "TVP",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "PR",
@@ -3606,13 +4103,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Poland",
+    "country_abbr": "Poland",
     "sort": 0,
     "first": 1994,
     "last": 9999,
     "prev": "[\"PRT\"]",
     "next": null,
     "group_acronym": "PR",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "TVP",
@@ -3621,13 +4120,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Poland",
+    "country_abbr": "Poland",
     "sort": 0,
     "first": 1994,
     "last": 9999,
     "prev": "[\"PRT\"]",
     "next": null,
     "group_acronym": "TVP",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "FUNDACJAGLOSEWANGELII",
@@ -3636,13 +4137,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Poland",
+    "country_abbr": "Poland",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "FUNDACJAGLOSEWANGELII",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "HOLOUBEK",
@@ -3651,13 +4154,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Poland",
+    "country_abbr": "Poland",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "HOLOUBEK",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "EN",
@@ -3666,13 +4171,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Portugal",
+    "country_abbr": "Portugal",
     "sort": 0,
     "first": 1949,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EN",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTP",
@@ -3681,13 +4188,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Portugal",
+    "country_abbr": "Portugal",
     "sort": 0,
     "first": 1960,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTP",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTR",
@@ -3696,13 +4205,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Romania",
+    "country_abbr": "Romania",
     "sort": 0,
     "first": 1967,
     "last": 1996,
     "prev": null,
     "next": "[\"TVR\", \"ROR\"]",
     "group_acronym": "RTR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TVR",
@@ -3711,13 +4222,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Romania",
+    "country_abbr": "Romania",
     "sort": 0,
     "first": 1997,
     "last": 9999,
     "prev": "[\"RTR\"]",
     "next": null,
     "group_acronym": "RTR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ROR",
@@ -3726,13 +4239,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Romania",
+    "country_abbr": "Romania",
     "sort": 0,
     "first": 2006,
     "last": 9999,
     "prev": "[\"RTR\"]",
     "next": null,
     "group_acronym": "RTR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RGTRKOSTANKINO",
@@ -3741,13 +4256,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russia (Commonwealth of Independent States)",
+    "country_abbr": "Russia (CIS)",
     "sort": 0,
     "first": 1992,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RGTRKOSTANKINO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ORTcis",
@@ -3756,13 +4273,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russia (Commonwealth of Independent States)",
+    "country_abbr": "Russia (CIS)",
     "sort": 0,
     "first": 1995,
     "last": 1996,
     "prev": null,
     "next": "[\"ORT\"]",
     "group_acronym": "1TV",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "VGTRKcis",
@@ -3771,13 +4290,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russia (Commonwealth of Independent States)",
+    "country_abbr": "Russia (CIS)",
     "sort": 0,
     "first": 1995,
     "last": 1996,
     "prev": null,
     "next": "[\"VGTRK\"]",
     "group_acronym": "VGTRK",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "VGTRK",
@@ -3786,13 +4307,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 1,
     "first": 1997,
     "last": 9999,
     "prev": "[\"VGTRKcis\"]",
     "next": null,
     "group_acronym": "VGTRK",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "VGTRK/RADIOROSSII",
@@ -3801,13 +4324,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 2,
     "first": 2012,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VGTRK/RADIOROSSII",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "VGTRK/RUSSIAK",
@@ -3816,13 +4341,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 3,
     "first": 2013,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VGTRK/RUSSIAK",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ORT",
@@ -3831,13 +4358,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 4,
     "first": 1997,
     "last": 2004,
     "prev": "[\"ORTcis\"]",
     "next": "[\"1TV\"]",
     "group_acronym": "1TV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "1TV",
@@ -3846,13 +4375,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 5,
     "first": 2005,
     "last": 9999,
     "prev": "[\"ORT\"]",
     "next": null,
     "group_acronym": "1TV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIO1",
@@ -3861,13 +4392,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 6,
     "first": 1997,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIO1",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NTV",
@@ -3876,13 +4409,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 7,
     "first": 2004,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "VOR",
@@ -3891,13 +4426,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 8,
     "first": 2006,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VOR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NEYOLOVA",
@@ -3906,13 +4443,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Russian Federation",
+    "country_abbr": "Russia",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NEYOLOVA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SANMARINORTV",
@@ -3921,13 +4460,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "San Marino",
+    "country_abbr": "San Marino",
     "sort": 0,
     "first": 2007,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SANMARINORTV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ORTS",
@@ -3936,13 +4477,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Senegal",
+    "country_abbr": "Senegal",
     "sort": 0,
     "first": 1972,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ORTS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTSsm",
@@ -3951,13 +4494,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Serbia and Montenegro, State Union of",
+    "country_abbr": "Serbia Montenegro",
     "sort": 0,
     "first": 2003,
     "last": 2005,
     "prev": "[\"RTSyug\"]",
     "next": "[\"RTS\"]",
     "group_acronym": "RTS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ANEMsm",
@@ -3966,13 +4511,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Serbia and Montenegro, State Union of",
+    "country_abbr": "Serbia Montenegro",
     "sort": 0,
     "first": 2003,
     "last": 2005,
     "prev": "[\"ANEMyug\"]",
     "next": "[\"ANEM\"]",
     "group_acronym": "ANEM",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SJURTJsm",
@@ -3981,13 +4528,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Serbia and Montenegro, State Union of",
+    "country_abbr": "Serbia Montenegro",
     "sort": 0,
     "first": 2003,
     "last": 2005,
     "prev": "[\"SJURTJyug\"]",
     "next": "[\"SJURTJ\"]",
     "group_acronym": "SJURTJ",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RTS",
@@ -3996,13 +4545,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Serbia",
+    "country_abbr": "Serbia",
     "sort": 0,
     "first": 2006,
     "last": 9999,
     "prev": "[\"RTSsm\"]",
     "next": null,
     "group_acronym": "RTS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ANEM",
@@ -4011,13 +4562,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Serbia",
+    "country_abbr": "Serbia",
     "sort": 0,
     "first": 2006,
     "last": 9999,
     "prev": "[\"ANEMsm\"]",
     "next": null,
     "group_acronym": "ANEM",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SJURTJ",
@@ -4026,13 +4579,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Serbia",
+    "country_abbr": "Serbia",
     "sort": 0,
     "first": 2006,
     "last": 9999,
     "prev": "[\"SJURTJsm\"]",
     "next": null,
     "group_acronym": "SJURTJ",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTVvojv",
@@ -4041,13 +4596,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Serbia",
+    "country_abbr": "Serbia",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTVvojv",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SNEZANARISTIC",
@@ -4056,13 +4613,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Serbia",
+    "country_abbr": "Serbia",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SNEZANARISTIC",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SRO",
@@ -4071,13 +4630,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Slovakia",
+    "country_abbr": "Slovakia",
     "sort": 1,
     "first": 1993,
     "last": 2010,
     "prev": "[\"CRo\"]",
     "next": "[\"RTVS\"]",
     "group_acronym": "SRO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "STVslovakia",
@@ -4086,13 +4647,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Slovakia",
+    "country_abbr": "Slovakia",
     "sort": 2,
     "first": 1993,
     "last": 2010,
     "prev": "[\"CST\"]",
     "next": "[\"RTVS\"]",
     "group_acronym": "STVslovakia",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTVS",
@@ -4101,13 +4664,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Slovakia",
+    "country_abbr": "Slovakia",
     "sort": 3,
     "first": 2011,
     "last": 9999,
     "prev": "[\"SRO\", \"STVslovakia\"]",
     "next": null,
     "group_acronym": "RTVS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTVSLO",
@@ -4116,13 +4681,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Slovenia",
+    "country_abbr": "Slovenia",
     "sort": 0,
     "first": 1992,
     "last": 9999,
     "prev": "[\"JRT\"]",
     "next": null,
     "group_acronym": "RTVSLO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SABC",
@@ -4131,13 +4698,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "South Africa",
+    "country_abbr": "South Africa",
     "sort": 0,
     "first": 1957,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SABC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "PROTOPHONIC",
@@ -4146,13 +4715,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "South Africa",
+    "country_abbr": "South Africa",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "PROTOPHONIC",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GOSTELERADIO",
@@ -4161,13 +4732,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Soviet Union",
+    "country_abbr": "Soviet Union",
     "sort": 0,
     "first": 1972,
     "last": 1991,
     "prev": null,
     "next": null,
     "group_acronym": "GOSTELERADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "DGRT",
@@ -4176,13 +4749,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 1,
     "first": 1962,
     "last": 1964,
     "prev": null,
     "next": "[\"RNE\", \"TVE\"]",
     "group_acronym": "RTVE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RNE",
@@ -4191,13 +4766,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 2,
     "first": 1965,
     "last": 1973,
     "prev": "[\"DGRT\"]",
     "next": "[\"RTVE\"]",
     "group_acronym": "RTVE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TVE",
@@ -4206,13 +4783,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 3,
     "first": 1965,
     "last": 1973,
     "prev": "[\"DGRT\"]",
     "next": "[\"RTVE\"]",
     "group_acronym": "RTVE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTVE",
@@ -4221,13 +4800,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 4,
     "first": 1974,
     "last": 9999,
     "prev": "[\"RNE\", \"TVE\"]",
     "next": null,
     "group_acronym": "RTVE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SER",
@@ -4236,13 +4817,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 5,
     "first": 1964,
     "last": 2004,
     "prev": null,
     "next": "[\"CADENASER\"]",
     "group_acronym": "CADENASER",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CADENASER",
@@ -4251,13 +4834,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 6,
     "first": 2005,
     "last": 9999,
     "prev": "[\"SER\"]",
     "next": null,
     "group_acronym": "CADENASER",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BELOZE",
@@ -4266,13 +4851,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BELOZE",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ELPAIS",
@@ -4281,13 +4868,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ELPAIS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "FERNANDOARRABAL",
@@ -4296,13 +4885,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Spain",
+    "country_abbr": "Spain",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "FERNANDOARRABAL",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RADIOTJANST",
@@ -4311,13 +4902,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 1949,
     "last": 1956,
     "prev": null,
     "next": "[\"SVERIGESRADIOo\"]",
     "group_acronym": "SVERIGESRADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SVERIGESRADIOo",
@@ -4326,13 +4919,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 1957,
     "last": 1980,
     "prev": "[\"RADIOTJANST\"]",
     "next": "[\"RR\", \"SVT\"]",
     "group_acronym": "SVERIGESRADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SVT",
@@ -4341,13 +4936,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 1981,
     "last": 9999,
     "prev": "[\"SVERIGESRADIOo\"]",
     "next": null,
     "group_acronym": "SVT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RR",
@@ -4356,13 +4953,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 1981,
     "last": 1992,
     "prev": "[\"SVERIGESRADIOo\"]",
     "next": "[\"SVERIGESRADIO\"]",
     "group_acronym": "SVERIGESRADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SVERIGESRADIO",
@@ -4371,13 +4970,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 1993,
     "last": 9999,
     "prev": "[\"RR\"]",
     "next": null,
     "group_acronym": "SVERIGESRADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "VIAPLAY",
@@ -4386,13 +4987,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VIAPLAY",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "VONSYDOW",
@@ -4401,13 +5004,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VONSYDOW",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LENNARTEHRENBORG",
@@ -4416,13 +5021,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EHRENBORG",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "HENRIKHAHR",
@@ -4431,13 +5038,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "Sweden",
+    "country_abbr": "Sweden",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "HENRIKHAHR",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SRGSSRo",
@@ -4446,13 +5055,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Switzerland",
+    "country_abbr": "Switzerland",
     "sort": 0,
     "first": 1949,
     "last": 1959,
     "prev": null,
     "next": "[\"SRGSSR\"]",
     "group_acronym": "SRGSSR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SRGSSR",
@@ -4461,13 +5072,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Switzerland",
+    "country_abbr": "Switzerland",
     "sort": 0,
     "first": 1960,
     "last": 9999,
     "prev": "[\"SRGSSRo\"]",
     "next": null,
     "group_acronym": "SRGSSR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RADIOPICNIC",
@@ -4476,13 +5089,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "Switzerland",
+    "country_abbr": "Switzerland",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIOPICNIC",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "THAIPBS",
@@ -4491,13 +5106,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Thailand",
+    "country_abbr": "Thailand",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THAIPBS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTCI",
@@ -4506,13 +5123,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Tunisia",
+    "country_abbr": "Tunisia",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RTCI",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TELEVISIONTUNISIENNE",
@@ -4521,13 +5140,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Tunisia",
+    "country_abbr": "Tunisia",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TELEVISIONTUNISIENNE",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TRT",
@@ -4536,13 +5157,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Türkiye",
+    "country_abbr": "Türkiye",
     "sort": 0,
     "first": 2009,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TVTM",
@@ -4551,13 +5174,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Turkmenistan",
+    "country_abbr": "Turkmenistan",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TVTM",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NRCU",
@@ -4566,13 +5191,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Ukraine",
+    "country_abbr": "Ukraine",
     "sort": 0,
     "first": 1999,
     "last": 2017,
     "prev": null,
     "next": "[\"UAPBC\"]",
     "group_acronym": "UAPBC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "UAPBC",
@@ -4581,13 +5208,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Ukraine",
+    "country_abbr": "Ukraine",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": "[\"NRCU\"]",
     "next": null,
     "group_acronym": "UAPBC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ALJAZEERA",
@@ -4596,13 +5225,15 @@
     "acr_name": 1,
     "status": 3,
     "country": "United Arab Emirates",
+    "country_abbr": "The Emirates",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ALJAZEERA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "BBC",
@@ -4611,13 +5242,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 1,
     "first": 1949,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BBC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ITA/ITCA",
@@ -4626,13 +5259,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 2,
     "first": 1963,
     "last": 1971,
     "prev": null,
     "next": "[\"IBA/ITCA\"]",
     "group_acronym": "IBA/ITCA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "IBA/ITCA",
@@ -4641,13 +5276,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 3,
     "first": 1972,
     "last": 1980,
     "prev": "[\"ITA/ITCA\"]",
     "next": "[\"ITCA\"]",
     "group_acronym": "IBA/ITCA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ITCA",
@@ -4656,13 +5293,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 4,
     "first": 1986,
     "last": 9999,
     "prev": "[\"IBA/ITCA\"]",
     "next": null,
     "group_acronym": "IBA/ITCA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "AIRC",
@@ -4671,13 +5310,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 5,
     "first": 1986,
     "last": 1996,
     "prev": null,
     "next": "[\"CRCA\"]",
     "group_acronym": "CRCA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CRCA",
@@ -4686,13 +5327,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 6,
     "first": 1997,
     "last": 9999,
     "prev": "[\"AIRC\"]",
     "next": null,
     "group_acronym": "CRCA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "UKIB",
@@ -4701,13 +5344,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 7,
     "first": 1980,
     "last": 1986,
     "prev": null,
     "next": "[\"C4\", \"ITV\"]",
     "group_acronym": "UKIB",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "C4",
@@ -4716,13 +5361,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 8,
     "first": 1987,
     "last": 9999,
     "prev": "[\"UKIB\"]",
     "next": null,
     "group_acronym": "C4",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ITV",
@@ -4731,13 +5378,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 9,
     "first": 1988,
     "last": 9999,
     "prev": "[\"UKIB\"]",
     "next": null,
     "group_acronym": "ITV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "C5",
@@ -4746,13 +5395,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 10,
     "first": 1997,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "C5",
-    "note": "From 2002 to 2011: \"Five\"."
+    "note": "From 2002 to 2011: \"Five\".",
+    "is_wall": 1
   },
   {
     "id": "DISCOVERYEU",
@@ -4761,13 +5412,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 11,
     "first": 2003,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "DISCOVERYEU",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SMG",
@@ -4776,13 +5429,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 12,
     "first": 2003,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SMG",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "SKYUK",
@@ -4791,13 +5446,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 13,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "SKYUK",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "UNITEDKINGDOM",
@@ -4806,13 +5463,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "UNITEDKINGDOM",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "THEGUARDIAN",
@@ -4821,13 +5480,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THEGUARDIAN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LOFTUSMEDIA",
@@ -4836,13 +5497,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LOFTUSMEDIA",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RESONANCEFM",
@@ -4851,13 +5514,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RESONANCEFM",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "CRANETV",
@@ -4866,13 +5531,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CRANETV",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "DAZEDCONFUSED",
@@ -4881,13 +5548,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "DAZEDCONFUSED",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "MONOCLE",
@@ -4896,13 +5565,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MONOCLE",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "DAILYMAIL",
@@ -4911,13 +5582,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "DAILYMAIL",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "THEECONOMIST",
@@ -4926,13 +5599,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THEECONOMIST",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "THEINDEPENDENT",
@@ -4941,13 +5616,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THEINDEPENDENT",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "THESUN",
@@ -4956,13 +5633,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THESUN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GEORGETHOMSON",
@@ -4971,13 +5650,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THOMSON",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "CHRISDUNKLEY",
@@ -4986,13 +5667,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "DUNKLEY",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "JEREMYISAACS",
@@ -5001,13 +5684,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "JEREMYISAACS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LIZFORGAN",
@@ -5016,13 +5701,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LIZFORGAN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "GRAHAMELLIS",
@@ -5031,13 +5718,32 @@
     "acr_name": 1,
     "status": 1,
     "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "GRAHAMELLIS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
+  },
+  {
+    "id": "MELVYNBRAGG",
+    "acronym": "MELVYN BRAGG",
+    "name": "Melvyn Bragg",
+    "acr_name": 1,
+    "status": 1,
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_abbr": "United Kingdom",
+    "sort": 0,
+    "first": 1940,
+    "last": 9999,
+    "prev": null,
+    "next": null,
+    "group_acronym": "MELVYNBRAGG",
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "NAEB",
@@ -5046,13 +5752,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1952,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NAEB",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "BFA",
@@ -5061,13 +5769,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1958,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BFA",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "ABCusa",
@@ -5076,13 +5786,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1963,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "ABCusa",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CBS",
@@ -5091,13 +5803,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1963,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CBS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NBC",
@@ -5106,13 +5820,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1963,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NBC",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NET",
@@ -5121,13 +5837,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1963,
     "last": 1971,
     "prev": null,
     "next": "[\"CPB/PBS\", \"CPB/NPR\"]",
     "group_acronym": "NET",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CPB/PBS",
@@ -5136,13 +5854,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1972,
     "last": 9999,
     "prev": "[\"NET\"]",
     "next": null,
     "group_acronym": "CPB/PBS",
-    "note": "Often styled as \"CPB/PBS\" in the catalogues."
+    "note": "Often styled as \"CPB/PBS\" in the catalogues.",
+    "is_wall": 1
   },
   {
     "id": "CPB/NPR",
@@ -5151,13 +5871,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1972,
     "last": 9999,
     "prev": "[\"NET\"]",
     "next": null,
     "group_acronym": "CPB/NPR",
-    "note": "Often styled as \"CPB/NPR\" in the catalogues."
+    "note": "Often styled as \"CPB/NPR\" in the catalogues.",
+    "is_wall": 1
   },
   {
     "id": "TBS",
@@ -5166,13 +5888,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1995,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TBS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "OVATION",
@@ -5181,13 +5905,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1999,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "OVATION",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "DISCOVERY",
@@ -5196,13 +5922,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 2000,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "DISCOVERY",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "HALLMARK",
@@ -5211,13 +5939,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 2000,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "HALLMARK",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "HBO",
@@ -5226,13 +5956,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 2000,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "HBO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NATGEO",
@@ -5241,13 +5973,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 2000,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NATGEO",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "WFMT",
@@ -5256,13 +5990,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 2005,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "WFMT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "CNN",
@@ -5271,13 +6007,15 @@
     "acr_name": 0,
     "status": 3,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CNN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "MEDIASTORM",
@@ -5286,13 +6024,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MEDIASTORM",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "CRIMINALAPODCAST",
@@ -5301,13 +6041,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "CRIMINALAPODCAST",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LOVERADIO",
@@ -5316,13 +6058,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LOVERADIO",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RADIODIARIES",
@@ -5331,13 +6075,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIODIARIES",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "RADIOLAB",
@@ -5346,13 +6092,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RADIOLAB",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "METROPOLITAN",
@@ -5361,13 +6109,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "METROPOLITAN",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LOSANGELESTIMES",
@@ -5376,13 +6126,15 @@
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LOSANGELESTIMES",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "THEHUFFINGTONPOST",
@@ -5391,28 +6143,32 @@
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "THEHUFFINGTONPOST",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "NEWYORKTIMES",
-    "acronym": "NEWYORKTIMES",
+    "acronym": "NEW YORK TIMES",
     "name": "New York Times",
     "acr_name": 1,
     "status": 2,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NEWYORKTIMES",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LUOLKOWSKI",
@@ -5421,13 +6177,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LUOLKOWSKI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "LUKEQUINTON",
@@ -5436,13 +6194,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "LUKEQUINTON",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "MITRAKABOLI",
@@ -5451,13 +6211,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "MITRAKABOLI",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "STACYBOND",
@@ -5466,13 +6228,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "STACYBOND",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "VANESSALOWE",
@@ -5481,13 +6245,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "VANESSALOWE",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "KARENROBINS",
@@ -5496,13 +6262,15 @@
     "acr_name": 1,
     "status": 1,
     "country": "United States of America",
+    "country_abbr": "United States",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "KARENROBINS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "TVCIUDAD",
@@ -5511,13 +6279,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Uruguay",
+    "country_abbr": "Uruguay",
     "sort": 0,
     "first": 2019,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TVCIUDAD",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TNU",
@@ -5526,13 +6296,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Uruguay",
+    "country_abbr": "Uruguay",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TNU",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RV",
@@ -5541,13 +6313,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Vatican State",
+    "country_abbr": "Vatican State",
     "sort": 0,
     "first": 1949,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "RV",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "TELESUR",
@@ -5556,13 +6330,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Venezuela, Bolivarian Republic of",
+    "country_abbr": "Venezuela",
     "sort": 0,
     "first": 2020,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "TELESUR",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "JRD",
@@ -5571,13 +6347,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Yugoslavia, Socialist Federal Republic of",
+    "country_abbr": "Yugoslavia",
     "sort": 0,
     "first": 1956,
     "last": 1959,
     "prev": null,
     "next": "[\"JRT\"]",
     "group_acronym": "JRD",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "JRT",
@@ -5586,13 +6364,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Yugoslavia, Socialist Federal Republic of",
+    "country_abbr": "Yugoslavia",
     "sort": 0,
     "first": 1960,
     "last": 1991,
     "prev": "[\"JRD\"]",
     "next": "[\"HRT\", \"RTVSLO\", \"RTVBIH\", \"RTSyug\", \"RTCG\"]",
     "group_acronym": "JRT",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "RTSyug",
@@ -5601,13 +6381,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Yugoslavia, Federal Republic of",
+    "country_abbr": "Yugoslavia, Fed. Rep.",
     "sort": 0,
     "first": 1997,
     "last": 2002,
     "prev": "[\"JRT\"]",
     "next": "[\"RTSsm\"]",
     "group_acronym": "RTS",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "ANEMyug",
@@ -5616,13 +6398,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Yugoslavia, Federal Republic of",
+    "country_abbr": "Yugoslavia, Fed. Rep.",
     "sort": 0,
     "first": 2001,
     "last": 2002,
     "prev": null,
     "next": "[\"ANEMsm\"]",
     "group_acronym": "ANEM",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "SJURTJyug",
@@ -5631,13 +6415,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Yugoslavia, Federal Republic of",
+    "country_abbr": "Yugoslavia, Fed. Rep.",
     "sort": 0,
     "first": 2002,
     "last": 2002,
     "prev": null,
     "next": "[\"SJURTJsm\"]",
     "group_acronym": "SJURTJ",
-    "note": ""
+    "note": "",
+    "is_wall": 0
   },
   {
     "id": "EURONEWS",
@@ -5646,13 +6432,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Pan European Broadcasters",
+    "country_abbr": "Pan European",
     "sort": 0,
     "first": 2013,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EURONEWS",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "HBOEU",
@@ -5661,13 +6449,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Pan European Broadcasters",
+    "country_abbr": "Pan European",
     "sort": 0,
     "first": 2013,
     "last": 2021,
     "prev": null,
     "next": "[\"HBOMAX\"]",
     "group_acronym": "HBOMAX",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "HBOMAX",
@@ -5676,13 +6466,15 @@
     "acr_name": 1,
     "status": 4,
     "country": "Pan European Broadcasters",
+    "country_abbr": "Pan European",
     "sort": 0,
     "first": 2022,
     "last": 9999,
     "prev": "[\"HBOEU\"]",
     "next": null,
     "group_acronym": "HBOMAX",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "EBU",
@@ -5691,13 +6483,15 @@
     "acr_name": 0,
     "status": 4,
     "country": "Pan European Broadcasters",
+    "country_abbr": "Pan European",
     "sort": 0,
     "first": 2023,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "EBU",
-    "note": ""
+    "note": "",
+    "is_wall": 1
   },
   {
     "id": "NONE",
@@ -5706,13 +6500,15 @@
     "acr_name": 0,
     "status": 0,
     "country": "_null",
+    "country_abbr": "_null",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "NONE",
-    "note": "A null broadcaster which unassigned prizes are awarded to."
+    "note": "A null broadcaster which unassigned prizes are awarded to.",
+    "is_wall": 0
   },
   {
     "id": "UNKNOWN",
@@ -5721,13 +6517,15 @@
     "acr_name": 1,
     "status": 0,
     "country": "_null",
+    "country_abbr": "_null",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "UNKNOWN",
-    "note": "We know a prize has been awarded, but not (yet) to whom."
+    "note": "We know a prize has been awarded, but not (yet) to whom.",
+    "is_wall": 0
   },
   {
     "id": "BALANCE",
@@ -5736,12 +6534,14 @@
     "acr_name": 0,
     "status": 0,
     "country": "_null",
+    "country_abbr": "_null",
     "sort": 0,
     "first": 1940,
     "last": 9999,
     "prev": null,
     "next": null,
     "group_acronym": "BALANCE",
-    "note": "Used in participants table to match the programmes' count in editions table."
+    "note": "Used in participants table to match the programmes' count in editions table.",
+    "is_wall": 0
   }
 ]

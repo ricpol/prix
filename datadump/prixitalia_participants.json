@@ -45,18 +45,18 @@
     "sp_prize": 0
   },
   {
-    "id": "1949 RAIo",
+    "id": "1949 ENTERADIOTRIESTE",
     "year": 1949,
-    "broadcaster_id": "RAIo",
+    "broadcaster_id": "ENTERADIOTRIESTE",
     "radio": 2,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
   {
-    "id": "1949 ENTERADIOTRIESTE",
+    "id": "1949 RAIo",
     "year": 1949,
-    "broadcaster_id": "ENTERADIOTRIESTE",
+    "broadcaster_id": "RAIo",
     "radio": 2,
     "tv": 0,
     "web": 0,
@@ -144,18 +144,18 @@
     "sp_prize": 0
   },
   {
-    "id": "1950 RAIo",
+    "id": "1950 ENTERADIOTRIESTE",
     "year": 1950,
-    "broadcaster_id": "RAIo",
+    "broadcaster_id": "ENTERADIOTRIESTE",
     "radio": 2,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
   {
-    "id": "1950 ENTERADIOTRIESTE",
+    "id": "1950 RAIo",
     "year": 1950,
-    "broadcaster_id": "ENTERADIOTRIESTE",
+    "broadcaster_id": "RAIo",
     "radio": 2,
     "tv": 0,
     "web": 0,
@@ -252,18 +252,18 @@
     "sp_prize": 0
   },
   {
-    "id": "1951 RAIo",
+    "id": "1951 ENTERADIOTRIESTE",
     "year": 1951,
-    "broadcaster_id": "RAIo",
+    "broadcaster_id": "ENTERADIOTRIESTE",
     "radio": 2,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
   {
-    "id": "1951 ENTERADIOTRIESTE",
+    "id": "1951 RAIo",
     "year": 1951,
-    "broadcaster_id": "ENTERADIOTRIESTE",
+    "broadcaster_id": "RAIo",
     "radio": 2,
     "tv": 0,
     "web": 0,
@@ -342,19 +342,19 @@
     "sp_prize": 0
   },
   {
-    "id": "1952 RAIo",
+    "id": "1952 ENTERADIOTRIESTE",
     "year": 1952,
-    "broadcaster_id": "RAIo",
-    "radio": 2,
+    "broadcaster_id": "ENTERADIOTRIESTE",
+    "radio": 1,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
   {
-    "id": "1952 ENTERADIOTRIESTE",
+    "id": "1952 RAIo",
     "year": 1952,
-    "broadcaster_id": "ENTERADIOTRIESTE",
-    "radio": 1,
+    "broadcaster_id": "RAIo",
+    "radio": 2,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -441,19 +441,19 @@
     "sp_prize": 0
   },
   {
-    "id": "1953 RAI",
+    "id": "1953 ENTERADIOTRIESTE",
     "year": 1953,
-    "broadcaster_id": "RAI",
-    "radio": 3,
+    "broadcaster_id": "ENTERADIOTRIESTE",
+    "radio": 1,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
   {
-    "id": "1953 ENTERADIOTRIESTE",
+    "id": "1953 RAI",
     "year": 1953,
-    "broadcaster_id": "ENTERADIOTRIESTE",
-    "radio": 1,
+    "broadcaster_id": "RAI",
+    "radio": 3,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -540,19 +540,19 @@
     "sp_prize": 0
   },
   {
-    "id": "1954 RAI",
+    "id": "1954 ENTERADIOTRIESTE",
     "year": 1954,
-    "broadcaster_id": "RAI",
-    "radio": 3,
+    "broadcaster_id": "ENTERADIOTRIESTE",
+    "radio": 1,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
   {
-    "id": "1954 ENTERADIOTRIESTE",
+    "id": "1954 RAI",
     "year": 1954,
-    "broadcaster_id": "ENTERADIOTRIESTE",
-    "radio": 1,
+    "broadcaster_id": "RAI",
+    "radio": 3,
     "tv": 0,
     "web": 0,
     "sp_prize": 0
@@ -17802,6 +17802,15 @@
     "sp_prize": 2
   },
   {
+    "id": "2002 MELVYNBRAGG",
+    "year": 2002,
+    "broadcaster_id": "MELVYNBRAGG",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2002 CBS",
     "year": 2002,
     "broadcaster_id": "CBS",
@@ -22464,6 +22473,15 @@
     "sp_prize": 1
   },
   {
+    "id": "2012 FERNANDOARRABAL",
+    "year": 2012,
+    "broadcaster_id": "FERNANDOARRABAL",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2012 SVT",
     "year": 2012,
     "broadcaster_id": "SVT",
@@ -23382,6 +23400,15 @@
     "sp_prize": 0
   },
   {
+    "id": "2014 NOA",
+    "year": 2014,
+    "broadcaster_id": "NOA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2014 RAI",
     "year": 2014,
     "broadcaster_id": "RAI",
@@ -24260,6 +24287,15 @@
     "broadcaster_id": "NRK",
     "radio": 4,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2015 JORUNNHOPE",
+    "year": 2015,
+    "broadcaster_id": "JORUNNHOPE",
+    "radio": 0,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -28260,6 +28296,15 @@
     "sp_prize": 1
   },
   {
+    "id": "2022 GRAHAMELLIS",
+    "year": 2022,
+    "broadcaster_id": "GRAHAMELLIS",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2022 CPB/PBS",
     "year": 2022,
     "broadcaster_id": "CPB/PBS",
@@ -28668,6 +28713,15 @@
     "id": "2023 POLITECNICOBARI",
     "year": 2023,
     "broadcaster_id": "POLITECNICOBARI",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2023 RICCARDOPOLIGNIERI",
+    "year": 2023,
+    "broadcaster_id": "RICCARDOPOLIGNIERI",
     "radio": 0,
     "tv": 0,
     "web": 0,

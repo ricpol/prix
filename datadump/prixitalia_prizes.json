@@ -101,7 +101,7 @@
   },
   {
     "id": 13,
-    "prize": "Prix Taormina for Tv Documentary",
+    "prize": "Prix Taormina for TV Documentary",
     "prize_abbr": "Prix Taormina TV Documentary",
     "target": "[\"tv nonfiction\"]",
     "kind": "[\"Special Prize\",\"Host City\"]",
@@ -131,7 +131,7 @@
   },
   {
     "id": 15,
-    "prize": "Prix Venezia for Tv Documentary",
+    "prize": "Prix Venezia for TV Documentary",
     "prize_abbr": "Prix Venezia TV Documentary",
     "target": "[\"tv nonfiction\"]",
     "kind": "[\"Special Prize\",\"Host City\"]",
@@ -151,7 +151,7 @@
   },
   {
     "id": 18,
-    "prize": "Prix Sorrento for Tv Documentary",
+    "prize": "Prix Sorrento for TV Documentary",
     "prize_abbr": "Prix Sorrento TV Documentary",
     "target": "[\"tv nonfiction\"]",
     "kind": "[\"Special Prize\",\"Host City\"]",
@@ -495,7 +495,7 @@
     "prize_abbr": "Unda Sp. Prize",
     "target": "[\"tv nonfiction\"]",
     "kind": "[\"Special Prize\",\"Signis\"]",
-    "operation": null,
+    "operation": "[\"selection\",\"external\"]",
     "present": 0,
     "first_year": 1968
   },
@@ -850,6 +850,16 @@
     "first_year": 1978
   },
   {
+    "id": 277,
+    "prize": "UNDA – WACC Special Prize",
+    "prize_abbr": "UNDA – WACC Sp. Prize",
+    "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Signis\"]",
+    "operation": "[\"selection\",\"external\"]",
+    "present": 0,
+    "first_year": 1978
+  },
+  {
     "id": 85,
     "prize": "Regione Puglia Prize for TV Documentaries Awarded to a Programme for One or More Specific Qualities Which Will Be Recorded by the Jury",
     "prize_abbr": "Regione Puglia Prize TV Documentary",
@@ -1091,7 +1101,7 @@
   },
   {
     "id": 103,
-    "prize": "Italian Prime Minister’s Office Special Prize for a TV Programme Drawn From a Published Book",
+    "prize": "Italian Prime Minister's Office Special Prize for a TV Programme Drawn From a Published Book",
     "prize_abbr": "Prime Minister Sp. Prize TV Programme from a Book",
     "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
     "kind": "[\"Special Prize\"]",
@@ -2041,7 +2051,7 @@
   },
   {
     "id": 273,
-    "prize": "Cup of the President of the Italian Republic (For a TV Programme That Pays Attention to Safeguarding and Promoting the Rights of Society’s Most Disadvantaged and Vulnerable)",
+    "prize": "Cup of the President of the Italian Republic (For a TV Programme That Pays Attention to Safeguarding and Promoting the Rights of Society's Most Disadvantaged and Vulnerable)",
     "prize_abbr": "Cup of the President of the Italian Republic",
     "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
     "kind": "[\"Special Prize\",\"President\"]",
@@ -2336,6 +2346,16 @@
     "target": "[\"tv art\",\"tv fiction\",\"tv nonfiction\"]",
     "kind": "[\"Special Prize\",\"Expo2015\"]",
     "operation": "[\"registration\",\"external\"]",
+    "present": 0,
+    "first_year": 2014
+  },
+  {
+    "id": 278,
+    "prize": "Friends of Prix Italia Special Prize",
+    "prize_abbr": "Friends of Prix Italia Sp. Prize",
+    "target": "[\"other\"]",
+    "kind": "[\"Special Prize\",\"Honorary\"]",
+    "operation": "[\"honorary\",\"external\"]",
     "present": 0,
     "first_year": 2014
   },
