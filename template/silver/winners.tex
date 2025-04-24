@@ -72,9 +72,9 @@ Not awarded.
 {%- endmacro %}
 
 {% macro get_mention(w) -%}
-{%- if w.or_title=="_null" -%} {{- get_acro_for_mentions(w) -}}, {{ w.country_abbr -}}
+{%- if w.or_title=="_null" -%} {{- get_acro_for_mentions(w) -}}, {{ w.country_abbr|texescape -}}
 {%- else -%}
-{{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ get_acro_for_mentions(w) -}}, {{ w.country_abbr -}}
+{{ get_title_for_mentions(w.lang_title, w.or_title, w.en_title) }} by {{ get_acro_for_mentions(w) -}}, {{ w.country_abbr|texescape -}}
 {% endif -%}
 {%- if w.note %} ( {{- w.note|texescape -}} ) {%- endif -%}. 
 {%- endmacro %}

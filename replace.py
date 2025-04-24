@@ -26,7 +26,7 @@ silver_winners_tex = (
     (' --', '~--', -1), 
     ('~~', '~', -1),
     ('Ukrayinsʹke radio', "Ukrayins'ke radio", 1), # missing char... :-(
-    ('Czech Rep..', 'Czech Rep.', -1),
+    ('Czech~Rep..', 'Czech~Rep.', -1),
     ('Shortlist reasoning:', '{\\color{DarkRed}\\textit{Shortlist reasoning:}}', -1),
     ('Noa (Achinoam Nin) (Israel)', 'Noa (Achinoam Nin), Israel', 2),
     ("{mention}}~CNN by CNN, United States.", "{mention}}~CNN (United States).", 1),
