@@ -25,7 +25,6 @@ silver_winners_tex = (
     ('~ ', '~', -1), 
     (' --', '~--', -1), 
     ('~~', '~', -1),
-    ('Ukrayinsʹke radio', "Ukrayins'ke radio", 1), # missing char... :-(
     ('Czech~Rep..', 'Czech~Rep.', -1),
     ('Shortlist reasoning:', '{\\color{DarkRed}\\textit{Shortlist reasoning:}}', -1),
     ('Noa (Achinoam Nin) (Israel)', 'Noa (Achinoam Nin), Israel', 2),
@@ -41,6 +40,10 @@ silver_winners_tex = (
      "Pasja, czyli misterium Męki Pańskiej w Kalwarii Zebrzydow\\-skiej widziane", 1),
     ("salvaguardia dell'agricoltura",
      "salvaguardia dell'agri\\-coltura", 1),
+    ("Roxy's Story} by NPO, The~Netherlands", 
+     "Roxy's Story} by NPO, The Netherlands", 1),
+    ("The Last of the Mohicans} by ČT, Czech~Rep.", 
+     "The Last of the Mohicans} by ČT, Czech Rep.", 1),
     # sometimes it's hard to keep dashes together with cjk characters
     ("~-- {\\itshape Sleepless Waits a Lonely Wife", " {\\itshape Sleepless Waits a Lonely Wife", 1), 
     # various fixes
@@ -103,7 +106,7 @@ silver_winners_tex = (
     ("\\\\* {\\footnotesize By: Valentina Landenna.~}", "", 1),
     ("\\\\* {\\footnotesize By: Leonardo Ferrari Carissimi.~}", "", 1),
     # the short names here are just too long...
-    ("La~Sept~-- Société européenne de~programmes de~télévision (France)",
+    ("La~Sept~-- Société Européenne de~Programmes de~Télévision (France)",
      "La~Sept (France)", 3),
     ("ARTE Groupement Européen d'Intérêt Économique (France)",
      "ARTE GEIE (France)", 1),
@@ -321,7 +324,6 @@ silver_winners_tex = (
     ("%1471>%\n\\end{samepage}\n\\filbreak", "%1471>%\n\\end{samepage}\n\\nopagebreak", 1),
     ("%1470>%\n\\end{samepage}\n\\filbreak\n\\bigskip", 
      "%1470>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip\n", 1),
-
     # 2020
     ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<1496%", 
      "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<1496%", 1),
@@ -349,11 +351,19 @@ silver_winners_tex = (
      "\\end{samepage}\n\\nopagebreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB~Prize~-- Engineering}}\n%<2162%", 1),
     ("\\bigskip\\begin{samepage}\n\\section*{2024, Torino", 
      "\\pagebreak\\begin{samepage}\n\\section*{2024, Torino", 1),
+    # 2024
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Sp.~Prize President of the Italian Republic}}\n%<2243%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Sp.~Prize President of the Italian Republic}}\n%<2243%", 1),
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<2244%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}Signis Sp.~Prize}}\n%<2244%", 1),
+    # 2025
+    ("\\end{samepage}\n\\filbreak\n\\bigskip\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB~Award}}\n%<2346%", 
+     "\\end{samepage}\n\\nopagebreak\n\\begin{samepage}\n\\subsection*{{\\color{DarkRed}YLAB~Award}}\n%<2346%", 1),
 
     # PART 3 -- more tweaks just for good looking
     # we add more space before some year sections
-    ("\\begin{samepage}\n\\section*{1955, Perugia}", 
-     "\\bigskip\\begin{samepage}\n\\section*{1955, Perugia}", 1),
+    ("\\bigskip\\begin{samepage}\n\\section*{1955, Perugia}", 
+     "\\bigskip\\bigskip\\begin{samepage}\n\\section*{1955, Perugia}", 1),
     ("\\begin{samepage}\n\\section*{1956, Rimini}", 
      "\\bigskip\\begin{samepage}\n\\section*{1956, Rimini}", 1),
     ("\\begin{samepage}\n\\section*{1980, Riva del Garda}", 
@@ -584,55 +594,80 @@ silver_winners_tex = (
      "%2153>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     ("%2164>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip",   # \nopagebreak introduced earlier
      "%2164>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip\\bigskip", 1),
+    # 2025
+    ("%2288>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%2288>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%2317>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%2317>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%2331>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%2331>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
+    ("%2345>%\n\\end{samepage}\n\\nopagebreak\n",   # \nopagebreak introduced earlier
+     "%2345>%\n\\end{samepage}\n\\nopagebreak\n\\bigskip\\bigskip", 1),
+    # 2026
+    ("%2360>%\n\\end{samepage}\n\\filbreak\n\\bigskip",
+     "%2360>%\n\\end{samepage}\n\\filbreak\n\\bigskip\\bigskip", 1),
     )
 silver_broadcasters_txt = tuple()
 silver_broadcasters_html = tuple()
 silver_broadcasters_tex = (
     # forced linebreaks (to avoid overfull boxes)
-    ("Belgische Radio-~en~Televisieomroep/ Radio-Télévision Belge",
-     "Belgische Radio-~en~Televisieomroep/\\\\Radio-Télévision Belge", 2),
     ("Canadian Broadcasting Corporation/ Société Radio-Canada",
      "Canadian Broadcasting Corporation/\\\\Société Radio-Canada", 1),
-    ("ARTE Groupement Européen d'Intérêt Économique}}{\\itshape 2019",
-     "ARTE\\\\Groupement Européen d'Intérêt Économique}}{\\itshape 2019", 1),
-    # forced linebreaks and other tricks (aesthetics only)
+#    ("ARTE Groupement Européen d'Intérêt Économique}}{\\itshape 2019",
+#     "ARTE\\\\Groupement Européen d'Intérêt Économique}}{\\itshape 2019", 1),
+    ("Société Européenne de~Programmes de~Télévision}}1989", 
+     "Société Européenne de~Programmes\\\\de~Télévision}}1989", 1),
+#    # forced linebreaks and other tricks (aesthetics only)
     ("Établissement Public de~Télévision/ Télévision Algérienne",
       "Établissement Public de~Télévision/\\\\Télévision Algérienne", 1),
+    ("Canal de~la~Universidad Nacional de~Mar del~Plata", 
+     "Canal de~la~Universidad Nacional de~Mar del~Plata~", 1),
+    ("Nationaal Instituut voor~de~Radio-omroep/ Institut National de~Radiodiffusion", 
+     "Nationaal Instituut voor~de~Radio-omroep/\\\\Institut National de~Radiodiffusion", 1),
+    ("Belgische Radio en~Televisie/ Radiodiffusion-Télévision Belge", 
+     "Belgische Radio en~Televisie/\\\\Radiodiffusion-Télévision Belge", 1),
+    ("Belgische Radio en~Televisie/ Radio-Télévision belge de~la~Communauté française",
+     "Belgische Radio en~Televisie/\\\\Radio-Télévision belge de~la~Communauté française", 1),
+    ("BRTN} {\\normalfont Belgische Radio en~Televisie Nederlandstalige uitzendingen}", 
+     "BRTN}\\\\{\\normalfont Belgische Radio en~Televisie Nederlandstalige uitzendingen}", 1),
     ("Balgarska Natsionalna Televizia/ Bulgarian National Television",
      "Balgarska Natsionalna Televizia/\\\\Bulgarian National Television", 1),
-    ("Bǎlgarsko Nacionalno Radio/ Bulgarian National Radio",
-     "Bǎlgarsko Nacionalno Radio/\\\\Bulgarian National Radio", 1),
+    ("Balgarsko Natsionalno Radio/ Bulgarian National Radio",
+     "Balgarsko Natsionalno Radio/\\\\Bulgarian National Radio", 1),
     ("Cameroon Radio Television/ Radiodiffusion-télévision du~Cameroun",
      "Cameroon Radio Television/\\\\Radiodiffusion-télévision du~Cameroun", 1),
     ("section*{Czech~Rep.}", "section*{Czech~Republic}", 1),
-    ("Société européenne de~programmes de~télévision}}1989", 
-     "Société européenne de~programmes\\\\de~télévision}}1989", 1),
-    ("al-Mis'ri/ Egyptian Radio and Television Union",
-     "al-Mis'ri/\\\\Egyptian Radio and Television Union", 1),
+    ("al-Misri/ Egyptian Radio and Television Union",
+     "al-Misri/\\\\Egyptian Radio and Television Union", 1),
     ("mauts'q'ebeli/ Georgian Public Broadcasting",
      "mauts'q'ebeli/\\\\Georgian Public Broadcasting", 1),
     ("Ríkisútvarpið/ The~Icelandic National Broadcasting Service",
      "Ríkisútvarpið/\\\\The~Icelandic National Broadcasting Service", 1),
     ("National Association of~Commercial Broadcasters in~Japan", 
      "National Association of~Commercial Broadcasters\\\\in~Japan", 1),
-    ("al'urduniyi/ Jordan Radio", 
-     "al'urduniyi/\\\\Jordan Radio", 1),
+    ("al-Urduni/ Jordan Radio", 
+     "al-Urduni/\\\\Jordan Radio", 1),
+    ("Teleradiokorporasiasy/ Republic TV and~Radio Corporation Qazaqstan", 
+     "Teleradiokorporasiasy/\\\\Republic TV and~Radio Corporation Qazaqstan", 1),
+    ("Radio~Televizioni i~Kosovës/ Radio Television of~Kosovo",
+     "Radio~Televizioni i~Kosovës/ Radio Television of~Kosovo~", 1),    
+#    ("voor~de~Radio-omroep/ Institut National de~Radiodiffusion", 
+#     "voor~de~Radio-omroep/\\\\Institut National de~Radiodiffusion", 1),
+    ("al-Filastiniya/ Palestinian Broadcasting Corporation", 
+     "al-Filastiniya/\\\\Palestinian Broadcasting Corporation", 1), 
+    ("Golos Rossii/ Voice of~Russia", "Golos Rossii/\\\\Voice of~Russia", 1), 
+    ("Elektronskih Medija/ Association of~Independent Electronic Media",
+     "Elektronskih Medija/\\\\Association of~Independent Electronic Media", 3), 
     ("Bangsong Gongsa/ Korean Broadcasting",
      "Bangsong Gongsa/\\\\Korean Broadcasting", 1), 
     ("Munhwa Bangsong/ Munhwa Broadcasting",
      "Munhwa Bangsong/\\\\Munhwa Broadcasting", 1), 
-    ("Radio~Televizioni i~Kosovës/ Radio Television of~Kosovo",
-     "Radio~Televizioni i~Kosovës/ Radio Television of~Kosovo~", 1),
-    ("voor~de~Radio-omroep/ Institut National de~Radiodiffusion", 
-     "voor~de~Radio-omroep/\\\\Institut National de~Radiodiffusion", 1),
-    ("al-Filasṭīniyya/ Palestinian Broadcasting Corporation", 
-     "al-Filasṭīniyya/\\\\Palestinian Broadcasting Corporation", 1), 
-    ("Golos Rossii/ Voice of~Russia", "Golos Rossii/\\\\Voice of~Russia", 1), 
-    ("Elektronskih Medija/ Association of~Independent Electronic Media",
-     "Elektronskih Medija/\\\\Association of~Independent Electronic Media", 3), 
     ("Thai Public Broadcasting Service", "Thai Public Broadcasting Service~", 1), 
+    # using the combining diacritics to render TÜRKİYE since the font falls short
+    # see the tex preamble for this - until I change the font already...:
+    ("\\section*{Türkiye}", "\\section*{Türk\\scIdot ye}", 1), 
     ("radio/ National Radio Company of~Ukraine", 
-     "radio/\\\\National Radio Company of~Ukraine", 1),
+     "radio/ National Radio Company of~Ukraine~", 1),
     ("Television Authority/ Independent Television", 
      "Television Authority/\\\\Independent Television", 1), 
     ("Broadcasting Authority/ Independent Television", 
@@ -648,7 +683,7 @@ silver_milestones_tex = (
     ("\\subsection*{{\\color{DarkRed}19", 
      "\\medskip\\subsection*{{\\color{DarkRed}19", 29),
     ("\\subsection*{{\\color{DarkRed}20", 
-     "\\medskip\\subsection*{{\\color{DarkRed}20", 16),
+     "\\medskip\\subsection*{{\\color{DarkRed}20", 18),
     )
 
 # THE BIG BOOK

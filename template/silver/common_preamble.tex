@@ -40,3 +40,14 @@
 \usepackage{pifont}
 \usepackage[stretch=25]{microtype}
 \tolerance=500 % halves overfull boxes a little %
+% We have exactly one case of capitalized dotted i: a small-caps "Türkiye" %
+% used as a section header. "LMRomanCaps10-Regular-Identity-H" doesn't have %
+% a dotted i, though. Here's a hack for this, but /ActualText coverage %
+% in readers is uneven: works in Acrobat and Chrome, doesn't in Edge... %
+% A real fix would be changing font (New Computer Modern?) but we don't want % 
+% to fine-tune it all again for just one dotted i... %
+\usepackage{accsupp}
+\newcommand{\scIdot}{
+  \BeginAccSupp{method=escape,ActualText=i}
+  \ooalign{\i\cr\hidewidth\char"02D9\hidewidth\cr}
+  \EndAccSupp{}}

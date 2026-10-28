@@ -27,7 +27,7 @@ ROLES_SINGULAR = ['', '_null',
     'Head of Programme', 'Producer', 'Programmer', 'Stage Direction', 
     'Studio Manager', 'Executive Editor', 'Technical Project Manager',
     # others
-    'Archive', 'Research', 
+    'Archive', 'Research', 'Staff'
     ]
 ROLES_SINGULAR.sort()
 
@@ -51,7 +51,7 @@ ROLES_PLURAL = ['',
     'Participants', 'Performers', 'Photography', 'Photos', 'Poems', 'Presenters', 
     'Producers', 'Programmers', 'Project Managers', 
     'Recording', 'Reporters', 'Research', 
-    'Scenography', 'Script', 'Social Editors', 'Sound', 'Stage Direction', 
+    'Scenography', 'Script', 'Social Editors', 'Sound', 'Staff', 'Stage Direction', 
     'Studio Managers', 'Subject', 
     'Technical Project Managers', 'Technicians', 'Teleplay', 'Transmedia', 
     'Video', 'Vocals', 
@@ -63,11 +63,11 @@ assert len(ROLES_SINGULAR) == len(ROLES_PLURAL)
 
 
 
-COMMON_PUNCTUATION = ' .,:;…#%°"/()?!+-«»–&_@' + "'" 
+COMMON_PUNCTUATION = ' .,:;…#%°"/()?!+-«»–&_@•' + "'" 
 
 OR_TITLE_PUNCTUATION = COMMON_PUNCTUATION + '「」〜（）！〈〉、・：' + '\u3000'
 
-CREDIT_PUNCTUATION = " :,.'-_&()"  # the ONLY allowed in credits! ("_" is for "_null")
+CREDIT_PUNCTUATION = " :,.'-_&()!"  # the ONLY allowed in credits! ("_" is for "_null")
 
 
 # the dash madness!
