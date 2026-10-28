@@ -17,6 +17,11 @@ REPLACEMENTS = { "&": "\\&", "%": "\\%", "$": "\\$", "#": "\\#", "_": "\\_",
                  "–": "--", "…": "\\ldots{}",}
 ESCAPE_PATTERN = re.compile("[{}]".format("".join(map(re.escape, REPLACEMENTS.keys()))))
 
+def _debug_print(s):
+    '''Debug print to console.'''
+    print(str(s)+'\n')
+    return ''
+
 def _tex_quote_escape(s):
     '''Replace straight quotes with smart tex quotes.'''
     return re.sub(r'"([^"]*)"', r"``\1''", s)
@@ -252,6 +257,7 @@ class BaseFormatter:
                 self.jinja.filters["texescape"] = _tex_escape
                 self.jinja.filters["quotescape"] = _tex_quote_escape
                 self.jinja.filters["periodspacescape"] = _tex_period_space_escape
+                self.jinja.filters["debug"] = _debug_print
         elif self.outputtype == 'txt':
                 self.jinja = Environment(
                             loader=FileSystemLoader(self.template_folder),
