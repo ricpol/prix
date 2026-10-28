@@ -28,7 +28,7 @@
     "is_country": 1,
     "iso3166": "ARG",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "South America",
     "sort": "arge_a",
     "note": ""
   },
@@ -83,8 +83,19 @@
     "is_country": 1,
     "iso3166": "BEN",
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "sort": "beni_a",
+    "note": ""
+  },
+  {
+    "country": "Bhutan",
+    "country_abbr": "Bhutan",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "BTN",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "sort": "bhut_a",
     "note": ""
   },
   {
@@ -105,7 +116,7 @@
     "is_country": 1,
     "iso3166": "BRA",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "South America",
     "sort": "braz_a",
     "note": ""
   },
@@ -121,13 +132,24 @@
     "note": ""
   },
   {
+    "country": "Burkina Faso",
+    "country_abbr": "Burkina Faso",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "BFA",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "sort": "burk_a",
+    "note": ""
+  },
+  {
     "country": "Cameroon",
     "country_abbr": "Cameroon",
     "former": 0,
     "is_country": 1,
     "iso3166": "CMR",
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "sort": "came_a",
     "note": ""
   },
@@ -149,7 +171,7 @@
     "is_country": 1,
     "iso3166": "CHL",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "South America",
     "sort": "chil_a",
     "note": ""
   },
@@ -171,7 +193,7 @@
     "is_country": 1,
     "iso3166": "COL",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "South America",
     "sort": "colo_a",
     "note": ""
   },
@@ -182,18 +204,18 @@
     "is_country": 1,
     "iso3166": "CRI",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "Central America",
     "sort": "cost_a",
     "note": ""
   },
   {
-    "country": "Côte D'Ivoire",
-    "country_abbr": "Côte D'Ivoire",
+    "country": "Côte d'Ivoire",
+    "country_abbr": "Côte d'Ivoire",
     "former": 0,
     "is_country": 1,
     "iso3166": "CIV",
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "sort": "cote_a",
     "note": ""
   },
@@ -215,7 +237,7 @@
     "is_country": 1,
     "iso3166": "CUB",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "Caribbean",
     "sort": "cuba_a",
     "note": ""
   },
@@ -259,7 +281,7 @@
     "is_country": 1,
     "iso3166": "ECU",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "South America",
     "sort": "ecua_a",
     "note": ""
   },
@@ -341,6 +363,17 @@
     "note": ""
   },
   {
+    "country": "Honduras",
+    "country_abbr": "Honduras",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "HND",
+    "region": "Americas",
+    "subregion": "Central America",
+    "sort": "hond_a",
+    "note": ""
+  },
+  {
     "country": "Hungary",
     "country_abbr": "Hungary",
     "former": 0,
@@ -407,7 +440,7 @@
     "note": ""
   },
   {
-    "country": "Italy – Trieste, Free Territory of",
+    "country": "Italy – Free Territory of Trieste",
     "country_abbr": "Italy – Trieste",
     "former": 1,
     "is_country": 1,
@@ -451,14 +484,25 @@
     "note": ""
   },
   {
-    "country": "Korea, Republic of",
-    "country_abbr": "South Korea",
+    "country": "Kazakhstan",
+    "country_abbr": "Kazakhstan",
     "former": 0,
     "is_country": 1,
-    "iso3166": "KOR",
+    "iso3166": "KAZ",
     "region": "Asia",
-    "subregion": "Eastern Asia",
-    "sort": "kore_a",
+    "subregion": "Western Asia",
+    "sort": "kaza_a",
+    "note": ""
+  },
+  {
+    "country": "Kenya",
+    "country_abbr": "Kenya",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "KEN",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "sort": "keny_a",
     "note": ""
   },
   {
@@ -506,6 +550,17 @@
     "note": ""
   },
   {
+    "country": "Malaysia",
+    "country_abbr": "Malaysia",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "MYS",
+    "region": "Asia",
+    "subregion": "South-eastern Asia",
+    "sort": "mala_a",
+    "note": ""
+  },
+  {
     "country": "Malta",
     "country_abbr": "Malta",
     "former": 0,
@@ -523,7 +578,7 @@
     "is_country": 1,
     "iso3166": "MEX",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "Central America",
     "sort": "mexi_a",
     "note": ""
   },
@@ -536,6 +591,17 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "sort": "mona_a",
+    "note": ""
+  },
+  {
+    "country": "Mongolia",
+    "country_abbr": "Mongolia",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "MNG",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "sort": "mong_a",
     "note": ""
   },
   {
@@ -567,13 +633,13 @@
     "is_country": 1,
     "iso3166": "MOZ",
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "sort": "moza_a",
     "note": ""
   },
   {
-    "country": "Netherlands",
-    "country_abbr": "Netherlands",
+    "country": "The Netherlands",
+    "country_abbr": "The Netherlands",
     "former": 0,
     "is_country": 1,
     "iso3166": "NLD",
@@ -616,6 +682,17 @@
     "note": ""
   },
   {
+    "country": "Oman",
+    "country_abbr": "Oman",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "OMN",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "sort": "oman_a",
+    "note": ""
+  },
+  {
     "country": "Palestine",
     "country_abbr": "Palestine",
     "former": 0,
@@ -633,7 +710,7 @@
     "is_country": 1,
     "iso3166": "PAN",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "Central America",
     "sort": "pana_a",
     "note": ""
   },
@@ -644,7 +721,7 @@
     "is_country": 1,
     "iso3166": "PER",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "South America",
     "sort": "peru_a",
     "note": ""
   },
@@ -721,12 +798,12 @@
     "is_country": 1,
     "iso3166": "SEN",
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "sort": "sene_a",
     "note": ""
   },
   {
-    "country": "Serbia and Montenegro, State Union of",
+    "country": "State Union of Serbia and Montenegro",
     "country_abbr": "Serbia Montenegro",
     "former": 1,
     "is_country": 1,
@@ -776,8 +853,30 @@
     "is_country": 1,
     "iso3166": "ZAF",
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Southern Africa",
     "sort": "sout_a",
+    "note": ""
+  },
+  {
+    "country": "South Korea",
+    "country_abbr": "South Korea",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "KOR",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "sort": "sout_b",
+    "note": ""
+  },
+  {
+    "country": "South Sudan",
+    "country_abbr": "South Sudan",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "SSD",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "sort": "sout_c",
     "note": ""
   },
   {
@@ -803,6 +902,17 @@
     "note": ""
   },
   {
+    "country": "Sri Lanka",
+    "country_abbr": "Sri Lanka",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "LKA",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "sort": "srila_a",
+    "note": ""
+  },
+  {
     "country": "Sweden",
     "country_abbr": "Sweden",
     "former": 0,
@@ -822,6 +932,17 @@
     "region": "Europe",
     "subregion": "Western Europe",
     "sort": "swit_a",
+    "note": ""
+  },
+  {
+    "country": "Taiwan",
+    "country_abbr": "Taiwan",
+    "former": 0,
+    "is_country": 1,
+    "iso3166": "TWN",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "sort": "taiw_a",
     "note": ""
   },
   {
@@ -919,34 +1040,34 @@
     "is_country": 1,
     "iso3166": "URY",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "South America",
     "sort": "urug_a",
     "note": ""
   },
   {
-    "country": "Vatican State",
-    "country_abbr": "Vatican State",
+    "country": "Vatican City State",
+    "country_abbr": "Vatican City State",
     "former": 0,
     "is_country": 1,
     "iso3166": "VAT",
     "region": "Europe",
     "subregion": "Southern Europe",
     "sort": "vati_a",
-    "note": ""
+    "note": "Inconsistent naming, for historical reasons (should be Holy See)"
   },
   {
-    "country": "Venezuela, Bolivarian Republic of",
+    "country": "Venezuela",
     "country_abbr": "Venezuela",
     "former": 0,
     "is_country": 1,
     "iso3166": "VEN",
     "region": "Americas",
-    "subregion": "Latin America",
+    "subregion": "South America",
     "sort": "vene_a",
     "note": ""
   },
   {
-    "country": "Yugoslavia, Socialist Federal Republic of",
+    "country": "Socialist Federal Republic of Yugoslavia",
     "country_abbr": "Yugoslavia",
     "former": 1,
     "is_country": 1,
@@ -957,8 +1078,8 @@
     "note": "1943-1963: People's; 1963-1992: Socialist"
   },
   {
-    "country": "Yugoslavia, Federal Republic of",
-    "country_abbr": "Yugoslavia, Fed. Rep.",
+    "country": "Federal Republic of Yugoslavia",
+    "country_abbr": "Yugoslavia Fed. Rep.",
     "former": 1,
     "is_country": 1,
     "iso3166": "YUG",

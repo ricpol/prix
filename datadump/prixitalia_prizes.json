@@ -2644,7 +2644,7 @@
     "prize": "Prix Italia – Ifad – Copeam Special Prize",
     "prize_abbr": "Prix Italia – Ifad – Copeam Sp. Prize",
     "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\",\"tv art\",\"tv fiction\",\"tv nonfiction\",\"web other\"]",
-    "kind": "[\"Special Prize\",\"Ifad Copeam\"]",
+    "kind": "[\"Special Prize\",\"Glob. Outreach\"]",
     "operation": "[\"selection\",\"external\"]",
     "present": 0,
     "first_year": 2022
@@ -2704,9 +2704,9 @@
     "prize": "Prix Italia – Ifad – Copeam Special Prize",
     "prize_abbr": "Prix Italia – Ifad – Copeam Sp. Prize",
     "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\",\"tv art\",\"tv fiction\",\"tv nonfiction\",\"web other\"]",
-    "kind": "[\"Special Prize\",\"Ifad Copeam\"]",
+    "kind": "[\"Special Prize\",\"Glob. Outreach\"]",
     "operation": "[\"registration\",\"external\"]",
-    "present": 1,
+    "present": 0,
     "first_year": 2023
   },
   {
@@ -2726,7 +2726,7 @@
     "target": "[\"web other\"]",
     "kind": "[\"Web\"]",
     "operation": "[\"registration\",\"internal\"]",
-    "present": 1,
+    "present": 0,
     "first_year": 2023
   },
   {
@@ -2736,7 +2736,7 @@
     "target": "[\"web other\"]",
     "kind": "[\"Web\"]",
     "operation": "[\"registration\",\"internal\"]",
-    "present": 1,
+    "present": 0,
     "first_year": 2023
   },
   {
@@ -2748,5 +2748,45 @@
     "operation": "[\"registration\",\"internal\"]",
     "present": 1,
     "first_year": 2023
+  },
+  {
+    "id": 281,
+    "prize": "Global South Award",
+    "prize_abbr": "Global South Award",
+    "target": "[\"tv nonfiction\"]",
+    "kind": "[\"Special Prize\",\"Glob. Outreach\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 1,
+    "first_year": 2025
+  },
+  {
+    "id": 282,
+    "prize": "YLAB Award",
+    "prize_abbr": "YLAB Award",
+    "target": "[\"radio art\",\"radio fiction\",\"radio nonfiction\",\"tv art\",\"tv fiction\",\"tv nonfiction\",\"web other\"]",
+    "kind": "[\"Special Prize\",\"Ylab\"]",
+    "operation": "[\"registration\",\"external\"]",
+    "present": 1,
+    "first_year": 2025
+  },
+  {
+    "id": 279,
+    "prize": "Prix Italia for Digital Innovation",
+    "prize_abbr": "Prix Italia Digital Innovation",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2025
+  },
+  {
+    "id": 280,
+    "prize": "Prix Italia for Digital Multimedia",
+    "prize_abbr": "Prix Italia Digital Multimedia",
+    "target": "[\"web other\"]",
+    "kind": "[\"Web\"]",
+    "operation": "[\"registration\",\"internal\"]",
+    "present": 1,
+    "first_year": 2025
   }
 ]

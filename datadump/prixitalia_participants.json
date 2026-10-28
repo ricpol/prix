@@ -913,6 +913,15 @@
     "year": 1957,
     "broadcaster_id": "NRU",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1957 NTS",
+    "year": 1957,
+    "broadcaster_id": "NTS",
+    "radio": 0,
     "tv": 1,
     "web": 0,
     "sp_prize": 0
@@ -1075,9 +1084,18 @@
     "year": 1958,
     "broadcaster_id": "NRU",
     "radio": 2,
-    "tv": 2,
+    "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1958 NTS",
+    "year": 1958,
+    "broadcaster_id": "NTS",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1958 PRo",
@@ -1273,7 +1291,16 @@
     "year": 1959,
     "broadcaster_id": "NRU",
     "radio": 2,
-    "tv": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1959 NTS",
+    "year": 1959,
+    "broadcaster_id": "NTS",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -1642,6 +1669,15 @@
     "year": 1961,
     "broadcaster_id": "NRU",
     "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1961 NTS",
+    "year": 1961,
+    "broadcaster_id": "NTS",
+    "radio": 0,
     "tv": 2,
     "web": 0,
     "sp_prize": 0
@@ -1831,9 +1867,18 @@
     "year": 1962,
     "broadcaster_id": "NRU",
     "radio": 1,
-    "tv": 2,
+    "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1962 NTS",
+    "year": 1962,
+    "broadcaster_id": "NTS",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1962 PRT",
@@ -2047,6 +2092,15 @@
     "year": 1963,
     "broadcaster_id": "NRU",
     "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1963 NTS",
+    "year": 1963,
+    "broadcaster_id": "NTS",
+    "radio": 0,
     "tv": 2,
     "web": 0,
     "sp_prize": 0
@@ -2232,9 +2286,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1964 RTF",
+    "id": "1964 ORTF",
     "year": 1964,
-    "broadcaster_id": "RTF",
+    "broadcaster_id": "ORTF",
     "radio": 3,
     "tv": 2,
     "web": 0,
@@ -2326,6 +2380,15 @@
     "year": 1964,
     "broadcaster_id": "NRU",
     "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1964 NTS",
+    "year": 1964,
+    "broadcaster_id": "NTS",
+    "radio": 0,
     "tv": 2,
     "web": 0,
     "sp_prize": 0
@@ -2614,6 +2677,15 @@
     "year": 1965,
     "broadcaster_id": "NRU",
     "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1965 NTS",
+    "year": 1965,
+    "broadcaster_id": "NTS",
+    "radio": 0,
     "tv": 1,
     "web": 0,
     "sp_prize": 0
@@ -3298,6 +3370,15 @@
     "year": 1967,
     "broadcaster_id": "EN",
     "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1967 RTPo",
+    "year": 1967,
+    "broadcaster_id": "RTPo",
+    "radio": 0,
     "tv": 1,
     "web": 0,
     "sp_prize": 0
@@ -6759,9 +6840,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1977 RTP",
+    "id": "1977 RTPo",
     "year": 1977,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -7164,9 +7245,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1978 RTP",
+    "id": "1978 RTPo",
     "year": 1978,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -7569,9 +7650,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1979 RTP",
+    "id": "1979 RTPo",
     "year": 1979,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -8334,9 +8415,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1981 RTP",
+    "id": "1981 RTPo",
     "year": 1981,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -8694,15 +8775,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1982 KBS",
-    "year": 1982,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1982 NOS",
     "year": 1982,
     "broadcaster_id": "NOS",
@@ -8730,9 +8802,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1982 RTP",
+    "id": "1982 RTPo",
     "year": 1982,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -8744,6 +8816,15 @@
     "broadcaster_id": "SABC",
     "radio": 1,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1982 KBS",
+    "year": 1982,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 1,
     "web": 0,
     "sp_prize": 0
   },
@@ -8805,8 +8886,17 @@
     "id": "1982 UKIB",
     "year": 1982,
     "broadcaster_id": "UKIB",
-    "radio": 3,
+    "radio": 0,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1982 AIRC",
+    "year": 1982,
+    "broadcaster_id": "AIRC",
+    "radio": 3,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -9081,15 +9171,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1983 KBS",
-    "year": 1983,
-    "broadcaster_id": "KBS",
-    "radio": 0,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1983 NOS",
     "year": 1983,
     "broadcaster_id": "NOS",
@@ -9117,9 +9198,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1983 RTP",
+    "id": "1983 RTPo",
     "year": 1983,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -9130,6 +9211,15 @@
     "year": 1983,
     "broadcaster_id": "SABC",
     "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1983 KBS",
+    "year": 1983,
+    "broadcaster_id": "KBS",
+    "radio": 0,
     "tv": 1,
     "web": 0,
     "sp_prize": 0
@@ -9210,8 +9300,17 @@
     "id": "1983 UKIB",
     "year": 1983,
     "broadcaster_id": "UKIB",
-    "radio": 2,
+    "radio": 0,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1983 AIRC",
+    "year": 1983,
+    "broadcaster_id": "AIRC",
+    "radio": 2,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -9495,15 +9594,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1984 KBS",
-    "year": 1984,
-    "broadcaster_id": "KBS",
-    "radio": 0,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1984 NOS",
     "year": 1984,
     "broadcaster_id": "NOS",
@@ -9531,9 +9621,18 @@
     "sp_prize": 0
   },
   {
-    "id": "1984 RTP",
+    "id": "1984 RTPo",
     "year": 1984,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1984 KBS",
+    "year": 1984,
+    "broadcaster_id": "KBS",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -9597,8 +9696,17 @@
     "id": "1984 UKIB",
     "year": 1984,
     "broadcaster_id": "UKIB",
-    "radio": 2,
+    "radio": 0,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1984 AIRC",
+    "year": 1984,
+    "broadcaster_id": "AIRC",
+    "radio": 2,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -9855,15 +9963,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1985 KBS",
-    "year": 1985,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1985 RMC/TMC",
     "year": 1985,
     "broadcaster_id": "RMC/TMC",
@@ -9900,11 +9999,20 @@
     "sp_prize": 0
   },
   {
-    "id": "1985 RTP",
+    "id": "1985 RTPo",
     "year": 1985,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1985 KBS",
+    "year": 1985,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 1,
     "web": 0,
     "sp_prize": 0
   },
@@ -9957,8 +10065,17 @@
     "id": "1985 UKIB",
     "year": 1985,
     "broadcaster_id": "UKIB",
-    "radio": 3,
+    "radio": 0,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1985 AIRC",
+    "year": 1985,
+    "broadcaster_id": "AIRC",
+    "radio": 3,
+    "tv": 0,
     "web": 0,
     "sp_prize": 0
   },
@@ -10224,15 +10341,6 @@
     "sp_prize": 1
   },
   {
-    "id": "1986 KBS",
-    "year": 1986,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1986 NOS",
     "year": 1986,
     "broadcaster_id": "NOS",
@@ -10260,13 +10368,22 @@
     "sp_prize": 0
   },
   {
-    "id": "1986 RTP",
+    "id": "1986 RTPo",
     "year": 1986,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1986 KBS",
+    "year": 1986,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1986 RTVE",
@@ -10317,10 +10434,19 @@
     "id": "1986 UKIB",
     "year": 1986,
     "broadcaster_id": "UKIB",
-    "radio": 1,
+    "radio": 0,
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1986 AIRC",
+    "year": 1986,
+    "broadcaster_id": "AIRC",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1986 ABCusa",
@@ -10602,15 +10728,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1987 KBS",
-    "year": 1987,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 2
-  },
-  {
     "id": "1987 NOS",
     "year": 1987,
     "broadcaster_id": "NOS",
@@ -10638,13 +10755,22 @@
     "sp_prize": 0
   },
   {
-    "id": "1987 RTP",
+    "id": "1987 RTPo",
     "year": 1987,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "1987 KBS",
+    "year": 1987,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 2
   },
   {
     "id": "1987 RTVE",
@@ -11016,9 +11142,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1988 RTP",
+    "id": "1988 RTPo",
     "year": 1988,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -11385,15 +11511,6 @@
     "sp_prize": 1
   },
   {
-    "id": "1989 KBS",
-    "year": 1989,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1989 NOS",
     "year": 1989,
     "broadcaster_id": "NOS",
@@ -11421,11 +11538,20 @@
     "sp_prize": 0
   },
   {
-    "id": "1989 RTP",
+    "id": "1989 RTPo",
     "year": 1989,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1989 KBS",
+    "year": 1989,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 1,
     "web": 0,
     "sp_prize": 0
   },
@@ -11853,15 +11979,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1990 KBS",
-    "year": 1990,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "1990 NOS",
     "year": 1990,
     "broadcaster_id": "NOS",
@@ -11889,10 +12006,19 @@
     "sp_prize": 2
   },
   {
-    "id": "1990 RTP",
+    "id": "1990 RTPo",
     "year": 1990,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "1990 KBS",
+    "year": 1990,
+    "broadcaster_id": "KBS",
+    "radio": 1,
     "tv": 1,
     "web": 0,
     "sp_prize": 1
@@ -12294,15 +12420,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1991 KBS",
-    "year": 1991,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1991 NOS",
     "year": 1991,
     "broadcaster_id": "NOS",
@@ -12330,13 +12447,22 @@
     "sp_prize": 0
   },
   {
-    "id": "1991 RTP",
+    "id": "1991 RTPo",
     "year": 1991,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
     "sp_prize": 6
+  },
+  {
+    "id": "1991 KBS",
+    "year": 1991,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1991 GOSTELERADIO",
@@ -12726,15 +12852,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1992 KBS",
-    "year": 1992,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1992 NOS",
     "year": 1992,
     "broadcaster_id": "NOS",
@@ -12762,9 +12879,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1992 RTP",
+    "id": "1992 RTPo",
     "year": 1992,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 2,
     "web": 0,
@@ -12787,6 +12904,15 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 6
+  },
+  {
+    "id": "1992 KBS",
+    "year": 1992,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "1992 RTVE",
@@ -13176,9 +13302,9 @@
     "sp_prize": 1
   },
   {
-    "id": "1993 RTP",
+    "id": "1993 RTPo",
     "year": 1993,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 2,
     "web": 0,
@@ -13626,9 +13752,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1994 RTP",
+    "id": "1994 RTPo",
     "year": 1994,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -14094,9 +14220,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1995 RTP",
+    "id": "1995 RTPo",
     "year": 1995,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 2,
     "web": 0,
@@ -14715,20 +14841,20 @@
     "sp_prize": 0
   },
   {
+    "id": "1997 BRTN",
+    "year": 1997,
+    "broadcaster_id": "BRTN",
+    "radio": 3,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "1997 RTBF",
     "year": 1997,
     "broadcaster_id": "RTBF",
     "radio": 1,
     "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "1997 VRT",
-    "year": 1997,
-    "broadcaster_id": "VRT",
-    "radio": 3,
-    "tv": 3,
     "web": 0,
     "sp_prize": 0
   },
@@ -14958,15 +15084,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1997 KBS",
-    "year": 1997,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1997 NOS",
     "year": 1997,
     "broadcaster_id": "NOS",
@@ -15012,9 +15129,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1997 RTP",
+    "id": "1997 RTPo",
     "year": 1997,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -15053,6 +15170,15 @@
     "broadcaster_id": "RTVSLO",
     "radio": 4,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1997 KBS",
+    "year": 1997,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -15471,15 +15597,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1998 KBS",
-    "year": 1998,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1998 NOS",
     "year": 1998,
     "broadcaster_id": "NOS",
@@ -15525,9 +15642,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1998 RTP",
+    "id": "1998 RTPo",
     "year": 1998,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -15573,6 +15690,15 @@
     "id": "1998 RTVSLO",
     "year": 1998,
     "broadcaster_id": "RTVSLO",
+    "radio": 2,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1998 KBS",
+    "year": 1998,
+    "broadcaster_id": "KBS",
     "radio": 2,
     "tv": 3,
     "web": 0,
@@ -15975,15 +16101,6 @@
     "sp_prize": 0
   },
   {
-    "id": "1999 KBS",
-    "year": 1999,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "1999 NOS",
     "year": 1999,
     "broadcaster_id": "NOS",
@@ -16038,9 +16155,9 @@
     "sp_prize": 0
   },
   {
-    "id": "1999 RTP",
+    "id": "1999 RTPo",
     "year": 1999,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 2,
     "web": 0,
@@ -16114,6 +16231,15 @@
     "year": 1999,
     "broadcaster_id": "SABC",
     "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "1999 KBS",
+    "year": 1999,
+    "broadcaster_id": "KBS",
+    "radio": 1,
     "tv": 1,
     "web": 0,
     "sp_prize": 0
@@ -16569,15 +16695,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2000 KBS",
-    "year": 2000,
-    "broadcaster_id": "KBS",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2000 NOS",
     "year": 2000,
     "broadcaster_id": "NOS",
@@ -16623,9 +16740,9 @@
     "sp_prize": 0
   },
   {
-    "id": "2000 RTP",
+    "id": "2000 RTPo",
     "year": 2000,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 2,
     "web": 0,
@@ -16682,6 +16799,15 @@
     "broadcaster_id": "SABC",
     "radio": 2,
     "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2000 KBS",
+    "year": 2000,
+    "broadcaster_id": "KBS",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -17118,24 +17244,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2001 KBS",
-    "year": 2001,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2001 MBC",
-    "year": 2001,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2001 NOS",
     "year": 2001,
     "broadcaster_id": "NOS",
@@ -17181,9 +17289,9 @@
     "sp_prize": 0
   },
   {
-    "id": "2001 RTP",
+    "id": "2001 RTPo",
     "year": 2001,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -17238,6 +17346,24 @@
     "id": "2001 SABC",
     "year": 2001,
     "broadcaster_id": "SABC",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2001 KBS",
+    "year": 2001,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2001 MBC",
+    "year": 2001,
+    "broadcaster_id": "MBC",
     "radio": 1,
     "tv": 1,
     "web": 0,
@@ -17622,24 +17748,6 @@
     "sp_prize": 2
   },
   {
-    "id": "2002 KBS",
-    "year": 2002,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2002 MBC",
-    "year": 2002,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "2002 NOS",
     "year": 2002,
     "broadcaster_id": "NOS",
@@ -17676,9 +17784,9 @@
     "sp_prize": 3
   },
   {
-    "id": "2002 RTP",
+    "id": "2002 RTPo",
     "year": 2002,
-    "broadcaster_id": "RTP",
+    "broadcaster_id": "RTPo",
     "radio": 0,
     "tv": 1,
     "web": 0,
@@ -17737,6 +17845,24 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 3
+  },
+  {
+    "id": "2002 KBS",
+    "year": 2002,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2002 MBC",
+    "year": 2002,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
   },
   {
     "id": "2002 RTVE",
@@ -18126,24 +18252,6 @@
     "sp_prize": 2
   },
   {
-    "id": "2003 KBS",
-    "year": 2003,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2003 MBC",
-    "year": 2003,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2003 NPO",
     "year": 2003,
     "broadcaster_id": "NPO",
@@ -18259,6 +18367,24 @@
     "tv": 1,
     "web": 0,
     "sp_prize": 2
+  },
+  {
+    "id": "2003 KBS",
+    "year": 2003,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2003 MBC",
+    "year": 2003,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2003 RTVE",
@@ -18576,24 +18702,6 @@
     "sp_prize": 3
   },
   {
-    "id": "2004 KBS",
-    "year": 2004,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2004 MBC",
-    "year": 2004,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "2004 NPO",
     "year": 2004,
     "broadcaster_id": "NPO",
@@ -18691,6 +18799,24 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 2
+  },
+  {
+    "id": "2004 KBS",
+    "year": 2004,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2004 MBC",
+    "year": 2004,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
   },
   {
     "id": "2004 RTVE",
@@ -18999,24 +19125,6 @@
     "sp_prize": 3
   },
   {
-    "id": "2005 KBS",
-    "year": 2005,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2005 MBC",
-    "year": 2005,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2005 NPO",
     "year": 2005,
     "broadcaster_id": "NPO",
@@ -19102,6 +19210,24 @@
     "year": 2005,
     "broadcaster_id": "RTVSLO",
     "radio": 4,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2005 KBS",
+    "year": 2005,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2005 MBC",
+    "year": 2005,
+    "broadcaster_id": "MBC",
+    "radio": 1,
     "tv": 2,
     "web": 0,
     "sp_prize": 0
@@ -19422,24 +19548,6 @@
     "sp_prize": 3
   },
   {
-    "id": "2006 KBS",
-    "year": 2006,
-    "broadcaster_id": "KBS",
-    "radio": 3,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2006 MBC",
-    "year": 2006,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2006 NPO",
     "year": 2006,
     "broadcaster_id": "NPO",
@@ -19537,6 +19645,24 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 2
+  },
+  {
+    "id": "2006 KBS",
+    "year": 2006,
+    "broadcaster_id": "KBS",
+    "radio": 3,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2006 MBC",
+    "year": 2006,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2006 RTVE",
@@ -19863,24 +19989,6 @@
     "sp_prize": 2
   },
   {
-    "id": "2007 KBS",
-    "year": 2007,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2007 MBC",
-    "year": 2007,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "2007 RTCG",
     "year": 2007,
     "broadcaster_id": "RTCG",
@@ -19994,6 +20102,24 @@
     "broadcaster_id": "RTVSLO",
     "radio": 4,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2007 KBS",
+    "year": 2007,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2007 MBC",
+    "year": 2007,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 2,
     "web": 0,
     "sp_prize": 1
   },
@@ -20340,24 +20466,6 @@
     "sp_prize": 2
   },
   {
-    "id": "2008 KBS",
-    "year": 2008,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
-    "id": "2008 MBC",
-    "year": 2008,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "2008 NPO",
     "year": 2008,
     "broadcaster_id": "NPO",
@@ -20473,6 +20581,24 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 0
+  },
+  {
+    "id": "2008 KBS",
+    "year": 2008,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2008 MBC",
+    "year": 2008,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
   },
   {
     "id": "2008 RTVE",
@@ -20808,24 +20934,6 @@
     "sp_prize": 3
   },
   {
-    "id": "2009 KBS",
-    "year": 2009,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
-    "id": "2009 MBC",
-    "year": 2009,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
     "id": "2009 NPO",
     "year": 2009,
     "broadcaster_id": "NPO",
@@ -20929,6 +21037,24 @@
     "year": 2009,
     "broadcaster_id": "RTVSLO",
     "radio": 2,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2009 KBS",
+    "year": 2009,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2009 MBC",
+    "year": 2009,
+    "broadcaster_id": "MBC",
+    "radio": 1,
     "tv": 3,
     "web": 0,
     "sp_prize": 1
@@ -21276,24 +21402,6 @@
     "sp_prize": 2
   },
   {
-    "id": "2010 KBS",
-    "year": 2010,
-    "broadcaster_id": "KBS",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
-    "id": "2010 MBC",
-    "year": 2010,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2010 IMER",
     "year": 2010,
     "broadcaster_id": "IMER",
@@ -21400,6 +21508,24 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2010 KBS",
+    "year": 2010,
+    "broadcaster_id": "KBS",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2010 MBC",
+    "year": 2010,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2010 RTVE",
@@ -21798,24 +21924,6 @@
     "sp_prize": 1
   },
   {
-    "id": "2011 KBS",
-    "year": 2011,
-    "broadcaster_id": "KBS",
-    "radio": 3,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2011 MBC",
-    "year": 2011,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2011 NPO",
     "year": 2011,
     "broadcaster_id": "NPO",
@@ -21911,6 +22019,24 @@
     "broadcaster_id": "RTVSLO",
     "radio": 3,
     "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2011 KBS",
+    "year": 2011,
+    "broadcaster_id": "KBS",
+    "radio": 3,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2011 MBC",
+    "year": 2011,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 3,
     "web": 0,
     "sp_prize": 0
   },
@@ -22329,24 +22455,6 @@
     "sp_prize": 2
   },
   {
-    "id": "2012 KBS",
-    "year": 2012,
-    "broadcaster_id": "KBS",
-    "radio": 3,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2012 MBC",
-    "year": 2012,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2012 NPO",
     "year": 2012,
     "broadcaster_id": "NPO",
@@ -22451,6 +22559,24 @@
     "broadcaster_id": "RTVSLO",
     "radio": 2,
     "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2012 KBS",
+    "year": 2012,
+    "broadcaster_id": "KBS",
+    "radio": 3,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2012 MBC",
+    "year": 2012,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 3,
     "web": 0,
     "sp_prize": 0
   },
@@ -22932,24 +23058,6 @@
     "sp_prize": 1
   },
   {
-    "id": "2013 KBS",
-    "year": 2013,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
-    "id": "2013 MBC",
-    "year": 2013,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2013 NPO",
     "year": 2013,
     "broadcaster_id": "NPO",
@@ -23071,6 +23179,24 @@
     "year": 2013,
     "broadcaster_id": "RTVSLO",
     "radio": 3,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2013 KBS",
+    "year": 2013,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2013 MBC",
+    "year": 2013,
+    "broadcaster_id": "MBC",
+    "radio": 0,
     "tv": 3,
     "web": 0,
     "sp_prize": 0
@@ -23481,24 +23607,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2014 KBS",
-    "year": 2014,
-    "broadcaster_id": "KBS",
-    "radio": 0,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2014 MBC",
-    "year": 2014,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2014 NPO",
     "year": 2014,
     "broadcaster_id": "NPO",
@@ -23623,6 +23731,24 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2014 KBS",
+    "year": 2014,
+    "broadcaster_id": "KBS",
+    "radio": 0,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2014 MBC",
+    "year": 2014,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2014 RTVE",
@@ -24219,24 +24345,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2015 KBS",
-    "year": 2015,
-    "broadcaster_id": "KBS",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2015 MBC",
-    "year": 2015,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2015 PBSmalta",
     "year": 2015,
     "broadcaster_id": "PBSmalta",
@@ -24415,6 +24523,24 @@
     "tv": 0,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2015 KBS",
+    "year": 2015,
+    "broadcaster_id": "KBS",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2015 MBC",
+    "year": 2015,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2015 RTVE",
@@ -24867,24 +24993,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2016 KBS",
-    "year": 2016,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2016 MBC",
-    "year": 2016,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2016 PBSmalta",
     "year": 2016,
     "broadcaster_id": "PBSmalta",
@@ -24989,6 +25097,24 @@
     "broadcaster_id": "RTVS",
     "radio": 3,
     "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2016 KBS",
+    "year": 2016,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2016 MBC",
+    "year": 2016,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -25308,24 +25434,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2017 KBS",
-    "year": 2017,
-    "broadcaster_id": "KBS",
-    "radio": 3,
-    "tv": 4,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2017 MBC",
-    "year": 2017,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2017 NPO",
     "year": 2017,
     "broadcaster_id": "NPO",
@@ -25412,6 +25520,24 @@
     "broadcaster_id": "RTVSLO",
     "radio": 3,
     "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2017 KBS",
+    "year": 2017,
+    "broadcaster_id": "KBS",
+    "radio": 3,
+    "tv": 4,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2017 MBC",
+    "year": 2017,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -25722,24 +25848,6 @@
     "sp_prize": 1
   },
   {
-    "id": "2018 KBS",
-    "year": 2018,
-    "broadcaster_id": "KBS",
-    "radio": 0,
-    "tv": 4,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2018 MBC",
-    "year": 2018,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2018 NPO",
     "year": 2018,
     "broadcaster_id": "NPO",
@@ -25826,6 +25934,24 @@
     "broadcaster_id": "RTVSLO",
     "radio": 2,
     "tv": 4,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2018 KBS",
+    "year": 2018,
+    "broadcaster_id": "KBS",
+    "radio": 0,
+    "tv": 4,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2018 MBC",
+    "year": 2018,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 2,
     "web": 0,
     "sp_prize": 0
   },
@@ -26226,33 +26352,6 @@
     "sp_prize": 1
   },
   {
-    "id": "2019 KBS",
-    "year": 2019,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 4,
-    "web": 3,
-    "sp_prize": 0
-  },
-  {
-    "id": "2019 MBC",
-    "year": 2019,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2019 EBS",
-    "year": 2019,
-    "broadcaster_id": "EBS",
-    "radio": 0,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2019 PBSmalta",
     "year": 2019,
     "broadcaster_id": "PBSmalta",
@@ -26366,6 +26465,33 @@
     "broadcaster_id": "RTVSLO",
     "radio": 4,
     "tv": 4,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2019 KBS",
+    "year": 2019,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 4,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2019 MBC",
+    "year": 2019,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2019 EBS",
+    "year": 2019,
+    "broadcaster_id": "EBS",
+    "radio": 0,
+    "tv": 1,
     "web": 0,
     "sp_prize": 0
   },
@@ -26766,33 +26892,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2020 KBS",
-    "year": 2020,
-    "broadcaster_id": "KBS",
-    "radio": 3,
-    "tv": 3,
-    "web": 2,
-    "sp_prize": 0
-  },
-  {
-    "id": "2020 MBC",
-    "year": 2020,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2020 EBS",
-    "year": 2020,
-    "broadcaster_id": "EBS",
-    "radio": 0,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2020 PBSmalta",
     "year": 2020,
     "broadcaster_id": "PBSmalta",
@@ -26924,6 +27023,33 @@
     "broadcaster_id": "RTVSLO",
     "radio": 3,
     "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2020 KBS",
+    "year": 2020,
+    "broadcaster_id": "KBS",
+    "radio": 3,
+    "tv": 3,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2020 MBC",
+    "year": 2020,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2020 EBS",
+    "year": 2020,
+    "broadcaster_id": "EBS",
+    "radio": 0,
+    "tv": 1,
     "web": 0,
     "sp_prize": 0
   },
@@ -27333,24 +27459,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2021 KBS",
-    "year": 2021,
-    "broadcaster_id": "KBS",
-    "radio": 3,
-    "tv": 3,
-    "web": 3,
-    "sp_prize": 0
-  },
-  {
-    "id": "2021 MBC",
-    "year": 2021,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 1,
-    "web": 1,
-    "sp_prize": 0
-  },
-  {
     "id": "2021 NPO",
     "year": 2021,
     "broadcaster_id": "NPO",
@@ -27456,6 +27564,24 @@
     "radio": 0,
     "tv": 3,
     "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2021 KBS",
+    "year": 2021,
+    "broadcaster_id": "KBS",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2021 MBC",
+    "year": 2021,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 1,
+    "web": 1,
     "sp_prize": 0
   },
   {
@@ -28008,24 +28134,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2022 KBS",
-    "year": 2022,
-    "broadcaster_id": "KBS",
-    "radio": 2,
-    "tv": 4,
-    "web": 2,
-    "sp_prize": 1
-  },
-  {
-    "id": "2022 MBC",
-    "year": 2022,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 1,
-    "web": 1,
-    "sp_prize": 0
-  },
-  {
     "id": "2022 RTK",
     "year": 2022,
     "broadcaster_id": "RTK",
@@ -28195,6 +28303,24 @@
     "tv": 3,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2022 KBS",
+    "year": 2022,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 4,
+    "web": 2,
+    "sp_prize": 1
+  },
+  {
+    "id": "2022 MBC",
+    "year": 2022,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
   },
   {
     "id": "2022 RTVE",
@@ -28746,33 +28872,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2023 KBS",
-    "year": 2023,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 3,
-    "web": 2,
-    "sp_prize": 1
-  },
-  {
-    "id": "2023 MBC",
-    "year": 2023,
-    "broadcaster_id": "MBC",
-    "radio": 1,
-    "tv": 2,
-    "web": 0,
-    "sp_prize": 1
-  },
-  {
-    "id": "2023 NACB",
-    "year": 2023,
-    "broadcaster_id": "NACB",
-    "radio": 0,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2023 LRT",
     "year": 2023,
     "broadcaster_id": "LRT",
@@ -28951,6 +29050,33 @@
     "tv": 2,
     "web": 0,
     "sp_prize": 1
+  },
+  {
+    "id": "2023 KBS",
+    "year": 2023,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 3,
+    "web": 2,
+    "sp_prize": 1
+  },
+  {
+    "id": "2023 MBC",
+    "year": 2023,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2023 NACB",
+    "year": 2023,
+    "broadcaster_id": "NACB",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
   },
   {
     "id": "2023 RTVE",
@@ -29403,33 +29529,6 @@
     "sp_prize": 0
   },
   {
-    "id": "2024 KBS",
-    "year": 2024,
-    "broadcaster_id": "KBS",
-    "radio": 1,
-    "tv": 3,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2024 MBC",
-    "year": 2024,
-    "broadcaster_id": "MBC",
-    "radio": 0,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
-    "id": "2024 NACB",
-    "year": 2024,
-    "broadcaster_id": "NACB",
-    "radio": 0,
-    "tv": 1,
-    "web": 0,
-    "sp_prize": 0
-  },
-  {
     "id": "2024 RTK",
     "year": 2024,
     "broadcaster_id": "RTK",
@@ -29619,6 +29718,33 @@
     "sp_prize": 0
   },
   {
+    "id": "2024 KBS",
+    "year": 2024,
+    "broadcaster_id": "KBS",
+    "radio": 1,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 MBC",
+    "year": 2024,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2024 NACB",
+    "year": 2024,
+    "broadcaster_id": "NACB",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
     "id": "2024 RTVE",
     "year": 2024,
     "broadcaster_id": "RTVE",
@@ -29752,5 +29878,1499 @@
     "tv": 0,
     "web": 0,
     "sp_prize": -3
+  },
+  {
+    "id": "2025 RTSH",
+    "year": 2025,
+    "broadcaster_id": "RTSH",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTA",
+    "year": 2025,
+    "broadcaster_id": "RTA",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 ABRA",
+    "year": 2025,
+    "broadcaster_id": "ABRA",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 ENCUENTRO",
+    "year": 2025,
+    "broadcaster_id": "ENCUENTRO",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 UNMDP",
+    "year": 2025,
+    "broadcaster_id": "UNMDP",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 ABC",
+    "year": 2025,
+    "broadcaster_id": "ABC",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 ORF",
+    "year": 2025,
+    "broadcaster_id": "ORF",
+    "radio": 3,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 BB",
+    "year": 2025,
+    "broadcaster_id": "BB",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTBF",
+    "year": 2025,
+    "broadcaster_id": "RTBF",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 SRTB",
+    "year": 2025,
+    "broadcaster_id": "SRTB",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 BBS",
+    "year": 2025,
+    "broadcaster_id": "BBS",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 RTRS",
+    "year": 2025,
+    "broadcaster_id": "RTRS",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 FRM",
+    "year": 2025,
+    "broadcaster_id": "FRM",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 BNT",
+    "year": 2025,
+    "broadcaster_id": "BNT",
+    "radio": 0,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 CRTV",
+    "year": 2025,
+    "broadcaster_id": "CRTV",
+    "radio": 0,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 CBC/SRC",
+    "year": 2025,
+    "broadcaster_id": "CBC/SRC",
+    "radio": 3,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 TELEMEDELLIN",
+    "year": 2025,
+    "broadcaster_id": "TELEMEDELLIN",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 CANALTRECE",
+    "year": 2025,
+    "broadcaster_id": "CANALTRECE",
+    "radio": 0,
+    "tv": 3,
+    "web": 2,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 HRT",
+    "year": 2025,
+    "broadcaster_id": "HRT",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 CT",
+    "year": 2025,
+    "broadcaster_id": "CT",
+    "radio": 0,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 CR",
+    "year": 2025,
+    "broadcaster_id": "CR",
+    "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 DR",
+    "year": 2025,
+    "broadcaster_id": "DR",
+    "radio": 2,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 TV2",
+    "year": 2025,
+    "broadcaster_id": "TV2",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RADIO4",
+    "year": 2025,
+    "broadcaster_id": "RADIO4",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 JESPERDEIN",
+    "year": 2025,
+    "broadcaster_id": "JESPERDEIN",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 YLE",
+    "year": 2025,
+    "broadcaster_id": "YLE",
+    "radio": 3,
+    "tv": 2,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RADIOFRANCE",
+    "year": 2025,
+    "broadcaster_id": "RADIOFRANCE",
+    "radio": 3,
+    "tv": 0,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 ARTEFRANCE",
+    "year": 2025,
+    "broadcaster_id": "ARTEFRANCE",
+    "radio": 2,
+    "tv": 1,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 FRANCETV",
+    "year": 2025,
+    "broadcaster_id": "FRANCETV",
+    "radio": 0,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 ARTEGEIE",
+    "year": 2025,
+    "broadcaster_id": "ARTEGEIE",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 FRMEDIASMONDE",
+    "year": 2025,
+    "broadcaster_id": "FRMEDIASMONDE",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RCFR",
+    "year": 2025,
+    "broadcaster_id": "RCFR",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 ARD",
+    "year": 2025,
+    "broadcaster_id": "ARD",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 ZDF",
+    "year": 2025,
+    "broadcaster_id": "ZDF",
+    "radio": 1,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 DW",
+    "year": 2025,
+    "broadcaster_id": "DW",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 STVETELEBASICA",
+    "year": 2025,
+    "broadcaster_id": "STVETELEBASICA",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 RUV",
+    "year": 2025,
+    "broadcaster_id": "RUV",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTE",
+    "year": 2025,
+    "broadcaster_id": "RTE",
+    "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RAI",
+    "year": 2025,
+    "broadcaster_id": "RAI",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 TV2000",
+    "year": 2025,
+    "broadcaster_id": "TV2000",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 SKYARTE",
+    "year": 2025,
+    "broadcaster_id": "SKYARTE",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 GEDI",
+    "year": 2025,
+    "broadcaster_id": "GEDI",
+    "radio": 0,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 HEARST",
+    "year": 2025,
+    "broadcaster_id": "HEARST",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 NHK",
+    "year": 2025,
+    "broadcaster_id": "NHK",
+    "radio": 2,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTRK",
+    "year": 2025,
+    "broadcaster_id": "RTRK",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 LSMlatvia",
+    "year": 2025,
+    "broadcaster_id": "LSMlatvia",
+    "radio": 1,
+    "tv": 2,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 LRT",
+    "year": 2025,
+    "broadcaster_id": "LRT",
+    "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RADIO1007",
+    "year": 2025,
+    "broadcaster_id": "RADIO1007",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTMmalaysia",
+    "year": 2025,
+    "broadcaster_id": "RTMmalaysia",
+    "radio": 2,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 ELONCE",
+    "year": 2025,
+    "broadcaster_id": "ELONCE",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 TVUNAM",
+    "year": 2025,
+    "broadcaster_id": "TVUNAM",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 MNB",
+    "year": 2025,
+    "broadcaster_id": "MNB",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 RTCG",
+    "year": 2025,
+    "broadcaster_id": "RTCG",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 NPO",
+    "year": 2025,
+    "broadcaster_id": "NPO",
+    "radio": 2,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 MRTmac",
+    "year": 2025,
+    "broadcaster_id": "MRTmac",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 OMANTV",
+    "year": 2025,
+    "broadcaster_id": "OMANTV",
+    "radio": 1,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 PBC",
+    "year": 2025,
+    "broadcaster_id": "PBC",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 TVP",
+    "year": 2025,
+    "broadcaster_id": "TVP",
+    "radio": 0,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 PR",
+    "year": 2025,
+    "broadcaster_id": "PR",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTP",
+    "year": 2025,
+    "broadcaster_id": "RTP",
+    "radio": 2,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 TVR",
+    "year": 2025,
+    "broadcaster_id": "TVR",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 ROR",
+    "year": 2025,
+    "broadcaster_id": "ROR",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 SANMARINORTV",
+    "year": 2025,
+    "broadcaster_id": "SANMARINORTV",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTS",
+    "year": 2025,
+    "broadcaster_id": "RTS",
+    "radio": 3,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTVvojv",
+    "year": 2025,
+    "broadcaster_id": "RTVvojv",
+    "radio": 1,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 STVRslovakia",
+    "year": 2025,
+    "broadcaster_id": "STVRslovakia",
+    "radio": 2,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTVSLO",
+    "year": 2025,
+    "broadcaster_id": "RTVSLO",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 SABC",
+    "year": 2025,
+    "broadcaster_id": "SABC",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 KBS",
+    "year": 2025,
+    "broadcaster_id": "KBS",
+    "radio": 2,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 MBC",
+    "year": 2025,
+    "broadcaster_id": "MBC",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 CJENM",
+    "year": 2025,
+    "broadcaster_id": "CJENM",
+    "radio": 0,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RTVE",
+    "year": 2025,
+    "broadcaster_id": "RTVE",
+    "radio": 0,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 MTVsrilanka",
+    "year": 2025,
+    "broadcaster_id": "MTVsrilanka",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 1
+  },
+  {
+    "id": "2025 SVT",
+    "year": 2025,
+    "broadcaster_id": "SVT",
+    "radio": 0,
+    "tv": 2,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 SVERIGESRADIO",
+    "year": 2025,
+    "broadcaster_id": "SVERIGESRADIO",
+    "radio": 3,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 VIAPLAY",
+    "year": 2025,
+    "broadcaster_id": "VIAPLAY",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 TV4sweden",
+    "year": 2025,
+    "broadcaster_id": "TV4sweden",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 SRGSSR",
+    "year": 2025,
+    "broadcaster_id": "SRGSSR",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 TBStaiwan",
+    "year": 2025,
+    "broadcaster_id": "TBStaiwan",
+    "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 THAIPBS",
+    "year": 2025,
+    "broadcaster_id": "THAIPBS",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 TRT",
+    "year": 2025,
+    "broadcaster_id": "TRT",
+    "radio": 2,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 TVTM",
+    "year": 2025,
+    "broadcaster_id": "TVTM",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 UAPBC",
+    "year": 2025,
+    "broadcaster_id": "UAPBC",
+    "radio": 2,
+    "tv": 2,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 BBC",
+    "year": 2025,
+    "broadcaster_id": "BBC",
+    "radio": 3,
+    "tv": 3,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 C4",
+    "year": 2025,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 RV",
+    "year": 2025,
+    "broadcaster_id": "RV",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2025 BALANCE",
+    "year": 2025,
+    "broadcaster_id": "BALANCE",
+    "radio": 0,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": -9
+  },
+  {
+    "id": "2026 ABRA",
+    "year": 2026,
+    "broadcaster_id": "ABRA",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 ENCUENTRO",
+    "year": 2026,
+    "broadcaster_id": "ENCUENTRO",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 ABC",
+    "year": 2026,
+    "broadcaster_id": "ABC",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 ORF",
+    "year": 2026,
+    "broadcaster_id": "ORF",
+    "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTBF",
+    "year": 2026,
+    "broadcaster_id": "RTBF",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 FRM",
+    "year": 2026,
+    "broadcaster_id": "FRM",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 BNT",
+    "year": 2026,
+    "broadcaster_id": "BNT",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTB",
+    "year": 2026,
+    "broadcaster_id": "RTB",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 CRTV",
+    "year": 2026,
+    "broadcaster_id": "CRTV",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 CBC/SRC",
+    "year": 2026,
+    "broadcaster_id": "CBC/SRC",
+    "radio": 2,
+    "tv": 2,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 CANALTRECE",
+    "year": 2026,
+    "broadcaster_id": "CANALTRECE",
+    "radio": 1,
+    "tv": 2,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TELEPACIFICO",
+    "year": 2026,
+    "broadcaster_id": "TELEPACIFICO",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TELECAFE",
+    "year": 2026,
+    "broadcaster_id": "TELECAFE",
+    "radio": 0,
+    "tv": 1,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 HRT",
+    "year": 2026,
+    "broadcaster_id": "HRT",
+    "radio": 3,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 CR",
+    "year": 2026,
+    "broadcaster_id": "CR",
+    "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 CT",
+    "year": 2026,
+    "broadcaster_id": "CT",
+    "radio": 0,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 DR",
+    "year": 2026,
+    "broadcaster_id": "DR",
+    "radio": 2,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TV2",
+    "year": 2026,
+    "broadcaster_id": "TV2",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TV2OSTJYLLAND",
+    "year": 2026,
+    "broadcaster_id": "TV2OSTJYLLAND",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 EDUCA",
+    "year": 2026,
+    "broadcaster_id": "EDUCA",
+    "radio": 0,
+    "tv": 2,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 NMA",
+    "year": 2026,
+    "broadcaster_id": "NMA",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 YLE",
+    "year": 2026,
+    "broadcaster_id": "YLE",
+    "radio": 2,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RADIOFRANCE",
+    "year": 2026,
+    "broadcaster_id": "RADIOFRANCE",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 ARTEFRANCE",
+    "year": 2026,
+    "broadcaster_id": "ARTEFRANCE",
+    "radio": 1,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 FRANCETV",
+    "year": 2026,
+    "broadcaster_id": "FRANCETV",
+    "radio": 0,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 ARTEGEIE",
+    "year": 2026,
+    "broadcaster_id": "ARTEGEIE",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RCFR",
+    "year": 2026,
+    "broadcaster_id": "RCFR",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 LCP",
+    "year": 2026,
+    "broadcaster_id": "LCP",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 ARD",
+    "year": 2026,
+    "broadcaster_id": "ARD",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 ZDF",
+    "year": 2026,
+    "broadcaster_id": "ZDF",
+    "radio": 0,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 DW",
+    "year": 2026,
+    "broadcaster_id": "DW",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 MTVA",
+    "year": 2026,
+    "broadcaster_id": "MTVA",
+    "radio": 2,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTE",
+    "year": 2026,
+    "broadcaster_id": "RTE",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RAI",
+    "year": 2026,
+    "broadcaster_id": "RAI",
+    "radio": 3,
+    "tv": 3,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TV2000",
+    "year": 2026,
+    "broadcaster_id": "TV2000",
+    "radio": 1,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 SKYARTE",
+    "year": 2026,
+    "broadcaster_id": "SKYARTE",
+    "radio": 0,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 GEDI",
+    "year": 2026,
+    "broadcaster_id": "GEDI",
+    "radio": 0,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 HEARST",
+    "year": 2026,
+    "broadcaster_id": "HEARST",
+    "radio": 0,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 NHK",
+    "year": 2026,
+    "broadcaster_id": "NHK",
+    "radio": 1,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 PTRK",
+    "year": 2026,
+    "broadcaster_id": "PTRK",
+    "radio": 0,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTK",
+    "year": 2026,
+    "broadcaster_id": "RTK",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 LSMlatvia",
+    "year": 2026,
+    "broadcaster_id": "LSMlatvia",
+    "radio": 0,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 LRT",
+    "year": 2026,
+    "broadcaster_id": "LRT",
+    "radio": 2,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTMmalaysia",
+    "year": 2026,
+    "broadcaster_id": "RTMmalaysia",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 CANAL22",
+    "year": 2026,
+    "broadcaster_id": "CANAL22",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TVUNAM",
+    "year": 2026,
+    "broadcaster_id": "TVUNAM",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 NPO",
+    "year": 2026,
+    "broadcaster_id": "NPO",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 MRTmac",
+    "year": 2026,
+    "broadcaster_id": "MRTmac",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 PBC",
+    "year": 2026,
+    "broadcaster_id": "PBC",
+    "radio": 0,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 SERTV",
+    "year": 2026,
+    "broadcaster_id": "SERTV",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 PR",
+    "year": 2026,
+    "broadcaster_id": "PR",
+    "radio": 3,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TVP",
+    "year": 2026,
+    "broadcaster_id": "TVP",
+    "radio": 0,
+    "tv": 3,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTP",
+    "year": 2026,
+    "broadcaster_id": "RTP",
+    "radio": 2,
+    "tv": 3,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TVR",
+    "year": 2026,
+    "broadcaster_id": "TVR",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 ROR",
+    "year": 2026,
+    "broadcaster_id": "ROR",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTS",
+    "year": 2026,
+    "broadcaster_id": "RTS",
+    "radio": 3,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTVvojv",
+    "year": 2026,
+    "broadcaster_id": "RTVvojv",
+    "radio": 1,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 STVRslovakia",
+    "year": 2026,
+    "broadcaster_id": "STVRslovakia",
+    "radio": 1,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTVSLO",
+    "year": 2026,
+    "broadcaster_id": "RTVSLO",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 SABC",
+    "year": 2026,
+    "broadcaster_id": "SABC",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 KBS",
+    "year": 2026,
+    "broadcaster_id": "KBS",
+    "radio": 0,
+    "tv": 3,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 MBC",
+    "year": 2026,
+    "broadcaster_id": "MBC",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 NACB",
+    "year": 2026,
+    "broadcaster_id": "NACB",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 CJENM",
+    "year": 2026,
+    "broadcaster_id": "CJENM",
+    "radio": 0,
+    "tv": 2,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 JTBC",
+    "year": 2026,
+    "broadcaster_id": "JTBC",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 SSBC",
+    "year": 2026,
+    "broadcaster_id": "SSBC",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 RTVE",
+    "year": 2026,
+    "broadcaster_id": "RTVE",
+    "radio": 0,
+    "tv": 1,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 SVT",
+    "year": 2026,
+    "broadcaster_id": "SVT",
+    "radio": 0,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 SVERIGESRADIO",
+    "year": 2026,
+    "broadcaster_id": "SVERIGESRADIO",
+    "radio": 2,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 VIAPLAY",
+    "year": 2026,
+    "broadcaster_id": "VIAPLAY",
+    "radio": 0,
+    "tv": 1,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 SRGSSR",
+    "year": 2026,
+    "broadcaster_id": "SRGSSR",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TBStaiwan",
+    "year": 2026,
+    "broadcaster_id": "TBStaiwan",
+    "radio": 2,
+    "tv": 0,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 DAAITV",
+    "year": 2026,
+    "broadcaster_id": "DAAITV",
+    "radio": 0,
+    "tv": 1,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 THAIPBS",
+    "year": 2026,
+    "broadcaster_id": "THAIPBS",
+    "radio": 0,
+    "tv": 2,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 TRT",
+    "year": 2026,
+    "broadcaster_id": "TRT",
+    "radio": 3,
+    "tv": 1,
+    "web": 2,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 UAPBC",
+    "year": 2026,
+    "broadcaster_id": "UAPBC",
+    "radio": 2,
+    "tv": 2,
+    "web": 1,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 BBC",
+    "year": 2026,
+    "broadcaster_id": "BBC",
+    "radio": 3,
+    "tv": 3,
+    "web": 3,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 C4",
+    "year": 2026,
+    "broadcaster_id": "C4",
+    "radio": 0,
+    "tv": 2,
+    "web": 0,
+    "sp_prize": 0
+  },
+  {
+    "id": "2026 EBU",
+    "year": 2026,
+    "broadcaster_id": "EBU",
+    "radio": 0,
+    "tv": 0,
+    "web": 1,
+    "sp_prize": 0
   }
 ]

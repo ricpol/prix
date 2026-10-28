@@ -3261,7 +3261,7 @@
     "sort": 300,
     "category": "event",
     "author": "Antonucci, Giovanni et al.",
-    "title": "Dal documentario al docudrama.",
+    "title": "",
     "notes": "Introduction by Battistuzzi, Paolo. Contributions by Winston, Brian and Quaresima, Leonardo and Torchi, Antonia. The booklet has the schedule of the film review",
     "publisher": "Napoli, Italy: Tipografia Nuova Artitalia",
     "year": 1996
@@ -3881,5 +3881,27 @@
     "notes": "The \"All About\" companion to the catalogue.",
     "publisher": "Roma, Italy: Rai",
     "year": 2021
+  },
+  {
+    "id": 385,
+    "edition": 2024,
+    "sort": 100,
+    "category": "study",
+    "author": "Gavrila, Mihaela",
+    "title": "Italian Radio Drama – Catalyzing Expressive Innovation and Social Change: The Prix Italia.",
+    "notes": "In \"This is Channel Earth. 100 Years of Global Radio Play\", edited by Dieter Lohr and Manfred Milz.",
+    "publisher": "Paderborn, Germany: Brill Fink",
+    "year": 2024
+  },
+  {
+    "id": 384,
+    "edition": 2024,
+    "sort": 200,
+    "category": "study",
+    "author": "Reková, Tereza",
+    "title": "European Radio Documentary. A History of the Format and Its Festivals.",
+    "notes": "",
+    "publisher": "Cham, Switzerland: Palgrave Macmillan",
+    "year": 2024
   }
 ]
